@@ -37,7 +37,7 @@
 #let markup-eval(str) = eval(escape-str(str), mode: "markup")
 
 #let cairn-stat-block(data) = [
-  #let hp = data.at("hp", default: "")
+  #let hp = data.at("hp", default: 0)
   #let armor = data.at("armor", default: 0)
   #let str = data.at("str", default: 10)
   #let dex = data.at("dex", default: 10)
@@ -56,6 +56,7 @@
 
   #let stat-line = (
     if hp != 0 [#hp HP] else { none },
+    if armor != 0 [#armor Armor] else { none },
     if attrs != none [#attrs] else { none },
     if attacks != none {
       for attack in attacks {
