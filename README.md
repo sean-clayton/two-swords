@@ -1,9 +1,30 @@
-= Witcher Bestiary for Cairn
+# Witcher Bestiary for Cairn
 
-A collection of Witcher monsters, animals, and humanoids to use with the Cairn RPG system.
+A collection of monsters, animals, and humanoids from the Witcher setting to use with the Cairn RPG system.
 
-= COPYING
+## Contributing
+
+It's pretty technical, but you need to install [typst] and [just].
+
+`bestiary.typ` is the main typst document.
+`meta.typ` is a little helper document to keep the main document clean.
+
+To build the PDF, run `just` in this directory.
+This will produce a `bestiary.pdf` file that you can open in a PDF viewer.
+
+To watch files and continuously build the PDF, run `just watch` in this directory.
+PDF viewers often will automatically refresh if they detect an opened PDF has changed on disk.
+This means when running the `just watch` command, if you open `bestiary.pdf` in a PDF viewer, it likely will keep refreshing the viewer with your changes as you make them.
+Any `.typ` or `.yaml` file change will trigger a new PDF build.
+
+All of the stats live in the `stats` directory.
+They are yaml files that the typst document consumes and renders stat blocks out of.
+
+## COPYING
 
 If you're just copying the content of the PDF, CC-BY-SA works just fine.
 If you are copying the code, AGPLv3 is what you should use.
 CC-BY-SA is compatible with AGPLv3.
+
+[typst]: https://github.com/typst/typst
+[just]: https://github.com/casey/just
