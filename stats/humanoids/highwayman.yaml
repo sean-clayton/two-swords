@@ -1,8 +1,12 @@
-hp: 0
+hp: 5
 str: 10
-dex: 10
-wil: 10
+dex: 15
+wil: 12
+armor: 1
 attacks: []
 critical_damage: null
-details: []
+details:
+  - Savvy rogues who are deeply set in the criminal life.
+  - Ambush their targets, often firing their bows from protected cover.
+  - Will usually only attack targets they have a distinct advantage over.
 special: null
