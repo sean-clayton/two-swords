@@ -1,10 +1,6 @@
 #import "meta.typ": wrapper, cairn-stat-block
 #show: doc => wrapper(doc)
 
-#outline(indent: 8pt, title: "Table of Contents")
-
-#pagebreak()
-
 = Humanoids
 
 == Bandit
@@ -78,8 +74,6 @@
 == Secret Agent
 
 #cairn-stat-block(yaml("stats/humanoids/secret-agent.yaml"))
-
-#pagebreak()
 
 = Monsters
 
@@ -342,8 +336,6 @@
 == Zeugl
 
 #cairn-stat-block(yaml("stats/monsters/zeugl.yaml"))
-
-#pagebreak()
 
 = Animals
 

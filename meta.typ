@@ -4,8 +4,7 @@
   #set document(title: title)
 
   #set page(
-    width: 5.5in,
-    height: 8.5in,
+    paper: "iso-b5",
     margin: 40pt,
     numbering: "1",
     header: align(left, smallcaps(title)),
@@ -26,7 +25,11 @@
   This content is available under the
   #link("https://creativecommons.org/licenses/by-sa/4.0/")[Creative Commons Attribution-ShareAlike 4.0 International license].
 
-  #doc
+  #outline(indent: 8pt, title: "Table of Contents")
+
+  #pagebreak()
+
+  #columns(2, doc)
 ]
 
 #let escape-str(str) = str.replace("\\", "\\\\").replace("#", "\#")
@@ -43,6 +46,7 @@
   #let specials = data.at("specials", default: ())
   #let critical-damage = data.at("critical_damage", default: none)
   #let traits = data.at("traits", default: ())
+  #let description = data.at("description", default: none)
 
   #let attrs = (
     if str != 10 [#str STR] else { none },
@@ -66,6 +70,9 @@
 
   #stat-line
 
+  #if description != none [
+    - #markup-eval(description)
+  ]
   #for special in specials [
     - #markup-eval(special)
   ]
