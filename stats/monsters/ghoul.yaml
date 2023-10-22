@@ -2,7 +2,8 @@ hp: 0
 str: 10
 dex: 10
 wil: 10
-attacks: []
-item_or_ability: null
-specials: []
+attacks:
+  - claws (d8)
 critical_damage: null
+details: []
+special: null

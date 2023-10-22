@@ -1,8 +1,14 @@
-hp: 0
+hp: 5
 str: 10
-dex: 10
-wil: 10
-attacks: []
-item_or_ability: null
-specials: []
-critical_damage: null
+dex: 15
+wil: 12
+attacks:
+  - dagger (d6)
+  - long bow (d6)
+details:
+  - Rebels who fight for their people against those who took their lands. Known to
+    work with the Empire to fight the Northerners.
+  - Prefer to ambush their prey, screaming battle cries as they attack.
+  - Will use reserved corkscrew-tipped arrows on those who flee. They are very destructive
+    when pulling out of flesh, dealing d6 STR damage if not accounted for.
+special: null

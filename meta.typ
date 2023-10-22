@@ -29,7 +29,8 @@
 
   #pagebreak()
 
-  #columns(2, doc)
+  #set page(columns: 2)
+  #doc
 ]
 
 #let escape-str(str) = str.replace("\\", "\\\\").replace("#", "\#")
@@ -42,11 +43,10 @@
   #let dex = data.at("dex", default: 10)
   #let wil = data.at("wil", default: 10)
   #let attacks = data.at("attacks", default: ()).join(", ")
-  #let item-or-ability = data.at("item_or_ability", default: none)
-  #let specials = data.at("specials", default: ())
+  #let special = data.at("special", default: none)
+  #let details = data.at("details", default: ())
   #let critical-damage = data.at("critical_damage", default: none)
   #let traits = data.at("traits", default: ())
-  #let description = data.at("description", default: none)
 
   #let attrs = (
     if str != 10 [#str STR] else { none },
@@ -62,7 +62,7 @@
         attack
       }
     },
-    if item-or-ability != none { markup-eval(item-or-ability) } else { none },
+    if special != none { markup-eval(special) } else { none },
     for trait in traits {
       trait
     },
@@ -70,11 +70,8 @@
 
   #stat-line
 
-  #if description != none [
-    - #markup-eval(description)
-  ]
-  #for special in specials [
-    - #markup-eval(special)
+  #for detail in details [
+    - #markup-eval(detail)
   ]
   #if critical-damage != none [
     - *Critical Damage:* #critical-damage
