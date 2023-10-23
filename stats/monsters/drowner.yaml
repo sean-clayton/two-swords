@@ -1,5 +1,3 @@
-description: Feral and mindless amphibious beasts that lurk around the edges of water,
-  waiting for the unaware to pull them under.
 hp: 5
 str: 12
 dex: 14
@@ -7,7 +5,9 @@ wil: 7
 attacks:
   - claws (d6)
 details:
-  - All fire damage against drowners is Enhanced.
-  - Completely witless and stupid, they cannot be manipulated emotionally.
+  - Feral and mindless amphibious beasts that lurk under water and around its shores,
+    waiting for the unaware to pull them under.
+  - All fire damage against drowners is _enhanced_.
+  - Completely witless and stupid, they cannot be manipulated emotionally---even by magical means.
 special: null
 armor: 0

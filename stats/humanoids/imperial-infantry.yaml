@@ -1,9 +1,12 @@
-hp: 0
-str: 10
+hp: 5
+str: 13
 dex: 10
-wil: 10
+wil: 12
 attacks: []
 critical_damage: null
-details: []
+details:
+  - Core infantry units of the Imperial army.
+    Professional and well-trained.
+  - When fighting alongside three or more other soldiers or a commanding officer, they never fail morale checks.
 special: null
 armor: 0
