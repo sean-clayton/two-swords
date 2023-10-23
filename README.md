@@ -5,6 +5,7 @@ A collection of monsters, animals, and humanoids from the Witcher setting to use
 ## Contributing
 
 It's pretty technical, but you need to install [typst] and [just].
+You also need to install the [Crimson Pro font](https://github.com/Fonthausen/CrimsonPro) (open-source) if you want to use the same font as the PDF.
 
 `bestiary.typ` is the main typst document.
 `meta.typ` is a little helper document to keep the main document clean.
