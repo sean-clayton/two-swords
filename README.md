@@ -7,15 +7,16 @@ A collection of monsters, animals, and humanoids to use with the Cairn RPG syste
 It's pretty technical, but you need to install [typst] and [just].
 You also need to install the [Crimson Pro font](https://github.com/Fonthausen/CrimsonPro) (open-source) if you want to use the same font as the PDF.
 
-`bestiary.typ` is the main typst document.
+`white-wolf.typ` is the main typst document.
 `meta.typ` is a little helper document to keep the main document clean.
 
-To build the PDF, run `just` in this directory.
-This will produce a `bestiary.pdf` file that you can open in a PDF viewer.
+To build the PDF, run `just build` in root project.
+This will produce a `white-wolf.pdf` file that you can open in a PDF viewer.
 
-To watch files and continuously build the PDF, run `just watch` in this directory.
+To watch files and continuously build the PDF, run `just` in the root project directory.
 PDF viewers often will automatically refresh if they detect an opened PDF has changed on disk.
-This means when running the `just watch` command, if you open `bestiary.pdf` in a PDF viewer, it likely will keep refreshing the viewer with your changes as you make them.
+This means when running the `just` command, if you open `white-wolf.pdf` in a PDF viewer,
+it likely will keep refreshing the viewer with your changes as you make them.
 Any `.typ` or `.yaml` file change will trigger a new PDF build.
 
 All of the stats live in the `stats` directory.

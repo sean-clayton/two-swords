@@ -1,5 +1,5 @@
-@watch:
-  watchexec -c -r -e typ,yaml -- typst compile bestiary.typ
+build:
+  typst compile white-wolf.typ
 
-default:
-  typst compile bestiary.typ
+@default:
+  watchexec -c -r -e typ,yaml -- typst compile white-wolf.typ
