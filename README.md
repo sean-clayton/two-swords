@@ -1,6 +1,6 @@
-# Witcher Bestiary for Cairn
+# White Wolf
 
-A collection of monsters, animals, and humanoids from the Witcher setting to use with the Cairn RPG system.
+A collection of monsters, animals, and humanoids to use with the Cairn RPG system.
 
 ## Contributing
 

@@ -1,4 +1,4 @@
-#let title = "Witcher Bestiary for Cairn"
+#let title = "White Wolf"
 
 #let wrapper(doc) = [
   #set document(title: title)
@@ -16,10 +16,11 @@
   #set align(center)
   #text(size: 24pt, weight: "bold")[#title]
 
-  Created by #link("https://sean.wtf")[Sean-Patrick Ortencio Clayton]
-  for #link("https://cairnrpg.com")[Cairn], by #link("https://newschoolrevolution.com/")[Yochai Gal].
+  A conversion for #link("https://cairnrpg.com")[Cairn] by #link("https://newschoolrevolution.com/")[Yochai Gal].
 
-  This content is available under the
+  Created by #link("https://sean.wtf")[Sean-Patrick Ortencio Clayton].
+
+  Available under the
   #link(
     "https://creativecommons.org/licenses/by-sa/4.0/",
   )[Creative Commons Attribution-ShareAlike 4.0 International license].
