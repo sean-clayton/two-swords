@@ -40,25 +40,25 @@
 #let escape-str(str) = str.replace("\\", "\\\\").replace("#", "\#")
 #let markup-eval(str) = eval(escape-str(str), mode: "markup")
 
-#let cairn-stat-block(data) = [
-  #let hp = data.at("hp", default: 0)
-  #let armor = data.at("armor", default: 0)
-  #let str = data.at("str", default: 10)
-  #let dex = data.at("dex", default: 10)
-  #let wil = data.at("wil", default: 10)
-  #let attacks = data.at("attacks", default: ()).join(", ")
-  #let special = data.at("special", default: none)
-  #let details = data.at("details", default: ())
-  #let critical-damage = data.at("critical_damage", default: none)
-  #let traits = data.at("traits", default: ())
+#let cairn-stat-block(data, title: []) = {
+  let hp = data.at("hp", default: 0)
+  let armor = data.at("armor", default: 0)
+  let str = data.at("str", default: 10)
+  let dex = data.at("dex", default: 10)
+  let wil = data.at("wil", default: 10)
+  let attacks = data.at("attacks", default: ()).join(", ")
+  let special = data.at("special", default: none)
+  let details = data.at("details", default: ())
+  let critical-damage = data.at("critical_damage", default: none)
+  let traits = data.at("traits", default: ())
 
-  #let attrs = (
+  let attrs = (
     if str != 10 [#str STR] else { none },
     if (dex != 10) [#dex DEX] else { none },
     if (wil != 10) [#wil WIL] else { none },
   ).filter(el => el != none).join(", ")
 
-  #let stat-line = (
+  let stat-line = (
     if hp != 0 [#hp HP] else { none },
     if armor != 0 [#armor Armor] else { none },
     if attrs != none [#attrs] else { none },
@@ -73,11 +73,14 @@
     },
   ).filter(el => el != none).join(", ")
 
-  #stat-line
-  #for detail in details [
-    - #markup-eval(detail)
+  block(breakable: false)[
+    #title
+    #stat-line
+    #for detail in details [
+      - #markup-eval(detail)
+    ]
+    #if critical-damage != none [
+      - *Critical Damage:* #critical-damage
+    ]
   ]
-  #if critical-damage != none [
-    - *Critical Damage:* #critical-damage
-  ]
-]
+}

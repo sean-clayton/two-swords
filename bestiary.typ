@@ -3,374 +3,192 @@
 
 = Humanoids
 
-== Bandit
+#cairn-stat-block(title: [== Bandit], yaml("stats/humanoids/bandit.yaml"))
 
-#cairn-stat-block(yaml("stats/humanoids/bandit.yaml"))
+#cairn-stat-block(title: [== Conscript], yaml("stats/humanoids/conscript.yaml"))
 
-== Conscript
+#cairn-stat-block(title: [== Highwayman], yaml("stats/humanoids/highwayman.yaml"))
 
-#cairn-stat-block(yaml("stats/humanoids/conscript.yaml"))
+#cairn-stat-block(title: [== Imperial Infantry], yaml("stats/humanoids/imperial-infantry.yaml"))
 
-== Highwayman
+#cairn-stat-block(title: [== Imperial Knight], yaml("stats/humanoids/imperial-knight.yaml"))
 
-#cairn-stat-block(yaml("stats/humanoids/highwayman.yaml"))
+#cairn-stat-block(title: [== Imperial Pacifier], yaml("stats/humanoids/imperial-pacifier.yaml"))
 
-== Imperial Infantry
+#cairn-stat-block(title: [== Mage], yaml("stats/humanoids/mage.yaml"))
 
-#cairn-stat-block(yaml("stats/humanoids/imperial-infantry.yaml"))
+#cairn-stat-block(title: [== Mercenary Soldier], yaml("stats/humanoids/mercenary-soldier.yaml"))
 
-== Imperial Knight
+#cairn-stat-block(title: [== Mountain Dwarf Defender], yaml("stats/humanoids/mountain-dwarf-defender.yaml"))
 
-#cairn-stat-block(yaml("stats/humanoids/imperial-knight.yaml"))
+#cairn-stat-block(title: [== Northern Cavalry], yaml("stats/humanoids/northern-cavalry.yaml"))
 
-== Imperial Pacifier
+#cairn-stat-block(title: [== Northern Elite Soldier], yaml("stats/humanoids/northern-elite-soldier.yaml"))
 
-#cairn-stat-block(yaml("stats/humanoids/imperial-pacifier.yaml"))
+#cairn-stat-block(title: [== Northern Heavy Infantry], yaml("stats/humanoids/northern-heavy-infantry.yaml"))
 
-== Mage
+#cairn-stat-block(title: [== Northern Solider], yaml("stats/humanoids/northern-soldier.yaml"))
 
-#cairn-stat-block(yaml("stats/humanoids/mage.yaml"))
+#cairn-stat-block(title: [== Pirate], yaml("stats/humanoids/pirate.yaml"))
 
-== Mercenary Soldier
+#cairn-stat-block(title: [== Rebel Archer], yaml("stats/humanoids/rebel-archer.yaml"))
 
-#cairn-stat-block(yaml("stats/humanoids/mercenary-soldier.yaml"))
+#cairn-stat-block(title: [== Rebel Marauder], yaml("stats/humanoids/rebel-marauder.yaml"))
 
-== Mountain Dwarf Defender
+#cairn-stat-block(title: [== Rebel Veteran], yaml("stats/humanoids/rebel-veteran.yaml"))
 
-#cairn-stat-block(yaml("stats/humanoids/mountain-dwarf-defender.yaml"))
-
-== Northern Cavalry
-
-#cairn-stat-block(yaml("stats/humanoids/northern-cavalry.yaml"))
-
-== Northern Elite Soldier
-
-#cairn-stat-block(yaml("stats/humanoids/northern-elite-soldier.yaml"))
-
-== Northern Heavy Infantry
-
-#cairn-stat-block(yaml("stats/humanoids/northern-heavy-infantry.yaml"))
-
-== Northern Solider
-
-#cairn-stat-block(yaml("stats/humanoids/northern-soldier.yaml"))
-
-== Pirate
-
-#cairn-stat-block(yaml("stats/humanoids/pirate.yaml"))
-
-== Rebel Archer
-
-#cairn-stat-block(yaml("stats/humanoids/rebel-archer.yaml"))
-
-== Rebel Marauder
-
-#cairn-stat-block(yaml("stats/humanoids/rebel-marauder.yaml"))
-
-== Rebel Veteran
-
-#cairn-stat-block(yaml("stats/humanoids/rebel-veteran.yaml"))
-
-== Secret Agent
-
-#cairn-stat-block(yaml("stats/humanoids/secret-agent.yaml"))
+#cairn-stat-block(title: [== Secret Agent], yaml("stats/humanoids/secret-agent.yaml"))
 
 #pagebreak()
 
 = Monsters
 
-== Alp
+#cairn-stat-block(title: [== Alp], yaml("stats/monsters/alp.yaml"))
 
-#cairn-stat-block(yaml("stats/monsters/alp.yaml"))
+#cairn-stat-block(title: [== Amarok], yaml("stats/monsters/amarok.yaml"))
 
-== Amarok
+#cairn-stat-block(title: [== Anopheli], yaml("stats/monsters/anopheli.yaml"))
 
-#cairn-stat-block(yaml("stats/monsters/amarok.yaml"))
+#cairn-stat-block(title: [== Arachasae], yaml("stats/monsters/arachas.yaml"))
 
-== Anopheli
+#cairn-stat-block(title: [== Barghest], yaml("stats/monsters/barghest.yaml"))
 
-#cairn-stat-block(yaml("stats/monsters/anopheli.yaml"))
+#cairn-stat-block(title: [== Basilisk], yaml("stats/monsters/basilisk.yaml"))
 
-== Arachasae
+#cairn-stat-block(title: [== Berberoka], yaml("stats/monsters/berberoka.yaml"))
 
-#cairn-stat-block(yaml("stats/monsters/arachas.yaml"))
+#cairn-stat-block(title: [== Botchling], yaml("stats/monsters/botchling.yaml"))
 
-== Barghest
+#cairn-stat-block(title: [== Bukuvak], yaml("stats/monsters/bukuvak.yaml"))
 
-#cairn-stat-block(yaml("stats/monsters/barghest.yaml"))
+#cairn-stat-block(title: [== Chort], yaml("stats/monsters/chort.yaml"))
 
-== Basilisk
+#cairn-stat-block(title: [== Cockatrice], yaml("stats/monsters/cockatrice.yaml"))
 
-#cairn-stat-block(yaml("stats/monsters/basilisk.yaml"))
+#cairn-stat-block(title: [== Cyclopse], yaml("stats/monsters/cyclops.yaml"))
 
-== Berberoka
+#cairn-stat-block(title: [== Devourer], yaml("stats/monsters/devourer.yaml"))
 
-#cairn-stat-block(yaml("stats/monsters/berberoka.yaml"))
+#cairn-stat-block(title: [== Doppler], yaml("stats/monsters/doppler.yaml"))
 
-== Botchling
+#cairn-stat-block(title: [== Dragon], yaml("stats/monsters/dragon.yaml"))
 
-#cairn-stat-block(yaml("stats/monsters/botchling.yaml"))
+#cairn-stat-block(title: [== Draug], yaml("stats/monsters/draug.yaml"))
 
-== Bukuvak
+#cairn-stat-block(title: [== Draugir], yaml("stats/monsters/draugir.yaml"))
 
-#cairn-stat-block(yaml("stats/monsters/bukuvak.yaml"))
+#cairn-stat-block(title: [== Drowner], yaml("stats/monsters/drowner.yaml"))
 
-== Chort
+#cairn-stat-block(title: [== Dryad], yaml("stats/monsters/dryad.yaml"))
 
-#cairn-stat-block(yaml("stats/monsters/chort.yaml"))
+#cairn-stat-block(title: [== Elemental, Earth], yaml("stats/monsters/elemental-earth.yaml"))
 
-== Cockatrice
+#cairn-stat-block(title: [== Elemental, Fire], yaml("stats/monsters/elemental-fire.yaml"))
 
-#cairn-stat-block(yaml("stats/monsters/cockatrice.yaml"))
+#cairn-stat-block(title: [== Elemental, Ice], yaml("stats/monsters/elemental-ice.yaml"))
 
-== Cyclopse
+#cairn-stat-block(title: [== Endrega], yaml("stats/monsters/endrega.yaml"))
 
-#cairn-stat-block(yaml("stats/monsters/cyclops.yaml"))
+#cairn-stat-block(title: [== Fiend], yaml("stats/monsters/fiend.yaml"))
 
-== Devourer
+#cairn-stat-block(title: [== Fleder], yaml("stats/monsters/fleder.yaml"))
 
-#cairn-stat-block(yaml("stats/monsters/devourer.yaml"))
+#cairn-stat-block(title: [== Foglet], yaml("stats/monsters/foglet.yaml"))
 
-== Doppler
+#cairn-stat-block(title: [== Gargoyle], yaml("stats/monsters/gargoyle.yaml"))
 
-#cairn-stat-block(yaml("stats/monsters/doppler.yaml"))
+#cairn-stat-block(title: [== Ghoul], yaml("stats/monsters/ghoul.yaml"))
 
-== Dragon
+#cairn-stat-block(title: [== Golem], yaml("stats/monsters/golem.yaml"))
 
-#cairn-stat-block(yaml("stats/monsters/dragon.yaml"))
+#cairn-stat-block(title: [== Griffin], yaml("stats/monsters/griffin.yaml"))
 
-== Draug
+#cairn-stat-block(title: [== Guvorag], yaml("stats/monsters/guvorag.yaml"))
 
-#cairn-stat-block(yaml("stats/monsters/draug.yaml"))
+#cairn-stat-block(title: [== Hag, Grave], yaml("stats/monsters/hag-grave.yaml"))
 
-== Draugir
+#cairn-stat-block(title: [== Hag, Water], yaml("stats/monsters/hag-water.yaml"))
 
-#cairn-stat-block(yaml("stats/monsters/draugir.yaml"))
+#cairn-stat-block(title: [== Harpy], yaml("stats/monsters/harpy.yaml"))
 
-== Drowner
+#cairn-stat-block(title: [== Hunt, Hound of the], yaml("stats/monsters/hunt-hound.yaml"))
 
-#cairn-stat-block(yaml("stats/monsters/drowner.yaml"))
+#cairn-stat-block(title: [== Hunt, Rider of the], yaml("stats/monsters/hunt-rider.yaml"))
 
-== Dryad
+#cairn-stat-block(title: [== Hunt, Steed of the], yaml("stats/monsters/hunt-steed.yaml"))
 
-#cairn-stat-block(yaml("stats/monsters/dryad.yaml"))
+#cairn-stat-block(title: [== Katakan], yaml("stats/monsters/katakan.yaml"))
 
-== Elemental, Earth
+#cairn-stat-block(title: [== Leshen], yaml("stats/monsters/leshen.yaml"))
 
-#cairn-stat-block(yaml("stats/monsters/elemental-earth.yaml"))
+#cairn-stat-block(title: [== Lopustre], yaml("stats/monsters/lopustre.yaml"))
 
-== Elemental, Fire
+#cairn-stat-block(title: [== Manticore], yaml("stats/monsters/manticore.yaml"))
 
-#cairn-stat-block(yaml("stats/monsters/elemental-fire.yaml"))
+#cairn-stat-block(title: [== Nekker], yaml("stats/monsters/nekker.yaml"))
 
-== Elemental, Ice
+#cairn-stat-block(title: [== Nereid], yaml("stats/monsters/nereid.yaml"))
 
-#cairn-stat-block(yaml("stats/monsters/elemental-ice.yaml"))
+#cairn-stat-block(title: [== Noonwraith], yaml("stats/monsters/noonwraith.yaml"))
 
-== Endrega
+#cairn-stat-block(title: [== Ogre], yaml("stats/monsters/ogre.yaml"))
 
-#cairn-stat-block(yaml("stats/monsters/endrega.yaml"))
+#cairn-stat-block(title: [== Pesta], yaml("stats/monsters/pesta.yaml"))
 
-== Fiend
+#cairn-stat-block(title: [== Phoenix], yaml("stats/monsters/phoenix.yaml"))
 
-#cairn-stat-block(yaml("stats/monsters/fiend.yaml"))
+#cairn-stat-block(title: [== Preta], yaml("stats/monsters/preta.yaml"))
 
-== Fleder
+#cairn-stat-block(title: [== Rotfiend], yaml("stats/monsters/rotfiend.yaml"))
 
-#cairn-stat-block(yaml("stats/monsters/fleder.yaml"))
+#cairn-stat-block(title: [== Rusalki], yaml("stats/monsters/rusalki.yaml"))
 
-== Foglet
+#cairn-stat-block(title: [== Shaelmaar], yaml("stats/monsters/shaelmaar.yaml"))
 
-#cairn-stat-block(yaml("stats/monsters/foglet.yaml"))
+#cairn-stat-block(title: [== Siren], yaml("stats/monsters/siren.yaml"))
 
-== Gargoyle
+#cairn-stat-block(title: [== Striga], yaml("stats/monsters/striga.yaml"))
 
-#cairn-stat-block(yaml("stats/monsters/gargoyle.yaml"))
+#cairn-stat-block(title: [== Succubi], yaml("stats/monsters/succubi.yaml"))
 
-== Ghoul
+#cairn-stat-block(title: [== Sylvan], yaml("stats/monsters/sylvan.yaml"))
 
-#cairn-stat-block(yaml("stats/monsters/ghoul.yaml"))
+#cairn-stat-block(title: [== Troll, Rock], yaml("stats/monsters/troll-rock.yaml"))
 
-== Golem
+#cairn-stat-block(title: [== Uktena], yaml("stats/monsters/uktena.yaml"))
 
-#cairn-stat-block(yaml("stats/monsters/golem.yaml"))
+#cairn-stat-block(title: [== Vampire, Higher], yaml("stats/monsters/vampire-higher.yaml"))
 
-== Griffin
+#cairn-stat-block(title: [== Vodnik], yaml("stats/monsters/vodnik.yaml"))
 
-#cairn-stat-block(yaml("stats/monsters/griffin.yaml"))
+#cairn-stat-block(title: [== Warg], yaml("stats/monsters/warg.yaml"))
 
-== Guvorag
+#cairn-stat-block(title: [== Werewolf], yaml("stats/monsters/werewolf.yaml"))
 
-#cairn-stat-block(yaml("stats/monsters/guvorag.yaml"))
+#cairn-stat-block(title: [== Wolf], yaml("stats/monsters/wolf.yaml"))
 
-== Hag, Grave
+#cairn-stat-block(title: [== Wraith], yaml("stats/monsters/wraith.yaml"))
 
-#cairn-stat-block(yaml("stats/monsters/hag-grave.yaml"))
+#cairn-stat-block(title: [== Wyvern], yaml("stats/monsters/wyvern.yaml"))
 
-== Hag, Water
-
-#cairn-stat-block(yaml("stats/monsters/hag-water.yaml"))
-
-== Harpy
-
-#cairn-stat-block(yaml("stats/monsters/harpy.yaml"))
-
-== Hunt, Hound of the
-
-#cairn-stat-block(yaml("stats/monsters/hunt-hound.yaml"))
-
-== Hunt, Rider of the
-
-#cairn-stat-block(yaml("stats/monsters/hunt-rider.yaml"))
-
-== Hunt, Steed of the
-
-#cairn-stat-block(yaml("stats/monsters/hunt-steed.yaml"))
-
-== Katakan
-
-#cairn-stat-block(yaml("stats/monsters/katakan.yaml"))
-
-== Leshen
-
-#cairn-stat-block(yaml("stats/monsters/leshen.yaml"))
-
-== Lopustre
-
-#cairn-stat-block(yaml("stats/monsters/lopustre.yaml"))
-
-== Manticore
-
-#cairn-stat-block(yaml("stats/monsters/manticore.yaml"))
-
-== Nekker
-
-#cairn-stat-block(yaml("stats/monsters/nekker.yaml"))
-
-== Nereid
-
-#cairn-stat-block(yaml("stats/monsters/nereid.yaml"))
-
-== Noonwraith
-
-#cairn-stat-block(yaml("stats/monsters/noonwraith.yaml"))
-
-== Ogre
-
-#cairn-stat-block(yaml("stats/monsters/ogre.yaml"))
-
-== Pesta
-
-#cairn-stat-block(yaml("stats/monsters/pesta.yaml"))
-
-== Phoenix
-
-#cairn-stat-block(yaml("stats/monsters/phoenix.yaml"))
-
-== Preta
-
-#cairn-stat-block(yaml("stats/monsters/preta.yaml"))
-
-== Rotfiend
-
-#cairn-stat-block(yaml("stats/monsters/rotfiend.yaml"))
-
-== Rusalki
-
-#cairn-stat-block(yaml("stats/monsters/rusalki.yaml"))
-
-== Shaelmaar
-
-#cairn-stat-block(yaml("stats/monsters/shaelmaar.yaml"))
-
-== Siren
-
-#cairn-stat-block(yaml("stats/monsters/siren.yaml"))
-
-== Striga
-
-#cairn-stat-block(yaml("stats/monsters/striga.yaml"))
-
-== Succubi
-
-#cairn-stat-block(yaml("stats/monsters/succubi.yaml"))
-
-== Sylvan
-
-#cairn-stat-block(yaml("stats/monsters/sylvan.yaml"))
-
-== Troll, Rock
-
-#cairn-stat-block(yaml("stats/monsters/troll-rock.yaml"))
-
-== Uktena
-
-#cairn-stat-block(yaml("stats/monsters/uktena.yaml"))
-
-== Vampire, Higher
-
-#cairn-stat-block(yaml("stats/monsters/vampire-higher.yaml"))
-
-== Vodnik
-
-#cairn-stat-block(yaml("stats/monsters/vodnik.yaml"))
-
-== Warg
-
-#cairn-stat-block(yaml("stats/monsters/warg.yaml"))
-
-== Werewolf
-
-#cairn-stat-block(yaml("stats/monsters/werewolf.yaml"))
-
-== Wolf
-
-#cairn-stat-block(yaml("stats/monsters/wolf.yaml"))
-
-== Wraith
-
-#cairn-stat-block(yaml("stats/monsters/wraith.yaml"))
-
-== Wyvern
-
-#cairn-stat-block(yaml("stats/monsters/wyvern.yaml"))
-
-== Zeugl
-
-#cairn-stat-block(yaml("stats/monsters/zeugl.yaml"))
+#cairn-stat-block(title: [== Zeugl], yaml("stats/monsters/zeugl.yaml"))
 
 #pagebreak()
 
 = Animals
 
-== Bird
+#cairn-stat-block(title: [== Bird], yaml("stats/animals/bird.yaml"))
 
-#cairn-stat-block(yaml("stats/animals/bird.yaml"))
+#cairn-stat-block(title: [== Cat], yaml("stats/animals/cat.yaml"))
 
-== Cat
+#cairn-stat-block(title: [== Dog], yaml("stats/animals/dog.yaml"))
 
-#cairn-stat-block(yaml("stats/animals/cat.yaml"))
+#cairn-stat-block(title: [== Horse], yaml("stats/animals/horse.yaml"))
 
-== Dog
+#cairn-stat-block(title: [== Mule], yaml("stats/animals/mule.yaml"))
 
-#cairn-stat-block(yaml("stats/animals/dog.yaml"))
+#cairn-stat-block(title: [== Ox], yaml("stats/animals/ox.yaml"))
 
-== Horse
+#cairn-stat-block(title: [== Serpent], yaml("stats/animals/serpent.yaml"))
 
-#cairn-stat-block(yaml("stats/animals/horse.yaml"))
-
-== Mule
-
-#cairn-stat-block(yaml("stats/animals/mule.yaml"))
-
-== Ox
-
-#cairn-stat-block(yaml("stats/animals/ox.yaml"))
-
-== Serpent
-
-#cairn-stat-block(yaml("stats/animals/serpent.yaml"))
-
-== War Horse
-
-#cairn-stat-block(yaml("stats/animals/war-horse.yaml"))
+#cairn-stat-block(title: [== War Horse], yaml("stats/animals/war-horse.yaml"))
