@@ -7,7 +7,6 @@
     paper: "iso-b5",
     margin: 40pt,
     numbering: "1",
-    header: align(left, smallcaps(title)),
   )
 
   #set text(font: ("Alegreya"), size: 9pt)
@@ -18,6 +17,9 @@
     underline(it)
   }
 
+  #set align(center)
+  #text(size: 24pt, weight: "bold")[#title]
+
   Created by #link("https://sean.wtf")[Sean-Patrick Ortencio Clayton]
   for #link("https://cairnrpg.com")[Cairn],
   by #link("https://newschoolrevolution.com/")[Yochai Gal].
@@ -25,11 +27,13 @@
   This content is available under the
   #link("https://creativecommons.org/licenses/by-sa/4.0/")[Creative Commons Attribution-ShareAlike 4.0 International license].
 
+  #set page(columns: 2)
+  #set align(start)
+
   #outline(indent: 8pt, title: "Table of Contents")
 
   #pagebreak()
 
-  #set page(columns: 2)
   #doc
 ]
 
@@ -70,7 +74,6 @@
   ).filter(el => el != none).join(", ")
 
   #stat-line
-
   #for detail in details [
     - #markup-eval(detail)
   ]

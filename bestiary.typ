@@ -75,6 +75,8 @@
 
 #cairn-stat-block(yaml("stats/humanoids/secret-agent.yaml"))
 
+#pagebreak()
+
 = Monsters
 
 == Alp
@@ -336,6 +338,8 @@
 == Zeugl
 
 #cairn-stat-block(yaml("stats/monsters/zeugl.yaml"))
+
+#pagebreak()
 
 = Animals
 
