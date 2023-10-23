@@ -1,13 +1,12 @@
 hp: 5
-str: 12
-dex: 14
-wil: 7
+str: 10
+dex: 12
+wil: 9
 attacks:
-  - claws (d6)
+  - claws (d6+d6)
 details:
-  - Feral and mindless amphibious beasts that lurk under water and around its shores,
-    waiting for the unaware to pull them under.
-  - All fire damage against drowners is _enhanced_.
+  - Feral, mindless, and amphibious beasts that lurk under water and around its shores,
+    waiting to pull the unaware under.
+  - Fire damage received is _enhanced_.
   - Completely witless and stupid, they cannot be manipulated emotionally---even by magical means.
-special: null
 armor: 0

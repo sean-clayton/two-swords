@@ -3,7 +3,7 @@ str: 11
 dex: 14
 wil: 12
 attacks:
-  - longsword (d8) or dagger (d6)
+  - longsword (d10) or dagger (d6)
   - hand crossbow (d6)
 critical_damage: null
 details:

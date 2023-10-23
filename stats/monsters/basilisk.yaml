@@ -1,9 +1,11 @@
-hp: 0
-str: 10
-dex: 10
-wil: 10
-attacks: []
+hp: 7
+str: 13
+dex: 13
+wil: 13
+attacks:
+  - acidic spit (d8+d6)
+  - talon (d8+d6)
 critical_damage: null
 details: []
 special: null
-armor: 0
+armor: 2

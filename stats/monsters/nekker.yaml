@@ -1,7 +1,7 @@
-hp: 0
+hp: 3
 str: 10
-dex: 10
-wil: 10
+dex: 12
+wil: 9
 attacks: []
 critical_damage: null
 details: []

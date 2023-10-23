@@ -1,9 +1,11 @@
-hp: 0
-str: 10
-dex: 10
-wil: 10
-attacks: []
+hp: 8
+str: 13
+dex: 12
+wil: 12
+attacks:
+  - bite (d8)
+  - claws (d6+d6)
 critical_damage: null
 details: []
 special: null
-armor: 0
+armor: 1

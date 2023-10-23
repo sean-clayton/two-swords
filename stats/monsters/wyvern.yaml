@@ -1,9 +1,9 @@
-hp: 0
-str: 10
-dex: 10
-wil: 10
+hp: 9
+str: 15
+dex: 15
+wil: 12
 attacks: []
 critical_damage: null
 details: []
 special: null
-armor: 0
+armor: 2

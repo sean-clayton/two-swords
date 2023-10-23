@@ -1,5 +1,5 @@
 #import "meta.typ": wrapper, cairn-stat-block
-#show: doc => wrapper(doc)
+#show: wrapper
 
 = Humanoids
 
@@ -65,7 +65,7 @@
 
 #cairn-stat-block(title: [== Cockatrice], yaml("stats/monsters/cockatrice.yaml"))
 
-#cairn-stat-block(title: [== Cyclopse], yaml("stats/monsters/cyclops.yaml"))
+#cairn-stat-block(title: [== Cyclops], yaml("stats/monsters/cyclops.yaml"))
 
 #cairn-stat-block(title: [== Devourer], yaml("stats/monsters/devourer.yaml"))
 

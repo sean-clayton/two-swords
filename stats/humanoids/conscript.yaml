@@ -3,12 +3,12 @@ str: 12
 dex: 11
 wil: 7
 attacks:
-  - spear (d6)
-  - short bow (d6)
+  - spear (d8)
+  - bow (d6)
 critical_damage: null
 details:
   - Lower-class infantry units used to bolster the armies of nations, sourced from
     whatever settlements are nearby. The Empire will also conscript from their prisons,
     jailhouses, and existing slaves.
 special: null
-armor: 0
+armor: 1
