@@ -3,9 +3,15 @@
 #let wrapper(doc) = [
   #set document(title: title)
 
-  #set page(paper: "iso-b5", margin: 40pt, numbering: "1")
+  #set page(width: 170mm, height: 240mm, margin: 40pt, numbering: "1")
 
-  #set text(font: ("Crimson Pro"), size: 9pt)
+  #set text(font: "Crimson Pro", size: 9pt)
+
+  #show heading: it => {
+    set text(font: "EB Garamond")
+    
+    it
+  }
 
   #show link: it => {
     set text(weight: "bold")
@@ -13,8 +19,17 @@
     underline(it)
   }
 
+  #show outline.entry.where(
+    level: 1
+  ): it => {
+    set text(font: "EB Garamond")
+    v(12pt, weak: true)
+    strong(it)
+  }
+
   #set align(center)
-  #text(size: 24pt, weight: "bold")[#title]
+
+  #text(size: 24pt, weight: "bold", font: "EB Garamond")[#title]
 
   A conversion for #link("https://cairnrpg.com")[Cairn] by #link("https://newschoolrevolution.com/")[Yochai Gal].
 
@@ -25,7 +40,6 @@
     "https://creativecommons.org/licenses/by-sa/4.0/",
   )[Creative Commons Attribution-ShareAlike 4.0 International license].
 
-  #set page(columns: 2)
   #set align(start)
 
   #outline(indent: 8pt, title: "Table of Contents")
