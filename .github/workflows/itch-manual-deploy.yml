@@ -1,0 +1,30 @@
+name: Deploy to Itch
+on: workflow_dispatch
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: yusancky/setup-typst@v2
+      - run: |
+          mkdir dist
+          typst compile --font-path fonts white-wolf.typ dist/White\ Wolf.pdf
+      - uses: actions/upload-artifact@v3
+        with:
+          name: dist
+          path: dist
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v3
+        with:
+          name: dist
+          path: dist
+      - name: Butler Push
+        uses: yeslayla/butler-publish-itchio-action@v1.0.2
+        env:
+          BUTLER_CREDENTIALS: ${{ secrets.BUTLER_CREDENTIALS }}
+          CHANNEL: book
+          ITCH_GAME: white-wolf
+          ITCH_USER: seanclayton
+          PACKAGE: dist

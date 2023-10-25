@@ -31,16 +31,14 @@
 
   #text(size: 24pt, weight: "bold", font: "EB Garamond")[#title]
 
-  A conversion for #link("https://cairnrpg.com")[Cairn] by #link("https://newschoolrevolution.com/")[Yochai Gal].
+  #set align(start)
 
-  Created by #link("https://sean.wtf")[Sean-Patrick Ortencio Clayton].
-
+  A dark fantasy setting conversion, created by #link("https://sean.wtf")[Sean-Patrick Ortencio Clayton]. \
+  Made for #link("https://cairnrpg.com")[Cairn] by #link("https://newschoolrevolution.com/")[Yochai Gal]. \
   Available under the
   #link(
     "https://creativecommons.org/licenses/by-sa/4.0/",
   )[Creative Commons Attribution-ShareAlike 4.0 International license].
-
-  #set align(start)
 
   #outline(indent: 8pt, title: "Table of Contents")
 
