@@ -6,6 +6,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: yusancky/setup-typst@v2
+        with:
+          version: latest
       - run: |
           mkdir dist
           typst compile --font-path fonts white-wolf.typ dist/White\ Wolf.pdf
@@ -15,6 +17,7 @@ jobs:
           path: dist
   deploy:
     runs-on: ubuntu-latest
+    needs: build
     steps:
       - uses: actions/download-artifact@v3
         with:
