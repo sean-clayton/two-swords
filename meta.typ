@@ -7,11 +7,10 @@
 
   #set text(font: "Crimson Pro", size: 9pt)
 
-  #show heading: it => {
-    set text(font: "EB Garamond")
-    
-    it
-  }
+  #show heading: set text(font: "EB Garamond")
+  #show heading.where(level: 1): set text(size: 24pt)
+  #show heading.where(level: 2): set text(size: 18pt)
+  #show heading.where(level: 3): set text(size: 12pt)
 
   #show link: it => {
     set text(weight: "bold")
@@ -26,23 +25,6 @@
     v(12pt, weak: true)
     strong(it)
   }
-
-  #set align(center)
-
-  #text(size: 24pt, weight: "bold", font: "EB Garamond")[#title]
-
-  #set align(start)
-
-  A dark fantasy setting conversion, created by #link("https://sean.wtf")[Sean-Patrick Ortencio Clayton]. \
-  Made for #link("https://cairnrpg.com")[Cairn] by #link("https://newschoolrevolution.com/")[Yochai Gal]. \
-  Available under the
-  #link(
-    "https://creativecommons.org/licenses/by-sa/4.0/",
-  )[Creative Commons Attribution-ShareAlike 4.0 International license].
-
-  #outline(indent: 8pt, title: "Table of Contents")
-
-  #pagebreak()
 
   #doc
 ]
