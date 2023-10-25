@@ -25,10 +25,10 @@ jobs:
           name: dist
           path: dist
       - name: Butler Push
-        uses: yeslayla/butler-publish-itchio-action@v1.0.2
-        env:
-          BUTLER_CREDENTIALS: ${{ secrets.BUTLER_CREDENTIALS }}
-          CHANNEL: book
-          ITCH_GAME: white-wolf
-          ITCH_USER: seanclayton
-          PACKAGE: dist
+        uses: KikimoraGames/itch-publish@v0.0.3
+        with:
+          butlerApiKey: ${{ secrets.BUTLER_CREDENTIALS }}
+          gameData: dist
+          itchUsername: seanclayton
+          itchGameId: white-wolf
+          buildChannel: book
