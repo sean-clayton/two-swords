@@ -1,7 +1,7 @@
 hp: 5
 str: 10
 dex: 12
-wil: 9
+wil: 3
 attacks:
   - claws (d6+d6)
 details:
@@ -9,4 +9,5 @@ details:
     waiting to pull the unaware under.
   - Fire damage received is _enhanced_.
   - Completely witless and stupid, they cannot be manipulated emotionally---even by magical means.
+  - Cannot fail a morale check until half of their STR (5) is gone.
 armor: 0

@@ -40,8 +40,6 @@
 
 #cairn-stat-block(title: [=== Imperial Pacifier], yaml("stats/imperial-pacifier.yaml"))
 
-#cairn-stat-block(title: [=== Mage], yaml("stats/mage.yaml"))
-
 #cairn-stat-block(title: [=== Mercenary Soldier], yaml("stats/mercenary-soldier.yaml"))
 
 #cairn-stat-block(

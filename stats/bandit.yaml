@@ -1,13 +1,13 @@
 hp: 4
-str: 11
-dex: 14
-wil: 12
+str: 10
+dex: 11
+wil: 7
 attacks:
-  - longsword (d10) or dagger (d6)
+  - short sword (d8) or dagger (d6)
   - hand crossbow (d6)
 critical_damage: null
 details:
-  - Thieves who value wealth over all else.
-  - Use disguises, stealth, and trickery to surprise victims.
+  - Thieves who value wealth over all else---turning to crime after a failed life.
+  - Will use disguises, stealth, and trickery to surprise victims.
 special: null
-armor: 0
+armor: 1

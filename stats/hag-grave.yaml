@@ -2,8 +2,16 @@ hp: 8
 str: 13
 dex: 15
 wil: 11
-attacks: []
+attacks:
+  - claws (d6)
+  - tongue (d6+d6)
 critical_damage: null
-details: []
+details:
+  - Fully sentient and can be reasoned with, but equally hideous, stubborn, vicious, and easy to provoke.
+  - Live near corpses, often found near graveyards.
+  - Steals girls from villages to transform into new hags.
+  - Tongue can attack from 15' away.
+  - Creates a skull circle that they draw strong power from.
+    When within 200' of their skull circle, their attacks are _Enhanced_.
 special: null
 armor: 1

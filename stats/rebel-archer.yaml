@@ -1,4 +1,4 @@
-hp: 5
+hp: 4
 str: 10
 dex: 15
 wil: 12
@@ -6,10 +6,10 @@ attacks:
   - dagger (d6)
   - bow (d6)
 details:
-  - Rebels who fight for their people against those who took their lands. Known to
-    work with the Empire to fight the Northerners.
-  - Prefer to ambush their prey, screaming battle cries as they attack.
-  - Attacks fleeing opponents with corkscrew-tipped arrows that stick firmly in flesh.
+  - Rebels who fight for their people against those who took their lands.
+    Known to work with the Empire to fight against Northern armies.
+  - Prefer to ambush their prey, screaming battle cries after firing a storm of arrows.
+  - Will attack fleeing opponents with corkscrew-tipped arrows that stick firmly in flesh.
     Deals d6 STR damage when pulled out of flesh.
 special: null
 armor: 0

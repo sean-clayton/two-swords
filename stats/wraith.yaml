@@ -1,9 +1,15 @@
-hp: 0
-str: 10
-dex: 10
-wil: 10
-attacks: []
+hp: 8
+str: 13
+dex: 14
+wil: 13
+attacks:
+  - longsword (d8)
 critical_damage: null
-details: []
+details:
+  - Incorporeal creatures that a terrifying.
+  - While incorporeal, unharmed by mundane attacks.
+  - Can teleport up to 20'.
+    Anyone who is attacked immediately after the wraith teleports at least 10' must make a DEX save or the attack becomes _Enhanced_.
+  - When the Wraith makes an attack, it becomes corporeal until the end of its next turn or until it takes STR damage, whichever is sooner.
 special: null
 armor: 0

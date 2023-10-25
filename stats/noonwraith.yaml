@@ -2,8 +2,16 @@ hp: 9
 str: 14
 dex: 14
 wil: 13
-attacks: []
+attacks:
+  - claws (d6+d6)
 critical_damage: null
-details: []
+details:
+  - The return of a betrothed woman who was killed just before her wedding, and are now completely consumed by rage, seeking those who killed them.
+    They are incapable of being reasoned with.
+  - Incorporeal and unharmed by mundane attacks.
+  - When in moonlight, all damage received is _Enhanced_.
+  - Once they suffer STR damage, the Noonwraith will summon 3 copies of herself.
+    These copies have the exact same stats, but do not attack, and will immediately die when taking any damage.
+    For each copy remaining each round, the Noonwraith gains 1 HP.
 special: null
 armor: 1
