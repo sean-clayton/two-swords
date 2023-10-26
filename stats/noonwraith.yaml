@@ -10,8 +10,8 @@ details:
     They are incapable of being reasoned with.
   - Incorporeal and unharmed by mundane attacks.
   - When in moonlight, all damage received is _Enhanced_.
-  - Once they suffer STR damage, the Noonwraith will summon 3 copies of herself.
-    These copies have the exact same stats, but do not attack, and will immediately die when taking any damage.
+  - When gravely threatened, the Noonwraith will summon 3 copies of herself.
+    These copies do not attack, and will immediately die when hit.
     For each copy remaining each round, the Noonwraith gains 1 HP.
 special: null
 armor: 1

@@ -6,10 +6,10 @@ attacks:
   - longsword (d8)
 critical_damage: null
 details:
-  - Incorporeal creatures that a terrifying.
+  - Spectres that have met a terrible fate in life.
   - While incorporeal, unharmed by mundane attacks.
-  - Can teleport up to 20'.
-    Anyone who is attacked immediately after the wraith teleports at least 10' must make a DEX save or the attack becomes _Enhanced_.
-  - When the Wraith makes an attack, it becomes corporeal until the end of its next turn or until it takes STR damage, whichever is sooner.
+  - Can teleport up to 30'.
+  - Anyone who is attacked immediately after the wraith teleports must make a DEX save or the attack becomes _Enhanced_.
+  - Becomes corporeal to attack, and remains so for a short moment.
 special: null
 armor: 0
