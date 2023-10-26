@@ -3,7 +3,7 @@
 #let wrapper(doc) = [
   #set document(title: title)
 
-  #set page(width: 170mm, height: 240mm, margin: 40pt, numbering: "1")
+  #set page(width: 6.69in, height: 9.45in, margin: 40pt, numbering: "1")
 
   #set text(font: "Crimson Pro", size: 9pt)
 
@@ -18,9 +18,7 @@
     underline(it)
   }
 
-  #show outline.entry.where(
-    level: 1
-  ): it => {
+  #show outline.entry.where(level: 1): it => {
     set text(font: "EB Garamond")
     v(12pt, weak: true)
     strong(it)

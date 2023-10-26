@@ -9,7 +9,12 @@
 
 #set align(start)
 
-#box(inset: (12pt), fill: rgb("f0f0f0"), width: 100%, radius: 4pt)[
+#box(
+  inset: (12pt),
+  fill: rgb("f0f0f0"),
+  width: 100%,
+  radius: 4pt,
+)[
   A dark fantasy setting conversion, created by #link("https://sean.wtf")[Sean-Patrick Ortencio Clayton].
 
   Made for #link("https://cairnrpg.com")[Cairn] by #link("https://newschoolrevolution.com/")[Yochai Gal].
@@ -18,6 +23,12 @@
   #link(
     "https://creativecommons.org/licenses/by-sa/4.0/",
   )[Creative Commons Attribution-ShareAlike 4.0 International license].
+
+  Source code: https://github.com/sean-clayton/white-wolf
+
+  Source code is available under the #link(
+    "https://www.gnu.org/licenses/agpl-3.0.html",
+  )[GNU Affero General Public License (v3.0)].
 ]
 
 #v(24pt)
