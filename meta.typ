@@ -5,9 +5,9 @@
 
   #set page(width: 6.69in, height: 9.45in, margin: 40pt, numbering: "1")
 
-  #set text(font: "Crimson Pro", size: 9pt)
+  #set text(font: "Gentium Book Plus", size: 9pt)
 
-  #show heading: set text(font: "EB Garamond")
+  #show heading: set text(font: "Gentium Book Plus")
   #show heading.where(level: 1): set text(size: 24pt)
   #show heading.where(level: 2): set text(size: 18pt)
   #show heading.where(level: 3): set text(size: 12pt)
@@ -19,7 +19,6 @@
   }
 
   #show outline.entry.where(level: 1): it => {
-    set text(font: "EB Garamond")
     v(12pt, weak: true)
     strong(it)
   }
