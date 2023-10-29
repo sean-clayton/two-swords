@@ -1,237 +1,236 @@
-#import "meta.typ": wrapper, cairn-stat-block, title
+#import "meta.typ": wrapper, cairn-stat-block, title, load-stat
 #show: wrapper
 
-#set align(center)
-
-= #title
-
-#v(24pt)
-
-#set align(start)
-
-#box(
-  inset: (12pt),
-  fill: rgb("f0f0f0"),
-  width: 100%,
-  radius: 4pt,
-)[
-  A dark fantasy setting conversion, created by #link("https://sean.wtf")[Sean-Patrick Ortencio Clayton].
-
-  Made for #link("https://cairnrpg.com")[Cairn] by #link("https://newschoolrevolution.com/")[Yochai Gal].
-
-  Available under the
-  #link(
-    "https://creativecommons.org/licenses/by-sa/4.0/",
-  )[Creative Commons Attribution-ShareAlike 4.0 International license].
-
-  Source code: https://github.com/sean-clayton/white-wolf
-
-  Source code is available under the #link(
-    "https://www.gnu.org/licenses/agpl-3.0.html",
-  )[GNU Affero General Public License (v3.0)].
+#box(width: 100%)[
+  #set align(center)
+  = #title
 ]
 
-#v(24pt)
+#box(
+  inset: (y: 48pt),
+)[
+  #box(
+    inset: (12pt),
+    fill: rgb("f0f0f0"),
+    width: 100%,
+    radius: 4pt,
+  )[
+    A dark fantasy setting conversion, created by #link("https://sean.wtf")[Sean-Patrick Ortencio Clayton].
 
-#outline(indent: 8pt, title: none)
+    Made for #link("https://cairnrpg.com")[Cairn] by #link("https://newschoolrevolution.com/")[Yochai Gal].
+
+    Available under the
+    #link(
+      "https://creativecommons.org/licenses/by-sa/4.0/",
+    )[Creative Commons Attribution-ShareAlike 4.0 International license].
+
+    Source code: https://github.com/sean-clayton/white-wolf
+
+    Source code is available under the #link(
+      "https://www.gnu.org/licenses/agpl-3.0.html",
+    )[GNU Affero General Public License (v3.0)].
+  ]
+]
+
+#outline(indent: 12pt, title: none)
 
 #pagebreak()
 
 == Humanoids
 
-#cairn-stat-block(title: [=== Bandit], yaml("stats/bandit.yaml"))
+#cairn-stat-block(title: [=== Bandit], load-stat("bandit"))
 
-#cairn-stat-block(title: [=== Conscript], yaml("stats/conscript.yaml"))
+#cairn-stat-block(title: [=== Conscript], load-stat("conscript"))
 
-#cairn-stat-block(title: [=== Highwayman], yaml("stats/highwayman.yaml"))
+#cairn-stat-block(title: [=== Highwayman], load-stat("highwayman"))
 
-#cairn-stat-block(title: [=== Imperial Infantry], yaml("stats/imperial-infantry.yaml"))
+#cairn-stat-block(title: [=== Imperial Infantry], load-stat("imperial-infantry"))
 
-#cairn-stat-block(title: [=== Imperial Knight], yaml("stats/imperial-knight.yaml"))
+#cairn-stat-block(title: [=== Imperial Knight], load-stat("imperial-knight"))
 
-#cairn-stat-block(title: [=== Imperial Pacifier], yaml("stats/imperial-pacifier.yaml"))
+#cairn-stat-block(title: [=== Imperial Pacifier], load-stat("imperial-pacifier"))
 
-#cairn-stat-block(title: [=== Mercenary Soldier], yaml("stats/mercenary-soldier.yaml"))
+#cairn-stat-block(title: [=== Mercenary Soldier], load-stat("mercenary-soldier"))
 
 #cairn-stat-block(
   title: [=== Mountain Dwarf Defender],
-  yaml("stats/mountain-dwarf-defender.yaml"),
+  load-stat("mountain-dwarf-defender"),
 )
 
-#cairn-stat-block(title: [=== Northern Cavalry], yaml("stats/northern-cavalry.yaml"))
+#cairn-stat-block(title: [=== Northern Cavalry], load-stat("northern-cavalry"))
 
 #cairn-stat-block(
   title: [=== Northern Elite Soldier],
-  yaml("stats/northern-elite-soldier.yaml"),
+  load-stat("northern-elite-soldier"),
 )
 
 #cairn-stat-block(
   title: [=== Northern Heavy Infantry],
-  yaml("stats/northern-heavy-infantry.yaml"),
+  load-stat("northern-heavy-infantry"),
 )
 
-#cairn-stat-block(title: [=== Northern Solider], yaml("stats/northern-soldier.yaml"))
+#cairn-stat-block(title: [=== Northern Solider], load-stat("northern-soldier"))
 
-#cairn-stat-block(title: [=== Pirate], yaml("stats/pirate.yaml"))
+#cairn-stat-block(title: [=== Pirate], load-stat("pirate"))
 
-#cairn-stat-block(title: [=== Rebel Archer], yaml("stats/rebel-archer.yaml"))
+#cairn-stat-block(title: [=== Rebel Archer], load-stat("rebel-archer"))
 
-#cairn-stat-block(title: [=== Rebel Marauder], yaml("stats/rebel-marauder.yaml"))
+#cairn-stat-block(title: [=== Rebel Marauder], load-stat("rebel-marauder"))
 
-#cairn-stat-block(title: [=== Rebel Veteran], yaml("stats/rebel-veteran.yaml"))
+#cairn-stat-block(title: [=== Rebel Veteran], load-stat("rebel-veteran"))
 
-#cairn-stat-block(title: [=== Secret Agent], yaml("stats/secret-agent.yaml"))
+#cairn-stat-block(title: [=== Secret Agent], load-stat("secret-agent"))
 
 #pagebreak()
 
 == Monsters
 
-#cairn-stat-block(title: [=== Alp], yaml("stats/alp.yaml"))
+#cairn-stat-block(title: [=== Alp], load-stat("alp"))
 
-#cairn-stat-block(title: [=== Amarok], yaml("stats/amarok.yaml"))
+#cairn-stat-block(title: [=== Amarok], load-stat("amarok"))
 
-#cairn-stat-block(title: [=== Anopheli], yaml("stats/anopheli.yaml"))
+#cairn-stat-block(title: [=== Anopheli], load-stat("anopheli"))
 
-#cairn-stat-block(title: [=== Arachasae], yaml("stats/arachas.yaml"))
+#cairn-stat-block(title: [=== Arachasae], load-stat("arachas"))
 
-#cairn-stat-block(title: [=== Barghest], yaml("stats/barghest.yaml"))
+#cairn-stat-block(title: [=== Barghest], load-stat("barghest"))
 
-#cairn-stat-block(title: [=== Basilisk], yaml("stats/basilisk.yaml"))
+#cairn-stat-block(title: [=== Basilisk], load-stat("basilisk"))
 
-#cairn-stat-block(title: [=== Berberoka], yaml("stats/berberoka.yaml"))
+#cairn-stat-block(title: [=== Berberoka], load-stat("berberoka"))
 
-#cairn-stat-block(title: [=== Botchling], yaml("stats/botchling.yaml"))
+#cairn-stat-block(title: [=== Botchling], load-stat("botchling"))
 
-#cairn-stat-block(title: [=== Bukuvak], yaml("stats/bukuvak.yaml"))
+#cairn-stat-block(title: [=== Bukuvak], load-stat("bukuvak"))
 
-#cairn-stat-block(title: [=== Chort], yaml("stats/chort.yaml"))
+#cairn-stat-block(title: [=== Chort], load-stat("chort"))
 
-#cairn-stat-block(title: [=== Cockatrice], yaml("stats/cockatrice.yaml"))
+#cairn-stat-block(title: [=== Cockatrice], load-stat("cockatrice"))
 
-#cairn-stat-block(title: [=== Cyclops], yaml("stats/cyclops.yaml"))
+#cairn-stat-block(title: [=== Cyclops], load-stat("cyclops"))
 
-#cairn-stat-block(title: [=== Devourer], yaml("stats/devourer.yaml"))
+#cairn-stat-block(title: [=== Devourer], load-stat("devourer"))
 
-#cairn-stat-block(title: [=== Doppler], yaml("stats/doppler.yaml"))
+#cairn-stat-block(title: [=== Doppler], load-stat("doppler"))
 
-#cairn-stat-block(title: [=== Dragon], yaml("stats/dragon.yaml"))
+#cairn-stat-block(title: [=== Dragon], load-stat("dragon"))
 
-#cairn-stat-block(title: [=== Draug], yaml("stats/draug.yaml"))
+#cairn-stat-block(title: [=== Draug], load-stat("draug"))
 
-#cairn-stat-block(title: [=== Draugir], yaml("stats/draugir.yaml"))
+#cairn-stat-block(title: [=== Draugir], load-stat("draugir"))
 
-#cairn-stat-block(title: [=== Drowner], yaml("stats/drowner.yaml"))
+#cairn-stat-block(title: [=== Drowner], load-stat("drowner"))
 
-#cairn-stat-block(title: [=== Dryad], yaml("stats/dryad.yaml"))
+#cairn-stat-block(title: [=== Dryad], load-stat("dryad"))
 
-#cairn-stat-block(title: [=== Elemental, Earth], yaml("stats/elemental-earth.yaml"))
+#cairn-stat-block(title: [=== Elemental, Earth], load-stat("elemental-earth"))
 
-#cairn-stat-block(title: [=== Elemental, Fire], yaml("stats/elemental-fire.yaml"))
+#cairn-stat-block(title: [=== Elemental, Fire], load-stat("elemental-fire"))
 
-#cairn-stat-block(title: [=== Elemental, Ice], yaml("stats/elemental-ice.yaml"))
+#cairn-stat-block(title: [=== Elemental, Ice], load-stat("elemental-ice"))
 
-#cairn-stat-block(title: [=== Endrega], yaml("stats/endrega.yaml"))
+#cairn-stat-block(title: [=== Endrega], load-stat("endrega"))
 
-#cairn-stat-block(title: [=== Fiend], yaml("stats/fiend.yaml"))
+#cairn-stat-block(title: [=== Fiend], load-stat("fiend"))
 
-#cairn-stat-block(title: [=== Fleder], yaml("stats/fleder.yaml"))
+#cairn-stat-block(title: [=== Fleder], load-stat("fleder"))
 
-#cairn-stat-block(title: [=== Foglet], yaml("stats/foglet.yaml"))
+#cairn-stat-block(title: [=== Foglet], load-stat("foglet"))
 
-#cairn-stat-block(title: [=== Gargoyle], yaml("stats/gargoyle.yaml"))
+#cairn-stat-block(title: [=== Gargoyle], load-stat("gargoyle"))
 
-#cairn-stat-block(title: [=== Ghoul], yaml("stats/ghoul.yaml"))
+#cairn-stat-block(title: [=== Ghoul], load-stat("ghoul"))
 
-#cairn-stat-block(title: [=== Golem], yaml("stats/golem.yaml"))
+#cairn-stat-block(title: [=== Golem], load-stat("golem"))
 
-#cairn-stat-block(title: [=== Griffin], yaml("stats/griffin.yaml"))
+#cairn-stat-block(title: [=== Griffin], load-stat("griffin"))
 
-#cairn-stat-block(title: [=== Guvorag], yaml("stats/guvorag.yaml"))
+#cairn-stat-block(title: [=== Guvorag], load-stat("guvorag"))
 
-#cairn-stat-block(title: [=== Hag, Grave], yaml("stats/hag-grave.yaml"))
+#cairn-stat-block(title: [=== Hag, Grave], load-stat("hag-grave"))
 
-#cairn-stat-block(title: [=== Hag, Water], yaml("stats/hag-water.yaml"))
+#cairn-stat-block(title: [=== Hag, Water], load-stat("hag-water"))
 
-#cairn-stat-block(title: [=== Harpy], yaml("stats/harpy.yaml"))
+#cairn-stat-block(title: [=== Harpy], load-stat("harpy"))
 
-#cairn-stat-block(title: [=== Hunt, Hound of the], yaml("stats/hunt-hound.yaml"))
+#cairn-stat-block(title: [=== Hunt, Hound of the], load-stat("hunt-hound"))
 
-#cairn-stat-block(title: [=== Hunt, Rider of the], yaml("stats/hunt-rider.yaml"))
+#cairn-stat-block(title: [=== Hunt, Rider of the], load-stat("hunt-rider"))
 
-#cairn-stat-block(title: [=== Hunt, Steed of the], yaml("stats/hunt-steed.yaml"))
+#cairn-stat-block(title: [=== Hunt, Steed of the], load-stat("hunt-steed"))
 
-#cairn-stat-block(title: [=== Katakan], yaml("stats/katakan.yaml"))
+#cairn-stat-block(title: [=== Katakan], load-stat("katakan"))
 
-#cairn-stat-block(title: [=== Leshen], yaml("stats/leshen.yaml"))
+#cairn-stat-block(title: [=== Leshen], load-stat("leshen"))
 
-#cairn-stat-block(title: [=== Lopustre], yaml("stats/lopustre.yaml"))
+#cairn-stat-block(title: [=== Lopustre], load-stat("lopustre"))
 
-#cairn-stat-block(title: [=== Manticore], yaml("stats/manticore.yaml"))
+#cairn-stat-block(title: [=== Manticore], load-stat("manticore"))
 
-#cairn-stat-block(title: [=== Nekker], yaml("stats/nekker.yaml"))
+#cairn-stat-block(title: [=== Nekker], load-stat("nekker"))
 
-#cairn-stat-block(title: [=== Nereid], yaml("stats/nereid.yaml"))
+#cairn-stat-block(title: [=== Nereid], load-stat("nereid"))
 
-#cairn-stat-block(title: [=== Noonwraith], yaml("stats/noonwraith.yaml"))
+#cairn-stat-block(title: [=== Noonwraith], load-stat("noonwraith"))
 
-#cairn-stat-block(title: [=== Ogre], yaml("stats/ogre.yaml"))
+#cairn-stat-block(title: [=== Ogre], load-stat("ogre"))
 
-#cairn-stat-block(title: [=== Pesta], yaml("stats/pesta.yaml"))
+#cairn-stat-block(title: [=== Pesta], load-stat("pesta"))
 
-#cairn-stat-block(title: [=== Phoenix], yaml("stats/phoenix.yaml"))
+#cairn-stat-block(title: [=== Phoenix], load-stat("phoenix"))
 
-#cairn-stat-block(title: [=== Preta], yaml("stats/preta.yaml"))
+#cairn-stat-block(title: [=== Preta], load-stat("preta"))
 
-#cairn-stat-block(title: [=== Rotfiend], yaml("stats/rotfiend.yaml"))
+#cairn-stat-block(title: [=== Rotfiend], load-stat("rotfiend"))
 
-#cairn-stat-block(title: [=== Rusalki], yaml("stats/rusalki.yaml"))
+#cairn-stat-block(title: [=== Rusalki], load-stat("rusalki"))
 
-#cairn-stat-block(title: [=== Shaelmaar], yaml("stats/shaelmaar.yaml"))
+#cairn-stat-block(title: [=== Shaelmaar], load-stat("shaelmaar"))
 
-#cairn-stat-block(title: [=== Siren], yaml("stats/siren.yaml"))
+#cairn-stat-block(title: [=== Siren], load-stat("siren"))
 
-#cairn-stat-block(title: [=== Striga], yaml("stats/striga.yaml"))
+#cairn-stat-block(title: [=== Striga], load-stat("striga"))
 
-#cairn-stat-block(title: [=== Succubi], yaml("stats/succubi.yaml"))
+#cairn-stat-block(title: [=== Succubi], load-stat("succubi"))
 
-#cairn-stat-block(title: [=== Sylvan], yaml("stats/sylvan.yaml"))
+#cairn-stat-block(title: [=== Sylvan], load-stat("sylvan"))
 
-#cairn-stat-block(title: [=== Troll, Rock], yaml("stats/troll-rock.yaml"))
+#cairn-stat-block(title: [=== Troll, Rock], load-stat("troll-rock"))
 
-#cairn-stat-block(title: [=== Uktena], yaml("stats/uktena.yaml"))
+#cairn-stat-block(title: [=== Uktena], load-stat("uktena"))
 
-#cairn-stat-block(title: [=== Vampire, Higher], yaml("stats/vampire-higher.yaml"))
+#cairn-stat-block(title: [=== Vampire, Higher], load-stat("vampire-higher"))
 
-#cairn-stat-block(title: [=== Vodnik], yaml("stats/vodnik.yaml"))
+#cairn-stat-block(title: [=== Vodnik], load-stat("vodnik"))
 
-#cairn-stat-block(title: [=== Warg], yaml("stats/warg.yaml"))
+#cairn-stat-block(title: [=== Warg], load-stat("warg"))
 
-#cairn-stat-block(title: [=== Werewolf], yaml("stats/werewolf.yaml"))
+#cairn-stat-block(title: [=== Werewolf], load-stat("werewolf"))
 
-#cairn-stat-block(title: [=== Wolf], yaml("stats/wolf.yaml"))
+#cairn-stat-block(title: [=== Wolf], load-stat("wolf"))
 
-#cairn-stat-block(title: [=== Wraith], yaml("stats/wraith.yaml"))
+#cairn-stat-block(title: [=== Wraith], load-stat("wraith"))
 
-#cairn-stat-block(title: [=== Wyvern], yaml("stats/wyvern.yaml"))
+#cairn-stat-block(title: [=== Wyvern], load-stat("wyvern"))
 
-#cairn-stat-block(title: [=== Zeugl], yaml("stats/zeugl.yaml"))
+#cairn-stat-block(title: [=== Zeugl], load-stat("zeugl"))
 
 #pagebreak()
 
 == Animals
 
-#cairn-stat-block(title: [=== Bird], yaml("stats/bird.yaml"))
+#cairn-stat-block(title: [=== Bird], load-stat("bird"))
 
-#cairn-stat-block(title: [=== Cat], yaml("stats/cat.yaml"))
+#cairn-stat-block(title: [=== Cat], load-stat("cat"))
 
-#cairn-stat-block(title: [=== Dog], yaml("stats/dog.yaml"))
+#cairn-stat-block(title: [=== Dog], load-stat("dog"))
 
-#cairn-stat-block(title: [=== Horse], yaml("stats/horse.yaml"))
+#cairn-stat-block(title: [=== Horse], load-stat("horse"))
 
-#cairn-stat-block(title: [=== Mule], yaml("stats/mule.yaml"))
+#cairn-stat-block(title: [=== Mule], load-stat("mule"))
 
-#cairn-stat-block(title: [=== Ox], yaml("stats/ox.yaml"))
+#cairn-stat-block(title: [=== Ox], load-stat("ox"))
 
-#cairn-stat-block(title: [=== Serpent], yaml("stats/serpent.yaml"))
+#cairn-stat-block(title: [=== Serpent], load-stat("serpent"))
 
-#cairn-stat-block(title: [=== War Horse], yaml("stats/war-horse.yaml"))
+#cairn-stat-block(title: [=== War Horse], load-stat("war-horse"))

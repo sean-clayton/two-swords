@@ -4,6 +4,7 @@ dex: 10
 wil: 10
 attacks: []
 critical_damage: null
-details: []
+details:
+  - A female demon that hunts human prey in the night.
 special: null
 armor: 0

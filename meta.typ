@@ -1,9 +1,13 @@
 #let title = "White Wolf"
 
+#let load-stat(filename) = {
+  yaml("stats/" + filename + ".yaml")
+}
+
 #let wrapper(doc) = [
   #set document(title: title)
 
-  #set page(width: 6.69in, height: 9.45in, margin: 40pt, numbering: "1")
+  #set page(width: 170mm, height: 240mm, margin: 40pt, numbering: "1")
 
   #set text(font: "Gentium Book Plus", size: 9pt)
 
