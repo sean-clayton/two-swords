@@ -7,7 +7,7 @@
 ]
 
 #box(
-  inset: (y: 48pt),
+  inset: (y: 24pt),
 )[
   #box(
     inset: (12pt),
