@@ -5,4 +5,4 @@ build:
   typst compile --font-path fonts white-wolf.typ
 
 build-logo:
-  typst compile --font-path fonts logo.typ logo.png
+  typst compile --ppi 300 --font-path fonts logo.typ logo.png
