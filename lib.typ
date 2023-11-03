@@ -27,17 +27,17 @@
   yaml("stats/" + filename + ".yaml")
 }
 
-#let chapter-heading(..args, content) = {
+#let huge-heading(..args, content) = {
   show heading: set text(size: 24pt)
   heading(..args)[#content]
 }
 
-#let section-heading(..args, content) = {
+#let large-heading(..args, content) = {
   show heading: set text(size: 18pt)
   heading(..args)[#content]
 }
 
-#let section-sub-heading(..args, content) = {
+#let item-heading(..args, content) = {
   show heading: set text(size: 12pt)
 
   box(fill: highlight-color, inset: (x: 4pt, y: 6pt), width: 100%)[
@@ -48,7 +48,7 @@
 #let wrapper(doc) = [
   #set document(title: title)
 
-  #set page(width: 170mm, height: 240mm, margin: (bottom: 2cm, x: 1cm, top: 1cm))
+  #set page(paper: "a5", margin: (bottom: 2cm, x: 1cm, top: 1cm))
 
   #set text(font: "Gentium Book Plus", size: 10pt)
 
@@ -71,7 +71,7 @@
   #doc
 ]
 
-#let cairn-stat-block(data, preamble) = {
+#let cairn-stat-block(data, top-content) = {
   let escape-str(str) = str.replace("\\", "\\\\").replace("#", "\#")
   let markup-eval(str) = eval(escape-str(str), mode: "markup")
 
@@ -110,7 +110,7 @@
   set list(tight: true)
 
   block(breakable: false)[
-    #preamble
+    #top-content
 
     #stat-line
     #for detail in details [
