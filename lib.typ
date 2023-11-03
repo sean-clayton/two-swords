@@ -1,6 +1,7 @@
 #let title = "White Wolf"
 
-#let highlight-color = luma(90%)
+#let highlight-color-base = color.hsl(57deg, 100%, 47.6%)
+#let highlight-color = highlight-color-base.desaturate(33.333%).lighten(80%)
 
 #let set-page-numbers() = {
   locate(loc => {
@@ -52,7 +53,7 @@
   #set text(font: "Gentium Book Plus", size: 10pt)
 
   #show heading: it => {
-    set text(font: "Rosario")
+    set text(font: "Asul")
     it
   }
 
