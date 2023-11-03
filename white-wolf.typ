@@ -1,236 +1,430 @@
-#import "meta.typ": wrapper, cairn-stat-block, title, load-stat
+#import "lib.typ": wrapper, cairn-stat-block, title, load-stat, chapter-heading, section-heading, section-sub-heading, set-page-numbers
+#import "cover.typ" as cover
+
+#cover
+
 #show: wrapper
 
-#box(width: 100%)[
-  #set align(center)
-  = #title
+#set page(numbering: none)
+
+#pagebreak()
+
+#pagebreak()
+
+A dark fantasy setting, created by #link("https://sean.wtf")[Sean-Patrick Ortencio Clayton].
+
+If you find this PDF in the wild, you can get it yourself here:
+https://seanclayton.itch.io/white-wolf.
+
+Made for #link("https://cairnrpg.com")[Cairn] by #link("https://newschoolrevolution.com/")[Yochai Gal], made available for our use under the 
+#link(
+  "https://creativecommons.org/licenses/by-sa/4.0/",
+)[Creative Commons Attribution-ShareAlike 4.0 International license].
+
+#title is available under the
+#link(
+  "https://creativecommons.org/licenses/by-sa/4.0/",
+)[Creative Commons Attribution-ShareAlike 4.0 International license].
+
+The source code for #title can be found here: https://github.com/sean-clayton/white-wolf.
+
+The source code for #title is available under the #link(
+  "https://www.gnu.org/licenses/agpl-3.0.html",
+)[GNU Affero General Public License].
+
+#pagebreak()
+
+#columns(2)[
+  #show outline.entry.where(
+    level: 2
+  ): it => {
+    set text(size: 12pt)
+    v(12pt, weak: true)
+    strong(it)
+  }
+
+  #show outline.entry.where(
+    level: 3
+  ): it => {
+    v(12pt, weak: true)
+    strong(it)
+  }
+
+  #outline(indent: auto, title: none, depth: 4)
 ]
 
-#box(
-  inset: (y: 24pt),
-)[
-  #box(
-    inset: (12pt),
-    fill: rgb("f0f0f0"),
-    width: 100%,
-    radius: 4pt,
-  )[
-    A dark fantasy setting conversion, created by #link("https://sean.wtf")[Sean-Patrick Ortencio Clayton].
+#pagebreak()
 
-    Made for #link("https://cairnrpg.com")[Cairn] by #link("https://newschoolrevolution.com/")[Yochai Gal].
+#set page(footer: set-page-numbers())
 
-    Available under the
-    #link(
-      "https://creativecommons.org/licenses/by-sa/4.0/",
-    )[Creative Commons Attribution-ShareAlike 4.0 International license].
+#chapter-heading(level: 2)[Spells]
 
-    Source code: https://github.com/sean-clayton/white-wolf
+#pagebreak()
 
-    Source code is available under the #link(
-      "https://www.gnu.org/licenses/agpl-3.0.html",
-    )[GNU Affero General Public License (v3.0)].
-  ]
+#chapter-heading(level: 2)[Foes]
+
+#section-heading(level: 3)[Humanoids]
+
+#cairn-stat-block(load-stat("bandit"))[
+  #section-sub-heading(level: 4)[Bandit]
 ]
 
-#outline(indent: 12pt, title: none)
+#cairn-stat-block(load-stat("conscript"))[
+  #section-sub-heading(level: 4)[Conscript]
+]
 
-#pagebreak()
+#cairn-stat-block(load-stat("highwayman"))[
+  #section-sub-heading(level: 4)[Highwayman]
+]
 
-== Humanoids
+#cairn-stat-block(load-stat("imperial-infantry"))[
+  #section-sub-heading(level: 4)[Imperial Infantry]
+]
 
-#cairn-stat-block(title: [=== Bandit], load-stat("bandit"))
+#cairn-stat-block(load-stat("imperial-knight"))[
+  #section-sub-heading(level: 4)[Imperial Knight]
+]
 
-#cairn-stat-block(title: [=== Conscript], load-stat("conscript"))
+#cairn-stat-block(load-stat("imperial-pacifier"))[
+  #section-sub-heading(level: 4)[Imperial Pacifier]
+]
 
-#cairn-stat-block(title: [=== Highwayman], load-stat("highwayman"))
+#cairn-stat-block(load-stat("mercenary-soldier"))[
+  #section-sub-heading(level: 4)[Mercenary Soldier]
+]
 
-#cairn-stat-block(title: [=== Imperial Infantry], load-stat("imperial-infantry"))
+#cairn-stat-block(load-stat("mountain-dwarf-defender"))[
+  #section-sub-heading(level: 4)[Mountain Dwarf Defender]
+]
 
-#cairn-stat-block(title: [=== Imperial Knight], load-stat("imperial-knight"))
+#cairn-stat-block(load-stat("northern-cavalry"))[
+  #section-sub-heading(level: 4)[Northern Cavalry]
+]
 
-#cairn-stat-block(title: [=== Imperial Pacifier], load-stat("imperial-pacifier"))
+#cairn-stat-block(load-stat("northern-elite-soldier"))[
+  #section-sub-heading(level: 4)[Northern Elite Soldier]
+]
 
-#cairn-stat-block(title: [=== Mercenary Soldier], load-stat("mercenary-soldier"))
+#cairn-stat-block(load-stat("northern-heavy-infantry"))[
+  #section-sub-heading(level: 4)[Northern Heavy Infantry]
+]
 
-#cairn-stat-block(
-  title: [=== Mountain Dwarf Defender],
-  load-stat("mountain-dwarf-defender"),
-)
+#cairn-stat-block(load-stat("northern-soldier"))[
+  #section-sub-heading(level: 4)[Northern Solider]
+]
 
-#cairn-stat-block(title: [=== Northern Cavalry], load-stat("northern-cavalry"))
+#cairn-stat-block(load-stat("pirate"))[
+  #section-sub-heading(level: 4)[Pirate]
+]
 
-#cairn-stat-block(
-  title: [=== Northern Elite Soldier],
-  load-stat("northern-elite-soldier"),
-)
+#cairn-stat-block(load-stat("rebel-archer"))[
+  #section-sub-heading(level: 4)[Rebel Archer]
+]
 
-#cairn-stat-block(
-  title: [=== Northern Heavy Infantry],
-  load-stat("northern-heavy-infantry"),
-)
+#cairn-stat-block(load-stat("rebel-marauder"))[
+  #section-sub-heading(level: 4)[Rebel Marauder]
+]
 
-#cairn-stat-block(title: [=== Northern Solider], load-stat("northern-soldier"))
+#cairn-stat-block(load-stat("rebel-veteran"))[
+  #section-sub-heading(level: 4)[Rebel Veteran]
+]
 
-#cairn-stat-block(title: [=== Pirate], load-stat("pirate"))
+#cairn-stat-block(load-stat("secret-agent"))[
+  #section-sub-heading(level: 4)[Secret Agent]
+]
 
-#cairn-stat-block(title: [=== Rebel Archer], load-stat("rebel-archer"))
+#section-heading(level: 3)[Monsters]
+
+#cairn-stat-block(load-stat("alp"))[
+  #section-sub-heading(level: 4)[Alp]
+]
+
+#cairn-stat-block(load-stat("amarok"))[
+  #section-sub-heading(level: 4)[Amarok]
+]
+
+#cairn-stat-block(load-stat("anopheli"))[
+  #section-sub-heading(level: 4)[Anopheli]
+]
+
+#cairn-stat-block(load-stat("arachas"))[
+  #section-sub-heading(level: 4)[Arachasae]
+]
+
+#cairn-stat-block(load-stat("barghest"))[
+  #section-sub-heading(level: 4)[Barghest]
+]
+
+#cairn-stat-block(load-stat("basilisk"))[
+  #section-sub-heading(level: 4)[Basilisk]
+]
+
+#cairn-stat-block(load-stat("berberoka"))[
+  #section-sub-heading(level: 4)[Berberoka]
+]
+
+#cairn-stat-block(load-stat("botchling"))[
+  #section-sub-heading(level: 4)[Botchling]
+]
+
+#cairn-stat-block(load-stat("bukuvak"))[
+  #section-sub-heading(level: 4)[Bukuvak]
+]
+
+#cairn-stat-block(load-stat("chort"))[
+  #section-sub-heading(level: 4)[Chort]
+]
+
+#cairn-stat-block(load-stat("cockatrice"))[
+  #section-sub-heading(level: 4)[Cockatrice]
+]
+
+#cairn-stat-block(load-stat("cyclops"))[
+  #section-sub-heading(level: 4)[Cyclops]
+]
+
+#cairn-stat-block(load-stat("devourer"))[
+  #section-sub-heading(level: 4)[Devourer]
+]
+
+#cairn-stat-block(load-stat("doppler"))[
+  #section-sub-heading(level: 4)[Doppler]
+]
+
+#cairn-stat-block(load-stat("dragon"))[
+  #section-sub-heading(level: 4)[Dragon]
+]
+
+#cairn-stat-block(load-stat("draug"))[
+  #section-sub-heading(level: 4)[Draug]
+]
+
+#cairn-stat-block(load-stat("draugir"))[
+  #section-sub-heading(level: 4)[Draugir]
+]
+
+#cairn-stat-block(load-stat("drowner"))[
+  #section-sub-heading(level: 4)[Drowner]
+]
+
+#cairn-stat-block(load-stat("dryad"))[
+  #section-sub-heading(level: 4)[Dryad]
+]
+
+#cairn-stat-block(load-stat("elemental-earth"))[
+  #section-sub-heading(level: 4)[Elemental, Earth]
+]
+
+#cairn-stat-block(load-stat("elemental-fire"))[
+  #section-sub-heading(level: 4)[Elemental, Fire]
+]
+
+#cairn-stat-block(load-stat("elemental-ice"))[
+  #section-sub-heading(level: 4)[Elemental, Ice]
+]
+
+#cairn-stat-block(load-stat("endrega"))[
+  #section-sub-heading(level: 4)[Endrega]
+]
+
+#cairn-stat-block(load-stat("fiend"))[
+  #section-sub-heading(level: 4)[Fiend]
+]
+
+#cairn-stat-block(load-stat("fleder"))[
+  #section-sub-heading(level: 4)[Fleder]
+]
+
+#cairn-stat-block(load-stat("foglet"))[
+  #section-sub-heading(level: 4)[Foglet]
+]
+
+#cairn-stat-block(load-stat("gargoyle"))[
+  #section-sub-heading(level: 4)[Gargoyle]
+]
+
+#cairn-stat-block(load-stat("ghoul"))[
+  #section-sub-heading(level: 4)[Ghoul]
+]
+
+#cairn-stat-block(load-stat("golem"))[
+  #section-sub-heading(level: 4)[Golem]
+]
+
+#cairn-stat-block(load-stat("griffin"))[
+  #section-sub-heading(level: 4)[Griffin]
+]
+
+#cairn-stat-block(load-stat("guvorag"))[
+  #section-sub-heading(level: 4)[Guvorag]
+]
+
+#cairn-stat-block(load-stat("hag-grave"))[
+  #section-sub-heading(level: 4)[Hag, Grave]
+]
+
+#cairn-stat-block(load-stat("hag-water"))[
+  #section-sub-heading(level: 4)[Hag, Water]
+]
+
+#cairn-stat-block(load-stat("harpy"))[
+  #section-sub-heading(level: 4)[Harpy]
+]
+
+#cairn-stat-block(load-stat("hunt-hound"))[
+  #section-sub-heading(level: 4)[Hunt, Hound of the]
+]
+
+#cairn-stat-block(load-stat("hunt-rider"))[
+  #section-sub-heading(level: 4)[Hunt, Rider of the]
+]
+
+#cairn-stat-block(load-stat("hunt-steed"))[
+  #section-sub-heading(level: 4)[Hunt, Steed of the]
+]
+
+#cairn-stat-block(load-stat("katakan"))[
+  #section-sub-heading(level: 4)[Katakan]
+]
+
+#cairn-stat-block(load-stat("leshen"))[
+  #section-sub-heading(level: 4)[Leshen]
+]
+
+#cairn-stat-block(load-stat("lopustre"))[
+  #section-sub-heading(level: 4)[Lopustre]
+]
+
+#cairn-stat-block(load-stat("manticore"))[
+  #section-sub-heading(level: 4)[Manticore]
+]
 
-#cairn-stat-block(title: [=== Rebel Marauder], load-stat("rebel-marauder"))
+#cairn-stat-block(load-stat("nekker"))[
+  #section-sub-heading(level: 4)[Nekker]
+]
 
-#cairn-stat-block(title: [=== Rebel Veteran], load-stat("rebel-veteran"))
+#cairn-stat-block(load-stat("nereid"))[
+  #section-sub-heading(level: 4)[Nereid]
+]
 
-#cairn-stat-block(title: [=== Secret Agent], load-stat("secret-agent"))
+#cairn-stat-block(load-stat("noonwraith"))[
+  #section-sub-heading(level: 4)[Noonwraith]
+]
 
-#pagebreak()
+#cairn-stat-block(load-stat("ogre"))[
+  #section-sub-heading(level: 4)[Ogre]
+]
 
-== Monsters
+#cairn-stat-block(load-stat("pesta"))[
+  #section-sub-heading(level: 4)[Pesta]
+]
 
-#cairn-stat-block(title: [=== Alp], load-stat("alp"))
+#cairn-stat-block(load-stat("phoenix"))[
+  #section-sub-heading(level: 4)[Phoenix]
+]
 
-#cairn-stat-block(title: [=== Amarok], load-stat("amarok"))
+#cairn-stat-block(load-stat("preta"))[
+  #section-sub-heading(level: 4)[Preta]
+]
 
-#cairn-stat-block(title: [=== Anopheli], load-stat("anopheli"))
+#cairn-stat-block(load-stat("rotfiend"))[
+  #section-sub-heading(level: 4)[Rotfiend]
+]
 
-#cairn-stat-block(title: [=== Arachasae], load-stat("arachas"))
+#cairn-stat-block(load-stat("rusalki"))[
+  #section-sub-heading(level: 4)[Rusalki]
+]
 
-#cairn-stat-block(title: [=== Barghest], load-stat("barghest"))
+#cairn-stat-block(load-stat("shaelmaar"))[
+  #section-sub-heading(level: 4)[Shaelmaar]
+]
 
-#cairn-stat-block(title: [=== Basilisk], load-stat("basilisk"))
+#cairn-stat-block(load-stat("siren"))[
+  #section-sub-heading(level: 4)[Siren]
+]
 
-#cairn-stat-block(title: [=== Berberoka], load-stat("berberoka"))
+#cairn-stat-block(load-stat("striga"))[
+  #section-sub-heading(level: 4)[Striga]
+]
 
-#cairn-stat-block(title: [=== Botchling], load-stat("botchling"))
+#cairn-stat-block(load-stat("succubi"))[
+  #section-sub-heading(level: 4)[Succubi]
+]
 
-#cairn-stat-block(title: [=== Bukuvak], load-stat("bukuvak"))
+#cairn-stat-block(load-stat("sylvan"))[
+  #section-sub-heading(level: 4)[Sylvan]
+]
 
-#cairn-stat-block(title: [=== Chort], load-stat("chort"))
+#cairn-stat-block(load-stat("troll-rock"))[
+  #section-sub-heading(level: 4)[Troll, Rock]
+]
 
-#cairn-stat-block(title: [=== Cockatrice], load-stat("cockatrice"))
+#cairn-stat-block(load-stat("uktena"))[
+  #section-sub-heading(level: 4)[Uktena]
+]
 
-#cairn-stat-block(title: [=== Cyclops], load-stat("cyclops"))
+#cairn-stat-block(load-stat("vampire-higher"))[
+  #section-sub-heading(level: 4)[Vampire, Higher]
+]
 
-#cairn-stat-block(title: [=== Devourer], load-stat("devourer"))
+#cairn-stat-block(load-stat("vodnik"))[
+  #section-sub-heading(level: 4)[Vodnik]
+]
 
-#cairn-stat-block(title: [=== Doppler], load-stat("doppler"))
+#cairn-stat-block(load-stat("warg"))[
+  #section-sub-heading(level: 4)[Warg]
+]
 
-#cairn-stat-block(title: [=== Dragon], load-stat("dragon"))
+#cairn-stat-block(load-stat("werewolf"))[
+  #section-sub-heading(level: 4)[Werewolf]
+]
 
-#cairn-stat-block(title: [=== Draug], load-stat("draug"))
+#cairn-stat-block(load-stat("wolf"))[
+  #section-sub-heading(level: 4)[Wolf]
+]
 
-#cairn-stat-block(title: [=== Draugir], load-stat("draugir"))
+#cairn-stat-block(load-stat("wraith"))[
+  #section-sub-heading(level: 4)[Wraith]
+]
 
-#cairn-stat-block(title: [=== Drowner], load-stat("drowner"))
+#cairn-stat-block(load-stat("wyvern"))[
+  #section-sub-heading(level: 4)[Wyvern]
+]
 
-#cairn-stat-block(title: [=== Dryad], load-stat("dryad"))
+#cairn-stat-block(load-stat("zeugl"))[
+  #section-sub-heading(level: 4)[Zeugl]
+]
 
-#cairn-stat-block(title: [=== Elemental, Earth], load-stat("elemental-earth"))
+#section-heading(level: 3)[Animals]
 
-#cairn-stat-block(title: [=== Elemental, Fire], load-stat("elemental-fire"))
+#cairn-stat-block(load-stat("bird"))[
+  #section-sub-heading(level: 4)[Bird]
+]
 
-#cairn-stat-block(title: [=== Elemental, Ice], load-stat("elemental-ice"))
+#cairn-stat-block(load-stat("cat"))[
+  #section-sub-heading(level: 4)[Cat]
+]
 
-#cairn-stat-block(title: [=== Endrega], load-stat("endrega"))
+#cairn-stat-block(load-stat("dog"))[
+  #section-sub-heading(level: 4)[Dog]
+]
 
-#cairn-stat-block(title: [=== Fiend], load-stat("fiend"))
+#cairn-stat-block(load-stat("horse"))[
+  #section-sub-heading(level: 4)[Horse]
+]
 
-#cairn-stat-block(title: [=== Fleder], load-stat("fleder"))
+#cairn-stat-block(load-stat("mule"))[
+  #section-sub-heading(level: 4)[Mule]
+]
 
-#cairn-stat-block(title: [=== Foglet], load-stat("foglet"))
+#cairn-stat-block(load-stat("ox"))[
+  #section-sub-heading(level: 4)[Ox]
+]
 
-#cairn-stat-block(title: [=== Gargoyle], load-stat("gargoyle"))
+#cairn-stat-block(load-stat("serpent"))[
+  #section-sub-heading(level: 4)[Serpent]
+]
 
-#cairn-stat-block(title: [=== Ghoul], load-stat("ghoul"))
-
-#cairn-stat-block(title: [=== Golem], load-stat("golem"))
-
-#cairn-stat-block(title: [=== Griffin], load-stat("griffin"))
-
-#cairn-stat-block(title: [=== Guvorag], load-stat("guvorag"))
-
-#cairn-stat-block(title: [=== Hag, Grave], load-stat("hag-grave"))
-
-#cairn-stat-block(title: [=== Hag, Water], load-stat("hag-water"))
-
-#cairn-stat-block(title: [=== Harpy], load-stat("harpy"))
-
-#cairn-stat-block(title: [=== Hunt, Hound of the], load-stat("hunt-hound"))
-
-#cairn-stat-block(title: [=== Hunt, Rider of the], load-stat("hunt-rider"))
-
-#cairn-stat-block(title: [=== Hunt, Steed of the], load-stat("hunt-steed"))
-
-#cairn-stat-block(title: [=== Katakan], load-stat("katakan"))
-
-#cairn-stat-block(title: [=== Leshen], load-stat("leshen"))
-
-#cairn-stat-block(title: [=== Lopustre], load-stat("lopustre"))
-
-#cairn-stat-block(title: [=== Manticore], load-stat("manticore"))
-
-#cairn-stat-block(title: [=== Nekker], load-stat("nekker"))
-
-#cairn-stat-block(title: [=== Nereid], load-stat("nereid"))
-
-#cairn-stat-block(title: [=== Noonwraith], load-stat("noonwraith"))
-
-#cairn-stat-block(title: [=== Ogre], load-stat("ogre"))
-
-#cairn-stat-block(title: [=== Pesta], load-stat("pesta"))
-
-#cairn-stat-block(title: [=== Phoenix], load-stat("phoenix"))
-
-#cairn-stat-block(title: [=== Preta], load-stat("preta"))
-
-#cairn-stat-block(title: [=== Rotfiend], load-stat("rotfiend"))
-
-#cairn-stat-block(title: [=== Rusalki], load-stat("rusalki"))
-
-#cairn-stat-block(title: [=== Shaelmaar], load-stat("shaelmaar"))
-
-#cairn-stat-block(title: [=== Siren], load-stat("siren"))
-
-#cairn-stat-block(title: [=== Striga], load-stat("striga"))
-
-#cairn-stat-block(title: [=== Succubi], load-stat("succubi"))
-
-#cairn-stat-block(title: [=== Sylvan], load-stat("sylvan"))
-
-#cairn-stat-block(title: [=== Troll, Rock], load-stat("troll-rock"))
-
-#cairn-stat-block(title: [=== Uktena], load-stat("uktena"))
-
-#cairn-stat-block(title: [=== Vampire, Higher], load-stat("vampire-higher"))
-
-#cairn-stat-block(title: [=== Vodnik], load-stat("vodnik"))
-
-#cairn-stat-block(title: [=== Warg], load-stat("warg"))
-
-#cairn-stat-block(title: [=== Werewolf], load-stat("werewolf"))
-
-#cairn-stat-block(title: [=== Wolf], load-stat("wolf"))
-
-#cairn-stat-block(title: [=== Wraith], load-stat("wraith"))
-
-#cairn-stat-block(title: [=== Wyvern], load-stat("wyvern"))
-
-#cairn-stat-block(title: [=== Zeugl], load-stat("zeugl"))
-
-#pagebreak()
-
-== Animals
-
-#cairn-stat-block(title: [=== Bird], load-stat("bird"))
-
-#cairn-stat-block(title: [=== Cat], load-stat("cat"))
-
-#cairn-stat-block(title: [=== Dog], load-stat("dog"))
-
-#cairn-stat-block(title: [=== Horse], load-stat("horse"))
-
-#cairn-stat-block(title: [=== Mule], load-stat("mule"))
-
-#cairn-stat-block(title: [=== Ox], load-stat("ox"))
-
-#cairn-stat-block(title: [=== Serpent], load-stat("serpent"))
-
-#cairn-stat-block(title: [=== War Horse], load-stat("war-horse"))
+#cairn-stat-block(load-stat("war-horse"))[
+  #section-sub-heading(level: 4)[War Horse]
+]

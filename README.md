@@ -7,7 +7,7 @@ A collection of monsters, animals, and humanoids to use with the Cairn RPG syste
 It's pretty technical, but you need to install [typst] and [just].
 
 `white-wolf.typ` is the main typst document.
-`meta.typ` is a little helper document to keep the main document clean.
+`lib.typ` is a little helper document to keep the main document clean.
 
 To build the PDF, run `just build` in root project.
 This will produce a `white-wolf.pdf` file that you can open in a PDF viewer.

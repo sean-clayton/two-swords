@@ -1,4 +1,4 @@
-#import "meta.typ": title
+#import "lib.typ": title
 
 #set page(width: 4in, height: 3.5in, margin: 0pt)
 #set align(center + horizon)

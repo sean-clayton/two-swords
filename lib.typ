@@ -1,20 +1,60 @@
 #let title = "White Wolf"
 
+#let highlight-color = luma(90%)
+
+#let set-page-numbers() = {
+  locate(loc => {
+    set text(size: 10pt)
+
+    let page-number = [
+      #circle(radius: 1em, fill: highlight-color)[
+        #set align(center + horizon)
+        #counter(page).display("1")
+      ]
+    ]
+    if (calc.even(loc.page())) [
+      #set align(left)
+      #page-number
+    ] else [
+      #set align(right)
+      #page-number
+    ]
+  })
+}
+
 #let load-stat(filename) = {
   yaml("stats/" + filename + ".yaml")
+}
+
+#let chapter-heading(..args, content) = {
+  show heading: set text(size: 24pt)
+  heading(..args)[#content]
+}
+
+#let section-heading(..args, content) = {
+  show heading: set text(size: 18pt)
+  heading(..args)[#content]
+}
+
+#let section-sub-heading(..args, content) = {
+  show heading: set text(size: 12pt)
+
+  box(fill: highlight-color, inset: 6pt, width: 100%)[
+    #heading(..args)[#content]
+  ]
 }
 
 #let wrapper(doc) = [
   #set document(title: title)
 
-  #set page(width: 170mm, height: 240mm, margin: 40pt, numbering: "1")
+  #set page(width: 170mm, height: 240mm, margin: (bottom: 2cm, x: 1cm, top: 1cm))
 
   #set text(font: "Gentium Book Plus", size: 9pt)
 
-  #show heading: set text(font: "Gentium Book Plus")
-  #show heading.where(level: 1): set text(size: 24pt)
-  #show heading.where(level: 2): set text(size: 18pt)
-  #show heading.where(level: 3): set text(size: 12pt)
+  #show heading: it => {
+    set text(font: "Rosario")
+    it
+  }
 
   #show link: it => {
     set text(weight: "bold")
@@ -30,10 +70,10 @@
   #doc
 ]
 
-#let escape-str(str) = str.replace("\\", "\\\\").replace("#", "\#")
-#let markup-eval(str) = eval(escape-str(str), mode: "markup")
+#let cairn-stat-block(data, preamble) = {
+  let escape-str(str) = str.replace("\\", "\\\\").replace("#", "\#")
+  let markup-eval(str) = eval(escape-str(str), mode: "markup")
 
-#let cairn-stat-block(data, title: []) = {
   let hp = data.at("hp", default: 0)
   let armor = data.at("armor", default: 0)
   let str = data.at("str", default: 10)
@@ -66,8 +106,11 @@
     },
   ).filter(el => el != none).join(", ")
 
+  set list(tight: true)
+
   block(breakable: false)[
-    #title
+    #preamble
+
     #stat-line
     #for detail in details [
       - #markup-eval(detail)
