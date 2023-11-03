@@ -1,6 +1,7 @@
 #import "lib.typ": title, highlight-color-base
 
-#let bg-color = luma(15%);
+#let bg-color = highlight-color-base.desaturate(50%).darken(90%);
+#let stroke-color = highlight-color-base.darken(50%)
 
 #set page(
   width: 170mm,
@@ -8,13 +9,12 @@
   margin: 0pt,
   numbering: none,
   fill: bg-color,
+  background: [
+    #image("images/griffin.svg", width: 100%)
+  ],
 )
 
-#box(
-  width: 100%,
-  height: 100%,
-  stroke: (1cm + highlight-color-base.mix((bg-color, 50%)).darken(33.333%)),
-)[
+#box(width: 100%, height: 100%, stroke: (1cm + stroke-color))[
   #set align(center + horizon)
   #set text(font: "Asul", size: 32pt, fill: highlight-color-base)
 
