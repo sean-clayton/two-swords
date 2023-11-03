@@ -4,7 +4,7 @@ A collection of monsters, animals, and humanoids to use with the Cairn RPG syste
 
 ## Contributing
 
-It's pretty technical, but you need to install [typst], [watchexec], and [just].
+It's pretty technical, but you need to install [typst] and [just].
 
 `white-wolf.typ` is the main typst document.
 `lib.typ` is a little helper document to keep the main document clean.
@@ -28,5 +28,4 @@ If you are copying the code, AGPLv3 is what you should use.
 CC-BY-SA is compatible with AGPLv3.
 
 [typst]: https://github.com/typst/typst
-[watchexec]: https://github.com/watchexec/watchexec
 [just]: https://github.com/casey/just

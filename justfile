@@ -1,5 +1,5 @@
 @default:
-  watchexec -c -r -e typ,yaml -- typst compile --font-path fonts white-wolf.typ
+  typst watch --font-path fonts white-wolf.typ
 
 build:
   typst compile --font-path fonts white-wolf.typ
