@@ -38,7 +38,7 @@ The source code for #title is available under the #link(
   #show outline.entry.where(
     level: 2
   ): it => {
-    set text(size: 12pt)
+    set text(size: 14pt)
     v(12pt, weak: true)
     strong(it)
   }

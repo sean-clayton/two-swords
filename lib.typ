@@ -7,7 +7,7 @@
     set text(size: 10pt)
 
     let page-number = [
-      #circle(radius: 1em, fill: highlight-color)[
+      #circle(radius: 0.8em, fill: highlight-color)[
         #set align(center + horizon)
         #counter(page).display("1")
       ]
@@ -39,7 +39,7 @@
 #let section-sub-heading(..args, content) = {
   show heading: set text(size: 12pt)
 
-  box(fill: highlight-color, inset: 6pt, width: 100%)[
+  box(fill: highlight-color, inset: (x: 4pt, y: 6pt), width: 100%)[
     #heading(..args)[#content]
   ]
 }
@@ -49,7 +49,7 @@
 
   #set page(width: 170mm, height: 240mm, margin: (bottom: 2cm, x: 1cm, top: 1cm))
 
-  #set text(font: "Gentium Book Plus", size: 9pt)
+  #set text(font: "Gentium Book Plus", size: 10pt)
 
   #show heading: it => {
     set text(font: "Rosario")
