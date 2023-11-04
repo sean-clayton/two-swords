@@ -51,7 +51,7 @@ jobs:
           draft: false
           prerelease: false
           token: ${{ secrets.GITHUB_TOKEN }}
-          artifacts: dist/WhiteWolf-${{ steps.get_version.outputs.version-without-v }}.pdf
+          artifacts: "dist/WhiteWolf-${{ steps.get_version.outputs.version-without-v }}.pdf"
           tag: ${{ github.event.release.tag_name }}
           body: ${{ github.event.release.body }}
 
