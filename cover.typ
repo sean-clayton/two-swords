@@ -4,8 +4,7 @@
 #let stroke-color = highlight-color-base.darken(50%)
 
 #set page(
-  width: 170mm,
-  height: 240mm,
+  paper: "a5",
   margin: 0pt,
   numbering: none,
   fill: bg-color,
