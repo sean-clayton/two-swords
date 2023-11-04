@@ -1,6 +1,8 @@
 #import "lib.typ": wrapper, cairn-stat-block, title, load-stat, huge-heading, large-heading, item-heading, set-page-numbers
 #import "cover.typ" as cover
 
+#set document(title: "White Wolf", author: "Sean-Patrick Ortencio Clayton")
+
 #cover
 
 #show: wrapper
