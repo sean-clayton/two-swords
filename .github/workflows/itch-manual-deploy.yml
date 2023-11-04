@@ -1,21 +1,33 @@
 name: Deploy to Itch
-on: workflow_dispatch
+
+on:
+  release:
+    types: [published]
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+
+      - name: Extract Version From Tag
+        id: get_version
+        uses: battila7/get-version-action@v2
+
       - uses: yusancky/setup-typst@v2
         with:
           version: latest
-      - run: |
-          mkdir dist
-          typst compile --font-path fonts white-wolf.typ dist/White\ Wolf.pdf
+
+      - run: mkdir dist
+
+      - name: Build PDF
+        run: typst compile --font-path fonts white-wolf.typ dist/WhiteWolf-${{ steps.get_version.outputs.version-without-v }}.pdf
+
       - uses: actions/upload-artifact@v3
         with:
           name: dist
           path: dist
+
   deploy:
     runs-on: ubuntu-latest
     needs: build
@@ -24,6 +36,11 @@ jobs:
         with:
           name: dist
           path: dist
+
+      - name: Extract Version From Tag
+        id: get_version
+        uses: battila7/get-version-action@v2
+
       - name: Butler Push
         uses: KikimoraGames/itch-publish@v0.0.3
         with:
@@ -32,3 +49,4 @@ jobs:
           itchUsername: seanclayton
           itchGameId: white-wolf
           buildChannel: book
+          buildNumber: ${{ steps.get_version.outputs.version-without-v }}
