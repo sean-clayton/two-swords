@@ -41,6 +41,10 @@ jobs:
         id: get_version
         uses: battila7/get-version-action@v2
 
+      - run: ls -lah
+
+      - run: ls -lah ./dist
+
       # Create a release for this specific version
       - name: Update Release with Files
         id: create_version_release
