@@ -31,17 +31,17 @@
 }
 
 #let huge-heading(..args, content) = {
-  show heading: set text(size: 24pt)
+  show heading: set text(size: 24pt, weight: 700)
   heading(..args)[#content]
 }
 
 #let large-heading(..args, content) = {
-  show heading: set text(size: 18pt)
+  show heading: set text(size: 18pt, weight: 700)
   heading(..args)[#content]
 }
 
 #let item-heading(..args, content) = {
-  show heading: set text(size: 12pt)
+  show heading: set text(size: 12pt, weight: 400)
 
   box(fill: highlight-color, inset: (x: 4pt, y: 6pt), width: 100%)[
     #heading(..args)[#content]
