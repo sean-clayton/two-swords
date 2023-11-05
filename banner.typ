@@ -6,15 +6,23 @@
   height: 2in,
   margin: 0pt,
   numbering: none,
-  fill: bg-color,
+  fill: color.rgb(bg-color.to-hex()),
   background: [
     #place(top + center, dy: -30%, image.decode(griffin, height: 200%))
   ],
 )
 
-#box(width: 100%, height: 100%, stroke: (12pt + stroke-color))[
+#box(
+  width: 100%,
+  height: 100%,
+  stroke: (12pt + color.rgb(stroke-color.to-hex())),
+)[
   #set align(center + horizon)
-  #set text(font: "Asul", size: 32pt, fill: highlight-color-base)
+  #set text(
+    font: "Asul",
+    size: 32pt,
+    fill: color.rgb(highlight-color-base.to-hex()),
+  )
 
   #text(font: "Asul", weight: "bold", size: 24pt)[
     #title
