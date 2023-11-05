@@ -1,4 +1,4 @@
-![](banner.svg)
+<img src="banner.svg" width="100%">
 
 # Two Swords
 
