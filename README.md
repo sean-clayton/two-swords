@@ -1,4 +1,4 @@
-![](logo.png)
+![](banner.png)
 
 # Two Swords
 
