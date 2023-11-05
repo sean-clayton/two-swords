@@ -1,4 +1,5 @@
 #let title = "White Wolf"
+#let paper = "a5"
 
 #let highlight-color-base = color.hsl(57deg, 100%, 47.6%)
 #let highlight-color = highlight-color-base.desaturate(33.333%).lighten(80%)

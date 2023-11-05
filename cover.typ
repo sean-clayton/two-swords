@@ -1,15 +1,16 @@
-#import "lib.typ": title, highlight-color-base
+#import "lib.typ": title, highlight-color-base, paper
 
 #let bg-color = highlight-color-base.desaturate(50%).darken(90%);
-#let stroke-color = highlight-color-base.darken(50%)
+#let stroke-color = bg-color.lighten(15%)
+#let griffin = read("images/griffin.svg").replace("#000000", bg-color.lighten(5%).to-hex())
 
 #set page(
-  paper: "a5",
+  paper: paper,
   margin: 0pt,
   numbering: none,
   fill: bg-color,
   background: [
-    #image("images/griffin.svg", width: 100%)
+    #image.decode(griffin)
   ],
 )
 
