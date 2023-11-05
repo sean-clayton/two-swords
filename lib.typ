@@ -46,9 +46,14 @@
 }
 
 #let wrapper(doc) = [
-  #set document(title: title)
+  #let outer-margin = 0.8cm
+  #let inner-margin = 1.4cm
 
-  #set page(paper: "a5", margin: (bottom: 2cm, x: 1cm, top: 1cm))
+  #set document(title: title)
+  #set page(
+    paper: "a5",
+    margin: (bottom: 1.5cm, inside: inner-margin, outside: outer-margin, top: 0.8cm),
+  )
 
   #set text(font: "Gentium Book Plus", size: 10pt)
 
