@@ -1,4 +1,4 @@
-# White Wolf
+# Two Swords
 
 A collection of monsters, animals, and humanoids to use with the Cairn RPG system.
 
@@ -6,15 +6,15 @@ A collection of monsters, animals, and humanoids to use with the Cairn RPG syste
 
 It's pretty technical, but you need to install [typst] and [just].
 
-`white-wolf.typ` is the main typst document.
+`two-swords.typ` is the main typst document.
 `lib.typ` is a little helper document to keep the main document clean.
 
 To build the PDF, run `just build` in root project.
-This will produce a `white-wolf.pdf` file that you can open in a PDF viewer.
+This will produce a `two-swords.pdf` file that you can open in a PDF viewer.
 
 To watch files and continuously build the PDF, run `just` in the root project directory.
 PDF viewers often will automatically refresh if they detect an opened PDF has changed on disk.
-This means when running the `just` command, if you open `white-wolf.pdf` in a PDF viewer,
+This means when running the `just` command, if you open `two-swords.pdf` in a PDF viewer,
 it likely will keep refreshing the viewer with your changes as you make them.
 Any `.typ` or `.yaml` file change will trigger a new PDF build.
 

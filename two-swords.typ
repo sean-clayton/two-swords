@@ -1,7 +1,7 @@
-#import "lib.typ": wrapper, cairn-stat-block, title, load-stat, huge-heading, large-heading, item-heading, set-page-numbers
+#import "lib.typ": wrapper, cairn-stat-block, title, load-stat, huge-heading, large-heading, item-heading, set-page-numbers, metadata
 #import "cover.typ" as cover
 
-#set document(title: "White Wolf", author: "Sean-Patrick Ortencio Clayton")
+#set document(title: title, author: metadata.author)
 
 #cover
 
@@ -16,9 +16,10 @@
 A dark fantasy setting, created by #link("https://sean.wtf")[Sean-Patrick Ortencio Clayton].
 
 If you find this PDF in the wild, you can get it yourself here:
-https://seanclayton.itch.io/white-wolf.
+#link(metadata.itch_url).
 
-Made for #link("https://cairnrpg.com")[Cairn] by #link("https://newschoolrevolution.com/")[Yochai Gal], made available for our use under the 
+Made for #link("https://cairnrpg.com")[Cairn] by #link("https://newschoolrevolution.com/")[Yochai Gal],
+made available for our use under the
 #link(
   "https://creativecommons.org/licenses/by-sa/4.0/",
 )[Creative Commons Attribution-ShareAlike 4.0 International license].
@@ -28,7 +29,7 @@ Made for #link("https://cairnrpg.com")[Cairn] by #link("https://newschoolrevolut
   "https://creativecommons.org/licenses/by-sa/4.0/",
 )[Creative Commons Attribution-ShareAlike 4.0 International license].
 
-The source code for #title can be found here: https://github.com/sean-clayton/white-wolf.
+The source code for #title can be found here: #link(metadata.repo_url).
 
 The source code for #title is available under the #link(
   "https://www.gnu.org/licenses/agpl-3.0.html",
@@ -37,17 +38,13 @@ The source code for #title is available under the #link(
 #pagebreak()
 
 #columns(2)[
-  #show outline.entry.where(
-    level: 2
-  ): it => {
+  #show outline.entry.where(level: 2): it => {
     set text(size: 14pt)
     v(12pt, weak: true)
     strong(it)
   }
 
-  #show outline.entry.where(
-    level: 3
-  ): it => {
+  #show outline.entry.where(level: 3): it => {
     v(12pt, weak: true)
     strong(it)
   }

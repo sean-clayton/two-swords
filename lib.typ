@@ -1,4 +1,6 @@
-#let title = "White Wolf"
+#let metadata = toml("metadata.toml")
+
+#let title = metadata.title
 #let paper = "a5"
 
 #let highlight-color-base = color.hsl(57deg, 100%, 47.6%)
