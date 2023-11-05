@@ -2,8 +2,8 @@
 #import "cover.typ": bg-color, stroke-color, griffin
 
 #set page(
-  width: 4in,
-  height: 2in,
+  width: 1024pt,
+  height: 640pt,
   margin: 0pt,
   numbering: none,
   fill: color.rgb(bg-color.to-hex()),
@@ -15,21 +15,17 @@
 #box(
   width: 100%,
   height: 100%,
-  stroke: (12pt + color.rgb(stroke-color.to-hex())),
+  stroke: (48pt + color.rgb(stroke-color.to-hex())),
 )[
   #set align(center + horizon)
-  #set text(
-    font: "Asul",
-    size: 32pt,
-    fill: color.rgb(highlight-color-base.to-hex()),
-  )
+  #set text(font: "Asul", fill: color.rgb(highlight-color-base.to-hex()))
 
-  #text(font: "Asul", weight: "bold", size: 24pt)[
+  #text(font: "Asul", weight: "bold", size: 96pt)[
     #title
   ]
 
   #text(
     font: "Gentium Book Plus",
-    size: 14pt,
+    size: 48pt,
   )[_A Dark Fantasy Setting Conversion for Cairn_]
 ]
