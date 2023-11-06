@@ -79,6 +79,14 @@
     strong(it)
   }
 
+  #show <wip>: it => style(
+    styles => {
+      let wip-box = [#text(fill: white, weight: "bold")[#highlight(fill: red)[WIP]]]
+      let wip-size = measure(wip-box, styles)
+      box[#it #place(top + right, dy: 5pt, dx: 2pt + (wip-size.width), wip-box)]
+    },
+  )
+
   #doc
 ]
 
@@ -121,7 +129,7 @@
   set list(tight: true)
 
   block(breakable: false)[
-    #top-content
+    #top-content <wip>
 
     #stat-line
     #for detail in details [

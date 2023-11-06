@@ -81,9 +81,7 @@
 
 #set page(footer: set-page-numbers())
 
-#huge-heading(level: 2)[Introduction]
-
-WIP
+#huge-heading(level: 2)[Introduction] <wip>
 
 The world of #emph[#title] is a place where the sword you carry is worth more
 than your own life, and the people around you will certainly try to test if you
@@ -93,81 +91,51 @@ wilderness.
 
 #pagebreak()
 
-#huge-heading(level: 2)[Character Options]
+#huge-heading(level: 2)[Character Creation] <wip>
 
-WIP
+#large-heading(level: 3)[Backgrounds] <wip>
 
-#large-heading(level: 3)[Backgrounds]
+#item-heading(level: 4)[Ranger] <wip>
 
-WIP
+#item-heading(level: 4)[Man at Arms] <wip>
 
-#item-heading(level: 4)[Ranger]
+#item-heading(level: 4)[Mage] <wip>
 
-WIP
+#item-heading(level: 4)[Hunter] <wip>
 
-#item-heading(level: 4)[Man at Arms]
+#item-heading(level: 4)[Merchant] <wip>
 
-WIP
-
-#item-heading(level: 4)[Mage]
-
-WIP
-
-#item-heading(level: 4)[Hunter]
-
-WIP
-
-#item-heading(level: 4)[Merchant]
-
-WIP
+#large-heading(level: 3)[Marketplace] <wip>
 
 #pagebreak()
 
-#huge-heading(level: 2)[Combat]
-
-WIP
+#huge-heading(level: 2)[Combat] <wip>
 
 #pagebreak()
 
-#huge-heading(level: 2)[Crafting & Alchemy]
+#huge-heading(level: 2)[Crafting & Alchemy] <wip>
 
-WIP
-
-#item-heading(level: 3)[Scavenging]
-
-WIP
+#item-heading(level: 3)[Scavenging] <wip>
 
 #pagebreak()
 
-#huge-heading(level: 2)[Relics & Artefacts]
-
-WIP
+#huge-heading(level: 2)[Relics & Artefacts] <wip>
 
 #pagebreak()
 
-#huge-heading(level: 2)[Magic]
+#huge-heading(level: 2)[Magic] <wip>
 
-WIP
+#item-heading(level: 3)[Spells] <wip>
 
-#item-heading(level: 3)[Spells]
+#item-heading(level: 3)[Rituals] <wip>
 
-WIP
+#item-heading(level: 3)[Hexes] <wip>
 
-#item-heading(level: 3)[Rituals]
-
-WIP
-
-#item-heading(level: 3)[Hexes]
-
-WIP
-
-#item-heading(level: 3)[Ley Lines]
-
-WIP
+#item-heading(level: 3)[Ley Lines] <wip>
 
 #pagebreak()
 
-#huge-heading(level: 2)[Foes]
+#huge-heading(level: 2)[Foes] <wip>
 
 #large-heading(level: 3)[Humanoids]
 
@@ -527,34 +495,18 @@ WIP
 
 #pagebreak()
 
-#huge-heading(level: 2)[The Warden's Tome]
+#huge-heading(level: 2)[The Warden's Tome] <wip>
 
-WIP
+#item-heading(level: 3)[Life is Cheap---Swords Aren't] <wip>
 
-#item-heading(level: 3)[Life is Cheap---Swords Aren't]
+#item-heading(level: 3)[Recovering Wounds] <wip>
 
-WIP
+#item-heading(level: 3)[Curses] <wip>
 
-#item-heading(level: 3)[Recovering Wounds]
+#large-heading(level: 3)[Tables] <wip>
 
-WIP
+#item-heading(level: 4)[NPCs] <wip>
 
-#item-heading(level: 3)[Curses]
+#item-heading(level: 4)[Settlements] <wip>
 
-WIP
-
-#large-heading(level: 3)[Tables]
-
-WIP
-
-#item-heading(level: 4)[NPCs]
-
-WIP
-
-#item-heading(level: 4)[Settlements]
-
-WIP
-
-#item-heading(level: 4)[Sites]
-
-WIP
+#item-heading(level: 4)[Sites] <wip>
