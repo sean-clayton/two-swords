@@ -1,9 +1,13 @@
-hp: 0
-str: 10
-dex: 10
+hp: 6
+str: 12
+dex: 14
 wil: 10
-attacks: []
+attacks:
+  - bite (d8)
 critical_damage: null
-details: []
+details:
+  - Large canine animals that can easily track their prey.
+  - Singles out a target with its pack.
+  - When in packs of at least 4, wolves never fail morale saves.
 special: null
 armor: 0

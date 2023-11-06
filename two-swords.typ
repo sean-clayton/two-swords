@@ -147,7 +147,7 @@ The source code for #title is available under the #link(
 ]
 
 #cairn-stat-block(load-stat("arachas"))[
-  #item-heading(level: 4)[Arachasae]
+  #item-heading(level: 4)[Arachas]
 ]
 
 #cairn-stat-block(load-stat("barghest"))[

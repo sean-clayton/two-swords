@@ -7,8 +7,8 @@ attacks:
   - bow (d6)
 critical_damage: null
 details:
-  - Lower-class infantry units used to bolster the armies of nations, sourced from
-    whatever settlements are nearby. The Empire will also conscript from their prisons,
-    jailhouses, and existing slaves.
+  - Lower-class infantry units used to bolster the armies of nations, typically sourced from
+    whatever settlements are nearby.
+  - Cannot fail a morale check when outnumbering opponents.
 special: null
 armor: 1

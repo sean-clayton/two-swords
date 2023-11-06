@@ -2,8 +2,14 @@ hp: 9
 str: 17
 dex: 12
 wil: 10
-attacks: []
+attacks:
+  - punch (d8+d6)
 critical_damage: null
-details: []
+details:
+  - Stupid creatures by all accounts, but are incredibly strong and even sociable.
+    Often used as builders and are paid with strong alcohol.
+  - Attacks ignore any worn armor.
+  - Immune to mundane blades and missile weapons.
+  - Can hurl boulders... far.
 special: null
 armor: 2

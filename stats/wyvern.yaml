@@ -2,8 +2,13 @@ hp: 9
 str: 15
 dex: 15
 wil: 12
-attacks: []
-critical_damage: null
-details: []
+attacks:
+  - tail (d8)
+  - bite (d8+d8)
+  - claws (d8+d6)
+critical_damage: Its deadly poison debilitates the target, causing it to suffer 2 STR damage each day and deprived until the poison is dealt with.
+details:
+  - Two-legged creatures closely related to dragons.
+  - Prefers to fly from above, diving for an attack and flying away before the target can react.
 special: null
 armor: 2

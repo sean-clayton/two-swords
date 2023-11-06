@@ -2,8 +2,12 @@ hp: 3
 str: 10
 dex: 12
 wil: 9
-attacks: []
+attacks:
+  - claws (d6)
 critical_damage: null
-details: []
+details:
+  - An ugly and hairless troll-like creature that stands around 1 meter tall, often found in caves and coves.
+  - Hunt in war bands led by their chieftain (usually distinguished by wearing crude ornaments like skulls), looking for any source of meat for them to completely devour.
+  - A nekker will not fail morale checks while the chieftain still stands.
 special: null
 armor: 0

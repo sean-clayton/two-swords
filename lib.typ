@@ -125,7 +125,7 @@
       - #markup-eval(detail)
     ]
     #if critical-damage != none [
-      - *Critical Damage:* #critical-damage
+      - *Critical Damage:* #markup-eval(critical-damage)
     ]
   ]
 }

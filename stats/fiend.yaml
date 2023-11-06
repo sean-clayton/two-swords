@@ -1,9 +1,16 @@
 hp: 16
 str: 16
 dex: 12
-wil: 12
-attacks: []
+wil: 11
+attacks:
+  - claws (d8)
+  - bite (d8+d8)
+  - horns (d10+d8)
 critical_damage: null
-details: []
+details:
+  - A giant, elk-like monstrosity that lurks in remote areas of the wilderness.
+  - Hyper-sensitive to sounds.
+  - "*Hypnotic Gaze*: Anyone who looks at the fiend's face must save WIL or be completely blinded for d6 rounds.
+    Averting eyes from the face prevents this effect, but _impairs_ any damage dealt."
 special: null
 armor: 1

@@ -1,9 +1,15 @@
-hp: 0
-str: 10
-dex: 10
-wil: 10
-attacks: []
+hp: 16
+str: 15
+dex: 6
+wil: 2
+attacks:
+  - punch (d10)
 critical_damage: null
-details: []
+details:
+  - A hulking 9' tall construct.
+  - Mindlessly and precisely follows the orders given by its master, forever.
+  - 3-in-6 chance it will shatter and destroy anything used to block its punch.
+  - Immune to mundane blades and missile weapons.
+    Damage from fire and electricity is _enhanced_.
 special: null
-armor: 0
+armor: 2

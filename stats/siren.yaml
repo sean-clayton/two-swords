@@ -1,9 +1,14 @@
-hp: 0
-str: 10
-dex: 10
-wil: 10
-attacks: []
+hp: 5
+str: 11
+dex: 12
+wil: 15
+attacks:
+  - claws (d8+d6)
 critical_damage: null
-details: []
+details:
+  - Violent and intelligent amphibious sea creatures who use illusory magics to lure men to their deaths.
+  - Can cause themselves to appear as beautiful women with honey-like voices.
+  - Can quickly fly in air or swim in water, but are slow while moving on land.
+  - "*Screech:* Causes nearby targets to make a WIL save or be stunned for 1d3 rounds."
 special: null
 armor: 0

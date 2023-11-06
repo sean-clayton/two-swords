@@ -1,9 +1,14 @@
-hp: 0
+hp: 5
 str: 10
-dex: 10
+dex: 14
 wil: 10
-attacks: []
+attacks:
+  - claws (d8+d6)
 critical_damage: null
-details: []
+details:
+  - Large, solitary insectoid creatures that easily blend in with swamplands flora.
+  - Will ambush its prey, moving closer and blending in with its environment until it can surprise the target.
+  - Immune to poisons.
+  - "*Webbing*: If the target tries to flee, the arachas will shoot its web to stop it. The target makes a DEX save or it becomes entangled in its web."
 special: null
-armor: 0
+armor: 2

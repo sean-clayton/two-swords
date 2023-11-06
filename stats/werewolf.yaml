@@ -1,11 +1,15 @@
 hp: 8
-str: 13
-dex: 12
-wil: 12
+str: 14
+dex: 13
+wil: 11
 attacks:
   - bite (d8)
   - claws (d6+d6)
-critical_damage: null
-details: []
+critical_damage: The victim becomes cursed with _lycanthropy_.
+details:
+  - Appearing as a cross between man and wolf, werewolves are former humanoids who have been cursed with lycanthropy.
+  - Regenerates 1 HP per round.
+  - A _bite_ that deals STR damage will cause bleeding---2 STR damage each turn until stopped.
+  - "*Lycanthropy*: A 2-in-6 chance of becoming a werewolf every night while the moon is visible, and will always become a werewolf during a full moon. Return to their original form when the sun rises."
 special: null
 armor: 1

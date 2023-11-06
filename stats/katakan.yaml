@@ -1,9 +1,15 @@
 hp: 14
 str: 16
 dex: 13
-wil: 11
-attacks: []
+wil: 13
+attacks:
+  - claws (d8+d6)
+  - bite (d8+d8)
 critical_damage: null
-details: []
+details:
+  - One of the strongest and deadliest forms of vampire.
+    Very intelligent, using invisibility and telepathic communication to its tactical advantage.
+  - Fire damage received and any damage received while in sunlight is _enhanced_ and stops the katakan's regeneration.
+  - Regains a total of 3 HP or STR per round.
 special: null
 armor: 1

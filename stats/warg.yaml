@@ -1,9 +1,13 @@
-hp: 0
-str: 10
-dex: 10
+hp: 6
+str: 13
+dex: 14
 wil: 10
-attacks: []
+attacks:
+  - bite (d8)
 critical_damage: null
-details: []
+details:
+  - Much like a wolf, but noticeably larger.
+  - Wolves following a Warg will never fail their morale checks.
+  - Can give simple, non-verbial commands to wolves under its leadership such as _attack him_, or _move there_.
 special: null
 armor: 0

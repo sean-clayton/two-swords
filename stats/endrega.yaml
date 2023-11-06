@@ -1,9 +1,13 @@
-hp: 0
-str: 10
+hp: 3
+str: 13
 dex: 10
 wil: 10
-attacks: []
-critical_damage: null
-details: []
+attacks:
+  - tail (d8+d8)
+  - claws (d8+d6)
+critical_damage: The endrega's poison seeps into the target causing 1d3 DEX damage immediately, and killing it in one day if not treated.
+details:
+  - Large, chitinous insectoid creatures with massive claws and tail often found in swamplands.
+  - Immune to poisons.
 special: null
-armor: 0
+armor: 2

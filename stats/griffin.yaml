@@ -1,9 +1,14 @@
-hp: 6
+hp: 9
 str: 14
 dex: 13
 wil: 12
-attacks: []
+attacks:
+  - beak (d8+d8)
+  - claws (d6, blast)
 critical_damage: null
-details: []
+details:
+  - Huge, majestic creatures with the body, legs, mane, and tail of a lion, and the head, wings, and feet of an eagle.
+  - Chivalrous, a griffin will prefer to fight armed opponents and will give warning screeches before attack unaware creatures.
+  - "*Sonic Screech*: Nearby targets make a WIL save or be stunned for 1d3 rounds."
 special: null
-armor: 1
+armor: 0

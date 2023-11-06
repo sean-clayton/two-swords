@@ -3,7 +3,9 @@ str: 10
 dex: 15
 wil: 12
 armor: 1
-attacks: []
+attacks:
+  - short sword (d8) or dagger (d6)
+  - crossbow (d8)
 critical_damage: null
 details:
   - Savvy rogues who are deeply set in the criminal life.
