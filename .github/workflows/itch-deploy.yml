@@ -5,7 +5,7 @@ on:
     types: [released]
 
 jobs:
-  deploy:
+  Release to Itch:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
