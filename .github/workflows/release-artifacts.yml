@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - uses: ${{ github.repository }}/.github/workflows/build-pdf.yml@main
+      - uses: "${{ github.repository }}/.github/workflows/build-pdf.yml@main"
 
       - name: Extract Version From Tag
         id: get_version
