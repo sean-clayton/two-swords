@@ -1,4 +1,4 @@
-#import "lib.typ": wrapper, cairn-stat-block, title, load-stat, huge-heading, large-heading, item-heading, set-page-numbers, metadata, display-font, primary-font
+#import "lib.typ": wrapper, cairn-stat-block, title, load-stat, huge-heading, large-heading, item-heading, set-page-numbers, metadata, display-font, primary-font, highlight-color-base
 #import "cover.typ" as cover
 
 #set document(title: title, author: metadata.author)
@@ -32,6 +32,32 @@
 
   Made for #link("https://cairnrpg.com")[Cairn] by #link("https://newschoolrevolution.com/")[Yochai Gal],
   released #link("https://creativecommons.org/licenses/by-sa/4.0/")[CC-BY-SA 4.0]
+
+  #place(
+    bottom + center,
+  )[
+    #set text(font: primary-font, fill: highlight-color-base)
+
+    #box(
+      fill: cover.stroke-color,
+      inset: 10pt,
+    )[
+      #text(weight: 700)[
+        #stack(
+          dir: ltr,
+          spacing: 4pt,
+          title,
+          sym.lozenge.stroked,
+          datetime.today().display(),
+        )
+      ]
+
+      #text[
+        #title is currently under heavy development. This is not representative of its
+        final state.
+      ]
+    ]
+  ]
 ]
 
 #set page(fill: none)
