@@ -10,7 +10,7 @@ jobs:
 
   add-artifacts:
     runs-on: ubuntu-latest
-    needs: get-pdf-artficacts
+    needs: get-pdf-artifacts
     steps:
       - uses: actions/checkout@v3
 
