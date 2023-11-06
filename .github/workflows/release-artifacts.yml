@@ -21,6 +21,7 @@ jobs:
       - uses: actions/download-artifact@v3
         with:
           name: pdf-artifact
+          path: dist
 
       # Create a release for this specific version
       - name: Update Release with Files

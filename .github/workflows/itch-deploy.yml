@@ -21,6 +21,7 @@ jobs:
       - uses: actions/download-artifact@v3
         with:
           name: pdf-artifact
+          path: dist
 
       - name: Butler Push
         uses: KikimoraGames/itch-publish@v0.0.3
