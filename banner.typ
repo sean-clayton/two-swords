@@ -3,7 +3,7 @@
 
 #set page(
   width: 1024pt,
-  height: 640pt,
+  height: 512pt,
   margin: 0pt,
   numbering: none,
   fill: color.rgb(bg-color.to-hex()),
