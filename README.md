@@ -1,8 +1,12 @@
 <img src="banner.svg" width="100%">
 
+[![Deploy to Itch](https://github.com/sean-clayton/two-swords/actions/workflows/itch-deploy.yml/badge.svg)](https://github.com/sean-clayton/two-swords/actions/workflows/itch-deploy.yml)
+
+---
+
 # Two Swords
 
-A collection of monsters, animals, and humanoids to use with the Cairn RPG system.
+A dark fantasy setting conversion to use with [Cairn].
 
 ## Contributing
 
@@ -29,5 +33,6 @@ If you're just copying the content of the PDF, CC-BY-SA works just fine.
 If you are copying the code, AGPLv3 is what you should use.
 CC-BY-SA is compatible with AGPLv3.
 
+[Cairn]: https://cairnrpg.com/
 [typst]: https://github.com/typst/typst
 [just]: https://github.com/casey/just
