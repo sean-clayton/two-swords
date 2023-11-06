@@ -5,9 +5,11 @@ on:
     types: [released]
 
 jobs:
-  release-to-itch:
-    runs-on: ubuntu-latest
+  get-pdf-artifacts:
     uses: sean-clayton/two-swords/.github/workflows/build-pdf.yml@main
+
+  add-artifacts:
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
 
