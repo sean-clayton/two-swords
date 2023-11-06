@@ -2,7 +2,7 @@ name: Deploy to Itch
 
 on:
   release:
-    types: [published]
+    types: [released]
 
 jobs:
   deploy:
@@ -22,19 +22,6 @@ jobs:
 
       - name: Build PDF
         run: typst compile --font-path fonts two-swords.typ dist/TwoSwords-${{ steps.get_version.outputs.version-without-v }}.pdf
-
-      # Create a release for this specific version
-      - name: Update Release with Files
-        uses: ncipollo/release-action@v1
-        with:
-          allowUpdates: true # Set this to false if you want to prevent updating existing releases
-          name: ${{ github.event.release.name }}
-          draft: false
-          prerelease: false
-          token: ${{ secrets.GITHUB_TOKEN }}
-          artifacts: dist/*.pdf
-          tag: ${{ github.event.release.tag_name }}
-          body: ${{ github.event.release.body }}
 
       - name: Butler Push
         uses: KikimoraGames/itch-publish@v0.0.3

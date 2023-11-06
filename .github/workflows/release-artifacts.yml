@@ -1,0 +1,37 @@
+name: Add Artifacts to Release
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Extract Version From Tag
+        id: get_version
+        uses: battila7/get-version-action@v2
+
+      - uses: yusancky/setup-typst@v2
+        with:
+          version: latest
+
+      - run: mkdir dist
+
+      - name: Build PDF
+        run: typst compile --font-path fonts two-swords.typ dist/TwoSwords-${{ steps.get_version.outputs.version-without-v }}.pdf
+
+      # Create a release for this specific version
+      - name: Update Release with Files
+        uses: ncipollo/release-action@v1
+        with:
+          allowUpdates: true # Set this to false if you want to prevent updating existing releases
+          name: ${{ github.event.release.name }}
+          draft: false
+          prerelease: false
+          token: ${{ secrets.GITHUB_TOKEN }}
+          artifacts: dist/*.pdf
+          tag: ${{ github.event.release.tag_name }}
+          body: ${{ github.event.release.body }}
