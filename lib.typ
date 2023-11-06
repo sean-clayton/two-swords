@@ -6,6 +6,9 @@
 #let highlight-color-base = color.hsl(57deg, 100%, 47.6%)
 #let highlight-color = highlight-color-base.desaturate(33.333%).lighten(80%)
 
+#let display-font = "Asul"
+#let primary-font = "Gentium Book Plus"
+
 #let set-page-numbers() = {
   locate(loc => {
     set text(size: 10pt)
@@ -58,10 +61,10 @@
     margin: (bottom: 1.5cm, inside: inner-margin, outside: outer-margin, top: 0.8cm),
   )
 
-  #set text(font: "Gentium Book Plus", size: 10pt)
+  #set text(font: primary-font, size: 10pt)
 
   #show heading: it => {
-    set text(font: "Asul")
+    set text(font: display-font)
     it
   }
 

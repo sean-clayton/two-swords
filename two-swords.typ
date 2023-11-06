@@ -1,4 +1,4 @@
-#import "lib.typ": wrapper, cairn-stat-block, title, load-stat, huge-heading, large-heading, item-heading, set-page-numbers, metadata
+#import "lib.typ": wrapper, cairn-stat-block, title, load-stat, huge-heading, large-heading, item-heading, set-page-numbers, metadata, display-font, primary-font
 #import "cover.typ" as cover
 
 #set document(title: title, author: metadata.author)
@@ -9,33 +9,32 @@
 
 #set page(numbering: none)
 
-#pagebreak()
+#set page(fill: cover.bg-color)
 
 #pagebreak()
 
-A dark fantasy setting, created by #link("https://sean.wtf")[Sean-Patrick Ortencio Clayton].
-
-If you find this PDF in the wild, you can get it yourself here:
-#link(metadata.itch_url).
-
-Made for #link("https://cairnrpg.com")[Cairn] by #link("https://newschoolrevolution.com/")[Yochai Gal],
-made available for our use under the
-#link(
-  "https://creativecommons.org/licenses/by-sa/4.0/",
-)[Creative Commons Attribution-ShareAlike 4.0 International license].
-
-#title is available under the
-#link(
-  "https://creativecommons.org/licenses/by-sa/4.0/",
-)[Creative Commons Attribution-ShareAlike 4.0 International license].
-
-The source code for #title can be found here: #link(metadata.repo_url).
-
-The source code for #title is available under the #link(
-  "https://www.gnu.org/licenses/agpl-3.0.html",
-)[GNU Affero General Public License].
-
 #pagebreak()
+
+#box(
+  width: 100%,
+  height: 100%,
+)[
+  #set align(center + horizon)
+  #set text(font: display-font, fill: white, size: 8pt)
+
+  #stack(
+    spacing: 16pt,
+    text(fill: cover.highlight-color-base, size: 32pt)[#title],
+    text[#link(metadata.repo_cc_license_url)[CC-BY-SA 4.0] | by #metadata.author],
+  )
+
+  #link(metadata.repo_url)[Source Code] | #link(metadata.repo_license_url)[Source Code License]
+
+  Made for #link("https://cairnrpg.com")[Cairn] by #link("https://newschoolrevolution.com/")[Yochai Gal],
+  released #link("https://creativecommons.org/licenses/by-sa/4.0/")[CC-BY-SA 4.0]
+]
+
+#set page(fill: none)
 
 #columns(2)[
   #show outline.entry.where(level: 2): it => {
@@ -108,7 +107,7 @@ WIP
 
 WIP
 
-#item-heading(level: 3)[Rituals]
+#item-heading(level: 3)[Scavenging]
 
 WIP
 
@@ -214,243 +213,7 @@ WIP
   #item-heading(level: 4)[Secret Agent]
 ]
 
-#large-heading(level: 3)[Monsters]
-
-#cairn-stat-block(load-stat("alp"))[
-  #item-heading(level: 4)[Alp]
-]
-
-#cairn-stat-block(load-stat("amarok"))[
-  #item-heading(level: 4)[Amarok]
-]
-
-#cairn-stat-block(load-stat("anopheli"))[
-  #item-heading(level: 4)[Anopheli]
-]
-
-#cairn-stat-block(load-stat("arachas"))[
-  #item-heading(level: 4)[Arachas]
-]
-
-#cairn-stat-block(load-stat("barghest"))[
-  #item-heading(level: 4)[Barghest]
-]
-
-#cairn-stat-block(load-stat("basilisk"))[
-  #item-heading(level: 4)[Basilisk]
-]
-
-#cairn-stat-block(load-stat("berberoka"))[
-  #item-heading(level: 4)[Berberoka]
-]
-
-#cairn-stat-block(load-stat("botchling"))[
-  #item-heading(level: 4)[Botchling]
-]
-
-#cairn-stat-block(load-stat("bukuvak"))[
-  #item-heading(level: 4)[Bukuvak]
-]
-
-#cairn-stat-block(load-stat("chort"))[
-  #item-heading(level: 4)[Chort]
-]
-
-#cairn-stat-block(load-stat("cockatrice"))[
-  #item-heading(level: 4)[Cockatrice]
-]
-
-#cairn-stat-block(load-stat("cyclops"))[
-  #item-heading(level: 4)[Cyclops]
-]
-
-#cairn-stat-block(load-stat("devourer"))[
-  #item-heading(level: 4)[Devourer]
-]
-
-#cairn-stat-block(load-stat("doppler"))[
-  #item-heading(level: 4)[Doppler]
-]
-
-#cairn-stat-block(load-stat("dragon"))[
-  #item-heading(level: 4)[Dragon]
-]
-
-#cairn-stat-block(load-stat("draug"))[
-  #item-heading(level: 4)[Draug]
-]
-
-#cairn-stat-block(load-stat("draugir"))[
-  #item-heading(level: 4)[Draugir]
-]
-
-#cairn-stat-block(load-stat("drowner"))[
-  #item-heading(level: 4)[Drowner]
-]
-
-#cairn-stat-block(load-stat("dryad"))[
-  #item-heading(level: 4)[Dryad]
-]
-
-#cairn-stat-block(load-stat("elemental-earth"))[
-  #item-heading(level: 4)[Elemental, Earth]
-]
-
-#cairn-stat-block(load-stat("elemental-fire"))[
-  #item-heading(level: 4)[Elemental, Fire]
-]
-
-#cairn-stat-block(load-stat("elemental-ice"))[
-  #item-heading(level: 4)[Elemental, Ice]
-]
-
-#cairn-stat-block(load-stat("endrega"))[
-  #item-heading(level: 4)[Endrega]
-]
-
-#cairn-stat-block(load-stat("fiend"))[
-  #item-heading(level: 4)[Fiend]
-]
-
-#cairn-stat-block(load-stat("fleder"))[
-  #item-heading(level: 4)[Fleder]
-]
-
-#cairn-stat-block(load-stat("foglet"))[
-  #item-heading(level: 4)[Foglet]
-]
-
-#cairn-stat-block(load-stat("gargoyle"))[
-  #item-heading(level: 4)[Gargoyle]
-]
-
-#cairn-stat-block(load-stat("ghoul"))[
-  #item-heading(level: 4)[Ghoul]
-]
-
-#cairn-stat-block(load-stat("golem"))[
-  #item-heading(level: 4)[Golem]
-]
-
-#cairn-stat-block(load-stat("griffin"))[
-  #item-heading(level: 4)[Griffin]
-]
-
-#cairn-stat-block(load-stat("guvorag"))[
-  #item-heading(level: 4)[Guvorag]
-]
-
-#cairn-stat-block(load-stat("hag-grave"))[
-  #item-heading(level: 4)[Hag, Grave]
-]
-
-#cairn-stat-block(load-stat("hag-water"))[
-  #item-heading(level: 4)[Hag, Water]
-]
-
-#cairn-stat-block(load-stat("harpy"))[
-  #item-heading(level: 4)[Harpy]
-]
-
-#cairn-stat-block(load-stat("hunt-hound"))[
-  #item-heading(level: 4)[Hunt, Hound of the]
-]
-
-#cairn-stat-block(load-stat("hunt-rider"))[
-  #item-heading(level: 4)[Hunt, Rider of the]
-]
-
-#cairn-stat-block(load-stat("hunt-steed"))[
-  #item-heading(level: 4)[Hunt, Steed of the]
-]
-
-#cairn-stat-block(load-stat("katakan"))[
-  #item-heading(level: 4)[Katakan]
-]
-
-#cairn-stat-block(load-stat("leshen"))[
-  #item-heading(level: 4)[Leshen]
-]
-
-#cairn-stat-block(load-stat("lopustre"))[
-  #item-heading(level: 4)[Lopustre]
-]
-
-#cairn-stat-block(load-stat("manticore"))[
-  #item-heading(level: 4)[Manticore]
-]
-
-#cairn-stat-block(load-stat("nekker"))[
-  #item-heading(level: 4)[Nekker]
-]
-
-#cairn-stat-block(load-stat("nereid"))[
-  #item-heading(level: 4)[Nereid]
-]
-
-#cairn-stat-block(load-stat("noonwraith"))[
-  #item-heading(level: 4)[Noonwraith]
-]
-
-#cairn-stat-block(load-stat("ogre"))[
-  #item-heading(level: 4)[Ogre]
-]
-
-#cairn-stat-block(load-stat("pesta"))[
-  #item-heading(level: 4)[Pesta]
-]
-
-#cairn-stat-block(load-stat("phoenix"))[
-  #item-heading(level: 4)[Phoenix]
-]
-
-#cairn-stat-block(load-stat("preta"))[
-  #item-heading(level: 4)[Preta]
-]
-
-#cairn-stat-block(load-stat("rotfiend"))[
-  #item-heading(level: 4)[Rotfiend]
-]
-
-#cairn-stat-block(load-stat("rusalki"))[
-  #item-heading(level: 4)[Rusalki]
-]
-
-#cairn-stat-block(load-stat("shaelmaar"))[
-  #item-heading(level: 4)[Shaelmaar]
-]
-
-#cairn-stat-block(load-stat("siren"))[
-  #item-heading(level: 4)[Siren]
-]
-
-#cairn-stat-block(load-stat("striga"))[
-  #item-heading(level: 4)[Striga]
-]
-
-#cairn-stat-block(load-stat("succubi"))[
-  #item-heading(level: 4)[Succubi]
-]
-
-#cairn-stat-block(load-stat("sylvan"))[
-  #item-heading(level: 4)[Sylvan]
-]
-
-#cairn-stat-block(load-stat("troll-rock"))[
-  #item-heading(level: 4)[Troll, Rock]
-]
-
-#cairn-stat-block(load-stat("uktena"))[
-  #item-heading(level: 4)[Uktena]
-]
-
-#cairn-stat-block(load-stat("vampire-higher"))[
-  #item-heading(level: 4)[Vampire, Higher]
-]
-
-#cairn-stat-block(load-stat("vodnik"))[
-  #item-heading(level: 4)[Vodnik]
-]
+#large-heading(level: 3)[Beasts]
 
 #cairn-stat-block(load-stat("warg"))[
   #item-heading(level: 4)[Warg]
@@ -464,16 +227,276 @@ WIP
   #item-heading(level: 4)[Wolf]
 ]
 
-#cairn-stat-block(load-stat("wraith"))[
-  #item-heading(level: 4)[Wraith]
+#large-heading(level: 3)[Cursed Ones]
+
+#cairn-stat-block(load-stat("amarok"))[
+  #item-heading(level: 4)[Amarok]
+]
+
+#cairn-stat-block(load-stat("botchling"))[
+  #item-heading(level: 4)[Botchling]
+]
+
+#cairn-stat-block(load-stat("preta"))[
+  #item-heading(level: 4)[Preta]
+]
+
+#cairn-stat-block(load-stat("striga"))[
+  #item-heading(level: 4)[Striga]
+]
+
+#large-heading(level: 3)[Draconids]
+
+#cairn-stat-block(load-stat("basilisk"))[
+  #item-heading(level: 4)[Basilisk]
+]
+
+#cairn-stat-block(load-stat("bukuvak"))[
+  #item-heading(level: 4)[Bukuvak]
+]
+
+#cairn-stat-block(load-stat("cockatrice"))[
+  #item-heading(level: 4)[Cockatrice]
+]
+
+#cairn-stat-block(load-stat("dragon"))[
+  #item-heading(level: 4)[Dragon]
+]
+
+#cairn-stat-block(load-stat("phoenix"))[
+  #item-heading(level: 4)[Phoenix]
 ]
 
 #cairn-stat-block(load-stat("wyvern"))[
   #item-heading(level: 4)[Wyvern]
 ]
 
+#large-heading(level: 3)[Elementals]
+
+#cairn-stat-block(load-stat("elemental-earth"))[
+  #item-heading(level: 4)[Elemental, Earth]
+]
+
+#cairn-stat-block(load-stat("elemental-fire"))[
+  #item-heading(level: 4)[Elemental, Fire]
+]
+
+#cairn-stat-block(load-stat("elemental-ice"))[
+  #item-heading(level: 4)[Elemental, Ice]
+]
+
+#cairn-stat-block(load-stat("gargoyle"))[
+  #item-heading(level: 4)[Gargoyle]
+]
+
+#cairn-stat-block(load-stat("golem"))[
+  #item-heading(level: 4)[Golem]
+]
+
+#large-heading(level: 3)[Hybrids]
+
+#cairn-stat-block(load-stat("berberoka"))[
+  #item-heading(level: 4)[Berberoka]
+]
+
+#cairn-stat-block(load-stat("griffin"))[
+  #item-heading(level: 4)[Griffin]
+]
+
+#cairn-stat-block(load-stat("harpy"))[
+  #item-heading(level: 4)[Harpy]
+]
+
+#cairn-stat-block(load-stat("manticore"))[
+  #item-heading(level: 4)[Manticore]
+]
+
+#cairn-stat-block(load-stat("siren"))[
+  #item-heading(level: 4)[Siren]
+]
+
+#cairn-stat-block(load-stat("succubi"))[
+  #item-heading(level: 4)[Succubi]
+]
+
+#cairn-stat-block(load-stat("uktena"))[
+  #item-heading(level: 4)[Uktena]
+]
+
+#large-heading(level: 3)[Insectoids]
+
+#cairn-stat-block(load-stat("arachas"))[
+  #item-heading(level: 4)[Arachas]
+]
+
+#cairn-stat-block(load-stat("endrega"))[
+  #item-heading(level: 4)[Endrega]
+]
+
+#cairn-stat-block(load-stat("guvorag"))[
+  #item-heading(level: 4)[Guvorag]
+]
+
+#cairn-stat-block(load-stat("lopustre"))[
+  #item-heading(level: 4)[Lopustre]
+]
+
 #cairn-stat-block(load-stat("zeugl"))[
   #item-heading(level: 4)[Zeugl]
+]
+
+#large-heading(level: 3)[Necrophages]
+
+#cairn-stat-block(load-stat("devourer"))[
+  #item-heading(level: 4)[Devourer]
+]
+
+#cairn-stat-block(load-stat("drowner"))[
+  #item-heading(level: 4)[Drowner]
+]
+
+#cairn-stat-block(load-stat("foglet"))[
+  #item-heading(level: 4)[Foglet]
+]
+
+#cairn-stat-block(load-stat("ghoul"))[
+  #item-heading(level: 4)[Ghoul]
+]
+
+#item-heading(level: 4)[Hags]
+
+#cairn-stat-block(load-stat("hag-grave"))[
+  ===== Grave Hag
+]
+
+#cairn-stat-block(load-stat("hag-water"))[
+  ===== Water Hag
+]
+
+#cairn-stat-block(load-stat("rotfiend"))[
+  #item-heading(level: 4)[Rotfiend]
+]
+
+#large-heading(level: 3)[Ogroids]
+
+#cairn-stat-block(load-stat("anopheli"))[
+  #item-heading(level: 4)[Anopheli]
+]
+
+#cairn-stat-block(load-stat("cyclops"))[
+  #item-heading(level: 4)[Cyclops]
+]
+
+#cairn-stat-block(load-stat("nekker"))[
+  #item-heading(level: 4)[Nekker]
+]
+
+#cairn-stat-block(load-stat("ogre"))[
+  #item-heading(level: 4)[Ogre]
+]
+
+#cairn-stat-block(load-stat("troll-rock"))[
+  #item-heading(level: 4)[Troll, Rock]
+]
+
+#cairn-stat-block(load-stat("vodnik"))[
+  #item-heading(level: 4)[Vodnik]
+]
+
+#large-heading(level: 3)[Relicts]
+
+#cairn-stat-block(load-stat("chort"))[
+  #item-heading(level: 4)[Chort]
+]
+
+#cairn-stat-block(load-stat("doppler"))[
+  #item-heading(level: 4)[Doppler]
+]
+
+#cairn-stat-block(load-stat("dryad"))[
+  #item-heading(level: 4)[Dryad]
+]
+
+#cairn-stat-block(load-stat("fiend"))[
+  #item-heading(level: 4)[Fiend]
+]
+
+#cairn-stat-block(load-stat("leshen"))[
+  #item-heading(level: 4)[Leshen]
+]
+
+#cairn-stat-block(load-stat("nereid"))[
+  #item-heading(level: 4)[Nereid]
+]
+
+#cairn-stat-block(load-stat("rusalki"))[
+  #item-heading(level: 4)[Rusalki]
+]
+
+#cairn-stat-block(load-stat("shaelmaar"))[
+  #item-heading(level: 4)[Shaelmaar]
+]
+
+#cairn-stat-block(load-stat("sylvan"))[
+  #item-heading(level: 4)[Sylvan]
+]
+
+#large-heading(level: 3)[Specters]
+
+#cairn-stat-block(load-stat("barghest"))[
+  #item-heading(level: 4)[Barghest]
+]
+
+#cairn-stat-block(load-stat("draug"))[
+  #item-heading(level: 4)[Draug]
+]
+
+#cairn-stat-block(load-stat("draugir"))[
+  #item-heading(level: 4)[Draugir]
+]
+
+#cairn-stat-block(load-stat("noonwraith"))[
+  #item-heading(level: 4)[Noonwraith]
+]
+
+#cairn-stat-block(load-stat("pesta"))[
+  #item-heading(level: 4)[Pesta]
+]
+
+#cairn-stat-block(load-stat("wraith"))[
+  #item-heading(level: 4)[Wraith]
+]
+
+#large-heading(level: 3)[Vampires]
+
+#cairn-stat-block(load-stat("alp"))[
+  #item-heading(level: 4)[Alp]
+]
+
+#cairn-stat-block(load-stat("fleder"))[
+  #item-heading(level: 4)[Fleder]
+]
+
+#cairn-stat-block(load-stat("higher-vampire"))[
+  #item-heading(level: 4)[Higher Vampire]
+]
+
+#cairn-stat-block(load-stat("katakan"))[
+  #item-heading(level: 4)[Katakan]
+]
+
+#large-heading(level: 3)[The Hunt]
+
+#cairn-stat-block(load-stat("hunt-hound"))[
+  #item-heading(level: 4)[Hound of the Hunt]
+]
+
+#cairn-stat-block(load-stat("hunt-rider"))[
+  #item-heading(level: 4)[Rider of the Hunt]
+]
+
+#cairn-stat-block(load-stat("hunt-steed"))[
+  #item-heading(level: 4)[Steed of the Hunt]
 ]
 
 #pagebreak()
