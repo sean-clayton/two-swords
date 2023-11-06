@@ -5,7 +5,7 @@ on:
     types: [published]
 
 jobs:
-  Add Artifacts:
+  add-artifacts:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
