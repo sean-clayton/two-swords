@@ -7,10 +7,9 @@ on:
 jobs:
   add-artifacts:
     runs-on: ubuntu-latest
+    uses: sean-clayton/two-swords/.github/workflows/build-pdf.yml@main
     steps:
       - uses: actions/checkout@v3
-
-      - uses: sean-clayton/two-swords/.github/workflows/build-pdf.yml@main
 
       - name: Extract Version From Tag
         id: get_version
