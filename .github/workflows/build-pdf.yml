@@ -1,0 +1,28 @@
+name: Build PDF
+
+on:
+  workflow_call:
+
+jobs:
+  add-artifacts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Extract Version From Tag
+        id: get_version
+        uses: battila7/get-version-action@v2
+
+      - uses: yusancky/setup-typst@v2
+        with:
+          version: latest
+
+      - run: mkdir dist
+
+      - name: Build PDF
+        run: typst compile --font-path fonts two-swords.typ dist/TwoSwords-${{ steps.get_version.outputs.version-without-v }}.pdf
+
+      - uses: actions/upload-artifact@v3
+        with:
+          name: pdf-artifact
+          path: dist

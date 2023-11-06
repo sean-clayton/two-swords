@@ -10,18 +10,15 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
+      - uses: ${{ github.repository }}/.github/workflows/build-pdf.yml@main
+
       - name: Extract Version From Tag
         id: get_version
         uses: battila7/get-version-action@v2
 
-      - uses: yusancky/setup-typst@v2
+      - uses: actions/download-artifact@v3
         with:
-          version: latest
-
-      - run: mkdir dist
-
-      - name: Build PDF
-        run: typst compile --font-path fonts two-swords.typ dist/TwoSwords-${{ steps.get_version.outputs.version-without-v }}.pdf
+          name: pdf-artifact
 
       # Create a release for this specific version
       - name: Update Release with Files
