@@ -56,7 +56,89 @@ The source code for #title is available under the #link(
 
 #set page(footer: set-page-numbers())
 
-#huge-heading(level: 2)[Spells]
+#huge-heading(level: 2)[Introduction]
+
+WIP
+
+The world of #emph[#title] is a place where the sword you carry is worth more
+than your own life, and the people around you will certainly try to test if you
+prepare for that. It's a place where leaving the walls of your village is
+considered an act of lunacy, for the threat of danger lurks freely in the
+wilderness.
+
+#pagebreak()
+
+#huge-heading(level: 2)[Character Options]
+
+WIP
+
+#large-heading(level: 3)[Backgrounds]
+
+WIP
+
+#item-heading(level: 4)[Ranger]
+
+WIP
+
+#item-heading(level: 4)[Man at Arms]
+
+WIP
+
+#item-heading(level: 4)[Mage]
+
+WIP
+
+#item-heading(level: 4)[Hunter]
+
+WIP
+
+#item-heading(level: 4)[Merchant]
+
+WIP
+
+#pagebreak()
+
+#huge-heading(level: 2)[Combat]
+
+WIP
+
+#pagebreak()
+
+#huge-heading(level: 2)[Crafting & Alchemy]
+
+WIP
+
+#item-heading(level: 3)[Rituals]
+
+WIP
+
+#pagebreak()
+
+#huge-heading(level: 2)[Relics & Artefacts]
+
+WIP
+
+#pagebreak()
+
+#huge-heading(level: 2)[Magic]
+
+WIP
+
+#item-heading(level: 3)[Spells]
+
+WIP
+
+#item-heading(level: 3)[Rituals]
+
+WIP
+
+#item-heading(level: 3)[Hexes]
+
+WIP
+
+#item-heading(level: 3)[Ley Lines]
+
+WIP
 
 #pagebreak()
 
@@ -394,36 +476,36 @@ The source code for #title is available under the #link(
   #item-heading(level: 4)[Zeugl]
 ]
 
-#large-heading(level: 3)[Animals]
+#pagebreak()
 
-#cairn-stat-block(load-stat("bird"))[
-  #item-heading(level: 4)[Bird]
-]
+#huge-heading(level: 2)[The Warden's Tome]
 
-#cairn-stat-block(load-stat("cat"))[
-  #item-heading(level: 4)[Cat]
-]
+WIP
 
-#cairn-stat-block(load-stat("dog"))[
-  #item-heading(level: 4)[Dog]
-]
+#item-heading(level: 3)[Life is Cheap---Swords Aren't]
 
-#cairn-stat-block(load-stat("horse"))[
-  #item-heading(level: 4)[Horse]
-]
+WIP
 
-#cairn-stat-block(load-stat("mule"))[
-  #item-heading(level: 4)[Mule]
-]
+#item-heading(level: 3)[Recovering Wounds]
 
-#cairn-stat-block(load-stat("ox"))[
-  #item-heading(level: 4)[Ox]
-]
+WIP
 
-#cairn-stat-block(load-stat("serpent"))[
-  #item-heading(level: 4)[Serpent]
-]
+#item-heading(level: 3)[Curses]
 
-#cairn-stat-block(load-stat("war-horse"))[
-  #item-heading(level: 4)[War Horse]
-]
+WIP
+
+#large-heading(level: 3)[Tables]
+
+WIP
+
+#item-heading(level: 4)[NPCs]
+
+WIP
+
+#item-heading(level: 4)[Settlements]
+
+WIP
+
+#item-heading(level: 4)[Sites]
+
+WIP
