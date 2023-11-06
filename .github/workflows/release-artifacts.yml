@@ -31,5 +31,6 @@ jobs:
           name: ${{ github.event.release.name }}
           token: ${{ secrets.GITHUB_TOKEN }}
           artifacts: dist/*.pdf
+          makeLatest: ${{ if github.event.release == true }}
           tag: ${{ github.event.release.tag_name }}
           body: ${{ github.event.release.body }}
