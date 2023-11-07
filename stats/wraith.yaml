@@ -6,7 +6,7 @@ attacks:
   - longsword (d8)
 critical_damage: null
 details:
-  - Spectres that have met a terrible fate in life.
+  - Specters that have met a terrible fate in life.
   - While incorporeal, unharmed by mundane attacks.
   - Can teleport up to 30'.
   - Anyone who is attacked immediately after the wraith teleports must make a DEX save or the attack becomes _Enhanced_.
