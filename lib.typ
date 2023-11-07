@@ -9,17 +9,13 @@
 #let display-font = "Asul"
 #let primary-font = "Gentium Book Plus"
 
-#let wip-banner = box(fill: highlight-color-base, inset: 4pt, width: 100%)[
+#let wip-banner = box(fill: highlight-color-base, inset: 4pt)[
   #text(weight: "bold", fill: black)[Work In Progress]
 ]
 
 #let set-page-numbers() = {
   locate(loc => {
     set text(size: 10pt)
-
-    place(bottom + center)[
-      #wip-banner
-    ]
 
     let page-number = [
       #circle(radius: 0.8em, fill: highlight-color)[
@@ -67,7 +63,6 @@
   #set page(
     paper: "a5",
     margin: (bottom: 1.5cm, inside: inner-margin, outside: outer-margin, top: 0.8cm),
-    footer: [#place(bottom + center)[#wip-banner]],
     header: [#place(top + center)[#wip-banner]],
   )
 
