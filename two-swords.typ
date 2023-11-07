@@ -95,21 +95,43 @@ which is currently in development.
 
 #pagebreak()
 
-#huge-heading(level: 2)[Character Creation]
+#huge-heading(level: 2)[Backgrounds]
 
-#large-heading(level: 3)[Backgrounds]
+#large-heading(level: 3)[Ranger]
 
-#item-heading(level: 4)[Ranger]
+#item-heading(level: 4)[Starting Gear]
 
-#item-heading(level: 4)[Man at Arms]
+#large-heading(level: 3)[Man at Arms]
 
-#item-heading(level: 4)[Mage]
+#item-heading(level: 4)[Starting Gear]
 
-#item-heading(level: 4)[Hunter]
+#large-heading(level: 3)[Mage]
 
-#item-heading(level: 4)[Merchant]
+#item-heading(level: 4)[Starting Gear]
 
-#large-heading(level: 3)[Marketplace]
+#large-heading(level: 3)[Hunter]
+
+#item-heading(level: 4)[Starting Gear]
+
+#large-heading(level: 3)[Merchant]
+
+#item-heading(level: 4)[Starting Gear]
+
+#large-heading(level: 3)[Hexer]
+
+#item-heading(level: 4)[Starting Gear]
+
+#large-heading(level: 3)[Minstrel]
+
+#item-heading(level: 4)[Starting Gear]
+
+#large-heading(level: 3)[Pellar]
+
+#item-heading(level: 4)[Starting Gear]
+
+#pagebreak()
+
+#huge-heading(level: 2)[Marketplace]
 
 #pagebreak()
 
@@ -514,3 +536,15 @@ which is currently in development.
 #item-heading(level: 4)[Settlements]
 
 #item-heading(level: 4)[Sites]
+
+#pagebreak()
+
+#huge-heading(level: 2)[The Setting of Gresha]
+
+#large-heading(level: 3)[Introduction]
+
+#large-heading(level: 3)[Gresha is Yours]
+
+#large-heading(level: 3)[Locations]
+
+#large-heading(level: 3)[Characters]
