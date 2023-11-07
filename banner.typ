@@ -20,12 +20,11 @@
   #set align(center + horizon)
   #set text(font: "Asul", fill: color.rgb(highlight-color-base.to-hex()))
 
-  #text(font: "Asul", weight: "bold", size: 96pt)[
+  #stack(spacing: 48pt, text(font: "Asul", weight: "bold", size: 96pt)[
     #title
-  ]
-
-  #text(
+  ], text(
     font: "Gentium Book Plus",
     size: 48pt,
-  )[_A Dark Fantasy Setting Conversion for Cairn_]
+  )[_A Dark Fantasy Expansion for Cairn_])
+
 ]

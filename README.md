@@ -6,7 +6,7 @@
 
 # Two Swords
 
-A dark fantasy setting conversion to use with [Cairn].
+A dark fantasy expansion to use with the [Cairn] adventure game.
 
 ## Contributing
 

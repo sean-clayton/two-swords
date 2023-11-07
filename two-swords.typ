@@ -85,8 +85,8 @@ prepare for that. It's a place where leaving the walls of your village is
 considered an act of lunacy, for the threat of danger lurks freely in the
 wilderness.
 
-#emph[#title] is a dark fantasy expansion for the Cairn role-playing game.
-Inside you will find new character creation options, magical spells, powerful
+#emph[#title] is a dark fantasy expansion for the Cairn adventure game. Inside
+you will find new character creation options, magical spells, powerful
 artefacts, deadly monsters, warden advice, a new setting and region to explore,
 and more to make your game of Cairn come alive and evoke the feeling of a gray
 and unfair world. Additionally, while the content within is certainly compatible
