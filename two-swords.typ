@@ -97,37 +97,127 @@ which is currently in development.
 
 #huge-heading(level: 2)[Backgrounds]
 
-#large-heading(level: 3)[Ranger]
+Here are 20 more backgrounds for new characters.
 
-#item-heading(level: 4)[Starting Gear]
+#block(breakable: false, inset: (y: 1em))[
+  #large-heading(level: 3)[Alchemist]
 
-#large-heading(level: 3)[Man at Arms]
+  #item-heading(level: 4)[Starting Gear]
+]
 
-#item-heading(level: 4)[Starting Gear]
+#block(breakable: false, inset: (y: 1em))[
+  #large-heading(level: 3)[Druid]
 
-#large-heading(level: 3)[Mage]
+  #item-heading(level: 4)[Starting Gear]
+]
 
-#item-heading(level: 4)[Starting Gear]
+#block(breakable: false, inset: (y: 1em))[
+  #large-heading(level: 3)[Gravetender]
 
-#large-heading(level: 3)[Hunter]
+  #item-heading(level: 4)[Starting Gear]
+]
 
-#item-heading(level: 4)[Starting Gear]
+#block(breakable: false, inset: (y: 1em))[
+  #large-heading(level: 3)[Herbalist]
 
-#large-heading(level: 3)[Merchant]
+  #item-heading(level: 4)[Starting Gear]
+]
 
-#item-heading(level: 4)[Starting Gear]
+#block(breakable: false, inset: (y: 1em))[
+  #large-heading(level: 3)[Hexer]
 
-#large-heading(level: 3)[Hexer]
+  #item-heading(level: 4)[Starting Gear]
+]
 
-#item-heading(level: 4)[Starting Gear]
+#block(breakable: false, inset: (y: 1em))[
+  #large-heading(level: 3)[Mage]
 
-#large-heading(level: 3)[Minstrel]
+  #item-heading(level: 4)[Starting Gear]
+]
 
-#item-heading(level: 4)[Starting Gear]
+#block(breakable: false, inset: (y: 1em))[
+  #large-heading(level: 3)[Man at Arms]
 
-#large-heading(level: 3)[Pellar]
+  #item-heading(level: 4)[Starting Gear]
+]
 
-#item-heading(level: 4)[Starting Gear]
+#block(breakable: false, inset: (y: 1em))[
+  #large-heading(level: 3)[Merchant]
+
+  #item-heading(level: 4)[Starting Gear]
+]
+
+#block(breakable: false, inset: (y: 1em))[
+  #large-heading(level: 3)[Minstrel]
+
+  #item-heading(level: 4)[Starting Gear]
+]
+
+#block(breakable: false, inset: (y: 1em))[
+  #large-heading(level: 3)[Occultist]
+
+  #item-heading(level: 4)[Starting Gear]
+]
+
+#block(breakable: false, inset: (y: 1em))[
+  #large-heading(level: 3)[Pellar]
+
+  #item-heading(level: 4)[Starting Gear]
+]
+
+#block(breakable: false, inset: (y: 1em))[
+  #large-heading(level: 3)[Ranger]
+
+  #item-heading(level: 4)[Starting Gear]
+]
+
+#block(breakable: false, inset: (y: 1em))[
+  #large-heading(level: 3)[Seeker]
+
+  #item-heading(level: 4)[Starting Gear]
+]
+
+#block(breakable: false, inset: (y: 1em))[
+  #large-heading(level: 3)[Smith]
+
+  #item-heading(level: 4)[Starting Gear]
+]
+
+#block(breakable: false, inset: (y: 1em))[
+  #large-heading(level: 3)[Street Ruffian]
+
+  #item-heading(level: 4)[Starting Gear]
+]
+
+#block(breakable: false, inset: (y: 1em))[
+  #large-heading(level: 3)[Thief]
+
+  #item-heading(level: 4)[Starting Gear]
+]
+
+#block(breakable: false, inset: (y: 1em))[
+  #large-heading(level: 3)[Torchbearer]
+
+  #item-heading(level: 4)[Starting Gear]
+]
+
+#block(breakable: false, inset: (y: 1em))[
+  #large-heading(level: 3)[Vault Keeper]
+
+  #item-heading(level: 4)[Starting Gear]
+]
+
+#block(breakable: false, inset: (y: 1em))[
+  #large-heading(level: 3)[Village Hunter]
+
+  #item-heading(level: 4)[Starting Gear]
+]
+
+#block(breakable: false, inset: (y: 1em))[
+  #large-heading(level: 3)[Zealot]
+
+  #item-heading(level: 4)[Starting Gear]
+]
 
 #pagebreak()
 
