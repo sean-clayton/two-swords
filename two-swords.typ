@@ -1,4 +1,4 @@
-#import "lib.typ": wrapper, cairn-stat-block, title, load-stat, huge-heading, large-heading, item-heading, set-page-numbers, metadata, display-font, primary-font, highlight-color-base, highlight-color
+#import "lib.typ": *
 #import "cover.typ" as cover
 
 #set document(title: title, author: metadata.author)
@@ -77,15 +77,15 @@
 
 #set page(footer: set-page-numbers())
 
-#huge-heading(level: 2)[Introduction]
+#huge-heading(level: 2)[Introduction] <heading.introduction>
 
-The world of #emph[#title] is a place where the sword you carry is worth more
+The world of #emph(title) is a place where the sword you carry is worth more
 than your own life, and the people around you will certainly try to test if you
 prepare for that. It's a place where leaving the walls of your village is
 considered an act of lunacy, for the threat of danger lurks freely in the
 wilderness.
 
-#emph[#title] is a dark fantasy expansion for the Cairn adventure game. Inside
+#emph(title) is a dark fantasy expansion for the Cairn adventure game. Inside
 you will find new character creation options, magical spells, powerful
 artefacts, deadly monsters, warden advice, a new setting and region to explore,
 and more to make your game of Cairn come alive and evoke the feeling of a gray
@@ -95,128 +95,128 @@ which is currently in development.
 
 #pagebreak()
 
-#huge-heading(level: 2)[Backgrounds]
+#huge-heading(level: 2)[Backgrounds] <heading.introduction.backgrounds>
 
 Here are 20 more backgrounds for new characters.
 
 #block(breakable: false, inset: (y: 1em))[
   #large-heading(level: 3)[Alchemist]
 
-  #item-heading(level: 4)[Starting Gear]
+  #item-heading(level: 4, outlined: false)[Starting Gear]
 ]
 
 #block(breakable: false, inset: (y: 1em))[
   #large-heading(level: 3)[Druid]
 
-  #item-heading(level: 4)[Starting Gear]
+  #item-heading(level: 4, outlined: false)[Starting Gear]
 ]
 
 #block(breakable: false, inset: (y: 1em))[
   #large-heading(level: 3)[Gravetender]
 
-  #item-heading(level: 4)[Starting Gear]
+  #item-heading(level: 4, outlined: false)[Starting Gear]
 ]
 
 #block(breakable: false, inset: (y: 1em))[
   #large-heading(level: 3)[Herbalist]
 
-  #item-heading(level: 4)[Starting Gear]
+  #item-heading(level: 4, outlined: false)[Starting Gear]
 ]
 
 #block(breakable: false, inset: (y: 1em))[
   #large-heading(level: 3)[Hexer]
 
-  #item-heading(level: 4)[Starting Gear]
+  #item-heading(level: 4, outlined: false)[Starting Gear]
 ]
 
 #block(breakable: false, inset: (y: 1em))[
   #large-heading(level: 3)[Mage]
 
-  #item-heading(level: 4)[Starting Gear]
+  #item-heading(level: 4, outlined: false)[Starting Gear]
 ]
 
 #block(breakable: false, inset: (y: 1em))[
   #large-heading(level: 3)[Man at Arms]
 
-  #item-heading(level: 4)[Starting Gear]
+  #item-heading(level: 4, outlined: false)[Starting Gear]
 ]
 
 #block(breakable: false, inset: (y: 1em))[
   #large-heading(level: 3)[Merchant]
 
-  #item-heading(level: 4)[Starting Gear]
+  #item-heading(level: 4, outlined: false)[Starting Gear]
 ]
 
 #block(breakable: false, inset: (y: 1em))[
   #large-heading(level: 3)[Minstrel]
 
-  #item-heading(level: 4)[Starting Gear]
+  #item-heading(level: 4, outlined: false)[Starting Gear]
 ]
 
 #block(breakable: false, inset: (y: 1em))[
   #large-heading(level: 3)[Occultist]
 
-  #item-heading(level: 4)[Starting Gear]
+  #item-heading(level: 4, outlined: false)[Starting Gear]
 ]
 
 #block(breakable: false, inset: (y: 1em))[
   #large-heading(level: 3)[Pellar]
 
-  #item-heading(level: 4)[Starting Gear]
+  #item-heading(level: 4, outlined: false)[Starting Gear]
 ]
 
 #block(breakable: false, inset: (y: 1em))[
   #large-heading(level: 3)[Ranger]
 
-  #item-heading(level: 4)[Starting Gear]
+  #item-heading(level: 4, outlined: false)[Starting Gear]
 ]
 
 #block(breakable: false, inset: (y: 1em))[
   #large-heading(level: 3)[Seeker]
 
-  #item-heading(level: 4)[Starting Gear]
+  #item-heading(level: 4, outlined: false)[Starting Gear]
 ]
 
 #block(breakable: false, inset: (y: 1em))[
   #large-heading(level: 3)[Smith]
 
-  #item-heading(level: 4)[Starting Gear]
+  #item-heading(level: 4, outlined: false)[Starting Gear]
 ]
 
 #block(breakable: false, inset: (y: 1em))[
   #large-heading(level: 3)[Street Ruffian]
 
-  #item-heading(level: 4)[Starting Gear]
+  #item-heading(level: 4, outlined: false)[Starting Gear]
 ]
 
 #block(breakable: false, inset: (y: 1em))[
   #large-heading(level: 3)[Thief]
 
-  #item-heading(level: 4)[Starting Gear]
+  #item-heading(level: 4, outlined: false)[Starting Gear]
 ]
 
 #block(breakable: false, inset: (y: 1em))[
   #large-heading(level: 3)[Torchbearer]
 
-  #item-heading(level: 4)[Starting Gear]
+  #item-heading(level: 4, outlined: false)[Starting Gear]
 ]
 
 #block(breakable: false, inset: (y: 1em))[
   #large-heading(level: 3)[Vault Keeper]
 
-  #item-heading(level: 4)[Starting Gear]
+  #item-heading(level: 4, outlined: false)[Starting Gear]
 ]
 
 #block(breakable: false, inset: (y: 1em))[
   #large-heading(level: 3)[Village Hunter]
 
-  #item-heading(level: 4)[Starting Gear]
+  #item-heading(level: 4, outlined: false)[Starting Gear]
 ]
 
 #block(breakable: false, inset: (y: 1em))[
   #large-heading(level: 3)[Zealot]
 
-  #item-heading(level: 4)[Starting Gear]
+  #item-heading(level: 4, outlined: false)[Starting Gear]
 ]
 
 #pagebreak()
@@ -241,13 +241,186 @@ Here are 20 more backgrounds for new characters.
 
 #huge-heading(level: 2)[Magic]
 
-#item-heading(level: 3)[Spells]
+Magic in #emph(title) is not a science, but with practice and study one can
+harness it with destructive effect. There are many who walk the lands that can
+tap into the plane of chaotic energies and pull out transformations that change
+our physical world.
 
-#item-heading(level: 3)[Rituals]
+#item-heading(level: 3)[Magical Implement]
 
-#item-heading(level: 3)[Hexes]
+Any one of the following can give you the ability to cast spells:
 
-#item-heading(level: 3)[Ley Lines]
+- A _grimoire_ (two hands) which contains the spell.
+- A _scroll_ (two hands) for the spell.
+- A _staff_ (one hand) which contains the spell.
+
+#item-heading(level: 3)[Casting a Spell]
+
+1. Holding your #term[magical implement], choose a spell. The description may
+  denote the spell's duration with D and range with R.
+2. You have an amount of Magic Dice (d6) equal to the amount of available inventory
+  slots. Choose how many you wish to invest (up to a maximum of 4). Spells will
+  refer to these as #term[[dice]]. Some spells will refer to their #term[[sum]] as
+  well.
+3. Roll #term[[dice]]. For each die that shows a 4-6, you gain one #term[fatigue].
+  If you get multiple dice of the same value, you have been
+  #link(<heading.magic.exposure-to-chaos>)[exposed to chaos].
+
+#item-heading(level: 3)[Exposure to Chaos]<heading.magic.exposure-to-chaos>
+
+When you have been exposed to chaos, compare your #term[[sum]] to the following:
+
+- *18+* Your body has been severely malformed and twisted by chaos. You suffer a #term[chaotic mutation].
+- *14–17* You have been damaged by chaos. You are permanently scarred with a #term[taint of chaos].
+- *7–13* You have been merely grazed by chaos. You are temporarily changed by a #term[mark of chaos].
+- *2–6* You have successfully avoided the maleficence of chaos---for now...
+
+#block(breakable: false)[
+  #table-heading(level: 4)[Chaotic Mutation]
+  #v(0pt, weak: true)
+  #table(
+    columns: (3em, 1fr),
+    stroke: none,
+    align: left + horizon,
+    fill: (col, row) => {
+      if row == 0 { white } else {
+        if calc.odd(row) { highlight-color } else { white }
+      }
+    },
+    [*2d6*],
+    [*Mutation*],
+    [2],
+    [Chaotic Mark],
+    [3],
+    [Chaotic Mark],
+    [4],
+    [Chaotic Mark],
+    [5],
+    [Chaotic Mark],
+    [6],
+    [Chaotic Mark],
+    [7],
+    [Chaotic Mark],
+    [8],
+    [Chaotic Mark],
+    [9],
+    [Chaotic Mark],
+    [10],
+    [Chaotic Mark],
+    [11],
+    [Chaotic Mark],
+    [12],
+    [Chaotic Mark],
+  )
+]
+
+#block(breakable: false)[
+  #table-heading(level: 4)[Taint of Chaos]
+  #v(0pt, weak: true)
+  #table(
+    columns: (3em, 1fr),
+    stroke: none,
+    align: left + horizon,
+    fill: (col, row) => {
+      if row == 0 { white } else {
+        if calc.odd(row) { highlight-color } else { white }
+      }
+    },
+    [*2d6*],
+    [*Taint*],
+    [2],
+    [Chaotic Taint],
+    [3],
+    [Chaotic Taint],
+    [4],
+    [Chaotic Taint],
+    [5],
+    [Chaotic Taint],
+    [6],
+    [Chaotic Taint],
+    [7],
+    [Chaotic Taint],
+    [8],
+    [Chaotic Taint],
+    [9],
+    [Chaotic Taint],
+    [10],
+    [Chaotic Taint],
+    [11],
+    [Chaotic Taint],
+    [12],
+    [Chaotic Taint],
+  )
+]
+
+#block(breakable: false)[
+  #table-heading(level: 4)[Mark of Chaos]
+  #v(0pt, weak: true)
+  #table(
+    columns: (3em, 1fr),
+    stroke: none,
+    align: left + horizon,
+    fill: (col, row) => {
+      if row == 0 { white } else {
+        if calc.odd(row) { highlight-color } else { white }
+      }
+    },
+    [*2d6*],
+    [*Mark*],
+    [2],
+    [Chaotic Mark],
+    [3],
+    [Chaotic Mark],
+    [4],
+    [Chaotic Mark],
+    [5],
+    [Chaotic Mark],
+    [6],
+    [Chaotic Mark],
+    [7],
+    [Chaotic Mark],
+    [8],
+    [Chaotic Mark],
+    [9],
+    [Chaotic Mark],
+    [10],
+    [Chaotic Mark],
+    [11],
+    [Chaotic Mark],
+    [12],
+    [Chaotic Mark],
+  )
+]
+
+#item-heading(level: 3)[Learning New Spells]<heading.magic.learning-new-spells>
+
+All magic users have one thing in common: They want to learn more magic---it's
+their form of power which they want to grow. In Cairn, character advancement is
+diagetic and that remains the case for magic users.
+
+During character creation, players should start with a grimoire that can hold
+only 2 spells. Grimoires are way more valuable than regular ol' books, and it's
+not just because of the spells contained within---it's because the materials
+constructing these magical books are necessarily of the finest quality and
+materials.
+
+#item-heading(level: 3)[Staves]<heading.magic.staves>
+
+#pagebreak()
+
+#huge-heading(level: 2)[Spells]<heading.spells>
+
+#pagebreak()
+
+#huge-heading(level: 2)[Rituals]<heading.rituals>
+
+#pagebreak()
+
+#huge-heading(level: 2)[Hexes]<heading.hexes>
+
+#pagebreak()
+
+#huge-heading(level: 2)[Ley Lines]<heading.ley-lines>
 
 #pagebreak()
 
@@ -629,11 +802,32 @@ Here are 20 more backgrounds for new characters.
 
 #pagebreak()
 
-#huge-heading(level: 2)[The Setting of Gresha]
+#huge-heading(level: 2)[The Continent of Gresha]
 
 #large-heading(level: 3)[Introduction]
 
+There are many dark fantasy worlds out there that already exist which you can
+use #emph(title) to play adventures in with little-to-no tweaking involved. You
+may also already have a setting or world, though, and it may not exactly fit the
+tone of #emph(title).
+
+Gresha is a continent that should be easily placeable in most traditional
+medieval fantasy settings. Its problems, initially, are easily contained to a
+few regions in the continent.
+
 #large-heading(level: 3)[Gresha is Yours]
+
+There is no single correct iteration of Gresha. Your Gresha will be different
+than mine, is different to his, hers, etc. The Gresha presented here is actually
+in the form of questions---your answers to those questions are what make your
+Gresha unique amongst all others.
+
+#item-heading(level: 4)[Making Gresha Unique]
+
+1. Why is Gresha cut off from the outside?
+  1. It isn't
+  2. It is
+  3. It isn't
 
 #large-heading(level: 3)[Locations]
 

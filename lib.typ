@@ -55,6 +55,33 @@
   ]
 }
 
+#let table-heading(..args, content) = {
+  set text(font: display-font, weight: "bold", fill: white)
+
+  box(
+    outset: (x: 0pt, y: 0pt),
+    inset: 4pt,
+    width: 100%,
+    fill: black,
+    heading(..args, content),
+  )
+}
+
+#let note(content) = {
+  block(
+    breakable: false,
+    fill: highlight-color.lighten(80%),
+    stroke: (left: 2pt + highlight-color-base),
+    width: 100%,
+    inset: 8pt,
+    content,
+  )
+}
+
+#let term(content) = {
+  smallcaps(strong(content))
+}
+
 #let wrapper(doc) = [
   #let outer-margin = 0.8cm
   #let inner-margin = 1.4cm
@@ -77,11 +104,6 @@
     set text(weight: "bold")
 
     underline(it)
-  }
-
-  #show outline.entry.where(level: 1): it => {
-    v(12pt, weak: true)
-    strong(it)
   }
 
   #doc
