@@ -50,7 +50,11 @@
 #let item-heading(..args, content) = {
   show heading: set text(size: 12pt, weight: 400)
 
-  box(fill: highlight-color, inset: (x: 4pt, y: 6pt), width: 100%)[
+  box(
+    fill: gradient.linear(highlight-color, white),
+    inset: (x: 4pt, y: 6pt),
+    width: 100%,
+  )[
     #heading(..args)[#content]
   ]
 }
@@ -70,7 +74,7 @@
 #let note(content) = {
   block(
     breakable: false,
-    fill: highlight-color.lighten(70%),
+    fill: gradient.linear(highlight-color.lighten(70%), white),
     stroke: (left: 2pt + highlight-color-base),
     width: 100%,
     inset: 8pt,
