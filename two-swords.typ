@@ -73,7 +73,7 @@
   #outline(indent: auto, title: none, depth: 4)
 ]
 
-#pagebreak()
+#pagebreak(weak: true)
 
 #set page(footer: set-page-numbers())
 
@@ -93,151 +93,239 @@ and unfair world. Additionally, while the content within is certainly compatible
 with Cairn 1e, it also aims to provide forwards-compatibility with Cairn 2e
 which is currently in development.
 
-#pagebreak()
+#pagebreak(weak: true)
 
 #huge-heading(level: 2)[Backgrounds] <heading.introduction.backgrounds>
 
 Here are 20 more backgrounds for new characters.
 
-#block(breakable: false, inset: (y: 1em))[
+#table-heading(level: 3)[Backgrounds (d20)]
+#v(0pt, weak: true)
+#grid(columns: 2, gutter: 2pt, table(
+  columns: (3em, 1fr),
+  [1],
+  [Alchemist],
+  [2],
+  [Druid],
+  [3],
+  [Gravetender],
+  [4],
+  [Herbalist],
+  [5],
+  [Hexer],
+  [6],
+  [Mage],
+  [7],
+  [Man at Arms],
+  [8],
+  [Merchant],
+  [9],
+  [Minstrel],
+  [10],
+  [Occultist],
+), table(
+  columns: (3em, 1fr),
+  [11],
+  [Pellar],
+  [12],
+  [Ranger],
+  [13],
+  [Seeker],
+  [14],
+  [Smith],
+  [15],
+  [Street Ruffian],
+  [16],
+  [Thief],
+  [17],
+  [Torchbearer],
+  [18],
+  [Vault Keeper],
+  [19],
+  [Village Hunter],
+  [20],
+  [Zealot],
+))
+
+#v(1em)
+
+#block(breakable: false)[
   #large-heading(level: 3)[Alchemist]
 
   #item-heading(level: 4, outlined: false)[Starting Gear]
 ]
 
-#block(breakable: false, inset: (y: 1em))[
+#v(1em)
+
+#block(breakable: false)[
   #large-heading(level: 3)[Druid]
 
   #item-heading(level: 4, outlined: false)[Starting Gear]
 ]
 
-#block(breakable: false, inset: (y: 1em))[
+#v(1em)
+
+#block(breakable: false)[
   #large-heading(level: 3)[Gravetender]
 
   #item-heading(level: 4, outlined: false)[Starting Gear]
 ]
 
-#block(breakable: false, inset: (y: 1em))[
+#v(1em)
+
+#block(breakable: false)[
   #large-heading(level: 3)[Herbalist]
 
   #item-heading(level: 4, outlined: false)[Starting Gear]
 ]
 
-#block(breakable: false, inset: (y: 1em))[
+#v(1em)
+
+#block(breakable: false)[
   #large-heading(level: 3)[Hexer]
 
   #item-heading(level: 4, outlined: false)[Starting Gear]
 ]
 
-#block(breakable: false, inset: (y: 1em))[
+#v(1em)
+
+#block(breakable: false)[
   #large-heading(level: 3)[Mage]
 
   #item-heading(level: 4, outlined: false)[Starting Gear]
 ]
 
-#block(breakable: false, inset: (y: 1em))[
+#v(1em)
+
+#block(breakable: false)[
   #large-heading(level: 3)[Man at Arms]
 
   #item-heading(level: 4, outlined: false)[Starting Gear]
 ]
 
-#block(breakable: false, inset: (y: 1em))[
+#v(1em)
+
+#block(breakable: false)[
   #large-heading(level: 3)[Merchant]
 
   #item-heading(level: 4, outlined: false)[Starting Gear]
 ]
 
-#block(breakable: false, inset: (y: 1em))[
+#v(1em)
+
+#block(breakable: false)[
   #large-heading(level: 3)[Minstrel]
 
   #item-heading(level: 4, outlined: false)[Starting Gear]
 ]
 
-#block(breakable: false, inset: (y: 1em))[
+#v(1em)
+
+#block(breakable: false)[
   #large-heading(level: 3)[Occultist]
 
   #item-heading(level: 4, outlined: false)[Starting Gear]
 ]
 
-#block(breakable: false, inset: (y: 1em))[
+#v(1em)
+
+#block(breakable: false)[
   #large-heading(level: 3)[Pellar]
 
   #item-heading(level: 4, outlined: false)[Starting Gear]
 ]
 
-#block(breakable: false, inset: (y: 1em))[
+#v(1em)
+
+#block(breakable: false)[
   #large-heading(level: 3)[Ranger]
 
   #item-heading(level: 4, outlined: false)[Starting Gear]
 ]
 
-#block(breakable: false, inset: (y: 1em))[
+#v(1em)
+
+#block(breakable: false)[
   #large-heading(level: 3)[Seeker]
 
   #item-heading(level: 4, outlined: false)[Starting Gear]
 ]
 
-#block(breakable: false, inset: (y: 1em))[
+#v(1em)
+
+#block(breakable: false)[
   #large-heading(level: 3)[Smith]
 
   #item-heading(level: 4, outlined: false)[Starting Gear]
 ]
 
-#block(breakable: false, inset: (y: 1em))[
+#v(1em)
+
+#block(breakable: false)[
   #large-heading(level: 3)[Street Ruffian]
 
   #item-heading(level: 4, outlined: false)[Starting Gear]
 ]
 
-#block(breakable: false, inset: (y: 1em))[
+#v(1em)
+
+#block(breakable: false)[
   #large-heading(level: 3)[Thief]
 
   #item-heading(level: 4, outlined: false)[Starting Gear]
 ]
 
-#block(breakable: false, inset: (y: 1em))[
+#v(1em)
+
+#block(breakable: false)[
   #large-heading(level: 3)[Torchbearer]
 
   #item-heading(level: 4, outlined: false)[Starting Gear]
 ]
 
-#block(breakable: false, inset: (y: 1em))[
+#v(1em)
+
+#block(breakable: false)[
   #large-heading(level: 3)[Vault Keeper]
 
   #item-heading(level: 4, outlined: false)[Starting Gear]
 ]
 
-#block(breakable: false, inset: (y: 1em))[
+#v(1em)
+
+#block(breakable: false)[
   #large-heading(level: 3)[Village Hunter]
 
   #item-heading(level: 4, outlined: false)[Starting Gear]
 ]
 
-#block(breakable: false, inset: (y: 1em))[
+#v(1em)
+
+#block(breakable: false)[
   #large-heading(level: 3)[Zealot]
 
   #item-heading(level: 4, outlined: false)[Starting Gear]
 ]
 
-#pagebreak()
+#pagebreak(weak: true)
 
 #huge-heading(level: 2)[Marketplace]
 
-#pagebreak()
+#pagebreak(weak: true)
 
 #huge-heading(level: 2)[Combat]
 
-#pagebreak()
+#pagebreak(weak: true)
 
 #huge-heading(level: 2)[Crafting & Alchemy]
 
 #item-heading(level: 3)[Scavenging]
 
-#pagebreak()
+#pagebreak(weak: true)
 
 #huge-heading(level: 2)[Relics & Artefacts]
 
-#pagebreak()
+#pagebreak(weak: true)
 
 #huge-heading(level: 2)[Magic]
 
@@ -280,13 +368,6 @@ When you have been exposed to chaos, compare your #term[[sum]] to the following:
   #v(0pt, weak: true)
   #table(
     columns: (3em, 1fr),
-    stroke: none,
-    align: left + horizon,
-    fill: (col, row) => {
-      if row == 0 { white } else {
-        if calc.odd(row) { highlight-color } else { white }
-      }
-    },
     [*2d6*],
     [*Mutation*],
     [2],
@@ -313,19 +394,11 @@ When you have been exposed to chaos, compare your #term[[sum]] to the following:
     [Chaotic Mark],
   )
 ]
-
 #block(breakable: false)[
   #table-heading(level: 4)[Taint of Chaos]
   #v(0pt, weak: true)
   #table(
     columns: (3em, 1fr),
-    stroke: none,
-    align: left + horizon,
-    fill: (col, row) => {
-      if row == 0 { white } else {
-        if calc.odd(row) { highlight-color } else { white }
-      }
-    },
     [*2d6*],
     [*Taint*],
     [2],
@@ -352,19 +425,11 @@ When you have been exposed to chaos, compare your #term[[sum]] to the following:
     [Chaotic Taint],
   )
 ]
-
 #block(breakable: false)[
   #table-heading(level: 4)[Mark of Chaos]
   #v(0pt, weak: true)
   #table(
     columns: (3em, 1fr),
-    stroke: none,
-    align: left + horizon,
-    fill: (col, row) => {
-      if row == 0 { white } else {
-        if calc.odd(row) { highlight-color } else { white }
-      }
-    },
     [*2d6*],
     [*Mark*],
     [2],
@@ -406,23 +471,23 @@ materials.
 
 #item-heading(level: 3)[Staves]<heading.magic.staves>
 
-#pagebreak()
+#pagebreak(weak: true)
 
 #huge-heading(level: 2)[Spells]<heading.spells>
 
-#pagebreak()
+#pagebreak(weak: true)
 
 #huge-heading(level: 2)[Rituals]<heading.rituals>
 
-#pagebreak()
+#pagebreak(weak: true)
 
 #huge-heading(level: 2)[Hexes]<heading.hexes>
 
-#pagebreak()
+#pagebreak(weak: true)
 
 #huge-heading(level: 2)[Ley Lines]<heading.ley-lines>
 
-#pagebreak()
+#pagebreak(weak: true)
 
 #huge-heading(level: 2)[Foes]
 
@@ -782,15 +847,58 @@ materials.
   #item-heading(level: 4)[Steed of the Hunt]
 ]
 
-#pagebreak()
+#pagebreak(weak: true)
 
 #huge-heading(level: 2)[The Warden's Tome]
 
-#item-heading(level: 3)[Life is Cheap---Swords Aren't]
+Here I'll go over exactly what this book means by the popular term _"dark fantasy,"_ as
+well as go over the included play area of Gresha, a continent full of danger,
+wild magic, and personality. Additionally, here is where you'll find tables and
+tools for generating sites, NPCs, locations, and more that fit a dark fantasy
+setting.
 
-#item-heading(level: 3)[Recovering Wounds]
+#large-heading(level: 3)[A Dark Fantasy]
 
-#item-heading(level: 3)[Curses]
+There are a lot of interpretations of what a _"dark fantasy"_ setting is. It
+might mean an extremely grim, bleak, and borderline nihilistic feel to some, but
+that's not what we're going for here.
+
+Dark fantasy in this book means a world in which evil is prevalent and defeating
+it is a difficult task. There are no true heroes, and those who seek to do good
+do not often win the day, but it is a pyhrric victory where evil may have lost,
+but at what cost? This is not to say that good must _always_ suffer great losses
+to make their dent into evil, but it is all too-often the case.
+
+Hope is also possible, but it is seen as foolish. There's lots to hope for---to
+make it to the next town without being attacked by bandits, that the birth of a
+child isn't lost, and for the next full moon to not unleash some curse brought
+upon you or a loved one---but these are all possibilities that are not at all
+uncommon.
+
+Happiness is also possible---it is what most people seek, after all. Happiness
+is not without cost in this dark fantasy setting, though. Happiness is to be
+fought for and defended. Those who truly deserve a happily-ever-after to their
+story are far few in number than your typical high fantasy setting.
+
+All of this is to say that _good exists_, but it is outnumbered by those who
+seek to do evil. Apathy is a plague that has spread across almost all people, as
+the toll of pain easily wears down those who just want to live a simple life.
+There is, though, always comfort in a good night's rest, a mug of ale with a
+kind stranger next to the fire at an inn, or just the sound of calm winds at
+sunset---because asking what tomorrow brings is likely a question best left
+unanswered.
+
+The player characters are not heroes that are destined to save a doomed world.
+All adventurers, though, have taken the first step to being able to make a
+difference---they have all decided that what they seek is _out there_, and have
+decided to pursue it. If what they seek is to do good in a dark world, then that
+is up to them.
+
+#large-heading(level: 3)[Procedures]
+
+#item-heading(level: 4)[Recovering Wounds]
+
+#item-heading(level: 4)[Curses]
 
 #large-heading(level: 3)[Tables]
 
@@ -800,35 +908,60 @@ materials.
 
 #item-heading(level: 4)[Sites]
 
-#pagebreak()
-
-#huge-heading(level: 2)[The Continent of Gresha]
-
-#large-heading(level: 3)[Introduction]
+#large-heading(level: 3)[The Continent of Gresha]
 
 There are many dark fantasy worlds out there that already exist which you can
 use #emph(title) to play adventures in with little-to-no tweaking involved. You
 may also already have a setting or world, though, and it may not exactly fit the
 tone of #emph(title).
 
-Gresha is a continent that should be easily placeable in most traditional
-medieval fantasy settings. Its problems, initially, are easily contained to a
-few regions in the continent.
+Gresha (IPA: [griʃa]) is a continent that should be easily placeable in many
+traditional medieval fantasy settings. Its problems are easily contained to the
+regions of the continent, at least initially---though, who knows where they will
+spread when the players get their hands on it?
 
-#large-heading(level: 3)[Gresha is Yours]
+#item-heading(level: 4)[Gresha is Yours]
 
 There is no single correct iteration of Gresha. Your Gresha will be different
 than mine, is different to his, hers, etc. The Gresha presented here is actually
 in the form of questions---your answers to those questions are what make your
 Gresha unique amongst all others.
 
-#item-heading(level: 4)[Making Gresha Unique]
+#pagebreak(weak: true)
 
-1. Why is Gresha cut off from the outside?
-  1. It isn't
-  2. It is
-  3. It isn't
+===== Some Assumptions
 
-#large-heading(level: 3)[Locations]
+While everyone's Gresha will be quite unique, there are still aspects that are
+shared between them all.
 
-#large-heading(level: 3)[Characters]
+#note[
+  *Note:* I can't stop you from tweaking these, but just be wary that if you do,
+  it will diminish the utility of this book.
+]
+
+*Gresha is dangerous.* The lands that reside within Gresha are filled with
+monsters that lurk and prowl. People, too, fill these lands and they wage war,
+lie, steal, take, and kill. Innocence is hunted and the weak are tested.
+
+*Gresha is ripe for exploration.* There is a lot to see in Gresha. While the
+gonzo fantastical things like floating islands don't exist here, ancient
+civilizations have left undiscovered ruins, mythical creatures roam the lands,
+wizards sit in their towers experimenting, and artefacts of legend rest in dark
+corners. Every settlement to rest in has a story and every character to meet has
+a past.
+
+*Gresha is for the apathetic.* People here are not looking to be heroes. They do
+not want to leave the comfort of the walls that keep the monsters out of their
+small towns. They do not ask "what is over the horizon?" They certainly will not
+risk their lives to save others---at least, not for free.
+
+*Gresha is not hopeless.* Yes, evil is everywhere; Yes, war is hell; Yes, trying
+to be a hero is suicide. There is also comfort in simplicity and the mundane.
+People seek a reason to dance, to enjoy the day, and to enjoy the comfort of
+those they love. These glimpses of a normal life are highlighted.
+
+#item-heading(level: 4)[Regions of Gresha]
+
+#item-heading(level: 4)[Locations]
+
+#item-heading(level: 4)[Characters]

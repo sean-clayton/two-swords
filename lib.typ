@@ -100,6 +100,15 @@
     it
   }
 
+  #show table: it => {
+    set table(stroke: none, align: left + horizon, fill: (col, row) => {
+      if row == 0 { white } else {
+        if calc.odd(row) { highlight-color } else { white }
+      }
+    })
+    it
+  }
+
   #show link: it => {
     set text(weight: "bold")
 
