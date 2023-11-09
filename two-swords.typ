@@ -61,7 +61,7 @@
 #huge-heading(level: 2, outlined: false, bookmarked: false)[Table of Contents]
 
 #columns(2)[
-  #outline(depth: 4, title: none)
+  #outline(indent: 4pt, depth: 3, title: none)
 ]
 
 #pagebreak(weak: true)
@@ -325,7 +325,7 @@ harness it with destructive effect. There are many who walk the lands that can
 tap into the plane of chaotic energies and pull out transformations that change
 our physical world.
 
-#item-heading(level: 3)[Magical Implement]
+#item-heading(level: 3)[Magical Implements]
 
 Any one of the following can give you the ability to cast spells:
 

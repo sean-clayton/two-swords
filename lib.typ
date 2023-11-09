@@ -1,7 +1,7 @@
 #let metadata = toml("metadata.toml")
 
 #let title = metadata.title
-#let paper = "a5"
+#let paper = "iso-b5"
 
 #let highlight-color-base = color.hsl(57deg, 100%, 47.6%)
 #let highlight-color = highlight-color-base.desaturate(33.333%).lighten(80%)
@@ -97,25 +97,30 @@
 
   #set document(title: title)
   #set page(
-    paper: "a5",
+    paper: paper,
     margin: (bottom: 1.5cm, inside: inner-margin, outside: outer-margin, top: 0.8cm),
     header: [#place(top + center)[#wip-banner]],
   )
 
-  #set outline(indent: 1em)
-
   #show outline.entry: it => {
-    link(it.element.location(), [
-      #set text(size: 9pt)
-      #v(0pt, weak: true) #box[#it.body #h(1fr) #it.page]
-    ])
+    set text(size: 9pt)
+
+    v(0pt, weak: true)
+    box(inset: (left: 1em * (it.level - 2)), link(it.element.location(), [
+      #v(0pt, weak: true)
+      #box[
+        #it.body
+        #h(1fr) #it.page
+      ]
+    ]))
   }
 
   #show outline.entry.where(level: 2): it => {
+    set text(size: 11pt, weight: "bold")
+
     link(
       it.element.location(),
       box(inset: (bottom: 0.1em), stroke: (bottom: 0.5pt + black))[
-        #set text(size: 11pt, weight: "bold")
         #v(0pt, weak: true) #box[#it.body #h(1fr) #it.page]
       ],
     )
