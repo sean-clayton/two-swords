@@ -12,6 +12,12 @@
                     <g transform="translate(-0 -0)">
                         <path class="typst-shape" fill="none" stroke="#494618" stroke-width="48" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" d="M 0 0 L 0 512 L 1024 512 L 1024 0 Z "/>
                     </g>
+                    <g transform="translate(50 40)">
+                        <path class="typst-shape" fill="none" stroke="hsl(Angle(Scalar(0.9948376736367679)) Ratio(Scalar(0.5)) Ratio(Scalar(0.1904599964618683)))" stroke-width="2.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" d="M 0 0 L 0 432 L 924 432 L 924 0 Z "/>
+                    </g>
+                    <g transform="translate(40 50)">
+                        <path class="typst-shape" fill="none" stroke="hsl(Angle(Scalar(0.9948376736367679)) Ratio(Scalar(0.5)) Ratio(Scalar(0.1904599964618683)))" stroke-width="2.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" d="M 0 0 L 0 412 L 944 412 L 944 0 Z "/>
+                    </g>
                     <g transform="translate(0 183.490375)">
                         <g class="typst-group">
                             <g>

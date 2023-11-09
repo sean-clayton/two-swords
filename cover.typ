@@ -18,5 +18,23 @@
   #set align(center + horizon)
   #set text(font: "Asul", size: 32pt, fill: highlight-color-base)
 
+  #place(center + horizon, [
+    #rect(
+      height: 100% - 1.5em,
+      width: 100% - 2em,
+      fill: none,
+      stroke: 1pt + stroke-color,
+    )
+  ])
+
+  #place(center + horizon, [
+    #rect(
+      height: 100% - 2em,
+      width: 100% - 1.5em,
+      fill: none,
+      stroke: 1pt + stroke-color,
+    )
+  ])
+
   #heading(level: 1, outlined: false, bookmarked: true)[#title]
 ]

@@ -11,6 +11,24 @@
     #set align(center + horizon)
     #set text(font: "Asul", fill: highlight-color-base)
 
+    #place(center + horizon, [
+      #rect(
+        height: 100% - 3em,
+        width: 100% - 4em,
+        fill: none,
+        stroke: 1pt + stroke-color,
+      )
+    ])
+
+    #place(center + horizon, [
+      #rect(
+        height: 100% - 4em,
+        width: 100% - 3em,
+        fill: none,
+        stroke: 1pt + stroke-color,
+      )
+    ])
+
     #stack(spacing: 16pt, text(font: "Asul", weight: "bold", size: 32pt)[
       #title
     ], text(
