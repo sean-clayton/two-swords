@@ -4,10 +4,14 @@ on:
   workflow_call:
 
 jobs:
-  create-artifacts:
+  add-artifacts:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+
+      - name: Get Version
+        uses: maltoze/get-version-action@v1
+        id: get_version
 
       - uses: yusancky/setup-typst@v2
         with:
@@ -16,7 +20,7 @@ jobs:
       - run: mkdir dist
 
       - name: Build PDF
-        run: typst compile --font-path fonts two-swords.typ dist/TwoSwords-${{ github.ref_name#v }}.pdf
+        run: typst compile --font-path fonts two-swords.typ dist/TwoSwords-${{ steps.get_version.outputs.version-without-v }}.pdf
 
       - uses: actions/upload-artifact@v3
         with:
