@@ -70,16 +70,25 @@
 #let note(content) = {
   block(
     breakable: false,
-    fill: highlight-color.lighten(80%),
+    fill: highlight-color.lighten(70%),
     stroke: (left: 2pt + highlight-color-base),
     width: 100%,
     inset: 8pt,
-    content,
+    emph(content),
   )
 }
 
 #let term(content) = {
   smallcaps(strong(content))
+}
+
+#let truth-list(..args) = {
+  list(marker: [○], ..args)
+}
+
+#let ts-link(..args, it) = {
+  set text(weight: "bold")
+  underline(link(..args, it))
 }
 
 #let wrapper(doc) = [
@@ -92,6 +101,25 @@
     margin: (bottom: 1.5cm, inside: inner-margin, outside: outer-margin, top: 0.8cm),
     header: [#place(top + center)[#wip-banner]],
   )
+
+  #set outline(indent: 1em)
+
+  #show outline.entry: it => {
+    link(it.element.location(), [
+      #set text(size: 9pt)
+      #v(0pt, weak: true) #box[#it.body #h(1fr) #it.page]
+    ])
+  }
+
+  #show outline.entry.where(level: 2): it => {
+    link(
+      it.element.location(),
+      box(inset: (bottom: 0.1em), stroke: (bottom: 0.5pt + black))[
+        #set text(size: 11pt, weight: "bold")
+        #v(0pt, weak: true) #box[#it.body #h(1fr) #it.page]
+      ],
+    )
+  }
 
   #set text(font: primary-font, size: 10pt)
 
@@ -109,11 +137,7 @@
     it
   }
 
-  #show link: it => {
-    set text(weight: "bold")
-
-    underline(it)
-  }
+  #set list(marker: [▸])
 
   #doc
 ]

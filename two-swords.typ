@@ -25,13 +25,13 @@
   #stack(
     spacing: 16pt,
     text(fill: cover.highlight-color-base, size: 32pt, weight: "bold")[#title],
-    text[#link(metadata.repo_cc_license_url)[CC-BY-SA 4.0] | by #metadata.author],
+    text[#ts-link(metadata.repo_cc_license_url)[CC-BY-SA 4.0] | by #metadata.author],
   )
 
-  #link(metadata.repo_url)[Source Code] | #link(metadata.repo_license_url)[Source Code License]
+  #ts-link(metadata.repo_url)[Source Code] | #ts-link(metadata.repo_license_url)[Source Code License]
 
-  Made for #link("https://cairnrpg.com")[Cairn] by #link("https://newschoolrevolution.com/")[Yochai Gal],
-  released #link("https://creativecommons.org/licenses/by-sa/4.0/")[CC-BY-SA 4.0]
+  Made for #ts-link("https://cairnrpg.com")[Cairn] by #ts-link("https://newschoolrevolution.com/")[Yochai Gal],
+  released #ts-link("https://creativecommons.org/licenses/by-sa/4.0/")[CC-BY-SA 4.0]
 
   #place(bottom + center)[
     #set text(font: primary-font, fill: highlight-color-base)
@@ -58,19 +58,10 @@
 
 #set page(fill: none)
 
+#huge-heading(level: 2, outlined: false, bookmarked: false)[Table of Contents]
+
 #columns(2)[
-  #show outline.entry.where(level: 2): it => {
-    set text(size: 14pt)
-    v(12pt, weak: true)
-    strong(it)
-  }
-
-  #show outline.entry.where(level: 3): it => {
-    v(12pt, weak: true)
-    strong(it)
-  }
-
-  #outline(indent: auto, title: none, depth: 4)
+  #outline(depth: 4, title: none)
 ]
 
 #pagebreak(weak: true)
@@ -354,6 +345,24 @@ Any one of the following can give you the ability to cast spells:
   If you get multiple dice of the same value, you have been
   #link(<heading.magic.exposure-to-chaos>)[exposed to chaos].
 
+#item-heading(level: 3)[Learning New Spells]<heading.magic.learning-new-spells>
+
+All magic users have one thing in common: They want to learn more magic---it's
+their form of power which they want to grow. In Cairn, character advancement is
+diagetic and that remains the case for magic users.
+
+During character creation, players should start with a grimoire that can hold
+only 2 spells. Grimoires are way more valuable than regular ol' books, and it's
+not just because of the spells contained within---it's because the materials
+constructing these magical books are necessarily of the finest quality and
+materials.
+
+#item-heading(level: 3)[Grimoires]<heading.magic.grimoires>
+
+#item-heading(level: 3)[Scrolls]<heading.magic.scrolls>
+
+#item-heading(level: 3)[Staves]<heading.magic.staves>
+
 #item-heading(level: 3)[Exposure to Chaos]<heading.magic.exposure-to-chaos>
 
 When you have been exposed to chaos, compare your #term[[sum]] to the following:
@@ -456,20 +465,6 @@ When you have been exposed to chaos, compare your #term[[sum]] to the following:
     [Chaotic Mark],
   )
 ]
-
-#item-heading(level: 3)[Learning New Spells]<heading.magic.learning-new-spells>
-
-All magic users have one thing in common: They want to learn more magic---it's
-their form of power which they want to grow. In Cairn, character advancement is
-diagetic and that remains the case for magic users.
-
-During character creation, players should start with a grimoire that can hold
-only 2 spells. Grimoires are way more valuable than regular ol' books, and it's
-not just because of the spells contained within---it's because the materials
-constructing these magical books are necessarily of the finest quality and
-materials.
-
-#item-heading(level: 3)[Staves]<heading.magic.staves>
 
 #pagebreak(weak: true)
 
@@ -908,7 +903,7 @@ is up to them.
 
 #item-heading(level: 4)[Sites]
 
-#large-heading(level: 3)[The Continent of Gresha]
+#huge-heading(level: 2)[The Continent of Gresha]
 
 There are many dark fantasy worlds out there that already exist which you can
 use #emph(title) to play adventures in with little-to-no tweaking involved. You
@@ -920,7 +915,7 @@ traditional medieval fantasy settings. Its problems are easily contained to the
 regions of the continent, at least initially---though, who knows where they will
 spread when the players get their hands on it?
 
-#item-heading(level: 4)[Gresha is Yours]
+#large-heading(level: 3)[Gresha is Yours]
 
 There is no single correct iteration of Gresha. Your Gresha will be different
 than mine, is different to his, hers, etc. The Gresha presented here is actually
@@ -929,7 +924,7 @@ Gresha unique amongst all others.
 
 #pagebreak(weak: true)
 
-===== Some Assumptions
+#item-heading(level: 3, outlined: false)[Some Assumptions]
 
 While everyone's Gresha will be quite unique, there are still aspects that are
 shared between them all.
@@ -957,11 +952,60 @@ risk their lives to save others---at least, not for free.
 
 *Gresha is not hopeless.* Yes, evil is everywhere; Yes, war is hell; Yes, trying
 to be a hero is suicide. There is also comfort in simplicity and the mundane.
-People seek a reason to dance, to enjoy the day, and to enjoy the comfort of
-those they love. These glimpses of a normal life are highlighted.
+People seek a reason to dance, to enjoy the day, to celebrate a life, and to
+enjoy the comfort of those they love. While these glimpses of a normal life are
+not an every day occurence, they happen and stand out amongst the grey.
 
-#item-heading(level: 4)[Regions of Gresha]
+#item-heading(level: 3)[The Rot Blight]
 
-#item-heading(level: 4)[Locations]
+#grid(columns: (2em, 1fr), gutter: 1em, [1–2], [
+  *The rot blight never ended.*
+], [3–4], [
+  *The rot blight ended long ago.*
+], [5–6], [
+  *The rot blight ended just under a year ago.*
+])
 
-#item-heading(level: 4)[Characters]
+#item-heading(level: 3)[The Aeldar]
+
+#grid(columns: (2em, 1fr), gutter: 1em, [1–2], [
+  *The Aeldar disappeared long ago without a trace.*
+], [3–4], [
+  *The rot blight ended long ago.*
+], [5–6], [
+  *The rot blight ended just under a year ago.*
+])
+
+#item-heading(level: 3)[The Allied Kingdoms]
+
+#item-heading(level: 3)[The Empire]
+
+#item-heading(level: 3)[War]
+
+#item-heading(level: 3)[Medicine]
+
+#item-heading(level: 3)[Magic]
+
+#item-heading(level: 3)[Religion]
+
+#item-heading(level: 3)[The Old Wood]
+
+#item-heading(level: 3)[The Withered March]
+
+#item-heading(level: 3)[Dragon's Reach]
+
+#item-heading(level: 4)[The Fertile Coast]
+
+#large-heading(level: 3)[Regions of Gresha]
+
+#item-heading(level: 4)[The Withered March]
+
+#item-heading(level: 4)[The Old Wood]
+
+#item-heading(level: 4)[Dragon's Reach]
+
+#item-heading(level: 4)[The Fertile Coast]
+
+#large-heading(level: 3)[Locations of Gresha]
+
+#large-heading(level: 3)[People of Gresha]
