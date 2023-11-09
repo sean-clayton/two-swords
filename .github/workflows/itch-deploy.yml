@@ -8,15 +8,11 @@ jobs:
   get-pdf-artifacts:
     uses: sean-clayton/two-swords/.github/workflows/build-pdf.yml@main
 
-  add-artifacts:
+  itch-deploy:
     runs-on: ubuntu-latest
     needs: get-pdf-artifacts
     steps:
       - uses: actions/checkout@v3
-
-      - name: Extract Version From Tag
-        id: get_version
-        uses: battila7/get-version-action@v2
 
       - uses: actions/download-artifact@v3
         with:
@@ -31,4 +27,4 @@ jobs:
           itchUsername: seanclayton
           itchGameId: two-swords
           buildChannel: book
-          buildNumber: ${{ steps.get_version.outputs.version-without-v }}
+          buildNumber: ${{ github.ref_name#v }}
