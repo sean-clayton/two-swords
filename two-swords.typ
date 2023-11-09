@@ -50,7 +50,7 @@
       #text[
         #title is currently under heavy development.
 
-        This is not representative of its final state.
+        Any number of aspects of this book may change at any time.
       ]
     ]
   ]
@@ -99,7 +99,7 @@ which is currently in development.
 
 Here are 20 more backgrounds for new characters.
 
-#table-heading(level: 3)[Backgrounds (d20)]
+#table-heading(level: 3, outlined: false)[Backgrounds (d20)]
 #v(0pt, weak: true)
 #grid(columns: 2, gutter: 2pt, table(
   columns: (3em, 1fr),
@@ -364,7 +364,7 @@ When you have been exposed to chaos, compare your #term[[sum]] to the following:
 - *2–6* You have successfully avoided the maleficence of chaos---for now...
 
 #block(breakable: false)[
-  #table-heading(level: 4)[Chaotic Mutation]
+  #table-heading(level: 4, outlined: false)[Chaotic Mutation]
   #v(0pt, weak: true)
   #table(
     columns: (3em, 1fr),
@@ -395,7 +395,7 @@ When you have been exposed to chaos, compare your #term[[sum]] to the following:
   )
 ]
 #block(breakable: false)[
-  #table-heading(level: 4)[Taint of Chaos]
+  #table-heading(level: 4, outlined: false)[Taint of Chaos]
   #v(0pt, weak: true)
   #table(
     columns: (3em, 1fr),
@@ -426,7 +426,7 @@ When you have been exposed to chaos, compare your #term[[sum]] to the following:
   )
 ]
 #block(breakable: false)[
-  #table-heading(level: 4)[Mark of Chaos]
+  #table-heading(level: 4, outlined: false)[Mark of Chaos]
   #v(0pt, weak: true)
   #table(
     columns: (3em, 1fr),
