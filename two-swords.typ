@@ -31,10 +31,16 @@
   Made for #ts-link("https://cairnrpg.com")[Cairn] by #ts-link("https://newschoolrevolution.com/")[Yochai Gal],
   released #ts-link("https://creativecommons.org/licenses/by-sa/4.0/")[CC-BY-SA 4.0]
 
-  #place(bottom + center)[
+  #place(
+    bottom + center,
+  )[
     #set text(font: primary-font, fill: highlight-color-base)
 
-    #box(fill: cover.stroke-color, inset: 10pt, width: 100%)[
+    #box(
+      fill: cover.stroke-color,
+      inset: 10pt,
+      width: 100%,
+    )[
       #text(weight: 700)[
         #stack(
           dir: ltr,
@@ -46,9 +52,8 @@
       ]
 
       #text[
-        #title is currently under heavy development.
-
-        Any number of aspects of this book may change at any time.
+        #title is currently under heavy development. Any aspect of this book may change
+        during this process.
       ]
     ]
   ]
@@ -56,17 +61,17 @@
 
 #set page(fill: none)
 
-#huge-heading(level: 2, outlined: false, bookmarked: false)[Table of Contents]
+#huge-heading(level: 1, outlined: false, bookmarked: false)[Table of Contents]
 
 #columns(2)[
-  #outline(indent: 4pt, depth: 3, title: none)
+  #outline(indent: 4pt, depth: 2, title: none)
 ]
 
 #pagebreak(weak: true)
 
 #set page(footer: set-page-numbers())
 
-#huge-heading(level: 2)[Introduction] <heading.introduction>
+#huge-heading(level: 1)[Introduction] <heading.introduction>
 
 The world of #emph(title) is a place where the sword you carry is worth more
 than your own life, and the people around you will certainly try to test if you
@@ -84,11 +89,11 @@ which is currently in development.
 
 #pagebreak(weak: true)
 
-#huge-heading(level: 2)[Backgrounds] <heading.introduction.backgrounds>
+#huge-heading(level: 1)[Backgrounds] <heading.introduction.backgrounds>
 
 Here are 20 more backgrounds for new characters.
 
-#table-heading(level: 3, outlined: false)[Backgrounds (d20)]
+#table-heading(level: 2, outlined: false)[Backgrounds (d20)]
 #v(0pt, weak: true)
 #grid(columns: 2, gutter: 2pt, table(
   columns: (3em, 1fr),
@@ -139,191 +144,191 @@ Here are 20 more backgrounds for new characters.
 #v(1em)
 
 #block(breakable: false)[
-  #large-heading(level: 3)[Alchemist]
+  #large-heading(level: 2)[Alchemist]
 
-  #item-heading(level: 4, outlined: false)[Starting Gear]
+  #item-heading(level: 3, outlined: false)[Starting Gear]
 ]
 
 #v(1em)
 
 #block(breakable: false)[
-  #large-heading(level: 3)[Druid]
+  #large-heading(level: 2)[Druid]
 
-  #item-heading(level: 4, outlined: false)[Starting Gear]
+  #item-heading(level: 3, outlined: false)[Starting Gear]
 ]
 
 #v(1em)
 
 #block(breakable: false)[
-  #large-heading(level: 3)[Gravetender]
+  #large-heading(level: 2)[Gravetender]
 
-  #item-heading(level: 4, outlined: false)[Starting Gear]
+  #item-heading(level: 3, outlined: false)[Starting Gear]
 ]
 
 #v(1em)
 
 #block(breakable: false)[
-  #large-heading(level: 3)[Herbalist]
+  #large-heading(level: 2)[Herbalist]
 
-  #item-heading(level: 4, outlined: false)[Starting Gear]
+  #item-heading(level: 3, outlined: false)[Starting Gear]
 ]
 
 #v(1em)
 
 #block(breakable: false)[
-  #large-heading(level: 3)[Hexer]
+  #large-heading(level: 2)[Hexer]
 
-  #item-heading(level: 4, outlined: false)[Starting Gear]
+  #item-heading(level: 3, outlined: false)[Starting Gear]
 ]
 
 #v(1em)
 
 #block(breakable: false)[
-  #large-heading(level: 3)[Mage]
+  #large-heading(level: 2)[Mage]
 
-  #item-heading(level: 4, outlined: false)[Starting Gear]
+  #item-heading(level: 3, outlined: false)[Starting Gear]
 ]
 
 #v(1em)
 
 #block(breakable: false)[
-  #large-heading(level: 3)[Man at Arms]
+  #large-heading(level: 2)[Man at Arms]
 
-  #item-heading(level: 4, outlined: false)[Starting Gear]
+  #item-heading(level: 3, outlined: false)[Starting Gear]
 ]
 
 #v(1em)
 
 #block(breakable: false)[
-  #large-heading(level: 3)[Merchant]
+  #large-heading(level: 2)[Merchant]
 
-  #item-heading(level: 4, outlined: false)[Starting Gear]
+  #item-heading(level: 3, outlined: false)[Starting Gear]
 ]
 
 #v(1em)
 
 #block(breakable: false)[
-  #large-heading(level: 3)[Minstrel]
+  #large-heading(level: 2)[Minstrel]
 
-  #item-heading(level: 4, outlined: false)[Starting Gear]
+  #item-heading(level: 3, outlined: false)[Starting Gear]
 ]
 
 #v(1em)
 
 #block(breakable: false)[
-  #large-heading(level: 3)[Occultist]
+  #large-heading(level: 2)[Occultist]
 
-  #item-heading(level: 4, outlined: false)[Starting Gear]
+  #item-heading(level: 3, outlined: false)[Starting Gear]
 ]
 
 #v(1em)
 
 #block(breakable: false)[
-  #large-heading(level: 3)[Pellar]
+  #large-heading(level: 2)[Pellar]
 
-  #item-heading(level: 4, outlined: false)[Starting Gear]
+  #item-heading(level: 3, outlined: false)[Starting Gear]
 ]
 
 #v(1em)
 
 #block(breakable: false)[
-  #large-heading(level: 3)[Ranger]
+  #large-heading(level: 2)[Ranger]
 
-  #item-heading(level: 4, outlined: false)[Starting Gear]
+  #item-heading(level: 3, outlined: false)[Starting Gear]
 ]
 
 #v(1em)
 
 #block(breakable: false)[
-  #large-heading(level: 3)[Seeker]
+  #large-heading(level: 2)[Seeker]
 
-  #item-heading(level: 4, outlined: false)[Starting Gear]
+  #item-heading(level: 3, outlined: false)[Starting Gear]
 ]
 
 #v(1em)
 
 #block(breakable: false)[
-  #large-heading(level: 3)[Smith]
+  #large-heading(level: 2)[Smith]
 
-  #item-heading(level: 4, outlined: false)[Starting Gear]
+  #item-heading(level: 3, outlined: false)[Starting Gear]
 ]
 
 #v(1em)
 
 #block(breakable: false)[
-  #large-heading(level: 3)[Street Ruffian]
+  #large-heading(level: 2)[Street Ruffian]
 
-  #item-heading(level: 4, outlined: false)[Starting Gear]
+  #item-heading(level: 3, outlined: false)[Starting Gear]
 ]
 
 #v(1em)
 
 #block(breakable: false)[
-  #large-heading(level: 3)[Thief]
+  #large-heading(level: 2)[Thief]
 
-  #item-heading(level: 4, outlined: false)[Starting Gear]
+  #item-heading(level: 3, outlined: false)[Starting Gear]
 ]
 
 #v(1em)
 
 #block(breakable: false)[
-  #large-heading(level: 3)[Torchbearer]
+  #large-heading(level: 2)[Torchbearer]
 
-  #item-heading(level: 4, outlined: false)[Starting Gear]
+  #item-heading(level: 3, outlined: false)[Starting Gear]
 ]
 
 #v(1em)
 
 #block(breakable: false)[
-  #large-heading(level: 3)[Vault Keeper]
+  #large-heading(level: 2)[Vault Keeper]
 
-  #item-heading(level: 4, outlined: false)[Starting Gear]
+  #item-heading(level: 3, outlined: false)[Starting Gear]
 ]
 
 #v(1em)
 
 #block(breakable: false)[
-  #large-heading(level: 3)[Village Hunter]
+  #large-heading(level: 2)[Village Hunter]
 
-  #item-heading(level: 4, outlined: false)[Starting Gear]
+  #item-heading(level: 3, outlined: false)[Starting Gear]
 ]
 
 #v(1em)
 
 #block(breakable: false)[
-  #large-heading(level: 3)[Zealot]
+  #large-heading(level: 2)[Zealot]
 
-  #item-heading(level: 4, outlined: false)[Starting Gear]
+  #item-heading(level: 3, outlined: false)[Starting Gear]
 ]
 
 #pagebreak(weak: true)
 
-#huge-heading(level: 2)[Marketplace]
+#huge-heading(level: 1)[Marketplace]
 
 #pagebreak(weak: true)
 
-#huge-heading(level: 2)[Combat]
+#huge-heading(level: 1)[Combat]
 
 #pagebreak(weak: true)
 
-#huge-heading(level: 2)[Crafting & Alchemy]
+#huge-heading(level: 1)[Crafting & Alchemy]
 
-#item-heading(level: 3)[Scavenging]
-
-#pagebreak(weak: true)
-
-#huge-heading(level: 2)[Relics & Artefacts]
+#item-heading(level: 2)[Scavenging]
 
 #pagebreak(weak: true)
 
-#huge-heading(level: 2)[Magic]
+#huge-heading(level: 1)[Relics & Artefacts]
+
+#pagebreak(weak: true)
+
+#huge-heading(level: 1)[Magic]
 
 Magic in #emph(title) is not a science, but with practice and study one can
 harness it with destructive effect. There are many who walk the lands that can
 tap into the plane of chaotic energies and pull out transformations that change
 our physical world.
 
-#item-heading(level: 3)[Magical Implements]<magical-implements>
+#item-heading(level: 2)[Magical Implements]<magical-implements>
 
 Any one of the following can give you the ability to cast spells:
 
@@ -331,13 +336,13 @@ Any one of the following can give you the ability to cast spells:
 - A _scroll_ (two hands) for the spell.
 - A _staff_ (one hand) which contains the spell.
 
-#item-heading(level: 3)[Casting a Spell]<casting-a-spell>
+#item-heading(level: 2)[Casting a Spell]<casting-a-spell>
 
 1. Holding your #term[magical implement], choose a spell. The description may
   denote the spell's duration with D and range with R.
-2. You have an amount of Magic Dice (d6) equal to the amount of available inventory
-  slots. Choose how many you wish to invest (up to a maximum of 4). Spells will
-  refer to these as #term[[dice]]. Some spells will refer to their #term[[sum]] as
+2. You have an amount of #term[Magic Dice] (d6) equal to the amount of available
+  inventory slots. Choose how many you wish to invest (up to a maximum of 4).
+  Spells will refer to these as #term[[dice]]. Some spells will refer to their #term[[sum]] as
   well.
 3. Roll #term[[dice]]. For each die that shows a 4–6, you gain one #term[fatigue].
   If you get multiple dice of the same value, you have been
@@ -354,7 +359,7 @@ Any one of the following can give you the ability to cast spells:
   this area!
 ]
 
-#item-heading(level: 3)[Learning New Spells]<heading.magic.learning-new-spells>
+#item-heading(level: 2)[Learning New Spells]<heading.magic.learning-new-spells>
 
 All magic users have one thing in common: They want to learn more magic---it's
 their form of power which they want to grow. In Cairn, character advancement is
@@ -366,7 +371,7 @@ not just because of the spells contained within---it's because the materials
 constructing these magical books are necessarily of the finest quality and
 materials.
 
-#item-heading(level: 3)[Grimoires]<heading.magic.grimoires>
+#item-heading(level: 2)[Grimoires]<heading.magic.grimoires>
 
 Grimoires are expensive. Here are the materials needed for a 1-spell grimoire:
 
@@ -416,11 +421,35 @@ blueprints of pure chaotic energy can destroy it in the process. First, though,
 you must have an object that the staff's owner considered personal to them in
 life.
 
-#item-heading(level: 3)[Scrolls]<heading.magic.scrolls>
+#item-heading(level: 2)[Scrolls]<scrolls>
 
-#item-heading(level: 3)[Staves]<heading.magic.staves>
+#item-heading(level: 2)[Staves]<staves>
 
-#item-heading(level: 3)[Exposure to Chaos]<exposure-to-chaos>
+#item-heading(level: 2)[Ley Energy]<ley-energy>
+
+#note[
+  *Note:* Ley energy and its reasoning isn't something that's portable to any
+  setting. You may already have a setting that defines how ley energy and ley
+  lines work---this isn't meant to replace that. Feel free to ignore that aspect
+  if it doesn't fit with what you already have.
+
+  With that said, magic in this book does work differently when near a ley line or
+  a places of power with strong ley energy. Keep that in mind if you are playing
+  in your own setting.
+]
+
+When you draw upon ley energy to #ts-link(<casting-a-spell>)[cast a spell]...
+- You can now cast a spell if you only have at least one inventory slot.
+- _Double_ your magic dice pool.
+- You only gain a maximum of #term[one fatigue].
+- If you roll multiple sixes, instead of becoming exposed to chaos, you roll a
+  number of d6 dice equal to the amount of sixes. Take that in WIL damage and make
+  a WIL save or become #term[deprived]. You can no longer cast spells until you
+  remove your deprived condition.
+  #v(0.5em, weak: true) #note[*Note:* Even if you roll multiple numbers other than six, but you roll multiple
+    sixes, you still do not become exposed to chaos.]
+
+#item-heading(level: 2)[Exposure to Chaos]<exposure-to-chaos>
 
 When you have been exposed to chaos, compare your #term[[sum]] to the following:
 
@@ -430,7 +459,7 @@ When you have been exposed to chaos, compare your #term[[sum]] to the following:
 - *2–6* You have successfully avoided the maleficence of chaos---for now...
 
 #block(breakable: false)[
-  #table-heading(level: 4, outlined: false)[Chaotic Mutation]
+  #table-heading(level: 3, outlined: false)[Chaotic Mutation]
   #v(0pt, weak: true)
   #table(
     columns: (3em, 1fr),
@@ -461,7 +490,7 @@ When you have been exposed to chaos, compare your #term[[sum]] to the following:
   )
 ]
 #block(breakable: false)[
-  #table-heading(level: 4, outlined: false)[Taint of Chaos]
+  #table-heading(level: 3, outlined: false)[Taint of Chaos]
   #v(0pt, weak: true)
   #table(
     columns: (3em, 1fr),
@@ -492,7 +521,7 @@ When you have been exposed to chaos, compare your #term[[sum]] to the following:
   )
 ]
 #block(breakable: false)[
-  #table-heading(level: 4, outlined: false)[Mark of Chaos]
+  #table-heading(level: 3, outlined: false)[Mark of Chaos]
   #v(0pt, weak: true)
   #table(
     columns: (3em, 1fr),
@@ -523,257 +552,252 @@ When you have been exposed to chaos, compare your #term[[sum]] to the following:
   )
 ]
 
-#pagebreak(weak: true)
+#large-heading(level: 2)[Spells]<heading.spells>
 
-#huge-heading(level: 2)[Spells]<heading.spells>
-
-#pagebreak(weak: true)
-
-#huge-heading(level: 2)[Rituals]<heading.rituals>
+#large-heading(level: 2)[Rituals]<heading.rituals>
 
 Rituals are time-consuming spells that do not require a
 #ts-link(<magical-implements>)[#term[magical implement]]. While they are spells,
 they do not follow the procedures for #ts-link(<casting-a-spell>)[casting a spell].
 
-#pagebreak(weak: true)
-
-#huge-heading(level: 2)[Hexes]<heading.hexes>
+#large-heading(level: 2)[Hexes]<heading.hexes>
 
 #pagebreak(weak: true)
 
-#huge-heading(level: 2)[Ley Lines]<heading.ley-lines>
+#huge-heading(level: 1)[Foes]
 
-#pagebreak(weak: true)
+Cairn already has a #ts-link("https://cairnrpg.com/resources/monsters/")[monster list]
+that covers many traditional fantasy foes that can easily be used in a dark
+fantasy setting, but the ones included are meant to further bolster tone of the
+setting.
 
-#huge-heading(level: 2)[Foes]
-
-#large-heading(level: 3)[Humanoids]
+#large-heading(level: 2)[Humanoids]
 
 #cairn-stat-block(load-stat("bandit"))[
-  #item-heading(level: 4)[Bandit] <foe.bandit>
+  #item-heading(level: 3)[Bandit] <foe.bandit>
 ]
 
 #cairn-stat-block(load-stat("conscript"))[
-  #item-heading(level: 4)[Conscript] <foe.conscript>
+  #item-heading(level: 3)[Conscript] <foe.conscript>
 ]
 
 #cairn-stat-block(load-stat("highwayman"))[
-  #item-heading(level: 4)[Highwayman] <foe.highwayman>
+  #item-heading(level: 3)[Highwayman] <foe.highwayman>
 ]
 
 #cairn-stat-block(load-stat("imperial-infantry"))[
-  #item-heading(level: 4)[Imperial Infantry] <foe.imperial-infantry>
+  #item-heading(level: 3)[Imperial Infantry] <foe.imperial-infantry>
 ]
 
 #cairn-stat-block(load-stat("imperial-knight"))[
-  #item-heading(level: 4)[Imperial Knight] <foe.imperial-knight>
+  #item-heading(level: 3)[Imperial Knight] <foe.imperial-knight>
 ]
 
 #cairn-stat-block(load-stat("imperial-pacifier"))[
-  #item-heading(level: 4)[Imperial Pacifier] <foe.imperial-pacifier>
+  #item-heading(level: 3)[Imperial Pacifier] <foe.imperial-pacifier>
 ]
 
 #cairn-stat-block(load-stat("mercenary-soldier"))[
-  #item-heading(level: 4)[Mercenary Soldier] <foe.mercenary-soldier>
+  #item-heading(level: 3)[Mercenary Soldier] <foe.mercenary-soldier>
 ]
 
 #cairn-stat-block(
   load-stat("mountain-dwarf-defender"),
 )[
-  #item-heading(level: 4)[Mountain Dwarf Defender] <foe.mountain-dwarf-defender>
+  #item-heading(level: 3)[Mountain Dwarf Defender] <foe.mountain-dwarf-defender>
 ]
 
 #cairn-stat-block(load-stat("northern-cavalry"))[
-  #item-heading(level: 4)[Northern Cavalry] <foe.northern-cavalry>
+  #item-heading(level: 3)[Northern Cavalry] <foe.northern-cavalry>
 ]
 
 #cairn-stat-block(
   load-stat("northern-elite-soldier"),
 )[
-  #item-heading(level: 4)[Northern Elite Soldier] <foe.northern-elite-soldier>
+  #item-heading(level: 3)[Northern Elite Soldier] <foe.northern-elite-soldier>
 ]
 
 #cairn-stat-block(
   load-stat("northern-heavy-infantry"),
 )[
-  #item-heading(level: 4)[Northern Heavy Infantry] <foe.northern-heavy-infantry>
+  #item-heading(level: 3)[Northern Heavy Infantry] <foe.northern-heavy-infantry>
 ]
 
 #cairn-stat-block(load-stat("northern-soldier"))[
-  #item-heading(level: 4)[Northern Solider] <foe.northern-soldier>
+  #item-heading(level: 3)[Northern Solider] <foe.northern-soldier>
 ]
 
 #cairn-stat-block(load-stat("pirate"))[
-  #item-heading(level: 4)[Pirate] <foe.pirate>
+  #item-heading(level: 3)[Pirate] <foe.pirate>
 ]
 
 #cairn-stat-block(load-stat("rebel-archer"))[
-  #item-heading(level: 4)[Rebel Archer] <foe.rebel-archer>
+  #item-heading(level: 3)[Rebel Archer] <foe.rebel-archer>
 ]
 
 #cairn-stat-block(load-stat("rebel-marauder"))[
-  #item-heading(level: 4)[Rebel Marauder] <foe.rebel-marauder>
+  #item-heading(level: 3)[Rebel Marauder] <foe.rebel-marauder>
 ]
 
 #cairn-stat-block(load-stat("rebel-veteran"))[
-  #item-heading(level: 4)[Rebel Veteran] <foe.rebel-veteran>
+  #item-heading(level: 3)[Rebel Veteran] <foe.rebel-veteran>
 ]
 
 #cairn-stat-block(load-stat("secret-agent"))[
-  #item-heading(level: 4)[Secret Agent] <foe.secret-agent>
+  #item-heading(level: 3)[Secret Agent] <foe.secret-agent>
 ]
 
-#large-heading(level: 3)[Beasts]
+#large-heading(level: 2)[Beasts]
 
 #cairn-stat-block(load-stat("warg"))[
-  #item-heading(level: 4)[Warg] <foe.warg>
+  #item-heading(level: 3)[Warg] <foe.warg>
 ]
 
 #cairn-stat-block(load-stat("werewolf"))[
-  #item-heading(level: 4)[Werewolf] <foe.werewolf>
+  #item-heading(level: 3)[Werewolf] <foe.werewolf>
 ]
 
 #cairn-stat-block(load-stat("wolf"))[
-  #item-heading(level: 4)[Wolf] <foe.wolf>
+  #item-heading(level: 3)[Wolf] <foe.wolf>
 ]
 
-#large-heading(level: 3)[Cursed Ones]
+#large-heading(level: 2)[Cursed Ones]
 
 #cairn-stat-block(load-stat("amarok"))[
-  #item-heading(level: 4)[Amarok] <foe.amarok>
+  #item-heading(level: 3)[Amarok] <foe.amarok>
 ]
 
 #cairn-stat-block(load-stat("botchling"))[
-  #item-heading(level: 4)[Botchling] <foe.botchling>
+  #item-heading(level: 3)[Botchling] <foe.botchling>
 ]
 
 #cairn-stat-block(load-stat("preta"))[
-  #item-heading(level: 4)[Preta] <foe.preta>
+  #item-heading(level: 3)[Preta] <foe.preta>
 ]
 
 #cairn-stat-block(load-stat("striga"))[
-  #item-heading(level: 4)[Striga] <foe.striga>
+  #item-heading(level: 3)[Striga] <foe.striga>
 ]
 
-#large-heading(level: 3)[Draconids]
+#large-heading(level: 2)[Draconids]
 
 #cairn-stat-block(load-stat("basilisk"))[
-  #item-heading(level: 4)[Basilisk] <foe.basilisk>
+  #item-heading(level: 3)[Basilisk] <foe.basilisk>
 ]
 
 #cairn-stat-block(load-stat("bukuvak"))[
-  #item-heading(level: 4)[Bukuvak] <foe.bukuvak>
+  #item-heading(level: 3)[Bukuvak] <foe.bukuvak>
 ]
 
 #cairn-stat-block(load-stat("cockatrice"))[
-  #item-heading(level: 4)[Cockatrice] <foe.cockatrice>
+  #item-heading(level: 3)[Cockatrice] <foe.cockatrice>
 ]
 
 #cairn-stat-block(load-stat("dragon"))[
-  #item-heading(level: 4)[Dragon] <foe.dragon>
+  #item-heading(level: 3)[Dragon] <foe.dragon>
 ]
 
 #cairn-stat-block(load-stat("phoenix"))[
-  #item-heading(level: 4)[Phoenix] <foe.phoenix>
+  #item-heading(level: 3)[Phoenix] <foe.phoenix>
 ]
 
 #cairn-stat-block(load-stat("wyvern"))[
-  #item-heading(level: 4)[Wyvern] <foe.wyvern>
+  #item-heading(level: 3)[Wyvern] <foe.wyvern>
 ]
 
-#large-heading(level: 3)[Elementals]
+#large-heading(level: 2)[Elementals]
 
 #cairn-stat-block(load-stat("elemental-earth"))[
-  #item-heading(level: 4)[Elemental, Earth] <foe.elemental-earth>
+  #item-heading(level: 3)[Elemental, Earth] <foe.elemental-earth>
 ]
 
 #cairn-stat-block(load-stat("elemental-fire"))[
-  #item-heading(level: 4)[Elemental, Fire] <foe.elemental-fire>
+  #item-heading(level: 3)[Elemental, Fire] <foe.elemental-fire>
 ]
 
 #cairn-stat-block(load-stat("elemental-ice"))[
-  #item-heading(level: 4)[Elemental, Ice] <foe.elemental-ice>
+  #item-heading(level: 3)[Elemental, Ice] <foe.elemental-ice>
 ]
 
 #cairn-stat-block(load-stat("gargoyle"))[
-  #item-heading(level: 4)[Gargoyle] <foe.gargoyle>
+  #item-heading(level: 3)[Gargoyle] <foe.gargoyle>
 ]
 
 #cairn-stat-block(load-stat("golem"))[
-  #item-heading(level: 4)[Golem] <foe.golem>
+  #item-heading(level: 3)[Golem] <foe.golem>
 ]
 
-#large-heading(level: 3)[Hybrids]
+#large-heading(level: 2)[Hybrids]
 
 #cairn-stat-block(load-stat("berberoka"))[
-  #item-heading(level: 4)[Berberoka] <foe.berberoka>
+  #item-heading(level: 3)[Berberoka] <foe.berberoka>
 ]
 
 #cairn-stat-block(load-stat("griffin"))[
-  #item-heading(level: 4)[Griffin] <foe.griffin>
+  #item-heading(level: 3)[Griffin] <foe.griffin>
 ]
 
 #cairn-stat-block(load-stat("harpy"))[
-  #item-heading(level: 4)[Harpy] <foe.harpy>
+  #item-heading(level: 3)[Harpy] <foe.harpy>
 ]
 
 #cairn-stat-block(load-stat("manticore"))[
-  #item-heading(level: 4)[Manticore] <foe.manticore>
+  #item-heading(level: 3)[Manticore] <foe.manticore>
 ]
 
 #cairn-stat-block(load-stat("siren"))[
-  #item-heading(level: 4)[Siren] <foe.siren>
+  #item-heading(level: 3)[Siren] <foe.siren>
 ]
 
 #cairn-stat-block(load-stat("succubi"))[
-  #item-heading(level: 4)[Succubi] <foe.succubi>
+  #item-heading(level: 3)[Succubi] <foe.succubi>
 ]
 
 #cairn-stat-block(load-stat("uktena"))[
-  #item-heading(level: 4)[Uktena] <foe.uktena>
+  #item-heading(level: 3)[Uktena] <foe.uktena>
 ]
 
-#large-heading(level: 3)[Insectoids]
+#large-heading(level: 2)[Insectoids]
 
 #cairn-stat-block(load-stat("arachas"))[
-  #item-heading(level: 4)[Arachas] <foe.arachas>
+  #item-heading(level: 3)[Arachas] <foe.arachas>
 ]
 
 #cairn-stat-block(load-stat("endrega"))[
-  #item-heading(level: 4)[Endrega] <foe.endrega>
+  #item-heading(level: 3)[Endrega] <foe.endrega>
 ]
 
 #cairn-stat-block(load-stat("guvorag"))[
-  #item-heading(level: 4)[Guvorag] <foe.guvorag>
+  #item-heading(level: 3)[Guvorag] <foe.guvorag>
 ]
 
 #cairn-stat-block(load-stat("lopustre"))[
-  #item-heading(level: 4)[Lopustre] <foe.lopustre>
+  #item-heading(level: 3)[Lopustre] <foe.lopustre>
 ]
 
 #cairn-stat-block(load-stat("zeugl"))[
-  #item-heading(level: 4)[Zeugl] <foe.zeugl>
+  #item-heading(level: 3)[Zeugl] <foe.zeugl>
 ]
 
-#large-heading(level: 3)[Necrophages]
+#large-heading(level: 2)[Necrophages]
 
 #cairn-stat-block(load-stat("devourer"))[
-  #item-heading(level: 4)[Devourer] <foe.devourer>
+  #item-heading(level: 3)[Devourer] <foe.devourer>
 ]
 
 #cairn-stat-block(load-stat("drowner"))[
-  #item-heading(level: 4)[Drowner] <foe.drowner>
+  #item-heading(level: 3)[Drowner] <foe.drowner>
 ]
 
 #cairn-stat-block(load-stat("foglet"))[
-  #item-heading(level: 4)[Foglet] <foe.foglet>
+  #item-heading(level: 3)[Foglet] <foe.foglet>
 ]
 
 #cairn-stat-block(load-stat("ghoul"))[
-  #item-heading(level: 4)[Ghoul] <foe.ghoul>
+  #item-heading(level: 3)[Ghoul] <foe.ghoul>
 ]
 
-#item-heading(level: 4)[Hags]
+#item-heading(level: 3)[Hags]
 
 #cairn-stat-block(load-stat("hag-grave"))[
   ===== Grave Hag <foe.hag-grave>
@@ -784,134 +808,134 @@ they do not follow the procedures for #ts-link(<casting-a-spell>)[casting a spel
 ]
 
 #cairn-stat-block(load-stat("rotfiend"))[
-  #item-heading(level: 4)[Rotfiend] <foe.rotfiend>
+  #item-heading(level: 3)[Rotfiend] <foe.rotfiend>
 ]
 
-#large-heading(level: 3)[Ogroids]
+#large-heading(level: 2)[Ogroids]
 
 #cairn-stat-block(load-stat("anopheli"))[
-  #item-heading(level: 4)[Anopheli] <foe.anopheli>
+  #item-heading(level: 3)[Anopheli] <foe.anopheli>
 ]
 
 #cairn-stat-block(load-stat("cyclops"))[
-  #item-heading(level: 4)[Cyclops] <foe.cyclops>
+  #item-heading(level: 3)[Cyclops] <foe.cyclops>
 ]
 
 #cairn-stat-block(load-stat("nekker"))[
-  #item-heading(level: 4)[Nekker] <foe.nekker>
+  #item-heading(level: 3)[Nekker] <foe.nekker>
 ]
 
 #cairn-stat-block(load-stat("ogre"))[
-  #item-heading(level: 4)[Ogre] <foe.ogre>
+  #item-heading(level: 3)[Ogre] <foe.ogre>
 ]
 
 #cairn-stat-block(load-stat("troll-rock"))[
-  #item-heading(level: 4)[Troll, Rock] <foe.troll-rock>
+  #item-heading(level: 3)[Troll, Rock] <foe.troll-rock>
 ]
 
 #cairn-stat-block(load-stat("vodnik"))[
-  #item-heading(level: 4)[Vodnik] <foe.vodnik>
+  #item-heading(level: 3)[Vodnik] <foe.vodnik>
 ]
 
-#large-heading(level: 3)[Relicts]
+#large-heading(level: 2)[Relicts]
 
 #cairn-stat-block(load-stat("chort"))[
-  #item-heading(level: 4)[Chort] <foe.chort>
+  #item-heading(level: 3)[Chort] <foe.chort>
 ]
 
 #cairn-stat-block(load-stat("doppler"))[
-  #item-heading(level: 4)[Doppler] <foe.doppler>
+  #item-heading(level: 3)[Doppler] <foe.doppler>
 ]
 
 #cairn-stat-block(load-stat("dryad"))[
-  #item-heading(level: 4)[Dryad] <foe.dryad>
+  #item-heading(level: 3)[Dryad] <foe.dryad>
 ]
 
 #cairn-stat-block(load-stat("fiend"))[
-  #item-heading(level: 4)[Fiend] <foe.fiend>
+  #item-heading(level: 3)[Fiend] <foe.fiend>
 ]
 
 #cairn-stat-block(load-stat("leshen"))[
-  #item-heading(level: 4)[Leshen] <foe.leshen>
+  #item-heading(level: 3)[Leshen] <foe.leshen>
 ]
 
 #cairn-stat-block(load-stat("nereid"))[
-  #item-heading(level: 4)[Nereid] <foe.nereid>
+  #item-heading(level: 3)[Nereid] <foe.nereid>
 ]
 
 #cairn-stat-block(load-stat("rusalki"))[
-  #item-heading(level: 4)[Rusalki] <foe.rusalki>
+  #item-heading(level: 3)[Rusalki] <foe.rusalki>
 ]
 
 #cairn-stat-block(load-stat("shaelmaar"))[
-  #item-heading(level: 4)[Shaelmaar] <foe.shaelmaar>
+  #item-heading(level: 3)[Shaelmaar] <foe.shaelmaar>
 ]
 
 #cairn-stat-block(load-stat("sylvan"))[
-  #item-heading(level: 4)[Sylvan] <foe.sylvan>
+  #item-heading(level: 3)[Sylvan] <foe.sylvan>
 ]
 
-#large-heading(level: 3)[Specters]
+#large-heading(level: 2)[Specters]
 
 #cairn-stat-block(load-stat("barghest"))[
-  #item-heading(level: 4)[Barghest] <foe.barghest>
+  #item-heading(level: 3)[Barghest] <foe.barghest>
 ]
 
 #cairn-stat-block(load-stat("draug"))[
-  #item-heading(level: 4)[Draug] <foe.draug>
+  #item-heading(level: 3)[Draug] <foe.draug>
 ]
 
 #cairn-stat-block(load-stat("draugir"))[
-  #item-heading(level: 4)[Draugir] <foe.draugir>
+  #item-heading(level: 3)[Draugir] <foe.draugir>
 ]
 
 #cairn-stat-block(load-stat("noonwraith"))[
-  #item-heading(level: 4)[Noonwraith] <foe.noonwraith>
+  #item-heading(level: 3)[Noonwraith] <foe.noonwraith>
 ]
 
 #cairn-stat-block(load-stat("pesta"))[
-  #item-heading(level: 4)[Pesta] <foe.pesta>
+  #item-heading(level: 3)[Pesta] <foe.pesta>
 ]
 
 #cairn-stat-block(load-stat("wraith"))[
-  #item-heading(level: 4)[Wraith] <foe.wraith>
+  #item-heading(level: 3)[Wraith] <foe.wraith>
 ]
 
-#large-heading(level: 3)[Vampires]
+#large-heading(level: 2)[Vampires]
 
 #cairn-stat-block(load-stat("alp"))[
-  #item-heading(level: 4)[Alp] <foe.alp>
+  #item-heading(level: 3)[Alp] <foe.alp>
 ]
 
 #cairn-stat-block(load-stat("fleder"))[
-  #item-heading(level: 4)[Fleder] <foe.fleder>
+  #item-heading(level: 3)[Fleder] <foe.fleder>
 ]
 
 #cairn-stat-block(load-stat("higher-vampire"))[
-  #item-heading(level: 4)[Higher Vampire] <foe.higher-vampire>
+  #item-heading(level: 3)[Higher Vampire] <foe.higher-vampire>
 ]
 
 #cairn-stat-block(load-stat("katakan"))[
-  #item-heading(level: 4)[Katakan] <foe.katakan>
+  #item-heading(level: 3)[Katakan] <foe.katakan>
 ]
 
-#large-heading(level: 3)[The Hunt]
+#large-heading(level: 2)[The Hunt]
 
 #cairn-stat-block(load-stat("hunt-hound"))[
-  #item-heading(level: 4)[Hound of the Hunt] <foe.hunt-hound>
+  #item-heading(level: 3)[Hound of the Hunt] <foe.hunt-hound>
 ]
 
 #cairn-stat-block(load-stat("hunt-rider"))[
-  #item-heading(level: 4)[Rider of the Hunt] <foe.hunt-rider>
+  #item-heading(level: 3)[Rider of the Hunt] <foe.hunt-rider>
 ]
 
 #cairn-stat-block(load-stat("hunt-steed"))[
-  #item-heading(level: 4)[Steed of the Hunt] <foe.hunt-steed>
+  #item-heading(level: 3)[Steed of the Hunt] <foe.hunt-steed>
 ]
 
 #pagebreak(weak: true)
 
-#huge-heading(level: 2)[The Warden's Tome]
+#huge-heading(level: 1)[The Warden's Tome]
 
 Here I'll go over exactly what this book means by the popular term _"dark fantasy,"_ as
 well as go over the included play area of Gresha, a continent full of danger,
@@ -919,7 +943,7 @@ wild magic, and personality. Additionally, here is where you'll find tables and
 tools for generating sites, NPCs, locations, and more that fit a dark fantasy
 setting.
 
-#large-heading(level: 3)[A Dark Fantasy]
+#large-heading(level: 2)[A Dark Fantasy]
 
 There are a lot of interpretations of what a _"dark fantasy"_ setting is. It
 might mean an extremely grim, bleak, and borderline nihilistic feel to some, but
@@ -956,23 +980,23 @@ difference---they have all decided that what they seek is _out there_, and have
 decided to pursue it. If what they seek is to do good in a dark world, then that
 is up to them.
 
-#large-heading(level: 3)[Procedures]
+#large-heading(level: 2)[Procedures]
 
-#item-heading(level: 4)[Recovering Wounds]
+#item-heading(level: 3)[Recovering Wounds]
 
-#item-heading(level: 4)[Curses]
+#item-heading(level: 3)[Curses]
 
-#large-heading(level: 3)[Tables]
+#large-heading(level: 2)[Tables]
 
-#item-heading(level: 4)[NPCs]
+#item-heading(level: 3)[NPCs]
 
-#item-heading(level: 4)[Settlements]
+#item-heading(level: 3)[Settlements]
 
-#item-heading(level: 4)[Sites]
+#item-heading(level: 3)[Sites]
 
 #pagebreak(weak: true)
 
-#huge-heading(level: 2)[The Continent of Gresha]
+#huge-heading(level: 1)[The Continent of Gresha]
 
 There are many dark fantasy worlds out there that already exist which you can
 use #emph(title) to play adventures in with little-to-no tweaking involved. You
@@ -984,14 +1008,7 @@ traditional medieval fantasy settings. Its problems are easily contained to the
 regions of the continent, at least initially---though, who knows where they will
 spread when the players get their hands on it?
 
-#large-heading(level: 3)[Gresha is Yours]
-
-There is no single correct iteration of Gresha. Your Gresha will be different
-than mine, is different to his, hers, etc. The Gresha presented here is actually
-in the form of questions---your answers to those questions are what make your
-Gresha unique amongst all others.
-
-#item-heading(level: 3, outlined: false)[Some Assumptions]
+#item-heading(level: 2, outlined: false)[Some Assumptions]
 
 While everyone's Gresha will be quite unique, there are still aspects that are
 shared between them all.
@@ -1023,7 +1040,14 @@ People seek a reason to dance, to enjoy the day, to celebrate a life, and to
 enjoy the comfort of those they love. While these glimpses of a normal life are
 not an every day occurence, they happen and stand out amongst the grey.
 
-#item-heading(level: 3)[The Rot Blight]
+#large-heading(level: 2)[Your Truths of Gresha]
+
+There is no single correct iteration of Gresha. Your Gresha will be different
+than mine, is different to his, hers, etc. The Gresha presented here is actually
+in the form of questions---your answers to those questions are what make your
+Gresha unique amongst all others.
+
+#item-heading(level: 2, outlined: false)[The Rot Blight]
 
 #grid(columns: (2em, 1fr), gutter: 1em, [1–2], [
   *The rot blight never ended.*
@@ -1033,63 +1057,137 @@ not an every day occurence, they happen and stand out amongst the grey.
   *The rot blight ended just under a year ago.*
 ])
 
-#item-heading(level: 3)[The Aeldar]
+#item-heading(level: 2, outlined: false)[The Aeldar]
 
 #grid(columns: (2em, 1fr), gutter: 1em, [1–2], [
   *The Aeldar disappeared long ago without a trace.*
 ], [3–4], [
-  *The rot blight ended long ago.*
+  *The Aeldar were wiped out in a genocidal war.*
 ], [5–6], [
-  *The rot blight ended just under a year ago.*
+  *The Aeldar live among us to this day.*
 ])
 
-#item-heading(level: 3)[The Allied Kingdoms]
+#item-heading(level: 2, outlined: false)[The Allied Kingdoms]
 
-#item-heading(level: 3)[The Empire]
+#grid(columns: (2em, 1fr), gutter: 1em, [1–2], [
+], [3–4], [
+], [5–6], [
+])
 
-#item-heading(level: 3)[War]
+#item-heading(level: 2, outlined: false)[The Empire]
 
-#item-heading(level: 3)[Medicine]
+#grid(columns: (2em, 1fr), gutter: 1em, [1–2], [
+], [3–4], [
+], [5–6], [
+])
 
-#item-heading(level: 3)[Magic]
+#item-heading(
+  level: 2,
+  outlined: false,
+)[War between the Empire and the Northern Alliance]
 
-#item-heading(level: 3)[Religion]
+#note[
+  *Note:* War can be a very touchy subject---for many, war is an unfortunate
+  reality of everyday life and use these games to escape such things. If the group
+  wants to pick a specific choice in this list, then do not hesitate to pick it.
+  Additionally, like all of these truths, feel free to come up with your own if
+  none of these options satisfy your group.
+]
 
-#item-heading(level: 3)[The Old Wood]
+#grid(
+  columns: (2em, 1fr),
+  gutter: 1em,
+  [1–2],
+  [
+    *The great war is at its height.* May the gods have mercy on us all.
+  ],
+  [3–4],
+  [
+    *The greatest war Gresha has ever faced just ended a year ago.*
+  ],
+  [5–6],
+  [
+    *Gresha is on the brink of total war between these two forces.* May the gods
+    save us from this pending doom.
+  ],
+)
+
+#item-heading(level: 2, outlined: false)[Medicine]
+
+#grid(columns: (2em, 1fr), gutter: 1em, [1–2], [
+], [3–4], [
+], [5–6], [
+])
+
+#item-heading(level: 2, outlined: false)[Magic]
+
+#grid(columns: (2em, 1fr), gutter: 1em, [1–2], [
+], [3–4], [
+], [5–6], [
+])
+
+#item-heading(level: 2, outlined: false)[Religion]
+
+#grid(columns: (2em, 1fr), gutter: 1em, [1–2], [
+], [3–4], [
+], [5–6], [
+])
+
+#item-heading(level: 2, outlined: false)[The Old Wood]
+
+#grid(columns: (2em, 1fr), gutter: 1em, [1–2], [
+], [3–4], [
+], [5–6], [
+])
+
+#item-heading(level: 2, outlined: false)[The Withered March]
+
+#grid(columns: (2em, 1fr), gutter: 1em, [1–2], [
+], [3–4], [
+], [5–6], [
+])
+
+#item-heading(level: 2, outlined: false)[Dragon's Reach]
+
+#grid(columns: (2em, 1fr), gutter: 1em, [1–2], [
+], [3–4], [
+], [5–6], [
+])
+
+#item-heading(level: 2, outlined: false)[The Fertile Coast]
+
+#grid(columns: (2em, 1fr), gutter: 1em, [1–2], [
+], [3–4], [
+], [5–6], [
+])
+
+#large-heading(level: 2)[Regions of Gresha]
 
 #item-heading(level: 3)[The Withered March]
 
+#item-heading(level: 3)[The Old Wood]
+
 #item-heading(level: 3)[Dragon's Reach]
 
-#item-heading(level: 4)[The Fertile Coast]
+#item-heading(level: 3)[The Fertile Coast]
 
-#large-heading(level: 3)[Regions of Gresha]
+#large-heading(level: 2)[Factions of Gresha]
 
-#item-heading(level: 4)[The Withered March]
+#item-heading(level: 3)[The Empire]
 
-#item-heading(level: 4)[The Old Wood]
+#item-heading(level: 3)[The Northern Alliance]
 
-#item-heading(level: 4)[Dragon's Reach]
+#item-heading(level: 3)[The Rebels]
 
-#item-heading(level: 4)[The Fertile Coast]
+#item-heading(level: 3)[The Rangers]
 
-#large-heading(level: 3)[Factions of Gresha]
+#item-heading(level: 3)[The Seekers]
 
-#item-heading(level: 4)[The Empire]
+#large-heading(level: 2)[Locations to Place in Gresha]
 
-#item-heading(level: 4)[The Northern Alliance]
+#item-heading(level: 3)[The Gloomfen]
 
-#item-heading(level: 4)[The Rebels]
-
-#item-heading(level: 4)[The Rangers]
-
-#item-heading(level: 4)[The Seekers]
-
-#large-heading(level: 3)[Locations to Place in Gresha]
-
-#item-heading(level: 4)[The Gloomfen]
-
-#item-heading(level: 4)[Ursheym Wood] <ursheym-wood>
+#item-heading(level: 3)[Ursheym Wood] <ursheym-wood>
 
 Patrolling the wood are *Ursheym Golems*---built by one of the
 #ts-link(<giants-of-ursheym-wood>)[giants that live here] that wishes to protect
@@ -1098,19 +1196,19 @@ her home.
 #cairn-stat-block(
   load-stat("golem"),
 )[
-
-  #heading(level: 4)[Ursheym Golem] <foe.ursheym-golem>
+  #heading(level: 3)[Ursheym Golem] <foe.ursheym-golem>
 
   Ursheym Golems are much like regular golems. They are all made of wood, stone,
   moss, and vines. They are given the following commands:
   - Attack all of those who wish to do harm to the wood or its inhabitents.
   - Do not attack any inhabitents or friends of the Ursheym Wood.
 
-  Each one also adorns a unique flower in its 'hair.']
+  Each one also adorns a unique flower in its 'hair.'
+]
 
-#large-heading(level: 3)[Characters to Place in Gresha]
+#large-heading(level: 2)[Characters to Place in Gresha]
 
-#item-heading(level: 4)[The Giants of Ursheym Wood] <giants-of-ursheym-wood>
+#item-heading(level: 3)[The Giants of Ursheym Wood] <giants-of-ursheym-wood>
 
 #note[
   *Note:* Unlike any of the other characters, I consider these to belong in a
@@ -1136,11 +1234,30 @@ her home.
 - *Noso* wanders the wood looking for new plants, creatures, and 'discovering' his
   sister's constructs. He doesn't know she makes them and invents his own tale of
   each one and how they came to being. He enjoys looking at his reflection in the
-  ponds scattered about the wood, and tries to reflectivity works.
+  ponds scattered about the wood, and tries to reflectivity works. He also helps
+  his mother prepare food.
 
 While this family of giants do belong in Ursheym to me, still feel free to place
-them wherever you wish. Maybe put in an #ts-link(<foe.ursheym-golem>)[Ursheym Golem] in
+them wherever you wish. Maybe put an #ts-link(<foe.ursheym-golem>)[Ursheym Golem] in
 a random encounter table for a wooded area, and if encountered, place this
 family of giants nearby.
 
-#item-heading(level: 4)[The Witch Sisters]
+#item-heading(level: 3)[The Witch Sisters]
+
+#set page(footer: [])
+
+#huge-heading(level: 1, outlined: false, bookmarked: true)[Backmatter]
+
+#large-heading(level: 1, outlined: false, bookmarked: false)[Colophon]
+
+*Typefaces Used:* Alegreya Sans, Amarante, Asul, & Gentium Book Plus. These are
+all open-source and freely available fonts, licensed under the SIL font license.
+
+*Software Used:* This book was built with free and open-source software.
+#ts-link("https://github.com/typst/typst")[Typst] was used as the typesetting
+system.
+#ts-link("https://github.com/VSCodium/vscodium")[VSCodium] was used as the
+text-editor. All of this was done on #ts-link("https://archlinux.org/")[Arch Linux].
+The only aspects of #emph(title) that is not free and open-source software is
+the git repo hosting (GitHub), automated CI/CD (GitHub Actions), and the
+publishing platform (Itch.io).

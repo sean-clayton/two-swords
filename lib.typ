@@ -132,7 +132,7 @@
     set text(size: 9pt)
 
     v(0pt, weak: true)
-    box(inset: (left: 1em * (it.level - 2)), link(it.element.location(), [
+    box(inset: (left: 1em * (it.level - 1)), link(it.element.location(), [
       #v(0pt, weak: true)
       #box[
         #it.body
@@ -141,7 +141,7 @@
     ]))
   }
 
-  #show outline.entry.where(level: 2): it => {
+  #show outline.entry.where(level: 1): it => {
     set text(size: 11pt, weight: "bold")
 
     link(
