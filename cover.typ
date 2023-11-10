@@ -1,4 +1,4 @@
-#import "lib.typ": title, highlight-color-base, paper
+#import "lib.typ": *
 
 #let bg-color = highlight-color-base.desaturate(50%).darken(90%);
 #let stroke-color = bg-color.lighten(15%)
@@ -37,4 +37,6 @@
   ])
 
   #heading(level: 1, outlined: false, bookmarked: true)[#title]
+
+  #wip-banner
 ]

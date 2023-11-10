@@ -9,8 +9,12 @@
 #let display-font = "Asul"
 #let primary-font = "Gentium Book Plus"
 
-#let wip-banner = box(fill: highlight-color-base, inset: 4pt)[
-  #text(weight: "bold", fill: black)[Work In Progress]
+#let wip-banner = [
+  #place(top + center)[
+    #box(fill: highlight-color-base, inset: 4pt)[
+      #text(weight: "bold", fill: black, size: 10pt)[Work In Progress]
+    ]
+  ]
 ]
 
 #let set-page-numbers() = {
@@ -23,7 +27,7 @@
         #counter(page).display("1")
       ]
     ]
-    if (calc.even(loc.page())) [
+    if (calc.odd(loc.page())) [
       #set align(left)
       #page-number
     ] else [
@@ -103,7 +107,7 @@
   #set page(
     paper: paper,
     margin: (bottom: 1.5cm, inside: inner-margin, outside: outer-margin, top: 0.8cm),
-    header: [#place(top + center)[#wip-banner]],
+    header: wip-banner,
   )
 
   #show outline.entry: it => {
