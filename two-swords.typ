@@ -1095,26 +1095,28 @@ Patrolling the wood are *Ursheym Golems*---built by one of the
 #ts-link(<giants-of-ursheym-wood>)[giants that live here] that wishes to protect
 her home.
 
-Ursheym Golems are the same as regular golems, but are all made of wood and
-stone, and are given the following commands:
-- Attack all of those who wish to do harm to the wood or its inhabitents.
-- Do not attack any inhabitents or friends of the Ursheym Wood.
+#cairn-stat-block(
+  load-stat("golem"),
+)[
 
-Each one also adorns a unique flower in its 'hair.'
+  #heading(level: 4)[Ursheym Golem] <foe.ursheym-golem>
 
-#cairn-stat-block(load-stat("golem"))[
-  #heading(level: 4)[Ursheym Golem]
-]
+  Ursheym Golems are much like regular golems. They are all made of wood, stone,
+  moss, and vines. They are given the following commands:
+  - Attack all of those who wish to do harm to the wood or its inhabitents.
+  - Do not attack any inhabitents or friends of the Ursheym Wood.
+
+  Each one also adorns a unique flower in its 'hair.']
 
 #large-heading(level: 3)[Characters to Place in Gresha]
 
 #item-heading(level: 4)[The Giants of Ursheym Wood] <giants-of-ursheym-wood>
 
 #note[
-  *Note:* Unlike any of the other characters, I consider these to belong in the
-  Ursheym Wood. These characters are an homage to 'real' forest giants where I
-  grew up. They are placed in Bernheim Forest (the namesake of Ursheym Wood)---a
-  place I have many fond memories of.
+  *Note:* Unlike any of the other characters, I consider these to belong in a
+  specific location: The Ursheym Wood. These characters are an homage to 'real'
+  forest giants where I grew up. They are placed in Bernheim Forest (the namesake
+  of Ursheym Wood)---a place I have many fond memories of.
 
   Read about the Giants of Bernheim Forest here:
   #ts-link("https://bernheim.org/land-of-the-giants/")
@@ -1135,5 +1137,10 @@ Each one also adorns a unique flower in its 'hair.'
   sister's constructs. He doesn't know she makes them and invents his own tale of
   each one and how they came to being. He enjoys looking at his reflection in the
   ponds scattered about the wood, and tries to reflectivity works.
+
+While this family of giants do belong in Ursheym to me, still feel free to place
+them wherever you wish. Maybe put in an #ts-link(<foe.ursheym-golem>)[Ursheym Golem] in
+a random encounter table for a wooded area, and if encountered, place this
+family of giants nearby.
 
 #item-heading(level: 4)[The Witch Sisters]
