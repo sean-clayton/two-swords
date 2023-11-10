@@ -132,24 +132,36 @@
     set text(size: 9pt)
 
     v(0pt, weak: true)
-    box(inset: (left: 1em * (it.level - 1)), link(it.element.location(), [
-      #v(0pt, weak: true)
-      #box[
+    box(
+      inset: (left: 1em + 14pt * (it.level - 1)),
+      link(it.element.location(), [
+        #v(0pt, weak: true)
         #it.body
-        #h(1fr) #it.page
-      ]
-    ]))
+        #h(1fr)
+        #it.page
+      ]),
+    )
   }
 
   #show outline.entry.where(level: 1): it => {
-    set text(size: 11pt, weight: "bold")
+    set text(size: 11pt, weight: "bold", font: display-font)
 
-    link(
-      it.element.location(),
-      box(inset: (bottom: 0.1em), stroke: (bottom: 0.5pt + black))[
-        #v(0pt, weak: true) #box[#it.body #h(1fr) #it.page]
-      ],
-    )
+    box(inset: (y: 4pt))[
+      #box(
+        inset: (bottom: 1pt),
+        outset: (y: 4pt),
+        stroke: (bottom: 0.5pt + black),
+      )[
+        #v(0pt, weak: true)
+        #grid(
+          columns: (1em + 12pt, 1fr),
+          link(it.element.location())[#text(fill: heading-color)[#it.page]],
+          link(it.element.location())[
+            #upper(it.body)
+          ],
+        )
+      ]
+    ]
   }
 
   #set text(font: primary-font, size: 10pt)

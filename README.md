@@ -1,4 +1,4 @@
-<img src="banner.svg" width="100%">
+<img src="banner.png" width="100%">
 
 [![Deploy to Itch](https://github.com/sean-clayton/two-swords/actions/workflows/itch-deploy.yml/badge.svg?event=release)](https://github.com/sean-clayton/two-swords/actions/workflows/itch-deploy.yml)
 

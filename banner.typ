@@ -2,8 +2,8 @@
 #import "cover.typ": bg-color, stroke-color, griffin
 
 #set page(
-  width: 1024pt,
-  height: 512pt,
+  width: (102.4pt * 4),
+  height: (51.2pt * 4),
   margin: 0pt,
   numbering: none,
   fill: color.rgb(bg-color.to-hex()),
@@ -15,35 +15,35 @@
 #box(
   width: 100%,
   height: 100%,
-  stroke: (48pt + color.rgb(stroke-color.to-hex())),
+  stroke: (16pt + color.rgb(stroke-color.to-hex())),
 )[
   #set align(center + horizon)
   #set text(fill: color.rgb(highlight-color-base.to-hex()))
 
   #place(center + horizon, [
     #rect(
-      height: 100% - 80pt,
-      width: 100% - 100pt,
+      height: 100% - 32pt,
+      width: 100% - 42pt,
       fill: none,
-      stroke: 2.5pt + stroke-color,
+      stroke: 1pt + stroke-color,
     )
   ])
 
   #place(center + horizon, [
     #rect(
-      height: 100% - 100pt,
-      width: 100% - 80pt,
+      height: 100% - 42pt,
+      width: 100% - 32pt,
       fill: none,
-      stroke: 2.5pt + stroke-color,
+      stroke: 1pt + stroke-color,
     )
   ])
 
   #stack(
-    spacing: 48pt,
-    text(font: title-font, weight: "bold", size: 96pt)[
+    spacing: 18pt,
+    text(font: title-font, weight: "bold", size: 48pt)[
       #title
     ],
-    text(font: primary-font, size: 48pt)[_A Dark Fantasy Expansion for Cairn_],
+    text(font: primary-font, size: 24pt)[_A Dark Fantasy Expansion for Cairn_],
   )
 
 ]
