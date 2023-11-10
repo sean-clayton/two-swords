@@ -550,357 +550,363 @@ they do not follow the procedures for #ts-link(<casting-a-spell>)[casting a spel
 #large-heading(level: 3)[Humanoids]
 
 #cairn-stat-block(load-stat("bandit"))[
-  #item-heading(level: 4)[Bandit]
+  #item-heading(level: 4)[Bandit] <foe.bandit>
 ]
 
 #cairn-stat-block(load-stat("conscript"))[
-  #item-heading(level: 4)[Conscript]
+  #item-heading(level: 4)[Conscript] <foe.conscript>
 ]
 
 #cairn-stat-block(load-stat("highwayman"))[
-  #item-heading(level: 4)[Highwayman]
+  #item-heading(level: 4)[Highwayman] <foe.highwayman>
 ]
 
 #cairn-stat-block(load-stat("imperial-infantry"))[
-  #item-heading(level: 4)[Imperial Infantry]
+  #item-heading(level: 4)[Imperial Infantry] <foe.imperial-infantry>
 ]
 
 #cairn-stat-block(load-stat("imperial-knight"))[
-  #item-heading(level: 4)[Imperial Knight]
+  #item-heading(level: 4)[Imperial Knight] <foe.imperial-knight>
 ]
 
 #cairn-stat-block(load-stat("imperial-pacifier"))[
-  #item-heading(level: 4)[Imperial Pacifier]
+  #item-heading(level: 4)[Imperial Pacifier] <foe.imperial-pacifier>
 ]
 
 #cairn-stat-block(load-stat("mercenary-soldier"))[
-  #item-heading(level: 4)[Mercenary Soldier]
+  #item-heading(level: 4)[Mercenary Soldier] <foe.mercenary-soldier>
 ]
 
-#cairn-stat-block(load-stat("mountain-dwarf-defender"))[
-  #item-heading(level: 4)[Mountain Dwarf Defender]
+#cairn-stat-block(
+  load-stat("mountain-dwarf-defender"),
+)[
+  #item-heading(level: 4)[Mountain Dwarf Defender] <foe.mountain-dwarf-defender>
 ]
 
 #cairn-stat-block(load-stat("northern-cavalry"))[
-  #item-heading(level: 4)[Northern Cavalry]
+  #item-heading(level: 4)[Northern Cavalry] <foe.northern-cavalry>
 ]
 
-#cairn-stat-block(load-stat("northern-elite-soldier"))[
-  #item-heading(level: 4)[Northern Elite Soldier]
+#cairn-stat-block(
+  load-stat("northern-elite-soldier"),
+)[
+  #item-heading(level: 4)[Northern Elite Soldier] <foe.northern-elite-soldier>
 ]
 
-#cairn-stat-block(load-stat("northern-heavy-infantry"))[
-  #item-heading(level: 4)[Northern Heavy Infantry]
+#cairn-stat-block(
+  load-stat("northern-heavy-infantry"),
+)[
+  #item-heading(level: 4)[Northern Heavy Infantry] <foe.northern-heavy-infantry>
 ]
 
 #cairn-stat-block(load-stat("northern-soldier"))[
-  #item-heading(level: 4)[Northern Solider]
+  #item-heading(level: 4)[Northern Solider] <foe.northern-soldier>
 ]
 
 #cairn-stat-block(load-stat("pirate"))[
-  #item-heading(level: 4)[Pirate]
+  #item-heading(level: 4)[Pirate] <foe.pirate>
 ]
 
 #cairn-stat-block(load-stat("rebel-archer"))[
-  #item-heading(level: 4)[Rebel Archer]
+  #item-heading(level: 4)[Rebel Archer] <foe.rebel-archer>
 ]
 
 #cairn-stat-block(load-stat("rebel-marauder"))[
-  #item-heading(level: 4)[Rebel Marauder]
+  #item-heading(level: 4)[Rebel Marauder] <foe.rebel-marauder>
 ]
 
 #cairn-stat-block(load-stat("rebel-veteran"))[
-  #item-heading(level: 4)[Rebel Veteran]
+  #item-heading(level: 4)[Rebel Veteran] <foe.rebel-veteran>
 ]
 
 #cairn-stat-block(load-stat("secret-agent"))[
-  #item-heading(level: 4)[Secret Agent]
+  #item-heading(level: 4)[Secret Agent] <foe.secret-agent>
 ]
 
 #large-heading(level: 3)[Beasts]
 
 #cairn-stat-block(load-stat("warg"))[
-  #item-heading(level: 4)[Warg]
+  #item-heading(level: 4)[Warg] <foe.warg>
 ]
 
 #cairn-stat-block(load-stat("werewolf"))[
-  #item-heading(level: 4)[Werewolf]
+  #item-heading(level: 4)[Werewolf] <foe.werewolf>
 ]
 
 #cairn-stat-block(load-stat("wolf"))[
-  #item-heading(level: 4)[Wolf]
+  #item-heading(level: 4)[Wolf] <foe.wolf>
 ]
 
 #large-heading(level: 3)[Cursed Ones]
 
 #cairn-stat-block(load-stat("amarok"))[
-  #item-heading(level: 4)[Amarok]
+  #item-heading(level: 4)[Amarok] <foe.amarok>
 ]
 
 #cairn-stat-block(load-stat("botchling"))[
-  #item-heading(level: 4)[Botchling]
+  #item-heading(level: 4)[Botchling] <foe.botchling>
 ]
 
 #cairn-stat-block(load-stat("preta"))[
-  #item-heading(level: 4)[Preta]
+  #item-heading(level: 4)[Preta] <foe.preta>
 ]
 
 #cairn-stat-block(load-stat("striga"))[
-  #item-heading(level: 4)[Striga]
+  #item-heading(level: 4)[Striga] <foe.striga>
 ]
 
 #large-heading(level: 3)[Draconids]
 
 #cairn-stat-block(load-stat("basilisk"))[
-  #item-heading(level: 4)[Basilisk]
+  #item-heading(level: 4)[Basilisk] <foe.basilisk>
 ]
 
 #cairn-stat-block(load-stat("bukuvak"))[
-  #item-heading(level: 4)[Bukuvak]
+  #item-heading(level: 4)[Bukuvak] <foe.bukuvak>
 ]
 
 #cairn-stat-block(load-stat("cockatrice"))[
-  #item-heading(level: 4)[Cockatrice]
+  #item-heading(level: 4)[Cockatrice] <foe.cockatrice>
 ]
 
 #cairn-stat-block(load-stat("dragon"))[
-  #item-heading(level: 4)[Dragon]
+  #item-heading(level: 4)[Dragon] <foe.dragon>
 ]
 
 #cairn-stat-block(load-stat("phoenix"))[
-  #item-heading(level: 4)[Phoenix]
+  #item-heading(level: 4)[Phoenix] <foe.phoenix>
 ]
 
 #cairn-stat-block(load-stat("wyvern"))[
-  #item-heading(level: 4)[Wyvern]
+  #item-heading(level: 4)[Wyvern] <foe.wyvern>
 ]
 
 #large-heading(level: 3)[Elementals]
 
 #cairn-stat-block(load-stat("elemental-earth"))[
-  #item-heading(level: 4)[Elemental, Earth]
+  #item-heading(level: 4)[Elemental, Earth] <foe.elemental-earth>
 ]
 
 #cairn-stat-block(load-stat("elemental-fire"))[
-  #item-heading(level: 4)[Elemental, Fire]
+  #item-heading(level: 4)[Elemental, Fire] <foe.elemental-fire>
 ]
 
 #cairn-stat-block(load-stat("elemental-ice"))[
-  #item-heading(level: 4)[Elemental, Ice]
+  #item-heading(level: 4)[Elemental, Ice] <foe.elemental-ice>
 ]
 
 #cairn-stat-block(load-stat("gargoyle"))[
-  #item-heading(level: 4)[Gargoyle]
+  #item-heading(level: 4)[Gargoyle] <foe.gargoyle>
 ]
 
 #cairn-stat-block(load-stat("golem"))[
-  #item-heading(level: 4)[Golem]
+  #item-heading(level: 4)[Golem] <foe.golem>
 ]
 
 #large-heading(level: 3)[Hybrids]
 
 #cairn-stat-block(load-stat("berberoka"))[
-  #item-heading(level: 4)[Berberoka]
+  #item-heading(level: 4)[Berberoka] <foe.berberoka>
 ]
 
 #cairn-stat-block(load-stat("griffin"))[
-  #item-heading(level: 4)[Griffin]
+  #item-heading(level: 4)[Griffin] <foe.griffin>
 ]
 
 #cairn-stat-block(load-stat("harpy"))[
-  #item-heading(level: 4)[Harpy]
+  #item-heading(level: 4)[Harpy] <foe.harpy>
 ]
 
 #cairn-stat-block(load-stat("manticore"))[
-  #item-heading(level: 4)[Manticore]
+  #item-heading(level: 4)[Manticore] <foe.manticore>
 ]
 
 #cairn-stat-block(load-stat("siren"))[
-  #item-heading(level: 4)[Siren]
+  #item-heading(level: 4)[Siren] <foe.siren>
 ]
 
 #cairn-stat-block(load-stat("succubi"))[
-  #item-heading(level: 4)[Succubi]
+  #item-heading(level: 4)[Succubi] <foe.succubi>
 ]
 
 #cairn-stat-block(load-stat("uktena"))[
-  #item-heading(level: 4)[Uktena]
+  #item-heading(level: 4)[Uktena] <foe.uktena>
 ]
 
 #large-heading(level: 3)[Insectoids]
 
 #cairn-stat-block(load-stat("arachas"))[
-  #item-heading(level: 4)[Arachas]
+  #item-heading(level: 4)[Arachas] <foe.arachas>
 ]
 
 #cairn-stat-block(load-stat("endrega"))[
-  #item-heading(level: 4)[Endrega]
+  #item-heading(level: 4)[Endrega] <foe.endrega>
 ]
 
 #cairn-stat-block(load-stat("guvorag"))[
-  #item-heading(level: 4)[Guvorag]
+  #item-heading(level: 4)[Guvorag] <foe.guvorag>
 ]
 
 #cairn-stat-block(load-stat("lopustre"))[
-  #item-heading(level: 4)[Lopustre]
+  #item-heading(level: 4)[Lopustre] <foe.lopustre>
 ]
 
 #cairn-stat-block(load-stat("zeugl"))[
-  #item-heading(level: 4)[Zeugl]
+  #item-heading(level: 4)[Zeugl] <foe.zeugl>
 ]
 
 #large-heading(level: 3)[Necrophages]
 
 #cairn-stat-block(load-stat("devourer"))[
-  #item-heading(level: 4)[Devourer]
+  #item-heading(level: 4)[Devourer] <foe.devourer>
 ]
 
 #cairn-stat-block(load-stat("drowner"))[
-  #item-heading(level: 4)[Drowner]
+  #item-heading(level: 4)[Drowner] <foe.drowner>
 ]
 
 #cairn-stat-block(load-stat("foglet"))[
-  #item-heading(level: 4)[Foglet]
+  #item-heading(level: 4)[Foglet] <foe.foglet>
 ]
 
 #cairn-stat-block(load-stat("ghoul"))[
-  #item-heading(level: 4)[Ghoul]
+  #item-heading(level: 4)[Ghoul] <foe.ghoul>
 ]
 
 #item-heading(level: 4)[Hags]
 
 #cairn-stat-block(load-stat("hag-grave"))[
-  ===== Grave Hag
+  ===== Grave Hag <foe.hag-grave>
 ]
 
 #cairn-stat-block(load-stat("hag-water"))[
-  ===== Water Hag
+  ===== Water Hag <foe.hag-water>
 ]
 
 #cairn-stat-block(load-stat("rotfiend"))[
-  #item-heading(level: 4)[Rotfiend]
+  #item-heading(level: 4)[Rotfiend] <foe.rotfiend>
 ]
 
 #large-heading(level: 3)[Ogroids]
 
 #cairn-stat-block(load-stat("anopheli"))[
-  #item-heading(level: 4)[Anopheli]
+  #item-heading(level: 4)[Anopheli] <foe.anopheli>
 ]
 
 #cairn-stat-block(load-stat("cyclops"))[
-  #item-heading(level: 4)[Cyclops]
+  #item-heading(level: 4)[Cyclops] <foe.cyclops>
 ]
 
 #cairn-stat-block(load-stat("nekker"))[
-  #item-heading(level: 4)[Nekker]
+  #item-heading(level: 4)[Nekker] <foe.nekker>
 ]
 
 #cairn-stat-block(load-stat("ogre"))[
-  #item-heading(level: 4)[Ogre]
+  #item-heading(level: 4)[Ogre] <foe.ogre>
 ]
 
 #cairn-stat-block(load-stat("troll-rock"))[
-  #item-heading(level: 4)[Troll, Rock]
+  #item-heading(level: 4)[Troll, Rock] <foe.troll-rock>
 ]
 
 #cairn-stat-block(load-stat("vodnik"))[
-  #item-heading(level: 4)[Vodnik]
+  #item-heading(level: 4)[Vodnik] <foe.vodnik>
 ]
 
 #large-heading(level: 3)[Relicts]
 
 #cairn-stat-block(load-stat("chort"))[
-  #item-heading(level: 4)[Chort]
+  #item-heading(level: 4)[Chort] <foe.chort>
 ]
 
 #cairn-stat-block(load-stat("doppler"))[
-  #item-heading(level: 4)[Doppler]
+  #item-heading(level: 4)[Doppler] <foe.doppler>
 ]
 
 #cairn-stat-block(load-stat("dryad"))[
-  #item-heading(level: 4)[Dryad]
+  #item-heading(level: 4)[Dryad] <foe.dryad>
 ]
 
 #cairn-stat-block(load-stat("fiend"))[
-  #item-heading(level: 4)[Fiend]
+  #item-heading(level: 4)[Fiend] <foe.fiend>
 ]
 
 #cairn-stat-block(load-stat("leshen"))[
-  #item-heading(level: 4)[Leshen]
+  #item-heading(level: 4)[Leshen] <foe.leshen>
 ]
 
 #cairn-stat-block(load-stat("nereid"))[
-  #item-heading(level: 4)[Nereid]
+  #item-heading(level: 4)[Nereid] <foe.nereid>
 ]
 
 #cairn-stat-block(load-stat("rusalki"))[
-  #item-heading(level: 4)[Rusalki]
+  #item-heading(level: 4)[Rusalki] <foe.rusalki>
 ]
 
 #cairn-stat-block(load-stat("shaelmaar"))[
-  #item-heading(level: 4)[Shaelmaar]
+  #item-heading(level: 4)[Shaelmaar] <foe.shaelmaar>
 ]
 
 #cairn-stat-block(load-stat("sylvan"))[
-  #item-heading(level: 4)[Sylvan]
+  #item-heading(level: 4)[Sylvan] <foe.sylvan>
 ]
 
 #large-heading(level: 3)[Specters]
 
 #cairn-stat-block(load-stat("barghest"))[
-  #item-heading(level: 4)[Barghest]
+  #item-heading(level: 4)[Barghest] <foe.barghest>
 ]
 
 #cairn-stat-block(load-stat("draug"))[
-  #item-heading(level: 4)[Draug]
+  #item-heading(level: 4)[Draug] <foe.draug>
 ]
 
 #cairn-stat-block(load-stat("draugir"))[
-  #item-heading(level: 4)[Draugir]
+  #item-heading(level: 4)[Draugir] <foe.draugir>
 ]
 
 #cairn-stat-block(load-stat("noonwraith"))[
-  #item-heading(level: 4)[Noonwraith]
+  #item-heading(level: 4)[Noonwraith] <foe.noonwraith>
 ]
 
 #cairn-stat-block(load-stat("pesta"))[
-  #item-heading(level: 4)[Pesta]
+  #item-heading(level: 4)[Pesta] <foe.pesta>
 ]
 
 #cairn-stat-block(load-stat("wraith"))[
-  #item-heading(level: 4)[Wraith]
+  #item-heading(level: 4)[Wraith] <foe.wraith>
 ]
 
 #large-heading(level: 3)[Vampires]
 
 #cairn-stat-block(load-stat("alp"))[
-  #item-heading(level: 4)[Alp]
+  #item-heading(level: 4)[Alp] <foe.alp>
 ]
 
 #cairn-stat-block(load-stat("fleder"))[
-  #item-heading(level: 4)[Fleder]
+  #item-heading(level: 4)[Fleder] <foe.fleder>
 ]
 
 #cairn-stat-block(load-stat("higher-vampire"))[
-  #item-heading(level: 4)[Higher Vampire]
+  #item-heading(level: 4)[Higher Vampire] <foe.higher-vampire>
 ]
 
 #cairn-stat-block(load-stat("katakan"))[
-  #item-heading(level: 4)[Katakan]
+  #item-heading(level: 4)[Katakan] <foe.katakan>
 ]
 
 #large-heading(level: 3)[The Hunt]
 
 #cairn-stat-block(load-stat("hunt-hound"))[
-  #item-heading(level: 4)[Hound of the Hunt]
+  #item-heading(level: 4)[Hound of the Hunt] <foe.hunt-hound>
 ]
 
 #cairn-stat-block(load-stat("hunt-rider"))[
-  #item-heading(level: 4)[Rider of the Hunt]
+  #item-heading(level: 4)[Rider of the Hunt] <foe.hunt-rider>
 ]
 
 #cairn-stat-block(load-stat("hunt-steed"))[
-  #item-heading(level: 4)[Steed of the Hunt]
+  #item-heading(level: 4)[Steed of the Hunt] <foe.hunt-steed>
 ]
 
 #pagebreak(weak: true)
@@ -1083,10 +1089,51 @@ not an every day occurence, they happen and stand out amongst the grey.
 
 #item-heading(level: 4)[The Gloomfen]
 
-#item-heading(level: 4)[Ursheym Wood]
+#item-heading(level: 4)[Ursheym Wood] <ursheym-wood>
+
+Patrolling the wood are *Ursheym Golems*---built by one of the
+#ts-link(<giants-of-ursheym-wood>)[giants that live here] that wishes to protect
+her home.
+
+Ursheym Golems are the same as regular golems, but are all made of wood and
+stone, and are given the following commands:
+- Attack all of those who wish to do harm to the wood or its inhabitents.
+- Do not attack any inhabitents or friends of the Ursheym Wood.
+
+Each one also adorns a unique flower in its 'hair.'
+
+#cairn-stat-block(load-stat("golem"))[
+  #heading(level: 4)[Ursheym Golem]
+]
 
 #large-heading(level: 3)[Characters to Place in Gresha]
 
-#item-heading(level: 4)[The Giants of Ursheym Wood]
+#item-heading(level: 4)[The Giants of Ursheym Wood] <giants-of-ursheym-wood>
+
+#note[
+  *Note:* Unlike any of the other characters, I consider these to belong in the
+  Ursheym Wood. These characters are an homage to 'real' forest giants where I
+  grew up. They are placed in Bernheim Forest (the namesake of Ursheym Wood)---a
+  place I have many fond memories of.
+
+  Read about the Giants of Bernheim Forest here:
+  #ts-link("https://bernheim.org/land-of-the-giants/")
+]
+
+- *The Giants of Ursheym Wood* are a small family that live in the small forest.
+- *Lamori* is giant that resides in the #ts-link(<ursheym-wood>)[Ursheym Wood].
+  She lives there with her two children, Lana and Noso, and is pregnant with one
+  more on the way. She likes to relax and lounge around. She does not tolerate
+  those who wish to bring harm to the wood or her family, but she welcomes
+  travellers who display peaceful intentions.
+- *Lana* is a builder who constructs magnificent structures and other constructs
+  all around the Ursheym Wood. She believes that one day she will build a great
+  wonder that will bring all the people to visit the Ursheym Wood. She always
+  enjoys when her little brother tells her about finding on of her constructs in
+  the wood. She built all of the Ursheym Golems that patrol the wood.
+- *Noso* wanders the wood looking for new plants, creatures, and 'discovering' his
+  sister's constructs. He doesn't know she makes them and invents his own tale of
+  each one and how they came to being. He enjoys looking at his reflection in the
+  ponds scattered about the wood, and tries to reflectivity works.
 
 #item-heading(level: 4)[The Witch Sisters]
