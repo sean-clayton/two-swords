@@ -16,7 +16,7 @@
 
 #box(width: 100%, height: 100%, stroke: (1cm + stroke-color))[
   #set align(center + horizon)
-  #set text(font: "Asul", size: 32pt, fill: highlight-color-base)
+  #set text(font: title-font, size: 32pt, fill: highlight-color-base)
 
   #place(center + horizon, [
     #rect(
@@ -38,5 +38,6 @@
 
   #heading(level: 1, outlined: false, bookmarked: true)[#title]
 
+  #set text(font: primary-font, size: 10pt)
   #wip-banner
 ]

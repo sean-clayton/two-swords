@@ -7,12 +7,14 @@
 #let highlight-color = highlight-color-base.desaturate(33.333%).lighten(80%)
 
 #let display-font = "Asul"
+#let title-font = "Amarante"
 #let primary-font = "Gentium Book Plus"
+#let accent-font = "Alegreya Sans"
 
 #let wip-banner = [
   #place(top + center)[
     #box(fill: highlight-color-base, inset: 4pt)[
-      #text(weight: "bold", fill: black, size: 10pt)[Work In Progress]
+      #text(weight: "bold", fill: black)[Work In Progress]
     ]
   ]
 ]
@@ -41,30 +43,46 @@
   yaml("stats/" + filename + ".yaml")
 }
 
+#let heading-color = highlight-color-base.saturate(-10%).rotate(-10deg).darken(100% / 4);
+
 #let huge-heading(..args, content) = {
-  show heading: set text(size: 24pt, weight: 700)
+  set align(center)
+
+  show heading: set text(
+    font: title-font,
+    size: 36pt,
+    weight: 700,
+    fill: heading-color.saturate(100%).darken(10%),
+    tracking: -1pt,
+  )
+
   heading(..args)[#content]
 }
 
 #let large-heading(..args, content) = {
-  show heading: set text(size: 18pt, weight: 700)
+  show heading: set text(
+    font: display-font,
+    size: 18pt,
+    weight: 700,
+    fill: heading-color,
+    tracking: -1pt,
+  )
   heading(..args)[#content]
 }
 
 #let item-heading(..args, content) = {
-  show heading: set text(size: 12pt, weight: 400)
+  show heading: set text(font: display-font, size: 14pt, weight: 700, tracking: -0.5pt)
 
-  box(
-    fill: gradient.linear(highlight-color, white),
-    inset: (x: 4pt, y: 6pt),
-    width: 100%,
-  )[
-    #heading(..args)[#content]
-  ]
+  heading(..args)[#content]
 }
 
 #let table-heading(..args, content) = {
-  set text(font: display-font, weight: "bold", fill: white)
+  show heading: it => {
+    set text(font: accent-font)
+    it
+  }
+
+  set text(weight: "bold", fill: white)
 
   box(
     outset: (x: 0pt, y: 0pt),
@@ -136,12 +154,8 @@
 
   #set text(font: primary-font, size: 10pt)
 
-  #show heading: it => {
-    set text(font: display-font)
-    it
-  }
-
   #show table: it => {
+    set text(font: accent-font)
     set table(stroke: none, align: left + horizon, fill: (col, row) => {
       if row == 0 { white } else {
         if calc.odd(row) { highlight-color } else { white }
@@ -154,6 +168,24 @@
 
   #doc
 ]
+
+#let table-heading(..args, content) = {
+  show heading: it => {
+    set text(font: accent-font, weight: 800, size: 11pt)
+    set align(center + horizon)
+    upper(it)
+  }
+
+  set text(weight: "bold", fill: white)
+
+  box(
+    outset: (x: 0pt, y: 0pt),
+    inset: 4pt,
+    width: 100%,
+    fill: heading-color.darken(25%),
+    heading(..args, content),
+  )
+}
 
 #let cairn-stat-block(data, top-content) = {
   let escape-str(str) = str.replace("\\", "\\\\").replace("#", "\#")

@@ -1,4 +1,4 @@
-#import "lib.typ": title, highlight-color-base
+#import "lib.typ": *
 #import "cover.typ": bg-color, stroke-color, griffin
 
 #set page(width: 126mm, height: 100mm, margin: 0pt, fill: bg-color, background: [
@@ -7,9 +7,13 @@
 #set text(fill: highlight-color-base)
 
 #let logo = [
-  #box(width: 100%, height: 100%, stroke: (18pt + stroke-color))[
+  #box(
+    width: 100%,
+    height: 100%,
+    stroke: (18pt + stroke-color),
+  )[
     #set align(center + horizon)
-    #set text(font: "Asul", fill: highlight-color-base)
+    #set text(font: display-font, fill: highlight-color-base)
 
     #place(center + horizon, [
       #rect(
@@ -29,12 +33,13 @@
       )
     ])
 
-    #stack(spacing: 16pt, text(font: "Asul", weight: "bold", size: 32pt)[
-      #title
-    ], text(
-      font: "Gentium Book Plus",
-      size: 16pt,
-    )[_A Dark Fantasy Expansion for Cairn_])
+    #stack(
+      spacing: 16pt,
+      text(font: title-font, weight: "bold", size: 32pt)[
+        #title
+      ],
+      text(font: primary-font, size: 16pt)[_A Dark Fantasy Expansion for Cairn_],
+    )
   ]
 ]
 

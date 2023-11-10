@@ -22,7 +22,7 @@
 
   #stack(
     spacing: 16pt,
-    text(fill: cover.highlight-color-base, size: 32pt, weight: "bold")[#title],
+    text(fill: cover.highlight-color-base, size: 32pt, font: title-font)[#title],
     text[#ts-link(metadata.repo_cc_license_url)[CC-BY-SA 4.0] | by #metadata.author],
   )
 
@@ -323,7 +323,7 @@ harness it with destructive effect. There are many who walk the lands that can
 tap into the plane of chaotic energies and pull out transformations that change
 our physical world.
 
-#item-heading(level: 3)[Magical Implements]
+#item-heading(level: 3)[Magical Implements]<magical-implements>
 
 Any one of the following can give you the ability to cast spells:
 
@@ -331,7 +331,7 @@ Any one of the following can give you the ability to cast spells:
 - A _scroll_ (two hands) for the spell.
 - A _staff_ (one hand) which contains the spell.
 
-#item-heading(level: 3)[Casting a Spell]
+#item-heading(level: 3)[Casting a Spell]<casting-a-spell>
 
 1. Holding your #term[magical implement], choose a spell. The description may
   denote the spell's duration with D and range with R.
@@ -530,6 +530,10 @@ When you have been exposed to chaos, compare your #term[[sum]] to the following:
 #pagebreak(weak: true)
 
 #huge-heading(level: 2)[Rituals]<heading.rituals>
+
+Rituals are time-consuming spells that do not require a
+#ts-link(<magical-implements>)[#term[magical implement]]. While they are spells,
+they do not follow the procedures for #ts-link(<casting-a-spell>)[casting a spell].
 
 #pagebreak(weak: true)
 
@@ -960,6 +964,8 @@ is up to them.
 
 #item-heading(level: 4)[Sites]
 
+#pagebreak(weak: true)
+
 #huge-heading(level: 2)[The Continent of Gresha]
 
 There are many dark fantasy worlds out there that already exist which you can
@@ -978,8 +984,6 @@ There is no single correct iteration of Gresha. Your Gresha will be different
 than mine, is different to his, hers, etc. The Gresha presented here is actually
 in the form of questions---your answers to those questions are what make your
 Gresha unique amongst all others.
-
-#pagebreak(weak: true)
 
 #item-heading(level: 3, outlined: false)[Some Assumptions]
 
@@ -1063,6 +1067,26 @@ not an every day occurence, they happen and stand out amongst the grey.
 
 #item-heading(level: 4)[The Fertile Coast]
 
-#large-heading(level: 3)[Locations of Gresha]
+#large-heading(level: 3)[Factions of Gresha]
 
-#large-heading(level: 3)[People of Gresha]
+#item-heading(level: 4)[The Empire]
+
+#item-heading(level: 4)[The Northern Alliance]
+
+#item-heading(level: 4)[The Rebels]
+
+#item-heading(level: 4)[The Rangers]
+
+#item-heading(level: 4)[The Seekers]
+
+#large-heading(level: 3)[Locations to Place in Gresha]
+
+#item-heading(level: 4)[The Gloomfen]
+
+#item-heading(level: 4)[Ursheym Wood]
+
+#large-heading(level: 3)[Characters to Place in Gresha]
+
+#item-heading(level: 4)[The Giants of Ursheym Wood]
+
+#item-heading(level: 4)[The Witch Sisters]

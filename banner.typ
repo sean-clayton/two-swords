@@ -1,4 +1,4 @@
-#import "lib.typ": title, highlight-color-base
+#import "lib.typ": *
 #import "cover.typ": bg-color, stroke-color, griffin
 
 #set page(
@@ -18,7 +18,7 @@
   stroke: (48pt + color.rgb(stroke-color.to-hex())),
 )[
   #set align(center + horizon)
-  #set text(font: "Asul", fill: color.rgb(highlight-color-base.to-hex()))
+  #set text(fill: color.rgb(highlight-color-base.to-hex()))
 
   #place(center + horizon, [
     #rect(
@@ -38,11 +38,12 @@
     )
   ])
 
-  #stack(spacing: 48pt, text(font: "Asul", weight: "bold", size: 96pt)[
-    #title
-  ], text(
-    font: "Gentium Book Plus",
-    size: 48pt,
-  )[_A Dark Fantasy Expansion for Cairn_])
+  #stack(
+    spacing: 48pt,
+    text(font: title-font, weight: "bold", size: 96pt)[
+      #title
+    ],
+    text(font: primary-font, size: 48pt)[_A Dark Fantasy Expansion for Cairn_],
+  )
 
 ]
