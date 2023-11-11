@@ -79,6 +79,8 @@
 
 #pagebreak(weak: true)
 
+#set page(footer: set-page-numbers())
+
 #chapter-introduction
 
 #pagebreak(weak: true)
