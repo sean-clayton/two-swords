@@ -107,35 +107,26 @@
   let stroke-width = 1pt
   let hook-width = stroke-width * 5
 
-  let hook = polygon(fill: black, (0%, 0pt), (0%, hook-width), (100%, 0pt))
+  let trapezoid = polygon(
+    fill: black,
+    (0%, 0pt),
+    (hook-width, hook-width),
+    (100% - hook-width, hook-width),
+    (100%, 0pt),
+  )
 
   block(breakable: false, width: 100%, [
-    #box(fill: note-color, inset: 8pt, width: 100%)[#emph(content)]
-
     #if borderless { none } else {
-      place(top, box(width: 100%, height: stroke-width, fill: black))
-      place(bottom, box(width: 100%, height: stroke-width, fill: black))
-
-      place(top + left, dx: (hook-width * -1) + 0.1pt)[
-        #rotate(90deg, box(width: hook-width, height: hook-width)[#hook])
-      ]
-
-      place(top + right, dx: (hook-width) - 0.1pt)[
-        #rotate(0deg, box(width: hook-width, height: hook-width)[#hook])
-      ]
-
-      place(bottom + left, dx: (hook-width * -1) + 0.1pt)[
-        #scale(y: -100%)[
-          #rotate(90deg, box(width: hook-width, height: hook-width)[#hook])
-        ]
-      ]
-
-      place(bottom + right, dx: (hook-width) - 0.1pt)[
-        #scale(y: -100%)[
-          #rotate(0deg, box(width: hook-width, height: hook-width)[#hook])
-        ]
-      ]
+      place(top + center, dy: stroke-width * -1, rotate(
+        0deg,
+        box(width: 100% + (hook-width * 2), height: hook-width, trapezoid),
+      ))
+      place(bottom + center, dy: stroke-width, rotate(
+        180deg,
+        box(width: 100% + (hook-width * 2), height: hook-width, trapezoid),
+      ))
     }
+    #box(fill: note-color, inset: 8pt, width: 100%)[#emph(content)]
   ])
 }
 
