@@ -46,14 +46,21 @@ feeling of a gray and unfair world.
   columns: 2,
   gutter: 1em,
   [
+    #item-title[=== Coins]
+
+    Gold is just called coin. 100gp is equivalent to 100c.
+
     #item-title[=== Magic]
 
     Magic is signifcantly different than in Cairn. More is explained in the magic
     section on page #ts-link(<magic>)[#label-page-num(locate, <magic>)].
 
-    #item-title[=== Watches]
+    #item-title[=== Procedures]
 
-    There are now 4 watches in a day instead of 3.
+    - There are now 4 watches in a day instead of 3.
+    - Wilderness travel has been overhauled.
+
+    More detail on procedures is available on page #ts-link(<procedures>)[#label-page-num(locate, <procedures>)].
   ],
   [
     #item-title[=== Starting Equipment]

@@ -83,11 +83,13 @@
 }
 
 #let large-title(content) = {
+  show par: set text(font: display-font, size: 14pt, weight: 700, fill: heading-color)
   show heading: set text(font: display-font, size: 14pt, weight: 700, fill: heading-color)
   upper(content)
 }
 
 #let item-title(content) = {
+  show par: set text(font: display-font, size: 11pt, weight: 700, tracking: -0.25pt)
   show heading: set text(font: display-font, size: 11pt, weight: 700, tracking: -0.25pt)
 
   box(inset: 4pt, fill: highlight-color, width: 100%, content)
@@ -98,13 +100,12 @@
   content
 }
 
-#let note-title(wrapper: text, ..args, content) = {
+#let note-title(content) = {
   set text(font: accent-font, weight: 600, size: 9pt, tracking: 0.05em)
   set align(center + horizon)
 
-  wrapper(..args, [
-    #upper(content)
-  ])
+  box(width: 100%, upper(content))
+  v(1em, weak: true)
 }
 
 #let note(borderless: false, fill: note-color, content) = {

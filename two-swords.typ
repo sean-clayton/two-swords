@@ -5,7 +5,6 @@
 #import "/chapters/backgrounds.typ" as chapter-backgrounds
 #import "/chapters/marketplace.typ" as chapter-marketplace
 #import "/chapters/rules.typ" as chapter-rules
-#import "/chapters/crafting.typ" as chapter-crafting
 #import "/chapters/artefacts.typ" as chapter-artefacts
 #import "/chapters/magic.typ" as chapter-magic
 #import "/chapters/foes.typ" as chapter-foes
@@ -40,8 +39,7 @@
 
   #ts-link(metadata.repo_url)[Source Code] | #ts-link(metadata.repo_license_url)[Source Code License]
 
-  Made for #ts-link("https://cairnrpg.com")[Cairn 2nd Edition] by #ts-link("https://newschoolrevolution.com/")[Yochai Gal],
-  released #ts-link("https://creativecommons.org/licenses/by-sa/4.0/")[CC-BY-SA 4.0]
+  Made for #ts-link("https://cairnrpg.com")[Cairn 2nd Edition] by #ts-link("https://newschoolrevolution.com/")[Yochai Gal]
 
   #place(
     bottom + center,
@@ -94,10 +92,6 @@
 #pagebreak(weak: true)
 
 #chapter-rules
-
-#pagebreak(weak: true)
-
-#chapter-crafting
 
 #pagebreak(weak: true)
 
