@@ -58,4 +58,4 @@ There are some interesting properties of this calendar.
   for the end.
 - Every month has a "central" day to it---the fifth day of the third week.
 
-You can find more about Gresha on page #ts-link(<continent-of-gresha>)[#label-page-num(<continent-of-gresha>)].
+You can find more about Gresha on page #ts-link(<continent-of-gresha>)[#label-page-num(locate, <continent-of-gresha>)].

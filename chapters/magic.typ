@@ -140,7 +140,7 @@ gather in one place.
 Sites of power are always associated with a kind of magic, such as necrotic,
 fire, time, etc.
 
-#item-title[Exposure to Chaos <exposure-to-chaos>]
+#item-title[=== Exposure to Chaos <exposure-to-chaos>]
 
 - When you have been exposed to chaos, compare your [sum] to the table below to
   find out the severity of the exposure.
@@ -148,7 +148,7 @@ fire, time, etc.
   final outcome.
 
 #table(
-  columns: (4em, 1fr),
+  columns: (auto, 1fr),
   [*[Sum]*],
   [*Severity*],
   [*18+*],
@@ -167,7 +167,7 @@ fire, time, etc.
   #table-title[Chaotic Mutation]<chaotic-mutation>
   #v(0pt, weak: true)
   #table(
-    columns: (3em, 1fr),
+    columns: (auto, 1fr),
     [*2d6*],
     [*Mutation*],
     [*2*],
@@ -202,7 +202,7 @@ fire, time, etc.
   #table-title[Taint of Chaos]<taint-of-chaos>
   #v(0pt, weak: true)
   #table(
-    columns: (3em, 1fr),
+    columns: (auto, 1fr),
     [*2d6*],
     [*Taint*],
     [*2*],
@@ -234,7 +234,7 @@ fire, time, etc.
   #table-title[Mark of Chaos]<mark-of-chaos>
   #v(0pt, weak: true)
   #table(
-    columns: (3em, 1fr),
+    columns: (auto, 1fr),
     [*2d6*],
     [*Mark*],
     [*2*],
@@ -264,6 +264,20 @@ fire, time, etc.
 
 #large-title[== Spells <spells>]
 
+#table-title[Spells]
+#v(0pt, weak: true)
+#table(
+  columns: (auto, 1fr),
+  [*Mouth of Hadar*],
+  [Immediately rip off a finger. That's it. That's the spell.],
+  [*Mouth of Hadar*],
+  [Immediately rip off a finger. That's it. That's the spell.],
+  [*Mouth of Hadar*],
+  [Immediately rip off a finger. That's it. That's the spell.],
+  [*Mouth of Hadar*],
+  [Immediately rip off a finger. That's it. That's the spell.],
+)
+
 #large-title[== Rituals <rituals>]
 
 - Rituals are time-consuming spells.
@@ -285,3 +299,8 @@ fire, time, etc.
 - They do not require a #ts-link(<magical-implements>)[magical implement] to cast,
   but do require each of the caster's hands to be free.
 - They follow normal #ts-link(<casting-a-spell>)[spell-casting procedures].
+
+=== Dangers
+- Seen as dangerous & deadly magic, practiced only by those with ill-intent.
+- Are almost always illegal in settlements, punishable by exile or even
+  death---often without trial.

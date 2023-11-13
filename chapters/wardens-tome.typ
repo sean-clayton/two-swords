@@ -16,8 +16,6 @@ contains the following:
 
 #item-title[=== Hex Travel]
 
-#item-title[=== Recovering Wounds]
-
 #item-title[=== Curses]
 
 #large-title[== Tables]

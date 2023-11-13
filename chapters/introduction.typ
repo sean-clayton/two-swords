@@ -10,7 +10,7 @@
   /* Not sure if I'll actually reference/allude all of these but this covers my bases in case I do. */
 
   This book contains references and allusions to the following topics: *war*,
-  *genocide*, *slavery*, *fascism*, and *religious extremism*.
+  *genocide*, *slavery*, *colonialism*, *fascism*, and *religious extremism*.
 ]
 
 #text-scale(
@@ -49,7 +49,7 @@ feeling of a gray and unfair world.
     #item-title[=== Magic]
 
     Magic is signifcantly different than in Cairn. More is explained in the magic
-    section on page #ts-link(<magic>)[#label-page-num(<magic>)].
+    section on page #ts-link(<magic>)[#label-page-num(locate, <magic>)].
 
     #item-title[=== Watches]
 
@@ -60,6 +60,13 @@ feeling of a gray and unfair world.
 
     In addition to the usual starting equipment, all player characters start with a
     Waterskin (4 uses).
+
+    #item-title[=== HP Restoration]
+
+    Full HP isn't immediately restored without cost---it now requires water to be
+    consumed (that's what the waterskin and its uses are for).
+
+    More on recovery on page #ts-link(<recovery>)[#label-page-num(locate, <recovery>)].
   ],
 )
 

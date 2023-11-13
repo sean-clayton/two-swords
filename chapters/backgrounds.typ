@@ -7,7 +7,7 @@ Here are 20 more backgrounds for new characters.
 #table-title[Backgrounds]
 #v(0pt, weak: true)
 #grid(columns: 2, gutter: 2pt, table(
-  columns: (3em, 1fr),
+  columns: (auto, 1fr),
   [*d20*],
   [*Background*],
   [*1*],
@@ -31,7 +31,7 @@ Here are 20 more backgrounds for new characters.
   [*10*],
   [#ts-link(<background.occultist>)[Occultist]],
 ), table(
-  columns: (3em, 1fr),
+  columns: (auto, 1fr),
   [*d20*],
   [*Background*],
   [*11*],
@@ -100,7 +100,7 @@ Here are 20 more backgrounds for new characters.
   #table-title[What did you take from the dead?]
   #v(0pt, weak: true)
   #table(
-    columns: (2em, 1fr),
+    columns: (auto, 1fr),
     [*d6*],
     [*Result*],
     [*1*],

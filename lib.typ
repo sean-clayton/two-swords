@@ -26,9 +26,9 @@
   ]
 ]
 
-#let label-page-num(label) = {
-  locate(loc => {
-    let arr = query(<magic>, loc)
+#let label-page-num(locator, label) = {
+  locator(loc => {
+    let arr = query(label, loc)
     arr.first().location().position().page
   })
 }
@@ -119,7 +119,7 @@
     (100%, 0pt),
   )
 
-  set text(size: 0.8em)
+  set text(size: 8pt)
 
   block(breakable: false, width: 100%, [
     #if borderless { none } else {
