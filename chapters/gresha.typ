@@ -2,7 +2,7 @@
 
 #huge-heading(level: 1)[The Continent of Gresha]<continent-of-gresha>
 
-#large-heading(level: 2)[Your Truths of Gresha]
+#large-title[== Your Truths of Gresha]
 
 There is no single correct iteration of Gresha. While the above characteristics
 are assumed to be common among all Greshas, your Gresha will be different than
@@ -125,7 +125,7 @@ others.
 ], [5–6], [
 ])
 
-#large-heading(level: 2)[Regions of Gresha]
+#large-title[== Regions of Gresha]
 
 #item-title[=== The Withered March]
 
@@ -135,7 +135,7 @@ others.
 
 #item-title[=== The Fertile Coast]
 
-#large-heading(level: 2)[Factions of Gresha]
+#large-title[== Factions of Gresha]
 
 #item-title[=== Political Factions]
 
@@ -155,7 +155,7 @@ others.
 
 ==== The Seekers
 
-#large-heading(level: 2)[Locations to Place in Gresha]
+#large-title[== Locations to Place in Gresha]
 
 #item-title[=== The Gloomfen]
 
@@ -178,7 +178,7 @@ her home.
   Each one also adorns a unique flower in its 'hair.'
 ]
 
-#large-heading(level: 2)[Characters to Place in Gresha]
+#large-title[== Characters to Place in Gresha]
 
 #item-title[=== The Giants of Ursheym Wood] <giants-of-ursheym-wood>
 

@@ -262,9 +262,9 @@ fire, time, etc.
   )
 ]
 
-#large-heading(level: 2)[Spells]<spells>
+#large-title[== Spells <spells>]
 
-#large-heading(level: 2)[Rituals]<rituals>
+#large-title[== Rituals <rituals>]
 
 - Rituals are time-consuming spells.
 - They do not require a #ts-link(<magical-implements>)[magical implement] to cast.
@@ -279,7 +279,7 @@ fire, time, etc.
 - Are almost always illegal in settlements, punishable by exile or even
   death---often without trial.
 
-#large-heading(level: 2)[Hexes]<hexes>
+#large-title[== Hexes <hexes>]
 
 - Hexes are low-lethality spells.
 - They do not require a #ts-link(<magical-implements>)[magical implement] to cast,

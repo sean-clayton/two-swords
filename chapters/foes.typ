@@ -7,7 +7,7 @@ that covers many traditional fantasy foes that can easily be used in a dark
 fantasy setting, but the ones included are meant to further bolster tone of the
 setting.
 
-#large-heading(level: 2)[Humanoids]
+#large-title[== Humanoids]
 
 #cairn-stat-block(load-stat("bandit"))[
   #item-title[=== Bandit <foe.bandit>]
@@ -77,7 +77,7 @@ setting.
   #item-title[=== Secret Agent <foe.secret-agent>]
 ]
 
-#large-heading(level: 2)[Beasts]
+#large-title[== Beasts]
 
 #cairn-stat-block(load-stat("warg"))[
   #item-title[=== Warg <foe.warg>]
@@ -91,7 +91,7 @@ setting.
   #item-title[=== Wolf <foe.wolf>]
 ]
 
-#large-heading(level: 2)[Cursed Ones]
+#large-title[== Cursed Ones]
 
 #cairn-stat-block(load-stat("amarok"))[
   #item-title[=== Amarok <foe.amarok>]
@@ -109,7 +109,7 @@ setting.
   #item-title[=== Striga <foe.striga>]
 ]
 
-#large-heading(level: 2)[Draconids]
+#large-title[== Draconids]
 
 #cairn-stat-block(load-stat("basilisk"))[
   #item-title[=== Basilisk <foe.basilisk>]
@@ -135,7 +135,7 @@ setting.
   #item-title[=== Wyvern <foe.wyvern>]
 ]
 
-#large-heading(level: 2)[Elementals]
+#large-title[== Elementals]
 
 #cairn-stat-block(load-stat("elemental-earth"))[
   #item-title[=== Elemental, Earth <foe.elemental-earth>]
@@ -157,7 +157,7 @@ setting.
   #item-title[=== Golem <foe.golem>]
 ]
 
-#large-heading(level: 2)[Hybrids]
+#large-title[== Hybrids]
 
 #cairn-stat-block(load-stat("berberoka"))[
   #item-title[=== Berberoka <foe.berberoka>]
@@ -187,7 +187,7 @@ setting.
   #item-title[=== Uktena <foe.uktena>]
 ]
 
-#large-heading(level: 2)[Insectoids]
+#large-title[== Insectoids]
 
 #cairn-stat-block(load-stat("arachas"))[
   #item-title[=== Arachas <foe.arachas>]
@@ -209,7 +209,7 @@ setting.
   #item-title[=== Zeugl <foe.zeugl>]
 ]
 
-#large-heading(level: 2)[Necrophages]
+#large-title[== Necrophages]
 
 #cairn-stat-block(load-stat("devourer"))[
   #item-title[=== Devourer <foe.devourer>]
@@ -241,7 +241,7 @@ setting.
   #item-title[=== Rotfiend <foe.rotfiend>]
 ]
 
-#large-heading(level: 2)[Ogroids]
+#large-title[== Ogroids]
 
 #cairn-stat-block(load-stat("anopheli"))[
   #item-title[=== Anopheli <foe.anopheli>]
@@ -267,7 +267,7 @@ setting.
   #item-title[=== Vodnik <foe.vodnik>]
 ]
 
-#large-heading(level: 2)[Relicts]
+#large-title[== Relicts]
 
 #cairn-stat-block(load-stat("chort"))[
   #item-title[=== Chort <foe.chort>]
@@ -305,7 +305,7 @@ setting.
   #item-title[=== Sylvan <foe.sylvan>]
 ]
 
-#large-heading(level: 2)[Specters]
+#large-title[== Specters]
 
 #cairn-stat-block(load-stat("barghest"))[
   #item-title[=== Barghest <foe.barghest>]
@@ -331,7 +331,7 @@ setting.
   #item-title[=== Wraith <foe.wraith>]
 ]
 
-#large-heading(level: 2)[Vampires]
+#large-title[== Vampires]
 
 #cairn-stat-block(load-stat("alp"))[
   #item-title[=== Alp <foe.alp>]
@@ -349,7 +349,7 @@ setting.
   #item-title[=== Katakan <foe.katakan>]
 ]
 
-#large-heading(level: 2)[The Hunt]
+#large-title[== The Hunt]
 
 #cairn-stat-block(load-stat("hunt-hound"))[
   #item-title[=== Hound of the Hunt <foe.hunt-hound>]

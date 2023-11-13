@@ -82,9 +82,9 @@
   ]
 }
 
-#let large-heading(..args, content) = {
+#let large-title(content) = {
   show heading: set text(font: display-font, size: 14pt, weight: 700, fill: heading-color)
-  heading(..args)[#upper(content)]
+  upper(content)
 }
 
 #let item-title(content) = {

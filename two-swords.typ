@@ -122,7 +122,7 @@
 
 #huge-heading(level: 1, outlined: false, bookmarked: true)[Backmatter]
 
-#large-heading(level: 2, outlined: false, bookmarked: false)[Colophon]
+#large-title[#heading(level: 2, outlined: false, bookmarked: false)[Colophon]]
 
 *Typefaces Used:* Alegreya Sans, Amarante, Asul, & Gentium Book Plus. These are
 all open-source and freely available fonts, licensed under the SIL font license.
@@ -136,4 +136,4 @@ The only aspects of #emph(title) that is not free and open-source software is
 the git repo hosting (GitHub), automated CI/CD (GitHub Actions), and the
 publishing platform (Itch.io).
 
-#large-heading(level: 2, outlined: false, bookmarked: false)[Legal]
+#large-title[#heading(level: 2, outlined: false, bookmarked: false)[Legal]]

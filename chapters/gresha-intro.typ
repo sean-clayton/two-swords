@@ -8,7 +8,7 @@ Earth. The year begins and ends in the hot months, with the cold months in the
 middle. The dry and hot regions like are in the North of Gresha, and the cold
 and frigid regions are to the South.
 
-#large-heading(level: 2, outlined: false)[Some Assumptions]
+#large-title[#heading(level: 2, outlined: false)[Some Assumptions]]
 
 #note[
   *Note:* I can't stop you from tweaking these, but just be aware that if you do,
@@ -43,7 +43,7 @@ People seek a reason to dance, to enjoy the day, to celebrate a life, and to
 enjoy the comfort of those they love. While these glimpses of a normal life are
 not an every day occurence, they happen and stand out amongst the grey.
 
-#large-heading(level: 2)[Calendar of Gresha]
+#large-title[== Calendar of Gresha]
 
 - Days are 24 hours long.
 - Weeks are 9 days long.

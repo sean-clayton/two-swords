@@ -12,7 +12,7 @@ contains the following:
 - Gresha, a continent full of danger, wild magic, and personality.
 - Tables and tools for generating sites, NPCs, locations, and more.
 
-#large-heading(level: 2)[Procedures]
+#large-title[== Procedures]
 
 #item-title[=== Hex Travel]
 
@@ -20,7 +20,7 @@ contains the following:
 
 #item-title[=== Curses]
 
-#large-heading(level: 2)[Tables]
+#large-title[== Tables]
 
 #item-title[=== NPCs]
 

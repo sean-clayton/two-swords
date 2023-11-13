@@ -18,7 +18,7 @@ and unfair world. Additionally, while the content within is certainly compatible
 with Cairn 1e, it also aims to provide forwards-compatibility with Cairn 2e
 which is currently in development.
 
-#large-heading(level: 2)[What's Inside?]
+#large-title[== What's Inside?]
 
 - New character options.
 - An assumed setting of Gresha.
@@ -32,7 +32,7 @@ which is currently in development.
 - Tables for random encounters, NPC creation, settlement creation, curse creation,
   site creation, and more.
 
-#large-heading(level: 2)[Changes from Cairn]
+#large-title[== Changes from Cairn]
 
 #grid(
   columns: 2,
@@ -68,7 +68,7 @@ which is currently in development.
 
 #pagebreak(weak: true)
 
-#large-heading(level: 2)[What is Dark Fantasy?]
+#large-title[== What is Dark Fantasy?]
 
 There are a lot of interpretations of what a _"dark fantasy"_ setting is. It
 might mean an extremely grim, bleak, and borderline nihilistic feel to some, but
