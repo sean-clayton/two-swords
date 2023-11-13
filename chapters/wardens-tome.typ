@@ -1,14 +1,19 @@
-#import "../lib.typ": *
+#import "/lib.typ": *
 
 #huge-heading(level: 1)[The Warden's Tome]
 
-Here I'll go over exactly what this book means by the popular term _"dark fantasy,"_ as
-well as go over the included play area of Gresha, a continent full of danger,
-wild magic, and personality. Additionally, here is where you'll find tables and
-tools for generating sites, NPCs, locations, and more that fit a dark fantasy
-setting.
+#text(weight: "bold")[#text-scale(120%)[Players read no further!]] This is the
+Warden's section of #emph(title) and is meant for their eyes only! This section
+contains the following:
 
-#large-heading(level: 2)[A Dark Fantasy]
+- Exactly what this book means by the popular term _"dark fantasy"_.
+- New procedures and supplemental rules to add mechanics that bring about dark
+  settings.
+- Dozens of new monsters to fill your worlds with.
+- Gresha, a continent full of danger, wild magic, and personality.
+- Tables and tools for generating sites, NPCs, locations, and more.
+
+#large-heading(level: 2)[What is Dark Fantasy?]
 
 There are a lot of interpretations of what a _"dark fantasy"_ setting is. It
 might mean an extremely grim, bleak, and borderline nihilistic feel to some, but
@@ -46,6 +51,8 @@ decided to pursue it. If what they seek is to do good in a dark world, then that
 is up to them.
 
 #large-heading(level: 2)[Procedures]
+
+#item-heading(level: 3)[Hex Travel]
 
 #item-heading(level: 3)[Recovering Wounds]
 

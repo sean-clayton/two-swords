@@ -1,4 +1,4 @@
-#import "../lib.typ": *
+#import "/lib.typ": *
 
 #huge-heading(level: 1)[The Continent of Gresha]
 
@@ -18,7 +18,7 @@ While everyone's Gresha will be quite unique, there are still aspects that are
 shared between them all.
 
 #note[
-  *Note:* I can't stop you from tweaking these, but just be wary that if you do,
+  *Note:* I can't stop you from tweaking these, but just be aware that if you do,
   it will diminish the utility of this book.
 ]
 
@@ -92,10 +92,10 @@ Gresha unique amongst all others.
 
 #note[
   *Note:* War can be a very touchy subject---for many, war is an unfortunate
-  reality of everyday life and use these games to escape such things. If the group
-  wants to pick a specific choice in this list, then do not hesitate to pick it.
-  Additionally, like all of these truths, feel free to come up with your own if
-  none of these options satisfy your group.
+  reality of everyday life. People often to use these games as an escape from such
+  realities. If the group wants to pick a specific choice in this list, then do
+  not hesitate to pick it. Additionally, like all of these truths, feel free to
+  come up with your own if none of these options satisfy your group.
 ]
 
 #grid(
@@ -177,15 +177,23 @@ Gresha unique amongst all others.
 
 #large-heading(level: 2)[Factions of Gresha]
 
-#item-heading(level: 3)[The Empire]
+#item-heading(level: 3)[Political Factions]
 
-#item-heading(level: 3)[The Northern Alliance]
+==== The Empire
 
-#item-heading(level: 3)[The Rebels]
+==== The Northern Alliance
 
-#item-heading(level: 3)[The Rangers]
+==== The Rebels
 
-#item-heading(level: 3)[The Seekers]
+#item-heading(level: 3)[Religious Factions]
+
+#item-heading(level: 3)[Guilds]
+
+==== The Syndicate of Financiers & Holdings
+
+==== The Rangers
+
+==== The Seekers
 
 #large-heading(level: 2)[Locations to Place in Gresha]
 

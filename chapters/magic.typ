@@ -1,6 +1,6 @@
-#import "../lib.typ": *
+#import "/lib.typ": *
 
-#huge-heading(level: 1)[Magic]
+#huge-heading(level: 1)[Magic]<magic>
 
 Magic in #emph(title) is not a science, but with practice and study one can
 harness it with destructive effect. There are many who walk the lands that can
@@ -28,11 +28,13 @@ Any one of the following can give you the ability to cast spells:
   #ts-link(<exposure-to-chaos>)[exposed to chaos].
 
 #note[
-  *Note:* These are all little knobs you can tweak as a GM to diagetically improve
-  upon for magic users. For example, if a magic user were to train with an
-  experienced and wise wizard, maybe you can increase their maximum dice to 5, or
-  maybe you can get one #term[fatigue] marked off for free each time you cast a
-  spell, or maybe you can make #term[fatigue] only happen on a 5–6 instead.
+  #note-title[Spellcasting Progression]
+
+  These are all little knobs you can tweak as a GM to diagetically improve upon
+  for magic users. For example, if a magic user were to train with an experienced
+  and wise wizard, maybe you can increase their maximum dice to 5, or maybe you
+  can get one #term[fatigue] marked off for free each time you cast a spell, or
+  maybe you can make #term[fatigue] only happen on a 5–6 instead.
 
   These are just examples, but don't be afraid to play around with tweaking in
   this area!
@@ -102,19 +104,26 @@ life.
 
 #item-heading(level: 2)[Scrolls]<scrolls>
 
+Scrolls replace spellbooks in Cairn. They contain just 1 spell, and once used,
+they are immediately destroyed.
+
 #item-heading(level: 2)[Staves]<staves>
+
+Staves in #emph(title) are
 
 #item-heading(level: 2)[Ley Energy]<ley-energy>
 
 #note[
-  *Note:* Ley energy and its reasoning isn't something that's portable to any
-  setting. You may already have a setting that defines how ley energy and ley
+  #note-title[Ley Energy in Existing Settings]
+
+  Ley energy and its reasoning isn't something that's always easily portable to
+  any setting. You may already have a setting that defines how ley energy and ley
   lines work---this isn't meant to replace that. Feel free to ignore that aspect
   if it doesn't fit with what you already have.
 
-  With that said, magic in this book does work differently when near a ley line or
-  a places of power with strong ley energy. Keep that in mind if you are playing
-  in your own setting.
+  With that said, magic in #emph(title) is affected when near a ley line or a
+  places of power with strong ley energy. Keep that in mind if you are playing in
+  your own setting.
 ]
 
 When you draw upon ley energy to #ts-link(<casting-a-spell>)[cast a spell]...
@@ -128,105 +137,121 @@ When you draw upon ley energy to #ts-link(<casting-a-spell>)[cast a spell]...
   #v(0.5em, weak: true) #note[*Note:* Even if you roll multiple numbers other than six, but you roll multiple
     sixes, you still do not become exposed to chaos.]
 
+#item-heading(level: 2)[Sites of Power]<sites-of-power>
+
 #item-heading(level: 2)[Exposure to Chaos]<exposure-to-chaos>
 
-When you have been exposed to chaos, compare your #term[[sum]] to the following:
+- When you have been exposed to chaos, compare your #term[[sum]] to the table
+  below to find out the severity of the exposure.
+- When you are directed to a table by your severity, roll 2d6 to determine the
+  final outcome.
 
-- *18+* Your body has been severely malformed and twisted by chaos. You suffer a #term[chaotic mutation].
-- *14–17* You have been damaged by chaos. You are permanently scarred with a #term[taint of chaos].
-- *7–13* You have been merely grazed by chaos. You are temporarily changed by a #term[mark of chaos].
-- *2–6* You have successfully avoided the maleficence of chaos---for now...
+#table(
+  columns: (4em, 1fr),
+  [#term[[Sum]]],
+  [*Severity*],
+  [*18+*],
+  [You have been severely malformed and twisted by chaos. You suffer a #ts-link(<chaotic-mutation>)[chaotic mutation].],
+  [*10–17*],
+  [You have been damaged by chaos. You are permanently scarred with a #ts-link(<taint-of-chaos>)[taint of chaos].],
+  [*5–9*],
+  [You have been merely grazed by chaos. You are temporarily changed by a #ts-link(<mark-of-chaos>)[mark of chaos].],
+  [*2–4*],
+  [You barely avoid the maleficence of chaos---for now...],
+)
 
 #block(breakable: false)[
-  #table-heading(level: 3, outlined: false)[Chaotic Mutation]
+  #table-title[Chaotic Mutation]<chaotic-mutation>
   #v(0pt, weak: true)
   #table(
     columns: (3em, 1fr),
     [*2d6*],
     [*Mutation*],
-    [2],
-    [Chaotic Mark],
-    [3],
-    [Chaotic Mark],
-    [4],
-    [Chaotic Mark],
-    [5],
-    [Chaotic Mark],
-    [6],
-    [Chaotic Mark],
-    [7],
-    [Chaotic Mark],
-    [8],
-    [Chaotic Mark],
-    [9],
-    [Chaotic Mark],
-    [10],
-    [Chaotic Mark],
-    [11],
-    [Chaotic Mark],
-    [12],
-    [Chaotic Mark],
+    [*2*],
+    [Chaotic Mutation],
+    [*3*],
+    [Chaotic Mutation],
+    [*4*],
+    [Chaotic Mutation],
+    [*5*],
+    [Chaotic Mutation],
+    [*6*],
+    [Chaotic Mutation],
+    [*7*],
+    [Chaotic Mutation],
+    [*8*],
+    [Chaotic Mutation],
+    [*9*],
+    [Chaotic Mutation],
+    [*10*],
+    [Chaotic Mutation],
+    [*11*],
+    [Chaotic Mutation],
+    [*12*],
+    [Chaotic Mutation],
   )
 ]
+
 #block(breakable: false)[
-  #table-heading(level: 3, outlined: false)[Taint of Chaos]
+  #table-title[Taint of Chaos]<taint-of-chaos>
   #v(0pt, weak: true)
   #table(
     columns: (3em, 1fr),
     [*2d6*],
     [*Taint*],
-    [2],
+    [*2*],
     [Chaotic Taint],
-    [3],
+    [*3*],
     [Chaotic Taint],
-    [4],
+    [*4*],
     [Chaotic Taint],
-    [5],
+    [*5*],
     [Chaotic Taint],
-    [6],
+    [*6*],
     [Chaotic Taint],
-    [7],
+    [*7*],
     [Chaotic Taint],
-    [8],
+    [*8*],
     [Chaotic Taint],
-    [9],
+    [*9*],
     [Chaotic Taint],
-    [10],
+    [*10*],
     [Chaotic Taint],
-    [11],
+    [*11*],
     [Chaotic Taint],
-    [12],
+    [*12*],
     [Chaotic Taint],
   )
 ]
+
 #block(breakable: false)[
-  #table-heading(level: 3, outlined: false)[Mark of Chaos]
+  #table-title[Mark of Chaos]<mark-of-chaos>
   #v(0pt, weak: true)
   #table(
     columns: (3em, 1fr),
     [*2d6*],
     [*Mark*],
-    [2],
+    [*2*],
     [Chaotic Mark],
-    [3],
+    [*3*],
     [Chaotic Mark],
-    [4],
+    [*4*],
     [Chaotic Mark],
-    [5],
+    [*5*],
     [Chaotic Mark],
-    [6],
+    [*6*],
     [Chaotic Mark],
-    [7],
+    [*7*],
     [Chaotic Mark],
-    [8],
+    [*8*],
     [Chaotic Mark],
-    [9],
+    [*9*],
     [Chaotic Mark],
-    [10],
+    [*10*],
     [Chaotic Mark],
-    [11],
+    [*11*],
     [Chaotic Mark],
-    [12],
+    [*12*],
     [Chaotic Mark],
   )
 ]
@@ -235,8 +260,15 @@ When you have been exposed to chaos, compare your #term[[sum]] to the following:
 
 #large-heading(level: 2)[Rituals]<heading.rituals>
 
-Rituals are time-consuming spells that do not require a
-#ts-link(<magical-implements>)[#term[magical implement]]. While they are spells,
-they do not follow the procedures for #ts-link(<casting-a-spell>)[casting a spell].
+- Rituals are time-consuming spells.
+- They do not require a #ts-link(<magical-implements>)[magical implement] to cast.
+- They do not follow normal #ts-link(<casting-a-spell>)[spell-casting procedures].
+
+#grid(columns: 2, gutter: 1em, [
+  #item-heading(level: 3)[Time to Cast]
+
+  - Can take as little as a few minutes.
+  - Can takeas long as weeks, months, or even years. to complete.
+])
 
 #large-heading(level: 2)[Hexes]<heading.hexes>

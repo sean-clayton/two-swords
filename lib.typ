@@ -1,10 +1,15 @@
-#let metadata = toml("metadata.toml")
+#let metadata = toml("/metadata.toml")
 
 #let title = metadata.title
 #let paper = "iso-b5"
 
-#let highlight-color-base = color.hsl(57deg, 100%, 47.6%)
-#let highlight-color = highlight-color-base.desaturate(33.333%).lighten(80%)
+#let highlight-color-base = color.hsl(57deg, 100%, 47.6%).rotate(-5deg)
+#let highlight-color = highlight-color-base.desaturate(10%).mix((white, 300%), space: oklab)
+#let heading-color = highlight-color-base.saturate(-5%).mix((black, 33%), space: oklab)
+#let table-heading-color = highlight-color-base.desaturate(25%).mix((black, 90%), space: oklab)
+#let note-color = highlight-color-base.desaturate(10%).mix((white, 200%), space: oklab)
+#let paper-color = white
+#let text-color = black
 
 #let display-font = "Asul"
 #let title-font = "Amarante"
@@ -40,68 +45,105 @@
 }
 
 #let load-stat(filename) = {
-  yaml("stats/" + filename + ".yaml")
+  yaml("/stats/" + filename + ".yaml")
 }
-
-#let heading-color = highlight-color-base.saturate(-10%).rotate(-10deg).darken(100% / 4);
 
 #let huge-heading(..args, content) = {
   set align(center)
+  let fill = heading-color.rotate(-10deg).saturate(100%).darken(5%)
+  let stroke-width = (1pt / 2)
 
-  show heading: set text(
-    font: title-font,
-    size: 36pt,
-    weight: 700,
-    fill: heading-color.saturate(100%).darken(10%),
-    tracking: -1pt,
-  )
+  show heading: set text(font: title-font, size: 36pt, weight: 700, fill: fill, tracking: -1pt)
 
-  heading(..args)[#content]
+  box(height: 12em)[
+    #set align(center + bottom)
+    #box(height: 100%, inset: (top: 2em))[
+      #set align(center + horizon)
+      #heading(..args)[#content]
+    ]
+    #line(length: 100%, stroke: stroke-width + fill)
+    #v(1.5pt, weak: true)
+    #line(length: 100%, stroke: stroke-width + fill)
+  ]
 }
 
 #let large-heading(..args, content) = {
-  show heading: set text(
-    font: display-font,
-    size: 18pt,
-    weight: 700,
-    fill: heading-color,
-    tracking: -1pt,
-  )
-  heading(..args)[#content]
+  show heading: set text(font: display-font, size: 14pt, weight: 700, fill: heading-color)
+  heading(..args)[#upper(content)]
 }
 
 #let item-heading(..args, content) = {
-  show heading: set text(font: display-font, size: 14pt, weight: 700, tracking: -0.5pt)
-
-  heading(..args)[#content]
-}
-
-#let table-heading(..args, content) = {
-  show heading: it => {
-    set text(font: accent-font)
-    it
-  }
-
-  set text(weight: "bold", fill: white)
+  show heading: set text(font: display-font, size: 11pt, weight: 700, tracking: -0.25pt)
 
   box(
-    outset: (x: 0pt, y: 0pt),
     inset: 4pt,
+    fill: highlight-color,
     width: 100%,
-    fill: black,
-    heading(..args, content),
-  )
+  )[#heading(..args)[#content]]
 }
 
-#let note(content) = {
-  block(
-    breakable: false,
-    fill: gradient.linear(highlight-color.lighten(70%), white),
-    stroke: (left: 2pt + highlight-color-base),
-    width: 100%,
-    inset: 8pt,
-    emph(content),
+#let text-scale(amount, content) = {
+  set text(size: 1em * amount)
+  content
+}
+
+#let note-title(wrapper: text, ..args, content) = {
+  set text(
+    font: accent-font,
+    weight: 600,
+    size: 10pt,
+    style: "italic",
+    tracking: 0.05em,
   )
+  set align(center + horizon)
+
+  wrapper(..args, [
+    #upper(content)
+  ])
+}
+
+#let note(borderless: false, content) = {
+  let dot-size = 1.25pt
+  let stroke-width = 1pt
+  let hook-width = stroke-width * 5
+
+  let hook = polygon(fill: black, (0%, 0pt), (0%, hook-width), (100%, 0pt))
+
+  block(breakable: false, width: 100%, [
+    #box(fill: note-color, inset: 8pt, width: 100%)[#emph(content)]
+
+    #if borderless { none } else {
+      place(top, box(width: 100%, height: stroke-width, fill: black))
+      place(bottom, box(width: 100%, height: stroke-width, fill: black))
+
+      place(top + left, dx: (hook-width * -1) + 0.1pt)[
+        #rotate(90deg, box(width: hook-width, height: hook-width)[#hook])
+      ]
+
+      place(top + right, dx: (hook-width) - 0.1pt)[
+        #rotate(0deg, box(width: hook-width, height: hook-width)[#hook])
+      ]
+
+      place(bottom + left, dx: (hook-width * -1) + 0.1pt)[
+        #scale(y: -100%)[
+          #rotate(90deg, box(width: hook-width, height: hook-width)[#hook])
+        ]
+      ]
+
+      place(bottom + right, dx: (hook-width) - 0.1pt)[
+        #scale(y: -100%)[
+          #rotate(0deg, box(width: hook-width, height: hook-width)[#hook])
+        ]
+      ]
+    }
+  ])
+}
+
+#let hr = {
+  let stroke-width = (1pt / 2)
+  line(length: 100%, stroke: stroke-width + black)
+  v(1.5pt, weak: true)
+  line(length: 100%, stroke: stroke-width + black)
 }
 
 #let term(content) = {
@@ -124,7 +166,8 @@
   #set document(title: title)
   #set page(
     paper: paper,
-    margin: (bottom: 1.5cm, inside: inner-margin, outside: outer-margin, top: 0.8cm),
+    fill: paper-color,
+    margin: (bottom: 1.5cm, inside: outer-margin, outside: inner-margin, top: 0.8cm),
     header: wip-banner,
   )
 
@@ -136,7 +179,7 @@
       inset: (left: 1em + 14pt * (it.level - 1)),
       link(it.element.location(), [
         #v(0pt, weak: true)
-        #it.body
+        #upper(it.body)
         #h(1fr)
         #it.page
       ]),
@@ -144,30 +187,22 @@
   }
 
   #show outline.entry.where(level: 1): it => {
-    set text(size: 11pt, weight: "bold", font: display-font)
+    let stroke-width = (1pt / 4)
+    set text(size: 11pt, weight: "bold", font: display-font, fill: heading-color)
 
-    box(inset: (y: 4pt))[
-      #box(
-        inset: (bottom: 1pt),
-        outset: (y: 4pt),
-        stroke: (bottom: 0.5pt + black),
-      )[
-        #v(0pt, weak: true)
-        #grid(
-          columns: (1em + 12pt, 1fr),
-          link(it.element.location())[#text(fill: heading-color)[#it.page]],
-          link(it.element.location())[
-            #upper(it.body)
-          ],
-        )
-      ]
+    link(it.element.location())[
+      #grid(columns: (1em + 12pt, 1fr), it.page, upper(it.body))
     ]
+    v(4pt, weak: true)
+    line(length: 100%, stroke: stroke-width + heading-color)
+    v(2pt, weak: true)
+    line(length: 100%, stroke: stroke-width + heading-color)
+    v(0pt, weak: true)
   }
 
-  #set text(font: primary-font, size: 10pt)
+  #set text(font: primary-font, size: 9pt, fill: text-color)
 
   #show table: it => {
-    set text(font: accent-font)
     set table(stroke: none, align: left + horizon, fill: (col, row) => {
       if row == 0 { white } else {
         if calc.odd(row) { highlight-color } else { white }
@@ -181,21 +216,26 @@
   #doc
 ]
 
-#let table-heading(..args, content) = {
-  show heading: it => {
-    set text(font: accent-font, weight: 800, size: 11pt)
-    set align(center + horizon)
-    upper(it)
-  }
-
-  set text(weight: "bold", fill: white)
-
+#let table-title(wrapper: text, ..args, content) = {
   box(
     outset: (x: 0pt, y: 0pt),
     inset: 4pt,
     width: 100%,
-    fill: heading-color.darken(25%),
-    heading(..args, content),
+    fill: table-heading-color,
+    wrapper(..args, [
+      #show: it => {
+        set text(
+          font: accent-font,
+          weight: 800,
+          size: 10pt,
+          fill: white,
+          tracking: 0.05em,
+        )
+        set align(center + horizon)
+        upper(it)
+      }
+      #content
+    ]),
   )
 }
 

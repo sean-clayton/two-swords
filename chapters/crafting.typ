@@ -1,4 +1,4 @@
-#import "../lib.typ": *
+#import "/lib.typ": *
 
 #huge-heading(level: 1)[Crafting & Alchemy]
 

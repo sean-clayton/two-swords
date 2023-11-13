@@ -1,4 +1,4 @@
-#import "lib.typ": *
+#import "/lib.typ": *
 
 #let bg-color = highlight-color-base.desaturate(50%).darken(90%);
 #let stroke-color = bg-color.lighten(15%)

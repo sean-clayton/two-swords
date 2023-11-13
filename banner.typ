@@ -1,5 +1,5 @@
-#import "lib.typ": *
-#import "cover.typ": bg-color, stroke-color, griffin
+#import "/lib.typ": *
+#import "/cover.typ": bg-color, stroke-color, griffin
 
 #set page(
   width: (102.4pt * 4),
