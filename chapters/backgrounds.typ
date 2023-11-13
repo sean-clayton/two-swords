@@ -1,6 +1,6 @@
 #import "/lib.typ": *
 
-#huge-heading(level: 1)[Backgrounds] <backgrounds>
+#huge-title[= Backgrounds <backgrounds>]
 
 Here are 20 more backgrounds for new characters.
 

@@ -1,6 +1,6 @@
 #import "/lib.typ": *
 
-#huge-heading(level: 1)[The Continent of Gresha]<continent-of-gresha>
+#huge-title[= The Continent of Gresha <continent-of-gresha>]
 
 #large-title[== Your Truths of Gresha]
 

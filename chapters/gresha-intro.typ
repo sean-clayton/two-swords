@@ -1,6 +1,6 @@
 #import "/lib.typ": *
 
-#huge-heading(level: 1)[The Setting of Gresha]
+#huge-title[= The Setting of Gresha]
 
 Gresha (IPA: [griʃa]) is the assumed setting of #emph(title). It is a huge
 continental land-mass that sits in what is called the southern hemisphere on

@@ -1,6 +1,6 @@
 #import "/lib.typ": *
 
-#huge-heading(level: 1)[Relics & Artefacts]
+#huge-title[= Relics & Artefacts]
 
 #item-title[== Wriggling Fingers of Arul]
 

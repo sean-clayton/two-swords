@@ -66,7 +66,7 @@
   ]
 ]
 
-#huge-heading(level: 1, outlined: false, bookmarked: false)[Table of Contents]
+#huge-title[#heading(level: 1, outlined: false, bookmarked: false)[Table of Contents]]
 
 #columns(2)[
   #outline(indent: 4pt, depth: 2, title: none)
@@ -120,7 +120,7 @@
 
 #set page(footer: [])
 
-#huge-heading(level: 1, outlined: false, bookmarked: true)[Backmatter]
+#huge-title[#heading(level: 1, outlined: false, bookmarked: true)[Backmatter]]
 
 #large-title[#heading(level: 2, outlined: false, bookmarked: false)[Colophon]]
 

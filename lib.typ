@@ -63,7 +63,7 @@
   yaml("/stats/" + filename + ".yaml")
 }
 
-#let huge-heading(..args) = {
+#let huge-title(content) = {
   set align(center)
   let fill = heading-color.rotate(-10deg).saturate(100%).darken(5%)
   let stroke-width = (1pt / 2)
@@ -74,7 +74,7 @@
     #set align(center + bottom)
     #box(height: 100%, inset: (top: 2em))[
       #set align(center + horizon)
-      #heading(..args)
+      #content
     ]
     #line(length: 100%, stroke: stroke-width + fill)
     #v(1.5pt, weak: true)

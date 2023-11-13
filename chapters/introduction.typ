@@ -2,7 +2,7 @@
 
 #set page(footer: set-page-numbers())
 
-#huge-heading(level: 1)[Introduction] <heading.introduction>
+#huge-title[= Introduction <introduction>]
 
 The world of #emph(title) is a place where the sword you carry is worth more
 than your own life, and the people around you will certainly try to test if you

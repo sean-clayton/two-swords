@@ -1,6 +1,6 @@
 #import "/lib.typ": *
 
-#huge-heading(level: 1)[Magic]<magic>
+#huge-title[= Magic <magic>]
 
 Magic in #emph(title) is not a science, but with practice and study one can
 harness it with destructive effect. There are many who walk the lands that can

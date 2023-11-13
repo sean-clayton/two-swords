@@ -1,6 +1,6 @@
 #import "/lib.typ": *
 
-#huge-heading(level: 1)[Foes]
+#huge-title[= Foes <foes>]
 
 Cairn already has a #ts-link("https://cairnrpg.com/resources/monsters/")[monster list]
 that covers many traditional fantasy foes that can easily be used in a dark

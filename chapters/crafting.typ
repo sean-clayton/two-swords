@@ -1,5 +1,5 @@
 #import "/lib.typ": *
 
-#huge-heading(level: 1)[Crafting & Alchemy]
+#huge-title[= Crafting & Alchemy]
 
 #item-title[== Scavenging]
