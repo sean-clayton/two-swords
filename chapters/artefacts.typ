@@ -2,7 +2,7 @@
 
 #huge-heading(level: 1)[Relics & Artefacts]
 
-#item-heading(level: 2)[Wriggling Fingers of Arul]
+#item-title[== Wriggling Fingers of Arul]
 
 - 1 charge per finger.
 - *Recharge:* Stick the last of the batch of fingers in blood-soaked soil and let

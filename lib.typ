@@ -87,14 +87,10 @@
   heading(..args)[#upper(content)]
 }
 
-#let item-heading(..args, content) = {
+#let item-title(content) = {
   show heading: set text(font: display-font, size: 11pt, weight: 700, tracking: -0.25pt)
 
-  box(
-    inset: 4pt,
-    fill: highlight-color,
-    width: 100%,
-  )[#heading(..args)[#content]]
+  box(inset: 4pt, fill: highlight-color, width: 100%, content)
 }
 
 #let text-scale(amount, content) = {

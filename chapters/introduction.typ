@@ -38,7 +38,7 @@ which is currently in development.
   columns: 2,
   gutter: 1em,
   [
-    #item-heading(level: 3)[Coins]
+    #item-title[=== Coins]
 
     There is only a single coin type in #title: _coins_. No more gold/silver/copper
     etc. It uses the shorthand of _c_ (eg. 10 coins is 10c). Anything worth less
@@ -47,18 +47,18 @@ which is currently in development.
     effectively a silver-based economy.
   ],
   [
-    #item-heading(level: 3)[Magic]
+    #item-title[=== Magic]
 
     Magic is signifcantly different than in Cairn. More is explained in the magic
     section on page #ts-link(<magic>)[#label-page-num(<magic>)].
 
-    #item-heading(level: 3)[Starting Equipment]
+    #item-title[=== Starting Equipment]
 
     In addition to the usual starting equipment, all player characters start with a
     Waterskin.
   ],
   [
-    #item-heading(level: 3)[Watches]
+    #item-title[=== Watches]
 
     #note[This tweaks Cairn 2e.]
 

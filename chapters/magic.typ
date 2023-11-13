@@ -7,7 +7,7 @@ harness it with destructive effect. There are many who walk the lands that can
 tap into the plane of chaotic energies and pull out transformations that change
 our physical world.
 
-#item-heading(level: 2)[Magical Implements]<magical-implements>
+#item-title[== Magical Implements <magical-implements>]
 
 Any one of the following can give you the ability to cast spells:
 
@@ -15,7 +15,7 @@ Any one of the following can give you the ability to cast spells:
 - A #ts-link(<scrolls>)[scroll] (two hands) for the spell.
 - A #ts-link(<staves>)[staff] (one hand) which contains the spell.
 
-#item-heading(level: 2)[Casting a Spell]<casting-a-spell>
+#item-title[== Casting a Spell <casting-a-spell>]
 
 1. Holding your #emph[magical implement], choose a spell. The description may
   denote the spell's duration with D and range with R. *If do not speak clearly,
@@ -41,7 +41,7 @@ Any one of the following can give you the ability to cast spells:
   this area!
 ]
 
-#item-heading(level: 2)[Learning New Spells]<heading.magic.learning-new-spells>
+#item-title[== Learning New Spells <learning-new-spells>]
 
 All magic users have one thing in common: They want to learn more magic---it's
 their form of power which they want to grow. In Cairn, character advancement is
@@ -53,7 +53,7 @@ not just because of the spells contained within---it's because the materials
 constructing these magical books are necessarily of the finest quality and
 materials.
 
-#item-heading(level: 2)[Grimoires]<grimoires>
+#item-title[== Grimoires <grimoires>]
 
 Grimoires are expensive. Here are the materials needed for a 1-spell grimoire:
 
@@ -104,18 +104,18 @@ blueprints of pure chaotic energy can destroy it in the process. First, though,
 you must have an object that the staff's owner considered personal to them in
 life.
 
-#item-heading(level: 2)[Scrolls]<scrolls>
+#item-title[== Scrolls <scrolls>]
 
 Scrolls replace spellbooks in Cairn. They contain just 1 spell and once used,
 they are immediately destroyed. They have a predefined [dice] and [sum]
 associated with them. The [sum] is always the average of [dice]. They do not
 cause _Fatigue_ or cause _exposure to chaos_.
 
-#item-heading(level: 2)[Staves]<staves>
+#item-title[== Staves <staves>]
 
 Staves in #emph(title) are bound to their creators.
 
-#item-heading(level: 2)[Ley Energy]<ley-energy>
+#item-title[== Ley Energy <ley-energy>]
 
 When you draw upon ley energy to #ts-link(<casting-a-spell>)[cast a spell]...
 - You can now cast a spell if you only have at least one inventory slot.
@@ -131,7 +131,7 @@ When you draw upon ley energy to #ts-link(<casting-a-spell>)[cast a spell]...
     sixes, you still do not become exposed to chaos.
   ]
 
-#item-heading(level: 2)[Sites of Power]<sites-of-power>
+#item-title[== Sites of Power <sites-of-power>]
 
 Sites of power are places where ley energy has gathered in high concentration.
 They often have a significant event that caused such amounts of ley energy to
@@ -140,7 +140,7 @@ gather in one place.
 Sites of power are always associated with a kind of magic, such as necrotic,
 fire, time, etc.
 
-#item-heading(level: 2)[Exposure to Chaos]<exposure-to-chaos>
+#item-title[Exposure to Chaos <exposure-to-chaos>]
 
 - When you have been exposed to chaos, compare your [sum] to the table below to
   find out the severity of the exposure.
@@ -270,23 +270,14 @@ fire, time, etc.
 - They do not require a #ts-link(<magical-implements>)[magical implement] to cast.
 - They do not follow normal #ts-link(<casting-a-spell>)[spell-casting procedures].
 
-#grid(
-  columns: 2,
-  gutter: 1em,
-  [
-    === Time to Cast
+=== Time to Cast
+- Can take as little as a few minutes.
+- Can take as long as weeks, months, or even years to complete.
 
-    - Can take as little as a few minutes.
-    - Can take as long as weeks, months, or even years to complete.
-  ],
-  [
-    === Dangers
-
-    - Seen as dangerous & deadly magic, practiced only by those with ill-intent.
-    - Are almost always illegal in settlements, punishable by exile or even
-      death---often without trial.
-  ],
-)
+=== Dangers
+- Seen as dangerous & deadly magic, practiced only by those with ill-intent.
+- Are almost always illegal in settlements, punishable by exile or even
+  death---often without trial.
 
 #large-heading(level: 2)[Hexes]<hexes>
 

@@ -14,16 +14,16 @@ contains the following:
 
 #large-heading(level: 2)[Procedures]
 
-#item-heading(level: 3)[Hex Travel]
+#item-title[=== Hex Travel]
 
-#item-heading(level: 3)[Recovering Wounds]
+#item-title[=== Recovering Wounds]
 
-#item-heading(level: 3)[Curses]
+#item-title[=== Curses]
 
 #large-heading(level: 2)[Tables]
 
-#item-heading(level: 3)[NPCs]
+#item-title[=== NPCs]
 
-#item-heading(level: 3)[Settlements]
+#item-title[=== Settlements]
 
-#item-heading(level: 3)[Sites]
+#item-title[=== Sites]

@@ -10,7 +10,7 @@ mine, is different to his, hers, etc. The Gresha presented here is actually in
 the form of truths---your truths are what make your Gresha unique amongst all
 others.
 
-#item-heading(level: 2, outlined: false)[The Rot Blight]
+#item-title[#heading(level: 2, outlined: false)[The Rot Blight]]
 
 #grid(columns: (2em, 1fr), gutter: 1em, [1–2], [
   *The rot blight never ended.*
@@ -20,7 +20,7 @@ others.
   *The rot blight ended just under a year ago.*
 ])
 
-#item-heading(level: 2, outlined: false)[The Aeldar]
+#item-title[#heading(level: 2, outlined: false)[The Aeldar]]
 
 #grid(columns: (2em, 1fr), gutter: 1em, [1–2], [
   *The Aeldar disappeared long ago without a trace.*
@@ -30,24 +30,25 @@ others.
   *The Aeldar live among us to this day.*
 ])
 
-#item-heading(level: 2, outlined: false)[The Allied Kingdoms]
+#item-title[#heading(level: 2, outlined: false)[The Allied Kingdoms]]
 
 #grid(columns: (2em, 1fr), gutter: 1em, [1–2], [
 ], [3–4], [
 ], [5–6], [
 ])
 
-#item-heading(level: 2, outlined: false)[The Empire]
+#item-title[#heading(level: 2, outlined: false)[The Empire]]
 
 #grid(columns: (2em, 1fr), gutter: 1em, [1–2], [
 ], [3–4], [
 ], [5–6], [
 ])
 
-#item-heading(
-  level: 2,
-  outlined: false,
-)[War between the Empire and the Northern Alliance]
+#item-title[
+  #heading(level: 2, outlined: false)[
+    War between the Empire and the Northern Alliance
+  ]
+]
 
 #note[
   *Note:* War can be a very touchy subject---for many, war is an unfortunate
@@ -75,49 +76,49 @@ others.
   ],
 )
 
-#item-heading(level: 2, outlined: false)[Medicine]
+#item-title[#heading(level: 2, outlined: false)[Medicine]]
 
 #grid(columns: (2em, 1fr), gutter: 1em, [1–2], [
 ], [3–4], [
 ], [5–6], [
 ])
 
-#item-heading(level: 2, outlined: false)[Magic]
+#item-title[#heading(level: 2, outlined: false)[Magic]]
 
 #grid(columns: (2em, 1fr), gutter: 1em, [1–2], [
 ], [3–4], [
 ], [5–6], [
 ])
 
-#item-heading(level: 2, outlined: false)[Religion]
+#item-title[#heading(level: 2, outlined: false)[Religion]]
 
 #grid(columns: (2em, 1fr), gutter: 1em, [1–2], [
 ], [3–4], [
 ], [5–6], [
 ])
 
-#item-heading(level: 2, outlined: false)[The Old Wood]
+#item-title[#heading(level: 2, outlined: false)[The Old Wood]]
 
 #grid(columns: (2em, 1fr), gutter: 1em, [1–2], [
 ], [3–4], [
 ], [5–6], [
 ])
 
-#item-heading(level: 2, outlined: false)[The Withered March]
+#item-title[#heading(level: 2, outlined: false)[The Withered March]]
 
 #grid(columns: (2em, 1fr), gutter: 1em, [1–2], [
 ], [3–4], [
 ], [5–6], [
 ])
 
-#item-heading(level: 2, outlined: false)[Dragon's Reach]
+#item-title[#heading(level: 2, outlined: false)[Dragon's Reach]]
 
 #grid(columns: (2em, 1fr), gutter: 1em, [1–2], [
 ], [3–4], [
 ], [5–6], [
 ])
 
-#item-heading(level: 2, outlined: false)[The Fertile Coast]
+#item-title[#heading(level: 2, outlined: false)[The Fertile Coast]]
 
 #grid(columns: (2em, 1fr), gutter: 1em, [1–2], [
 ], [3–4], [
@@ -126,17 +127,17 @@ others.
 
 #large-heading(level: 2)[Regions of Gresha]
 
-#item-heading(level: 3)[The Withered March]
+#item-title[=== The Withered March]
 
-#item-heading(level: 3)[The Old Wood]
+#item-title[=== The Old Wood]
 
-#item-heading(level: 3)[Dragon's Reach]
+#item-title[=== Dragon's Reach]
 
-#item-heading(level: 3)[The Fertile Coast]
+#item-title[=== The Fertile Coast]
 
 #large-heading(level: 2)[Factions of Gresha]
 
-#item-heading(level: 3)[Political Factions]
+#item-title[=== Political Factions]
 
 ==== The Empire
 
@@ -144,9 +145,9 @@ others.
 
 ==== The Rebels
 
-#item-heading(level: 3)[Religious Factions]
+#item-title[=== Religious Factions]
 
-#item-heading(level: 3)[Guilds]
+#item-title[=== Guilds]
 
 ==== The Syndicate of Financiers & Holdings
 
@@ -156,9 +157,9 @@ others.
 
 #large-heading(level: 2)[Locations to Place in Gresha]
 
-#item-heading(level: 3)[The Gloomfen]
+#item-title[=== The Gloomfen]
 
-#item-heading(level: 3)[Ursheym Wood] <ursheym-wood>
+#item-title[=== Ursheym Wood] <ursheym-wood>
 
 Patrolling the wood are *Ursheym Golems*---built by one of the
 #ts-link(<giants-of-ursheym-wood>)[giants that live here] that wishes to protect
@@ -179,7 +180,7 @@ her home.
 
 #large-heading(level: 2)[Characters to Place in Gresha]
 
-#item-heading(level: 3)[The Giants of Ursheym Wood] <giants-of-ursheym-wood>
+#item-title[=== The Giants of Ursheym Wood] <giants-of-ursheym-wood>
 
 #note[
   *Note:* Unlike any of the other characters, I consider these to belong in a
@@ -213,4 +214,4 @@ them wherever you wish. Maybe put an #ts-link(<foe.ursheym-golem>)[Ursheym Golem
 a random encounter table for a wooded area, and if encountered, place this
 family of giants nearby.
 
-#item-heading(level: 3)[The Witch Sisters]
+#item-title[=== The Witch Sisters]
