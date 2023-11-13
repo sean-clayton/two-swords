@@ -6,7 +6,7 @@
 
 # Two Swords
 
-A dark fantasy expansion to use with the [Cairn] adventure game.
+A dark fantasy expansion to use with the second edition of the [Cairn] adventure game.
 
 ## Contributing
 

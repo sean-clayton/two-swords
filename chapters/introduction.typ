@@ -4,19 +4,27 @@
 
 #huge-title[= Introduction <introduction>]
 
-The world of #emph(title) is a place where the sword you carry is worth more
-than your own life, and the people around you will certainly try to test if you
-prepare for that. It's a place where leaving the walls of your village is
-considered an act of lunacy, for the threat of danger lurks freely in the
-wilderness.
+#note[
+  #note-title[Content Warning]
 
-#emph(title) is a dark fantasy expansion for the Cairn adventure game. Inside
-you will find new character creation options, magical spells, powerful
-artefacts, deadly monsters, warden advice, a new setting and region to explore,
-and more to make your game of Cairn come alive and evoke the feeling of a gray
-and unfair world. Additionally, while the content within is certainly compatible
-with Cairn 1e, it also aims to provide forwards-compatibility with Cairn 2e
-which is currently in development.
+  /* Not sure if I'll actually reference/allude all of these but this covers my bases in case I do. */
+
+  This book contains references and allusions to the following topics: *war*,
+  *genocide*, *slavery*, *fascism*, and *religious extremism*.
+]
+
+#text-scale(
+  120%,
+)[The world of Gresha is a place where the sword you carry is worth more than your
+  own life,] and the people around you will certainly try to test if you prepare
+for that. It's a place where leaving the walls of your village is considered an
+act of lunacy, for the threat of danger lurks freely in the wilderness.
+
+#emph(title) is a dark fantasy expansion for the second edition of the Cairn
+adventure game. Inside you will find new character creation options, magical
+spells, powerful artefacts, deadly monsters, warden advice, a new setting and
+region to explore, and more to make your game of Cairn come alive and evoke the
+feeling of a gray and unfair world.
 
 #large-title[== What's Inside?]
 
@@ -38,31 +46,20 @@ which is currently in development.
   columns: 2,
   gutter: 1em,
   [
-    #item-title[=== Coins]
-
-    There is only a single coin type in #title: _coins_. No more gold/silver/copper
-    etc. It uses the shorthand of _c_ (eg. 10 coins is 10c). Anything worth less
-    than 10 coppers round up to 1 coin, make everything else their silver value from
-    Cairn---for example, a 10gp item in Cairn is worth 100c in Two Swords. This is
-    effectively a silver-based economy.
-  ],
-  [
     #item-title[=== Magic]
 
     Magic is signifcantly different than in Cairn. More is explained in the magic
     section on page #ts-link(<magic>)[#label-page-num(<magic>)].
 
+    #item-title[=== Watches]
+
+    There are now 4 watches in a day instead of 3.
+  ],
+  [
     #item-title[=== Starting Equipment]
 
     In addition to the usual starting equipment, all player characters start with a
-    Waterskin.
-  ],
-  [
-    #item-title[=== Watches]
-
-    #note[This tweaks Cairn 2e.]
-
-    There are now 4 watches in a day instead of 3.
+    Waterskin (4 uses).
   ],
 )
 

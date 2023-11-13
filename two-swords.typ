@@ -39,7 +39,7 @@
 
   #ts-link(metadata.repo_url)[Source Code] | #ts-link(metadata.repo_license_url)[Source Code License]
 
-  Made for #ts-link("https://cairnrpg.com")[Cairn] by #ts-link("https://newschoolrevolution.com/")[Yochai Gal],
+  Made for #ts-link("https://cairnrpg.com")[Cairn 2nd Edition] by #ts-link("https://newschoolrevolution.com/")[Yochai Gal],
   released #ts-link("https://creativecommons.org/licenses/by-sa/4.0/")[CC-BY-SA 4.0]
 
   #place(
@@ -48,7 +48,7 @@
     #set text(font: primary-font)
 
     #note[
-      #text(weight: 700)[
+      #strong[
         #stack(
           dir: ltr,
           spacing: 4pt,
