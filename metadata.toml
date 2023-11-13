@@ -4,3 +4,8 @@ repo_cc_license_url = "https://github.com/sean-clayton/two-swords/blob/main/COPY
 repo_license_url = "https://github.com/sean-clayton/two-swords/blob/main/COPYING-AGPL"
 itch_url = "https://seanclayton.itch.io/two-swords"
 author = "Sean-Patrick Ortencio Clayton"
+
+[config]
+theme = "#{THEME}#" # This is modified by CI/CD
+media = "#{MEDIA}#" # This is modified by CI/CD
+wip = true

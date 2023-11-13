@@ -3,6 +3,8 @@
 #let title = metadata.title
 #let paper = "iso-b5"
 
+#let config = metadata.config
+
 #let highlight-color-base = color.hsl(57deg, 100%, 47.6%).rotate(-5deg)
 #let highlight-color = highlight-color-base.desaturate(10%).mix((white, 300%), space: oklab)
 #let heading-color = highlight-color-base.saturate(-5%).mix((black, 33%), space: oklab)
@@ -36,18 +38,24 @@
     set text(size: 10pt)
 
     let page-number = [
-      #circle(radius: 0.8em, fill: highlight-color)[
+      #circle(radius: 0.8em, fill: highlight-color-base)[
         #set align(center + horizon)
         #counter(page).display("1")
       ]
     ]
-    if (calc.odd(loc.page())) [
-      #set align(left)
+
+    if (config.media != "PRINT") [
+      #set align(center)
       #page-number
-    ] else [
-      #set align(right)
-      #page-number
-    ]
+    ] else {
+      if (calc.odd(loc.page())) [
+        #set align(left)
+        #page-number
+      ] else [
+        #set align(right)
+        #page-number
+      ]
+    }
   })
 }
 
@@ -55,7 +63,7 @@
   yaml("/stats/" + filename + ".yaml")
 }
 
-#let huge-heading(..args, content) = {
+#let huge-heading(..args) = {
   set align(center)
   let fill = heading-color.rotate(-10deg).saturate(100%).darken(5%)
   let stroke-width = (1pt / 2)
@@ -66,7 +74,7 @@
     #set align(center + bottom)
     #box(height: 100%, inset: (top: 2em))[
       #set align(center + horizon)
-      #heading(..args)[#content]
+      #heading(..args)
     ]
     #line(length: 100%, stroke: stroke-width + fill)
     #v(1.5pt, weak: true)
@@ -95,13 +103,7 @@
 }
 
 #let note-title(wrapper: text, ..args, content) = {
-  set text(
-    font: accent-font,
-    weight: 600,
-    size: 10pt,
-    style: "italic",
-    tracking: 0.05em,
-  )
+  set text(font: accent-font, weight: 600, size: 9pt, tracking: 0.05em)
   set align(center + horizon)
 
   wrapper(..args, [
@@ -109,9 +111,9 @@
   ])
 }
 
-#let note(borderless: false, content) = {
+#let note(borderless: false, fill: note-color, content) = {
   let stroke-width = 1pt
-  let hook-width = 5pt
+  let hook-width = 3pt
 
   let trapezoid = polygon(
     fill: black,
@@ -120,6 +122,8 @@
     (100% - hook-width, hook-width),
     (100%, 0pt),
   )
+
+  set text(size: 0.8em)
 
   block(breakable: false, width: 100%, [
     #if borderless { none } else {
@@ -132,7 +136,7 @@
         box(width: 100% + (hook-width * 2), height: hook-width, trapezoid),
       ))
     }
-    #box(fill: note-color, inset: 8pt, width: 100%)[#emph(content)]
+    #box(fill: fill, inset: 8pt, width: 100%)[#content]
   ])
 }
 
@@ -141,10 +145,6 @@
   line(length: 100%, stroke: stroke-width + black)
   v(1.5pt, weak: true)
   line(length: 100%, stroke: stroke-width + black)
-}
-
-#let term(content) = {
-  smallcaps(strong(content))
 }
 
 #let truth-list(..args) = {
@@ -161,12 +161,23 @@
   #let inner-margin = 1.4cm
 
   #set document(title: title)
+
   #set page(
     paper: paper,
     fill: paper-color,
-    margin: (bottom: 1.5cm, inside: outer-margin, outside: inner-margin, top: 0.8cm),
-    header: wip-banner,
+    margin: (
+      bottom: 1.5cm,
+      inside: if (config.media != "PRINT") { inner-margin } else { outer-margin },
+      outside: inner-margin,
+      top: 0.8cm,
+    ),
+    header: if (config.wip) { wip-banner },
   )
+
+  #show par: it => {
+    set par(justify: true)
+    it
+  }
 
   #show outline.entry: it => {
     set text(size: 9pt)

@@ -1,55 +1,14 @@
 #import "/lib.typ": *
 
-#huge-heading(level: 1)[The Continent of Gresha]
-
-There are many dark fantasy worlds out there that already exist which you can
-use #emph(title) to play adventures in with little-to-no tweaking involved. You
-may also already have a setting or world, though, and it may not exactly fit the
-tone of #emph(title).
-
-Gresha (IPA: [griʃa]) is a continent that should be easily placeable in many
-traditional medieval fantasy settings. Its problems are easily contained to the
-regions of the continent, at least initially---though, who knows where they will
-spread when the players get their hands on it?
-
-#item-heading(level: 2, outlined: false)[Some Assumptions]
-
-While everyone's Gresha will be quite unique, there are still aspects that are
-shared between them all.
-
-#note[
-  *Note:* I can't stop you from tweaking these, but just be aware that if you do,
-  it will diminish the utility of this book.
-]
-
-*Gresha is dangerous.* The lands that reside within Gresha are filled with
-monsters that lurk and prowl. People, too, fill these lands and they wage war,
-lie, steal, take, and kill. Innocence is hunted and the weak are tested.
-
-*Gresha is ripe for exploration.* There is a lot to see in Gresha. While the
-gonzo fantastical things like floating islands don't exist here, ancient
-civilizations have left undiscovered ruins, mythical creatures roam the lands,
-wizards sit in their towers experimenting, and artefacts of legend rest in dark
-corners. Every settlement to rest in has a story and every character to meet has
-a past.
-
-*Gresha is for the apathetic.* People here are not looking to be heroes. They do
-not want to leave the comfort of the walls that keep the monsters out of their
-small towns. They do not ask "what is over the horizon?" They certainly will not
-risk their lives to save others---at least, not for free.
-
-*Gresha is not hopeless.* Yes, evil is everywhere; Yes, war is hell; Yes, trying
-to be a hero is suicide. There is also comfort in simplicity and the mundane.
-People seek a reason to dance, to enjoy the day, to celebrate a life, and to
-enjoy the comfort of those they love. While these glimpses of a normal life are
-not an every day occurence, they happen and stand out amongst the grey.
+#huge-heading(level: 1)[The Continent of Gresha]<continent-of-gresha>
 
 #large-heading(level: 2)[Your Truths of Gresha]
 
-There is no single correct iteration of Gresha. Your Gresha will be different
-than mine, is different to his, hers, etc. The Gresha presented here is actually
-in the form of questions---your answers to those questions are what make your
-Gresha unique amongst all others.
+There is no single correct iteration of Gresha. While the above characteristics
+are assumed to be common among all Greshas, your Gresha will be different than
+mine, is different to his, hers, etc. The Gresha presented here is actually in
+the form of truths---your truths are what make your Gresha unique amongst all
+others.
 
 #item-heading(level: 2, outlined: false)[The Rot Blight]
 

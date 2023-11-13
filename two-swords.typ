@@ -1,9 +1,10 @@
 #import "/lib.typ": *
 #import "/cover.typ" as cover
 #import "/chapters/introduction.typ" as chapter-introduction
+#import "/chapters/gresha-intro.typ" as chapter-gresha-introduction
 #import "/chapters/backgrounds.typ" as chapter-backgrounds
 #import "/chapters/marketplace.typ" as chapter-marketplace
-#import "/chapters/combat.typ" as chapter-combat
+#import "/chapters/rules.typ" as chapter-rules
 #import "/chapters/crafting.typ" as chapter-crafting
 #import "/chapters/artefacts.typ" as chapter-artefacts
 #import "/chapters/magic.typ" as chapter-magic
@@ -79,6 +80,10 @@
 
 #pagebreak(weak: true)
 
+#chapter-gresha-introduction
+
+#pagebreak(weak: true)
+
 #chapter-backgrounds
 
 #pagebreak(weak: true)
@@ -87,7 +92,7 @@
 
 #pagebreak(weak: true)
 
-#chapter-combat
+#chapter-rules
 
 #pagebreak(weak: true)
 

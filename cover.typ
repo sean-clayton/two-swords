@@ -39,5 +39,5 @@
   #heading(level: 1, outlined: false, bookmarked: true)[#title]
 
   #set text(font: primary-font, size: 10pt)
-  #wip-banner
+  #if config.wip [#wip-banner]
 ]
