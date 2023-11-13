@@ -24,6 +24,13 @@
   ]
 ]
 
+#let label-page-num(label) = {
+  locate(loc => {
+    let arr = query(<magic>, loc)
+    arr.first().location().position().page
+  })
+}
+
 #let set-page-numbers() = {
   locate(loc => {
     set text(size: 10pt)
@@ -103,9 +110,8 @@
 }
 
 #let note(borderless: false, content) = {
-  let dot-size = 1.25pt
   let stroke-width = 1pt
-  let hook-width = stroke-width * 5
+  let hook-width = 5pt
 
   let trapezoid = polygon(
     fill: black,

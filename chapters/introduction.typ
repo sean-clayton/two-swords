@@ -35,14 +35,7 @@ which is currently in development.
   [
     #item-heading(level: 3)[Magic]
 
-    Magic is signifcantly different than in Cairn. More is explained in #locate(loc => {
-      let arr = query(<magic>, loc)
-
-      text[
-        #ts-link(arr.first().location())[
-          the magic section on page #repr(arr.first().location().position().page).
-        ]
-      ]
-    })
+    Magic is signifcantly different than in Cairn. More is explained in the magic
+    section on page #ts-link(<magic>)[#label-page-num(<magic>)].
   ],
 )

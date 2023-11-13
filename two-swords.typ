@@ -46,9 +46,7 @@
   )[
     #set text(font: primary-font)
 
-    #note(
-      borderless: true,
-    )[
+    #note[
       #text(weight: 700)[
         #stack(
           dir: ltr,

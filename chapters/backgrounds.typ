@@ -11,55 +11,55 @@ Here are 20 more backgrounds for new characters.
   [*d20*],
   [*Background*],
   [*1*],
-  [Alchemist],
+  [#ts-link(<background.alchemist>)[Alchemist]],
   [*2*],
-  [Druid],
+  [#ts-link(<background.druid>)[Druid]],
   [*3*],
-  [Gravetender],
+  [#ts-link(<background.gravetender>)[Gravetender]],
   [*4*],
-  [Herbalist],
+  [#ts-link(<background.herbalist>)[Herbalist]],
   [*5*],
-  [Hexer],
+  [#ts-link(<background.hexer>)[Hexer]],
   [*6*],
-  [Mage],
+  [#ts-link(<background.mage>)[Mage]],
   [*7*],
-  [Man at Arms],
+  [#ts-link(<background.man-at-arms>)[Man at Arms]],
   [*8*],
-  [Merchant],
+  [#ts-link(<background.merchant>)[Merchant]],
   [*9*],
-  [Minstrel],
+  [#ts-link(<background.minstrel>)[Minstrel]],
   [*10*],
-  [Occultist],
+  [#ts-link(<background.occultist>)[Occultist]],
 ), table(
   columns: (3em, 1fr),
   [*d20*],
   [*Background*],
   [*11*],
-  [Pellar],
+  [#ts-link(<background.pellar>)[Pellar]],
   [*12*],
-  [Ranger],
+  [#ts-link(<background.ranger>)[Ranger]],
   [*13*],
-  [Seeker],
+  [#ts-link(<background.seeker>)[Seeker]],
   [*14*],
-  [Smith],
+  [#ts-link(<background.smith>)[Smith]],
   [*15*],
-  [Street Ruffian],
+  [#ts-link(<background.street-ruffian>)[Street Ruffian]],
   [*16*],
-  [Thief],
+  [#ts-link(<background.thief>)[Thief]],
   [*17*],
-  [Torchbearer],
+  [#ts-link(<background.torchbearer>)[Torchbearer]],
   [*18*],
-  [Vault Keeper],
+  [#ts-link(<background.vault-keeper>)[Vault Keeper]],
   [*19*],
-  [Village Hunter],
+  [#ts-link(<background.village-hunter>)[Village Hunter]],
   [*20*],
-  [Zealot],
+  [#ts-link(<background.zealot>)[Zealot]],
 ))
 
 #v(1em)
 
 #block(breakable: false)[
-  #large-heading(level: 2)[Alchemist]
+  #large-heading(level: 2)[Alchemist]<background.alchemist>
 
   #item-heading(level: 3, outlined: false)[Starting Gear]
 ]
@@ -67,7 +67,7 @@ Here are 20 more backgrounds for new characters.
 #v(1em)
 
 #block(breakable: false)[
-  #large-heading(level: 2)[Druid]
+  #large-heading(level: 2)[Druid]<background.druid>
 
   #item-heading(level: 3, outlined: false)[Starting Gear]
 ]
@@ -75,7 +75,7 @@ Here are 20 more backgrounds for new characters.
 #v(1em)
 
 #block(breakable: false)[
-  #large-heading(level: 2)[Gravetender]
+  #large-heading(level: 2)[Gravetender]<background.gravetender>
 
   #item-heading(level: 3, outlined: false)[Starting Gear]
 ]
@@ -83,7 +83,7 @@ Here are 20 more backgrounds for new characters.
 #v(1em)
 
 #block(breakable: false)[
-  #large-heading(level: 2)[Herbalist]
+  #large-heading(level: 2)[Herbalist]<background.herbalist>
 
   #item-heading(level: 3, outlined: false)[Starting Gear]
 ]
@@ -91,7 +91,7 @@ Here are 20 more backgrounds for new characters.
 #v(1em)
 
 #block(breakable: false)[
-  #large-heading(level: 2)[Hexer]
+  #large-heading(level: 2)[Hexer]<background.hexer>
 
   #item-heading(level: 3, outlined: false)[Starting Gear]
 ]
@@ -99,7 +99,7 @@ Here are 20 more backgrounds for new characters.
 #v(1em)
 
 #block(breakable: false)[
-  #large-heading(level: 2)[Mage]
+  #large-heading(level: 2)[Mage]<background.mage>
 
   #item-heading(level: 3, outlined: false)[Starting Gear]
 ]
@@ -107,7 +107,7 @@ Here are 20 more backgrounds for new characters.
 #v(1em)
 
 #block(breakable: false)[
-  #large-heading(level: 2)[Man at Arms]
+  #large-heading(level: 2)[Man at Arms]<background.man-at-arms>
 
   #item-heading(level: 3, outlined: false)[Starting Gear]
 ]
@@ -115,7 +115,7 @@ Here are 20 more backgrounds for new characters.
 #v(1em)
 
 #block(breakable: false)[
-  #large-heading(level: 2)[Merchant]
+  #large-heading(level: 2)[Merchant]<background.merchant>
 
   #item-heading(level: 3, outlined: false)[Starting Gear]
 ]
@@ -123,7 +123,7 @@ Here are 20 more backgrounds for new characters.
 #v(1em)
 
 #block(breakable: false)[
-  #large-heading(level: 2)[Minstrel]
+  #large-heading(level: 2)[Minstrel]<background.minstrel>
 
   #item-heading(level: 3, outlined: false)[Starting Gear]
 ]
@@ -131,7 +131,7 @@ Here are 20 more backgrounds for new characters.
 #v(1em)
 
 #block(breakable: false)[
-  #large-heading(level: 2)[Occultist]
+  #large-heading(level: 2)[Occultist]<background.occultist>
 
   #item-heading(level: 3, outlined: false)[Starting Gear]
 ]
@@ -139,7 +139,7 @@ Here are 20 more backgrounds for new characters.
 #v(1em)
 
 #block(breakable: false)[
-  #large-heading(level: 2)[Pellar]
+  #large-heading(level: 2)[Pellar]<background.pellar>
 
   #item-heading(level: 3, outlined: false)[Starting Gear]
 ]
@@ -147,7 +147,7 @@ Here are 20 more backgrounds for new characters.
 #v(1em)
 
 #block(breakable: false)[
-  #large-heading(level: 2)[Ranger]
+  #large-heading(level: 2)[Ranger]<background.ranger>
 
   #item-heading(level: 3, outlined: false)[Starting Gear]
 ]
@@ -155,7 +155,7 @@ Here are 20 more backgrounds for new characters.
 #v(1em)
 
 #block(breakable: false)[
-  #large-heading(level: 2)[Seeker]
+  #large-heading(level: 2)[Seeker]<background.seeker>
 
   #item-heading(level: 3, outlined: false)[Starting Gear]
 ]
@@ -163,7 +163,7 @@ Here are 20 more backgrounds for new characters.
 #v(1em)
 
 #block(breakable: false)[
-  #large-heading(level: 2)[Smith]
+  #large-heading(level: 2)[Smith]<background.smith>
 
   #item-heading(level: 3, outlined: false)[Starting Gear]
 ]
@@ -171,7 +171,7 @@ Here are 20 more backgrounds for new characters.
 #v(1em)
 
 #block(breakable: false)[
-  #large-heading(level: 2)[Street Ruffian]
+  #large-heading(level: 2)[Street Ruffian]<background.street-ruffian>
 
   #item-heading(level: 3, outlined: false)[Starting Gear]
 ]
@@ -179,7 +179,7 @@ Here are 20 more backgrounds for new characters.
 #v(1em)
 
 #block(breakable: false)[
-  #large-heading(level: 2)[Thief]
+  #large-heading(level: 2)[Thief]<background.thief>
 
   #item-heading(level: 3, outlined: false)[Starting Gear]
 ]
@@ -187,7 +187,7 @@ Here are 20 more backgrounds for new characters.
 #v(1em)
 
 #block(breakable: false)[
-  #large-heading(level: 2)[Torchbearer]
+  #large-heading(level: 2)[Torchbearer]<background.torchbearer>
 
   #item-heading(level: 3, outlined: false)[Starting Gear]
 ]
@@ -195,7 +195,7 @@ Here are 20 more backgrounds for new characters.
 #v(1em)
 
 #block(breakable: false)[
-  #large-heading(level: 2)[Vault Keeper]
+  #large-heading(level: 2)[Vault Keeper]<background.vault-keeper>
 
   #item-heading(level: 3, outlined: false)[Starting Gear]
 ]
@@ -203,7 +203,7 @@ Here are 20 more backgrounds for new characters.
 #v(1em)
 
 #block(breakable: false)[
-  #large-heading(level: 2)[Village Hunter]
+  #large-heading(level: 2)[Village Hunter]<background.village-hunter>
 
   #item-heading(level: 3, outlined: false)[Starting Gear]
 ]
@@ -211,7 +211,7 @@ Here are 20 more backgrounds for new characters.
 #v(1em)
 
 #block(breakable: false)[
-  #large-heading(level: 2)[Zealot]
+  #large-heading(level: 2)[Zealot]<background.zealot>
 
   #item-heading(level: 3, outlined: false)[Starting Gear]
 ]
