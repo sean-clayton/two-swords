@@ -24,7 +24,7 @@ jobs:
           path: dist
 
       - run: |
-          wget https://github.com/${{ github.repository }}/archive/${{ github.ref }}.zip source.zip
+          wget https://github.com/${{ github.repository }}/archive/${{ github.ref }}.zip -O source.zip
 
       - name: Butler Push PDF
         uses: KikimoraGames/itch-publish@v0.0.3
