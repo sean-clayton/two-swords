@@ -22,6 +22,10 @@ jobs:
       - name: Build PDF
         run: typst compile --font-path fonts two-swords.typ dist/TwoSwords-${{ steps.get_version.outputs.version-without-v }}.pdf
 
+      - run: |
+          cp COPYING-CC-BY-SA dist
+          cp COPYING-AGPL dist
+
       - uses: actions/upload-artifact@v3
         with:
           name: pdf-artifact

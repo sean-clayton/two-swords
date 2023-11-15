@@ -1,7 +1,6 @@
 #import "/lib.typ": *
 #import "/cover.typ" as cover
 #import "/chapters/introduction.typ" as chapter-introduction
-#import "/chapters/gresha-intro.typ" as chapter-gresha-introduction
 #import "/chapters/backgrounds.typ" as chapter-backgrounds
 #import "/chapters/marketplace.typ" as chapter-marketplace
 #import "/chapters/rules.typ" as chapter-rules
@@ -76,10 +75,6 @@
 #set page(footer: set-page-numbers())
 
 #chapter-introduction
-
-#pagebreak(weak: true)
-
-#chapter-gresha-introduction
 
 #pagebreak(weak: true)
 
