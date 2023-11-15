@@ -23,7 +23,10 @@ jobs:
           name: pdf-artifact
           path: dist
 
-      - name: Butler Push
+      - run: |
+          wget https://github.com/${{ github.repository }}/archive/${{ github.ref }}.zip source.zip
+
+      - name: Butler Push PDF
         uses: KikimoraGames/itch-publish@v0.0.3
         with:
           butlerApiKey: ${{ secrets.BUTLER_CREDENTIALS }}
@@ -31,4 +34,14 @@ jobs:
           itchUsername: seanclayton
           itchGameId: two-swords
           buildChannel: book
+          buildNumber: ${{ steps.get_version.outputs.version-without-v }}
+
+      - name: Butler Push Source ZIP
+        uses: KikimoraGames/itch-publish@v0.0.3
+        with:
+          butlerApiKey: ${{ secrets.BUTLER_CREDENTIALS }}
+          gameData: source.zip
+          itchUsername: seanclayton
+          itchGameId: two-swords
+          buildChannel: source-code
           buildNumber: ${{ steps.get_version.outputs.version-without-v }}
