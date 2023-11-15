@@ -29,7 +29,8 @@ feeling of a gray and unfair world.
 - More monsters and foes.
 - New procedures for travel, wound recovery, and curses.
 - Tables for random encounters, NPC creation, settlement creation, curse creation,
-  site creation, and more.
+  and site creation.
+- Much, much more...
 
 #large-title[== Changes from Cairn]
 
