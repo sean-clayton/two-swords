@@ -4,15 +4,6 @@
 
 #huge-title[= Introduction <introduction>]
 
-#note[
-  #note-title[Content Warning]
-
-  /* Not sure if I'll actually reference/allude all of these but this covers my bases in case I do. */
-
-  This book contains references and allusions to the following topics: *war*,
-  *genocide*, *slavery*, *colonialism*, *fascism*, and *religious extremism*.
-]
-
 #text-scale(
   120%,
 )[The world of Gresha is a place where the sword you carry is worth more than your
