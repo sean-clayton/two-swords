@@ -195,13 +195,15 @@
     let stroke-width = (1pt / 4)
     set text(size: 11pt, weight: "bold", font: display-font, fill: heading-color)
 
-    link(it.element.location())[
-      #grid(columns: (1em + 12pt, 1fr), it.page, upper(it.body))
+    block(breakable: false)[
+      #link(it.element.location())[
+        #grid(columns: (1em + 10pt, 1fr), it.page, upper(it.body))
+      ]
+      #v(4pt, weak: true)
+      #line(length: 100%, stroke: stroke-width + heading-color)
+      #v(2pt, weak: true)
+      #line(length: 100%, stroke: stroke-width + heading-color)
     ]
-    v(4pt, weak: true)
-    line(length: 100%, stroke: stroke-width + heading-color)
-    v(2pt, weak: true)
-    line(length: 100%, stroke: stroke-width + heading-color)
     v(0pt, weak: true)
   }
 
