@@ -198,7 +198,9 @@ fire, time, etc.
   )
 ]
 
-#block(breakable: false)[
+#block(
+  breakable: false,
+)[
   #table-title[Taint of Chaos]<taint-of-chaos>
   #v(0pt, weak: true)
   #table(
@@ -216,7 +218,11 @@ fire, time, etc.
     [*6*],
     [Chaotic Taint],
     [*7*],
-    [Chaotic Taint],
+    [
+      When you sleep in a place that is not your home, in the days after you have
+      left, others nearby will dream of demonic destruction, plagues, and the end of
+      the world.
+    ],
     [*8*],
     [Chaotic Taint],
     [*9*],
@@ -230,7 +236,9 @@ fire, time, etc.
   )
 ]
 
-#block(breakable: false)[
+#block(
+  breakable: false,
+)[
   #table-title[Mark of Chaos]<mark-of-chaos>
   #v(0pt, weak: true)
   #table(
@@ -248,7 +256,7 @@ fire, time, etc.
     [*6*],
     [Chaotic Mark],
     [*7*],
-    [Chaotic Mark],
+    [People around you will think you are staring at them---even if you aren't.],
     [*8*],
     [Chaotic Mark],
     [*9*],
@@ -258,7 +266,8 @@ fire, time, etc.
     [*11*],
     [Chaotic Mark],
     [*12*],
-    [Chaotic Mark],
+    [You find demonic writings throughout the lands that no one else sees, and you
+      can understand them.],
   )
 ]
 
