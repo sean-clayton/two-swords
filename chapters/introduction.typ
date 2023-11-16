@@ -4,9 +4,7 @@
 
 #huge-title[= Introduction <introduction>]
 
-#text-scale(
-  120%,
-)[The world of Gresha is a place where the sword you carry is worth more than your
+#lead[The world of Gresha is a place where the sword you carry is worth more than your
   own life,] and the people around you will certainly try to test if you prepare
 for that. It's a place where leaving the walls of your village is considered an
 act of lunacy, for the threat of danger lurks freely in the wilderness.

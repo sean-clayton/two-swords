@@ -14,10 +14,6 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Extract Version From Tag
-        id: get_version
-        uses: battila7/get-version-action@v2
-
       - uses: actions/download-artifact@v3
         with:
           name: pdf-artifact

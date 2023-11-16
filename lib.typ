@@ -137,6 +137,10 @@
   ])
 }
 
+#let lead(content) = {
+  text-scale(120%, emph(content))
+}
+
 #let hr = {
   let stroke-width = (1pt / 2)
   line(length: 100%, stroke: stroke-width + black)

@@ -72,9 +72,9 @@ Here are 20 more backgrounds for new characters.
 
 #large-title[== Gravetender <background.gravetender>]
 
-Death is only the beginning for some. It's your job to make sure those that seek
-fresh corpses, like ghouls and grave hags, stay away from those that lay in
-their final resting places.
+#lead[Death is only the beginning for some.] It's your job to make sure those
+that seek fresh corpses, like ghouls and grave hags, stay away from those that
+lay in their final resting places.
 
 #item-title[=== Starting Gear]
 - Lantern
