@@ -56,206 +56,157 @@ Here are 20 more backgrounds for new characters.
   [#ts-link(<background.zealot>)[Zealot]],
 ))
 
-#v(1em)
+#pagebreak(weak: true)
 
-#block(breakable: false)[
-  #large-title[== Alchemist <background.alchemist>]
+#large-title[== Alchemist <background.alchemist>]
 
-  #item-title[=== Starting Gear]
-]
+#item-title[=== Starting Gear]
 
-#v(1em)
+#pagebreak(weak: true)
 
-#block(breakable: false)[
-  #large-title[== Druid <background.druid>]
+#large-title[== Druid <background.druid>]
 
-  #item-title[=== Starting Gear]
-]
+#item-title[=== Starting Gear]
 
-#v(1em)
+#pagebreak(weak: true)
 
-#block(
-  breakable: false,
-)[
-  #large-title[== Gravetender <background.gravetender>]
+#large-title[== Gravetender <background.gravetender>]
 
-  Death is only the beginning for some. It's your job to make sure those that seek
-  fresh corpses, like ghouls and grave hags, stay away from those that lay in
-  their final resting places.
+Death is only the beginning for some. It's your job to make sure those that seek
+fresh corpses, like ghouls and grave hags, stay away from those that lay in
+their final resting places.
 
-  #item-title[=== Starting Gear]
-  - Lantern
-  - Lantern oil (6 uses)
-  - Arming Sword (d8)
-  - Chains (10ft)
+#item-title[=== Starting Gear]
+- Lantern
+- Lantern oil (6 uses)
+- Arming Sword (d8)
+- Chains (10ft)
 
-  #item-title[=== Names]
+#table-title[What did you take from the dead?]
+#v(0pt, weak: true)
+#table(
+  columns: (auto, 1fr),
+  [*d6*],
+  [*Result*],
+  [*1*],
+  [A *Crow-Shaped Amulet*. You can ask a question of the dead, but must add a _Fatigue_
+    each time.],
+  [*2*],
+  [A Crow-Shaped Amulet. You can ask a question of the dead, but must add a Fatigue
+    each time.],
+  [*3*],
+  [A Crow-Shaped Amulet. You can ask a question of the dead, but must add a Fatigue
+    each time.],
+  [*4*],
+  [A Crow-Shaped Amulet. You can ask a question of the dead, but must add a Fatigue
+    each time.],
+  [*5*],
+  [A Crow-Shaped Amulet. You can ask a question of the dead, but must add a Fatigue
+    each time.],
+  [*6*],
+  [A Crow-Shaped Amulet. You can ask a question of the dead, but must add a Fatigue
+    each time.],
+)
 
-  *Masculine Names:* Thaller
+#pagebreak(weak: true)
 
-  *Feminine Names:*
+#large-title[== Herbalist <background.herbalist>]
 
-  *Surnames:*
+#item-title[=== Starting Gear]
 
-  #table-title[What did you take from the dead?]
-  #v(0pt, weak: true)
-  #table(
-    columns: (auto, 1fr),
-    [*d6*],
-    [*Result*],
-    [*1*],
-    [A *Crow-Shaped Amulet*. You can ask a question of the dead, but must add a _Fatigue_
-      each time.],
-    [*2*],
-    [A Crow-Shaped Amulet. You can ask a question of the dead, but must add a Fatigue
-      each time.],
-    [*3*],
-    [A Crow-Shaped Amulet. You can ask a question of the dead, but must add a Fatigue
-      each time.],
-    [*4*],
-    [A Crow-Shaped Amulet. You can ask a question of the dead, but must add a Fatigue
-      each time.],
-    [*5*],
-    [A Crow-Shaped Amulet. You can ask a question of the dead, but must add a Fatigue
-      each time.],
-    [*6*],
-    [A Crow-Shaped Amulet. You can ask a question of the dead, but must add a Fatigue
-      each time.],
-  )
-]
+#pagebreak(weak: true)
 
-#v(1em)
+#large-title[== Hexer <background.hexer>]
 
-#block(breakable: false)[
-  #large-title[== Herbalist <background.herbalist>]
+#item-title[=== Starting Gear]
 
-  #item-title[=== Starting Gear]
-]
+#pagebreak(weak: true)
 
-#v(1em)
+#large-title[== Mage <background.mage>]
 
-#block(breakable: false)[
-  #large-title[== Hexer <background.hexer>]
+#item-title[=== Starting Gear]
 
-  #item-title[=== Starting Gear]
-]
+#pagebreak(weak: true)
 
-#v(1em)
+#large-title[== Man at Arms <background.man-at-arms>]
 
-#block(breakable: false)[
-  #large-title[== Mage <background.mage>]
+#item-title[=== Starting Gear]
 
-  #item-title[=== Starting Gear]
-]
+#pagebreak(weak: true)
 
-#v(1em)
+#large-title[== Merchant <background.merchant>]
 
-#block(breakable: false)[
-  #large-title[== Man at Arms <background.man-at-arms>]
+#item-title[=== Starting Gear]
 
-  #item-title[=== Starting Gear]
-]
+#pagebreak(weak: true)
 
-#v(1em)
+#large-title[== Minstrel <background.minstrel>]
 
-#block(breakable: false)[
-  #large-title[== Merchant <background.merchant>]
+#item-title[=== Starting Gear]
 
-  #item-title[=== Starting Gear]
-]
+#pagebreak(weak: true)
 
-#v(1em)
+#large-title[== Occultist <background.occultist>]
 
-#block(breakable: false)[
-  #large-title[== Minstrel <background.minstrel>]
+#item-title[=== Starting Gear]
 
-  #item-title[=== Starting Gear]
-]
+#pagebreak(weak: true)
 
-#v(1em)
+#large-title[== Pellar <background.pellar>]
 
-#block(breakable: false)[
-  #large-title[== Occultist <background.occultist>]
+#item-title[=== Starting Gear]
 
-  #item-title[=== Starting Gear]
-]
+#pagebreak(weak: true)
 
-#v(1em)
+#large-title[== Ranger <background.ranger>]
 
-#block(breakable: false)[
-  #large-title[== Pellar <background.pellar>]
+#item-title[=== Starting Gear]
 
-  #item-title[=== Starting Gear]
-]
+#pagebreak(weak: true)
 
-#v(1em)
+#large-title[== Seeker <background.seeker>]
 
-#block(breakable: false)[
-  #large-title[== Ranger <background.ranger>]
+#item-title[=== Starting Gear]
 
-  #item-title[=== Starting Gear]
-]
+#pagebreak(weak: true)
 
-#v(1em)
+#large-title[== Smith <background.smith>]
 
-#block(breakable: false)[
-  #large-title[== Seeker <background.seeker>]
+#item-title[=== Starting Gear]
 
-  #item-title[=== Starting Gear]
-]
+#pagebreak(weak: true)
 
-#v(1em)
+#large-title[== Street Ruffian <background.street-ruffian>]
 
-#block(breakable: false)[
-  #large-title[== Smith <background.smith>]
+#item-title[=== Starting Gear]
 
-  #item-title[=== Starting Gear]
-]
+#pagebreak(weak: true)
 
-#v(1em)
+#large-title[== Thief <background.thief>]
 
-#block(breakable: false)[
-  #large-title[== Street Ruffian <background.street-ruffian>]
+#item-title[=== Starting Gear]
 
-  #item-title[=== Starting Gear]
-]
+#pagebreak(weak: true)
 
-#v(1em)
+#large-title[== Torchbearer <background.torchbearer>]
 
-#block(breakable: false)[
-  #large-title[== Thief <background.thief>]
+#item-title[=== Starting Gear]
 
-  #item-title[=== Starting Gear]
-]
+#pagebreak(weak: true)
 
-#v(1em)
+#large-title[== Vault Keeper <background.vault-keeper>]
 
-#block(breakable: false)[
-  #large-title[== Torchbearer <background.torchbearer>]
+#item-title[=== Starting Gear]
 
-  #item-title[=== Starting Gear]
-]
+#pagebreak(weak: true)
 
-#v(1em)
+#large-title[== Village Hunter <background.village-hunter>]
 
-#block(breakable: false)[
-  #large-title[== Vault Keeper <background.vault-keeper>]
+#item-title[=== Starting Gear]
 
-  #item-title[=== Starting Gear]
-]
+#pagebreak(weak: true)
 
-#v(1em)
+#large-title[== Zealot <background.zealot>]
 
-#block(breakable: false)[
-  #large-title[== Village Hunter <background.village-hunter>]
+#item-title[=== Starting Gear]
 
-  #item-title[=== Starting Gear]
-]
-
-#v(1em)
-
-#block(breakable: false)[
-  #large-title[== Zealot <background.zealot>]
-
-  #item-title[=== Starting Gear]
-]

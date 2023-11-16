@@ -46,7 +46,7 @@ jobs:
           gameData: COPYING
           itchUsername: seanclayton
           itchGameId: two-swords
-          buildChannel: copying
+          buildChannel: book
           buildNumber: ${{ steps.get_version.outputs.version-without-v }}
 
       - name: Butler Push Source ZIP
@@ -56,5 +56,5 @@ jobs:
           gameData: source.zip
           itchUsername: seanclayton
           itchGameId: two-swords
-          buildChannel: source-code
+          buildChannel: book
           buildNumber: ${{ steps.get_version.outputs.version-without-v }}

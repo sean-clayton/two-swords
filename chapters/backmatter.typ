@@ -17,6 +17,11 @@ The only aspects of #emph(title) that are not free and open-source software is
 the git repo hosting (GitHub), automated CI/CD (GitHub Actions), and the
 publishing platform (itch.io).
 
+#large-title[#heading(level: 2, outlined: false, bookmarked: false)[Credits]]
+
+- *Yochai Gal* for Cairn.
+- *Goblin Law of Gaming* for the magic system.
+
 #large-title[#heading(level: 2, outlined: false, bookmarked: false)[COPYING]]
 
 All aspects protected by copyright within this document is licensed under the

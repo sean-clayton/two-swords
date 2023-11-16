@@ -3,7 +3,7 @@
 #import "/chapters/introduction.typ" as chapter-introduction
 #import "/chapters/backgrounds.typ" as chapter-backgrounds
 #import "/chapters/marketplace.typ" as chapter-marketplace
-#import "/chapters/rules.typ" as chapter-rules
+#import "/chapters/procedures.typ" as chapter-procedures
 #import "/chapters/artefacts.typ" as chapter-artefacts
 #import "/chapters/magic.typ" as chapter-magic
 #import "/chapters/foes.typ" as chapter-foes
@@ -64,8 +64,6 @@
   ]
 ]
 
-#huge-title[#heading(level: 1, outlined: false, bookmarked: false)[Table of Contents]]
-
 #columns(2)[
   #outline(indent: 4pt, depth: 2, title: none)
 ]
@@ -78,23 +76,23 @@
 
 #pagebreak(weak: true)
 
-#chapter-backgrounds
-
-#pagebreak(weak: true)
-
 #chapter-marketplace
 
 #pagebreak(weak: true)
 
-#chapter-rules
+#chapter-backgrounds
 
 #pagebreak(weak: true)
 
-#chapter-artefacts
+#chapter-procedures
 
 #pagebreak(weak: true)
 
 #chapter-magic
+
+#pagebreak(weak: true)
+
+#chapter-artefacts
 
 #pagebreak(weak: true)
 
