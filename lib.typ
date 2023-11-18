@@ -5,6 +5,8 @@
 
 #let config = metadata.config
 
+#let version = if config.version == "#{VERSION}#" { "DEV" } else { config.version }
+
 #let highlight-color-base = color.hsl(57deg, 100%, 47.6%).rotate(-5deg)
 #let highlight-color = highlight-color-base.desaturate(10%).mix((white, 300%), space: oklab)
 #let heading-color = highlight-color-base.saturate(-5%).mix((black, 33%), space: oklab)

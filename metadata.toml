@@ -8,4 +8,5 @@ author = "Sean-Patrick Ortencio Clayton"
 [config]
 theme = "#{THEME}#" # This is modified by CI/CD
 media = "#{MEDIA}#" # This is modified by CI/CD
+version = "#{VERSION}#" # This is modified by CI/CD
 wip = true

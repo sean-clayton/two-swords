@@ -52,6 +52,8 @@
           spacing: 4pt,
           title,
           sym.lozenge.stroked,
+          version,
+          sym.lozenge.stroked,
           datetime.today().display(),
         )
       ]

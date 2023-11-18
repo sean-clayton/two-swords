@@ -17,6 +17,14 @@ jobs:
         with:
           version: latest
 
+      - name: Modify metadata
+        id: sub_manifest_link_version
+        uses: cschleiden/replace-tokens@v1
+        with:
+          files: "metadata.toml"
+        env:
+          VERSION: ${{ steps.get_version.outputs.version }}
+
       - run: mkdir dist
 
       - name: Build PDF
