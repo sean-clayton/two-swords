@@ -21,7 +21,7 @@ Here are 20 more backgrounds for new characters.
   [*5*],
   [#ts-link(<background.hexer>)[Hexer]],
   [*6*],
-  [#ts-link(<background.mage>)[Mage]],
+  [#ts-link(<background.magicker>)[Magicker]],
   [*7*],
   [#ts-link(<background.man-at-arms>)[Man at Arms]],
   [*8*],
