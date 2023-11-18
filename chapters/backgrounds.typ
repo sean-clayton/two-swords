@@ -122,7 +122,7 @@ lay in their final resting places.
 
 #pagebreak(weak: true)
 
-#large-title[== Mage <background.mage>]
+#large-title[== Magicker <background.magicker>]
 
 #item-title[=== Starting Gear]
 
