@@ -29,10 +29,6 @@ The _Tongue of Tongues_ was the tongue of
 
 #large-title[== Orbs]
 
-#large-title[== Shields]
-
 #large-title[== Sundries]
 
-#large-title[== Worn Armor]
-
-#large-title[== Weapons]
+#large-title[== Weapons & Armor]

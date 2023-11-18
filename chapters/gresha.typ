@@ -2,11 +2,11 @@
 
 #huge-title[= The Continent of Gresha <continent-of-gresha>]
 
-Gresha (IPA: [griʃa]) is the assumed setting of #emph(title). It is a huge
-continental land-mass that sits in what is called the southern hemisphere on
-Earth. The year begins and ends in the hot months, with the cold months in the
-middle. The dry and hot regions like are in the North of Gresha, and the cold
-and frigid regions are to the South.
+Gresha (IPA: [griʃa]) is the included setting of #emph(title). It is a huge
+continental land-mass that sits in what we would consider the southern
+hemisphere on Earth. The year begins and ends in the hot months, with the cold
+months in the middle. The dry and hot regions are in the North of Gresha, and
+the cold and frigid regions are to the South.
 
 #large-title[#heading(level: 2, outlined: false)[Some Assumptions]]
 
@@ -68,36 +68,54 @@ others.
 
 #item-title[#heading(level: 2, outlined: false)[The Rot Blight]]
 
-#grid(columns: (2em, 1fr), gutter: 1em, [1–2], [
-  *The rot blight never ended.*
-], [3–4], [
-  *The rot blight ended long ago.*
-], [5–6], [
-  *The rot blight ended just under a year ago.*
-])
+#grid(
+  columns: (auto, 1fr),
+  gutter: 1em,
+  [*d6*],
+  [*Truth*],
+  [1/2],
+  [#lead[The rot blight never ended.]],
+  [3/4],
+  [
+    #lead[The rot blight ended long ago.]
+  ],
+  [5/6],
+  [
+    #lead[The rot blight ended just under a year ago.]
+  ],
+)
 
 #item-title[#heading(level: 2, outlined: false)[The Aeldar]]
 
-#grid(columns: (2em, 1fr), gutter: 1em, [1–2], [
-  *The Aeldar disappeared long ago without a trace.*
-], [3–4], [
-  *The Aeldar were wiped out in a genocidal war.*
-], [5–6], [
-  *The Aeldar live among us to this day.*
-])
+#grid(
+  columns: (auto, 1fr),
+  gutter: 1em,
+  [*d6*],
+  [*Truth*],
+  [1/2],
+  [#lead[The Aeldar disappeared long ago without a trace.]],
+  [3/4],
+  [
+    #lead[The Aeldar were wiped out in a genocidal war.]
+  ],
+  [5/6],
+  [
+    #lead[The Aeldar live among us to this day.]
+  ],
+)
 
 #item-title[#heading(level: 2, outlined: false)[The Allied Kingdoms]]
 
-#grid(columns: (2em, 1fr), gutter: 1em, [1–2], [
-], [3–4], [
-], [5–6], [
+#grid(columns: (auto, 1fr), gutter: 1em, [*d6*], [*Truth*], [1/2], [
+], [3/4], [
+], [5/6], [
 ])
 
 #item-title[#heading(level: 2, outlined: false)[The Empire]]
 
-#grid(columns: (2em, 1fr), gutter: 1em, [1–2], [
-], [3–4], [
-], [5–6], [
+#grid(columns: (auto, 1fr), gutter: 1em, [*d6*], [*Truth*], [1/2], [
+], [3/4], [
+], [5/6], [
 ])
 
 #item-title[
@@ -115,73 +133,88 @@ others.
 ]
 
 #grid(
-  columns: (2em, 1fr),
+  columns: (auto, 1fr),
   gutter: 1em,
-  [1–2],
+  [*d6*],
+  [*Truth*],
+  [1/2],
   [
-    *The great war is at its height.* May the gods have mercy on us all.
+    #lead[The great war is at its height.] May the gods have mercy on us all.
   ],
-  [3–4],
+  [3/4],
   [
-    *The greatest war Gresha has ever faced just ended a year ago.*
+    #lead[The greatest war Gresha has ever faced just ended a year ago.]
   ],
-  [5–6],
+  [5/6],
   [
-    *Gresha is on the brink of total war between these two forces.* May the gods
-    save us from this pending doom.
+    #lead[Gresha is on the brink of total war between these two forces.] May the
+    gods save us from this pending doom.
   ],
 )
 
-#item-title[#heading(level: 2, outlined: false)[Medicine]]
+#item-title[#heading(level: 2, outlined: false)[The Great Migration]]
 
-#grid(columns: (2em, 1fr), gutter: 1em, [1–2], [
-], [3–4], [
-], [5–6], [
-])
+#grid(
+  columns: (auto, 1fr),
+  gutter: 1em,
+  [*d6*],
+  [*Truth*],
+  [1/2],
+  [],
+  [3/4],
+  [],
+  [5/6],
+  [
+  ],
+)
 
 #item-title[#heading(level: 2, outlined: false)[Magic]]
 
-#grid(columns: (2em, 1fr), gutter: 1em, [1–2], [
-], [3–4], [
-], [5–6], [
+#grid(columns: (auto, 1fr), gutter: 1em, [*d6*], [*Truth*], [1/2], [
+], [3/4], [
+], [5/6], [
 ])
 
 #item-title[#heading(level: 2, outlined: false)[Religion]]
 
-#grid(columns: (2em, 1fr), gutter: 1em, [1–2], [
-], [3–4], [
-], [5–6], [
+#grid(columns: (auto, 1fr), gutter: 1em, [*d6*], [*Truth*], [1/2], [
+], [3/4], [
+], [5/6], [
 ])
 
 #item-title[#heading(level: 2, outlined: false)[The Old Wood]]
 
-#grid(columns: (2em, 1fr), gutter: 1em, [1–2], [
-], [3–4], [
-], [5–6], [
+#grid(columns: (auto, 1fr), gutter: 1em, [*d6*], [*Truth*], [1/2], [
+], [3/4], [
+], [5/6], [
 ])
 
-#item-title[#heading(level: 2, outlined: false)[The Withered March]]
+#item-title[#heading(level: 2, outlined: false)[The Wyrmclaw Mountains]]
 
-#grid(columns: (2em, 1fr), gutter: 1em, [1–2], [
-], [3–4], [
-], [5–6], [
-])
-
-#item-title[#heading(level: 2, outlined: false)[Dragon's Reach]]
-
-#grid(columns: (2em, 1fr), gutter: 1em, [1–2], [
-], [3–4], [
-], [5–6], [
-])
-
-#item-title[#heading(level: 2, outlined: false)[The Fertile Coast]]
-
-#grid(columns: (2em, 1fr), gutter: 1em, [1–2], [
-], [3–4], [
-], [5–6], [
-])
+#grid(
+  columns: (auto, 1fr),
+  gutter: 1em,
+  [*d6*],
+  [*Truth*],
+  [1/2],
+  [
+    #lead[It was all faerie tales] that monstrous dragons made those peaks their
+    home. When the seekers mapped out the region all that was there were a few
+    troublesome wyverns and, of course, the rebels that used those tales as
+    protection.
+  ],
+  [3/4],
+  [#lead[No one's been brave enough to find out---]who knows if the tales are true?
+    It's best if we don't stick our noses where they don't belong.],
+  [5/6],
+  [#lead[Those dragons made themselves known that dreadful day.] The hubris of us
+    to think _we_ are the masters of this land. Mother spare us from witnessing
+    those terrors in the mountains once more.],
+)
 
 #large-title[== Regions of Gresha]
+
+#item-title[=== The Shattered Coast]
 
 #item-title[=== The Withered March]
 
