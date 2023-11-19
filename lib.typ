@@ -87,6 +87,7 @@
 #let large-title(content) = {
   show par: set text(font: display-font, size: 14pt, weight: 700, fill: heading-color)
   show heading: set text(font: display-font, size: 14pt, weight: 700, fill: heading-color)
+  set align(center)
   upper(content)
 }
 
@@ -94,7 +95,10 @@
   show par: set text(font: display-font, size: 11pt, weight: 700, tracking: -0.25pt)
   show heading: set text(font: display-font, size: 11pt, weight: 700, tracking: -0.25pt)
 
-  box(inset: 4pt, fill: highlight-color, width: 100%, content)
+  box(inset: 4pt, fill: highlight-color, width: 100%)[
+    #set align(center)
+    #content
+  ]
 }
 
 #let text-scale(amount, content) = {
