@@ -252,7 +252,7 @@
   )
 }
 
-#let cairn-stat-block(data, top-content) = {
+#let cairn-stat-block(data) = {
   let escape-str(str) = str.replace("\\", "\\\\").replace("#", "\#")
   let markup-eval(str) = eval(escape-str(str), mode: "markup")
 
@@ -291,8 +291,6 @@
   set list(tight: true)
 
   block(breakable: false)[
-    #top-content
-
     #stat-line
     #for detail in details [
       - #markup-eval(detail)

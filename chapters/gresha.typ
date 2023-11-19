@@ -254,18 +254,16 @@ Patrolling the wood are *Ursheym Golems*---built by one of the
 #ts-link(<giants-of-ursheym-wood>)[giants that live here] that wishes to protect
 her home.
 
-#cairn-stat-block(
-  load-stat("golem"),
-)[
-  #heading(level: 3)[Ursheym Golem] <foe.ursheym-golem>
+#heading(level: 3)[Ursheym Golem] <foe.ursheym-golem>
 
-  Ursheym Golems are much like regular golems. They are all made of wood, stone,
-  moss, and vines. They are given the following commands:
-  - Attack all of those who wish to do harm to the wood or its inhabitents.
-  - Do not attack any inhabitents or friends of the Ursheym Wood.
+Ursheym Golems are much like regular golems. They are all made of wood, stone,
+moss, and vines. They are given the following commands:
+- Attack all of those who wish to do harm to the wood or its inhabitents.
+- Do not attack any inhabitents or friends of the Ursheym Wood.
 
-  Each one also adorns a unique flower in its 'hair.'
-]
+Each one also adorns a unique flower in its 'hair.'
+
+#cairn-stat-block(load-stat("golem"))
 
 #large-title[== Characters to Place in Gresha]
 

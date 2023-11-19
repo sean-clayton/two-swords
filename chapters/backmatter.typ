@@ -17,18 +17,28 @@ The only aspects of #emph(title) that are not free and open-source software is
 the git repo hosting (GitHub), automated CI/CD (GitHub Actions), and the
 publishing platform (itch.io).
 
-#large-title[#heading(level: 2, outlined: false, bookmarked: false)[Credits]]
+#large-title[#heading(
+    level: 2,
+    outlined: false,
+    bookmarked: false,
+  )[Acknowledgments & Inspiration]]
 
 - *Yochai Gal* for Cairn.
-- *Goblin Law of Gaming* for the magic system.
+- *Goblin Law of Gaming* for the magic system, and *Yochai Gal* for the Cairn
+  conversion.
+- *Sage LaTorra* and *Adam Koebel* for Dungeon World, which inspired NPC and
+  settlement creation.
 
 #large-title[#heading(level: 2, outlined: false, bookmarked: false)[COPYING]]
 
-All aspects protected by copyright within this document is licensed under the
-Creative Commons Attribution-ShareAlike 4.0 International (CC-BY-SA) license. If
-you are just wanting to copy from the content of this document, you only need to
-follow the CC-BY-SA license (COPYING-CC-BY-SA).
+Anyone found illegally copying or redistributing the content I've created
+without my permission or consent will be a mighty good friend of mine.
 
-This document was built with software that is open source and available under
-the GNU Affero Public License (AGPL)---if you are copying the software that
-created this document, you need to follow the AGPL (COPYING-AGPL).
+For those that believe that the law should be followed, my content is available
+to you under the Creative Commons Attribution-ShareAlike 4.0 International
+(CC-BY-SA) license. This document was built with software that is open source
+that is available under the GNU Affero Public License (AGPL).
+
+If you are just wanting to copy from the content of this document, you only need
+to follow the CC-BY-SA license (COPYING-CC-BY-SA). If you are copying the
+software that created this document, you need to follow the AGPL (COPYING-AGPL).
