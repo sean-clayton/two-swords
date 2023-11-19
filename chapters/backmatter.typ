@@ -31,11 +31,13 @@ publishing platform (itch.io).
 
 #large-title[#heading(level: 2, outlined: false, bookmarked: false)[COPYING]]
 
-Anyone found illegally copying or redistributing the content I've created
-without my permission or consent will be a mighty good friend of mine.
+Anyone found illegally reproducing, storing in a retrieval system, transmitting
+in any form or by any means---electronic, mechanical, photocopying, recording,
+or otherwise---this publication without the prior express permission of the
+publisher will be a mighty good friend of mine.
 
-For those that believe that the law should be followed, my content is available
-to you under the Creative Commons Attribution-ShareAlike 4.0 International
+For those that believe that they need my permission, my content is available to
+you under the Creative Commons Attribution-ShareAlike 4.0 International
 (CC-BY-SA) license. This document was built with software that is open source
 that is available under the GNU Affero Public License (AGPL).
 
