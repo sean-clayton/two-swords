@@ -17,11 +17,11 @@ The only aspects of #emph(title) that are not free and open-source software is
 the git repo hosting (GitHub), automated CI/CD (GitHub Actions), and the
 publishing platform (itch.io).
 
-#large-title[#heading(
-    level: 2,
-    outlined: false,
-    bookmarked: false,
-  )[Acknowledgments & Inspiration]]
+#large-title[
+  #heading(level: 2, outlined: false, bookmarked: false)[
+    Acknowledgments & Inspiration
+  ]
+]
 
 - *Yochai Gal* for Cairn.
 - *Goblin Law of Gaming* for the magic system, and *Yochai Gal* for the Cairn

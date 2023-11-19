@@ -40,7 +40,7 @@
     set text(size: 10pt)
 
     let page-number = [
-      #circle(radius: 0.8em, fill: highlight-color-base)[
+      #circle(radius: 1em, fill: highlight-color-base)[
         #set align(center + horizon)
         #counter(page).display("1")
       ]

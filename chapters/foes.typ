@@ -7,358 +7,1214 @@ that covers many traditional fantasy foes that can easily be used in a dark
 fantasy setting, but the ones included are meant to further bolster tone of the
 setting.
 
-#large-title[== Humanoids]
+#pagebreak(weak: true)
 
-#item-title[=== Bandit <foe.bandit>]
+#large-title[#heading(level: 2, outlined: false, bookmarked: true)[Warg <foe.warg>]]
 
-#cairn-stat-block(load-stat("bandit"))
+#item-title[Legend]
 
-#item-title[=== Conscript <foe.conscript>]
+#item-title[Random Encounter: Title A]
 
-#cairn-stat-block(load-stat("conscript"))
+#item-title[Random Encounter: Title B]
 
-#item-title[=== Highwayman <foe.highwayman>]
-
-#cairn-stat-block(load-stat("highwayman"))
-
-#item-title[=== Imperial Infantry <foe.imperial-infantry>]
-
-#cairn-stat-block(load-stat("imperial-infantry"))
-
-#item-title[=== Imperial Knight <foe.imperial-knight>]
-
-#cairn-stat-block(load-stat("imperial-knight"))
-
-#item-title[=== Imperial Pacifier <foe.imperial-pacifier>]
-
-#cairn-stat-block(load-stat("imperial-pacifier"))
-
-#item-title[=== Mercenary Soldier <foe.mercenary-soldier>]
-
-#cairn-stat-block(load-stat("mercenary-soldier"))
-
-#item-title[=== Mountain Dwarf Defender <foe.mountain-dwarf-defender>]
-
-#cairn-stat-block(load-stat("mountain-dwarf-defender"))
-
-#item-title[=== Northern Cavalry <foe.northern-cavalry>]
-
-#cairn-stat-block(load-stat("northern-cavalry"))
-
-#item-title[=== Northern Elite Soldier <foe.northern-elite-soldier>]
-
-#cairn-stat-block(load-stat("northern-elite-soldier"))
-
-#item-title[=== Northern Heavy Infantry <foe.northern-heavy-infantry>]
-
-#cairn-stat-block(load-stat("northern-heavy-infantry"))
-
-#item-title[=== Northern Solider <foe.northern-soldier>]
-
-#cairn-stat-block(load-stat("northern-soldier"))
-
-#item-title[=== Pirate <foe.pirate>]
-
-#cairn-stat-block(load-stat("pirate"))
-
-#item-title[=== Rebel Archer <foe.rebel-archer>]
-
-#cairn-stat-block(load-stat("rebel-archer"))
-
-#item-title[=== Rebel Marauder <foe.rebel-marauder>]
-
-#cairn-stat-block(load-stat("rebel-marauder"))
-
-#item-title[=== Rebel Veteran <foe.rebel-veteran>]
-
-#cairn-stat-block(load-stat("rebel-veteran"))
-
-#item-title[=== Secret Agent <foe.secret-agent>]
-
-#cairn-stat-block(load-stat("secret-agent"))
-
-#large-title[== Beasts]
-
-#item-title[=== Warg <foe.warg>]
+#heading(level: 4, bookmarked: false, outlined: false)[Warg]
 
 #cairn-stat-block(load-stat("warg"))
 
-#item-title[=== Werewolf <foe.werewolf>]
+#note[
+  #note-title[Scavenging]
+]
+
+#pagebreak(weak: true)
+
+#large-title[#heading(level: 2, outlined: false, bookmarked: true)[Werewolf <foe.werewolf>]]
+
+#item-title[Legend]
+
+#item-title[Random Encounter: Title A]
+
+#item-title[Random Encounter: Title B]
+
+#heading(level: 4, bookmarked: false, outlined: false)[Werewolf]
 
 #cairn-stat-block(load-stat("werewolf"))
 
-#item-title[=== Wolf <foe.wolf>]
+#note[
+  #note-title[Scavenging]
+]
+
+#pagebreak(weak: true)
+
+#large-title[#heading(level: 2, outlined: false, bookmarked: true)[Wolf <foe.wolf>]]
+
+#item-title[Legend]
+
+#item-title[Random Encounter: Title A]
+
+#item-title[Random Encounter: Title B]
+
+#heading(level: 4, bookmarked: false, outlined: false)[Wolf]
 
 #cairn-stat-block(load-stat("wolf"))
 
-#large-title[== Cursed Ones]
+#note[
+  #note-title[Scavenging]
+]
 
-#item-title[=== Amarok <foe.amarok>]
+#pagebreak(weak: true)
+
+#large-title[#heading(level: 2, outlined: false, bookmarked: true)[Amarok <foe.amarok>]]
+
+#item-title[Legend]
+
+#item-title[Random Encounter: Title A]
+
+#item-title[Random Encounter: Title B]
+
+#heading(level: 4, bookmarked: false, outlined: false)[Amarok]
 
 #cairn-stat-block(load-stat("amarok"))
 
-#item-title[=== Botchling <foe.botchling>]
+#note[
+  #note-title[Scavenging]
+]
+
+#pagebreak(weak: true)
+
+#large-title[#heading(level: 2, outlined: false, bookmarked: true)[Botchling <foe.botchling>]]
+
+#item-title[Legend]
+
+#item-title[Random Encounter: Title A]
+
+#item-title[Random Encounter: Title B]
+
+#heading(level: 4, bookmarked: false, outlined: false)[Botchling]
 
 #cairn-stat-block(load-stat("botchling"))
 
-#item-title[=== Preta <foe.preta>]
+#note[
+  #note-title[Scavenging]
+]
+
+#pagebreak(weak: true)
+
+#large-title[#heading(level: 2, outlined: false, bookmarked: true)[Preta <foe.preta>]]
+
+#item-title[Legend]
+
+#item-title[Random Encounter: Title A]
+
+#item-title[Random Encounter: Title B]
+
+#heading(level: 4, bookmarked: false, outlined: false)[Preta]
 
 #cairn-stat-block(load-stat("preta"))
 
-#item-title[=== Striga <foe.striga>]
+#note[
+  #note-title[Scavenging]
+]
+
+#pagebreak(weak: true)
+
+#large-title[#heading(level: 2, outlined: false, bookmarked: true)[Striga <foe.striga>]]
+
+#item-title[Legend]
+
+#item-title[Random Encounter: Title A]
+
+#item-title[Random Encounter: Title B]
+
+#heading(level: 4, bookmarked: false, outlined: false)[Striga]
 
 #cairn-stat-block(load-stat("striga"))
 
-#large-title[== Draconids]
+#note[
+  #note-title[Scavenging]
+]
 
-#item-title[=== Basilisk <foe.basilisk>]
+#pagebreak(weak: true)
+
+#large-title[#heading(level: 2, outlined: false, bookmarked: true)[Basilisk <foe.basilisk>]]
+
+#item-title[Legend]
+
+#item-title[Random Encounter: Title A]
+
+#item-title[Random Encounter: Title B]
+
+#heading(level: 4, bookmarked: false, outlined: false)[Basilisk]
 
 #cairn-stat-block(load-stat("basilisk"))
 
-#item-title[=== Bukuvak <foe.bukuvak>]
+#note[
+  #note-title[Scavenging]
+]
+
+#pagebreak(weak: true)
+
+#large-title[#heading(level: 2, outlined: false, bookmarked: true)[Bukuvak <foe.bukuvak>]]
+
+#item-title[Legend]
+
+#item-title[Random Encounter: Title A]
+
+#item-title[Random Encounter: Title B]
+
+#heading(level: 4, bookmarked: false, outlined: false)[Bukuvak]
 
 #cairn-stat-block(load-stat("bukuvak"))
 
-#item-title[=== Cockatrice <foe.cockatrice>]
+#note[
+  #note-title[Scavenging]
+]
+
+#pagebreak(weak: true)
+
+#large-title[#heading(
+    level: 2,
+    outlined: false,
+    bookmarked: true,
+  )[Cockatrice <foe.cockatrice>]]
+
+#item-title[Legend]
+
+#item-title[Random Encounter: Title A]
+
+#item-title[Random Encounter: Title B]
+
+#heading(level: 4, bookmarked: false, outlined: false)[Cockatrice]
 
 #cairn-stat-block(load-stat("cockatrice"))
 
-#item-title[=== Dragon <foe.dragon>]
+#note[
+  #note-title[Scavenging]
+]
+
+#pagebreak(weak: true)
+
+#large-title[#heading(level: 2, outlined: false, bookmarked: true)[Dragon <foe.dragon>]]
+
+#item-title[Legend]
+
+#item-title[Random Encounter: Title A]
+
+#item-title[Random Encounter: Title B]
+
+#heading(level: 4, bookmarked: false, outlined: false)[Dragon]
 
 #cairn-stat-block(load-stat("dragon"))
 
-#item-title[=== Phoenix <foe.phoenix>]
+#note[
+  #note-title[Scavenging]
+]
+
+#pagebreak(weak: true)
+
+#large-title[#heading(level: 2, outlined: false, bookmarked: true)[Phoenix <foe.phoenix>]]
+
+#item-title[Legend]
+
+#item-title[Random Encounter: Title A]
+
+#item-title[Random Encounter: Title B]
+
+#heading(level: 4, bookmarked: false, outlined: false)[Phoenix]
 
 #cairn-stat-block(load-stat("phoenix"))
 
-#item-title[=== Wyvern <foe.wyvern>]
+#note[
+  #note-title[Scavenging]
+]
+
+#pagebreak(weak: true)
+
+#large-title[#heading(level: 2, outlined: false, bookmarked: true)[Wyvern <foe.wyvern>]]
+
+#item-title[Legend]
+
+#item-title[Random Encounter: Title A]
+
+#item-title[Random Encounter: Title B]
+
+#heading(level: 4, bookmarked: false, outlined: false)[Wyvern]
 
 #cairn-stat-block(load-stat("wyvern"))
 
-#large-title[== Elementals]
+#note[
+  #note-title[Scavenging]
+]
 
-#item-title[=== Elemental, Earth <foe.elemental-earth>]
+#pagebreak(weak: true)
+
+#large-title[#heading(
+    level: 2,
+    outlined: false,
+    bookmarked: true,
+  )[Elemental, Earth <foe.elemental-earth>]]
+
+#item-title[Legend]
+
+#item-title[Random Encounter: Title A]
+
+#item-title[Random Encounter: Title B]
+
+#heading(level: 4, bookmarked: false, outlined: false)[Elemental, Earth]
 
 #cairn-stat-block(load-stat("elemental-earth"))
 
-#item-title[=== Elemental, Fire <foe.elemental-fire>]
+#note[
+  #note-title[Scavenging]
+]
+
+#pagebreak(weak: true)
+
+#large-title[#heading(
+    level: 2,
+    outlined: false,
+    bookmarked: true,
+  )[Elemental, Fire <foe.elemental-fire>]]
+
+#item-title[Legend]
+
+#item-title[Random Encounter: Title A]
+
+#item-title[Random Encounter: Title B]
+
+#heading(level: 4, bookmarked: false, outlined: false)[Elemental, Fire]
 
 #cairn-stat-block(load-stat("elemental-fire"))
 
-#item-title[=== Elemental, Ice <foe.elemental-ice>]
+#note[
+  #note-title[Scavenging]
+]
+
+#pagebreak(weak: true)
+
+#large-title[#heading(
+    level: 2,
+    outlined: false,
+    bookmarked: true,
+  )[Elemental, Ice <foe.elemental-ice>]]
+
+#item-title[Legend]
+
+#item-title[Random Encounter: Title A]
+
+#item-title[Random Encounter: Title B]
+
+#heading(level: 4, bookmarked: false, outlined: false)[Elemental, Ice]
 
 #cairn-stat-block(load-stat("elemental-ice"))
 
-#item-title[=== Gargoyle <foe.gargoyle>]
+#note[
+  #note-title[Scavenging]
+]
+
+#pagebreak(weak: true)
+
+#large-title[#heading(level: 2, outlined: false, bookmarked: true)[Gargoyle <foe.gargoyle>]]
+
+#item-title[Legend]
+
+#item-title[Random Encounter: Title A]
+
+#item-title[Random Encounter: Title B]
+
+#heading(level: 4, bookmarked: false, outlined: false)[Gargoyle]
 
 #cairn-stat-block(load-stat("gargoyle"))
 
-#item-title[=== Golem <foe.golem>]
+#note[
+  #note-title[Scavenging]
+]
+
+#pagebreak(weak: true)
+
+#large-title[#heading(level: 2, outlined: false, bookmarked: true)[Golem <foe.golem>]]
+
+#item-title[Legend]
+
+#item-title[Random Encounter: Title A]
+
+#item-title[Random Encounter: Title B]
+
+#heading(level: 4, bookmarked: false, outlined: false)[Golem]
 
 #cairn-stat-block(load-stat("golem"))
 
-#large-title[== Hybrids]
+#note[
+  #note-title[Scavenging]
+]
 
-#item-title[=== Berberoka <foe.berberoka>]
+#pagebreak(weak: true)
+
+#large-title[#heading(level: 2, outlined: false, bookmarked: true)[Berberoka <foe.berberoka>]]
+
+#item-title[Legend]
+
+#item-title[Random Encounter: Title A]
+
+#item-title[Random Encounter: Title B]
+
+#heading(level: 4, bookmarked: false, outlined: false)[Berberoka]
 
 #cairn-stat-block(load-stat("berberoka"))
 
-#item-title[=== Griffin <foe.griffin>]
+#note[
+  #note-title[Scavenging]
+]
+
+#pagebreak(weak: true)
+
+#large-title[#heading(level: 2, outlined: false, bookmarked: true)[Griffin <foe.griffin>]]
+
+#item-title[Legend]
+
+#item-title[Random Encounter: Title A]
+
+#item-title[Random Encounter: Title B]
+
+#heading(level: 4, bookmarked: false, outlined: false)[Griffin]
 
 #cairn-stat-block(load-stat("griffin"))
 
-#item-title[=== Harpy <foe.harpy>]
+#note[
+  #note-title[Scavenging]
+]
+
+#pagebreak(weak: true)
+
+#large-title[#heading(level: 2, outlined: false, bookmarked: true)[Harpy <foe.harpy>]]
+
+#item-title[Legend]
+
+#item-title[Random Encounter: Title A]
+
+#item-title[Random Encounter: Title B]
+
+#heading(level: 4, bookmarked: false, outlined: false)[Harpy]
 
 #cairn-stat-block(load-stat("harpy"))
 
-#item-title[=== Manticore <foe.manticore>]
+#note[
+  #note-title[Scavenging]
+]
+
+#pagebreak(weak: true)
+
+#large-title[#heading(level: 2, outlined: false, bookmarked: true)[Manticore <foe.manticore>]]
+
+#item-title[Legend]
+
+#item-title[Random Encounter: Title A]
+
+#item-title[Random Encounter: Title B]
+
+#heading(level: 4, bookmarked: false, outlined: false)[Manticore]
 
 #cairn-stat-block(load-stat("manticore"))
 
-#item-title[=== Siren <foe.siren>]
+#note[
+  #note-title[Scavenging]
+]
+
+#pagebreak(weak: true)
+
+#large-title[#heading(level: 2, outlined: false, bookmarked: true)[Siren <foe.siren>]]
+
+#item-title[Legend]
+
+#item-title[Random Encounter: Title A]
+
+#item-title[Random Encounter: Title B]
+
+#heading(level: 4, bookmarked: false, outlined: false)[Siren]
 
 #cairn-stat-block(load-stat("siren"))
 
-#item-title[=== Succubi <foe.succubi>]
+#note[
+  #note-title[Scavenging]
+]
+
+#pagebreak(weak: true)
+
+#large-title[#heading(level: 2, outlined: false, bookmarked: true)[Succubi <foe.succubi>]]
+
+#item-title[Legend]
+
+#item-title[Random Encounter: Title A]
+
+#item-title[Random Encounter: Title B]
+
+#heading(level: 4, bookmarked: false, outlined: false)[Succubi]
 
 #cairn-stat-block(load-stat("succubi"))
 
-#item-title[=== Uktena <foe.uktena>]
+#note[
+  #note-title[Scavenging]
+]
+
+#pagebreak(weak: true)
+
+#large-title[#heading(level: 2, outlined: false, bookmarked: true)[Uktena <foe.uktena>]]
+
+#item-title[Legend]
+
+#item-title[Random Encounter: Title A]
+
+#item-title[Random Encounter: Title B]
+
+#heading(level: 4, bookmarked: false, outlined: false)[Uktena]
 
 #cairn-stat-block(load-stat("uktena"))
 
-#large-title[== Insectoids]
+#note[
+  #note-title[Scavenging]
+]
 
-#item-title[=== Arachas <foe.arachas>]
+#pagebreak(weak: true)
+
+#large-title[#heading(level: 2, outlined: false, bookmarked: true)[Arachas <foe.arachas>]]
+
+#item-title[Legend]
+
+#item-title[Random Encounter: Title A]
+
+#item-title[Random Encounter: Title B]
+
+#heading(level: 4, bookmarked: false, outlined: false)[Arachas]
 
 #cairn-stat-block(load-stat("arachas"))
 
-#item-title[=== Endrega <foe.endrega>]
+#note[
+  #note-title[Scavenging]
+]
+
+#pagebreak(weak: true)
+
+#large-title[#heading(level: 2, outlined: false, bookmarked: true)[Endrega <foe.endrega>]]
+
+#item-title[Legend]
+
+#item-title[Random Encounter: Title A]
+
+#item-title[Random Encounter: Title B]
+
+#heading(level: 4, bookmarked: false, outlined: false)[Endrega]
 
 #cairn-stat-block(load-stat("endrega"))
 
-#item-title[=== Guvorag <foe.guvorag>]
+#note[
+  #note-title[Scavenging]
+]
+
+#pagebreak(weak: true)
+
+#large-title[#heading(level: 2, outlined: false, bookmarked: true)[Guvorag <foe.guvorag>]]
+
+#item-title[Legend]
+
+#item-title[Random Encounter: Title A]
+
+#item-title[Random Encounter: Title B]
+
+#heading(level: 4, bookmarked: false, outlined: false)[Guvorag]
 
 #cairn-stat-block(load-stat("guvorag"))
 
-#item-title[=== Lopustre <foe.lopustre>]
+#note[
+  #note-title[Scavenging]
+]
+
+#pagebreak(weak: true)
+
+#large-title[#heading(level: 2, outlined: false, bookmarked: true)[Lopustre <foe.lopustre>]]
+
+#item-title[Legend]
+
+#item-title[Random Encounter: Title A]
+
+#item-title[Random Encounter: Title B]
+
+#heading(level: 4, bookmarked: false, outlined: false)[Lopustre]
 
 #cairn-stat-block(load-stat("lopustre"))
 
-#item-title[=== Zeugl <foe.zeugl>]
+#note[
+  #note-title[Scavenging]
+]
+
+#pagebreak(weak: true)
+
+#large-title[#heading(level: 2, outlined: false, bookmarked: true)[Zeugl <foe.zeugl>]]
+
+#item-title[Legend]
+
+#item-title[Random Encounter: Title A]
+
+#item-title[Random Encounter: Title B]
+
+#heading(level: 4, bookmarked: false, outlined: false)[Zeugl]
 
 #cairn-stat-block(load-stat("zeugl"))
 
-#large-title[== Necrophages]
+#note[
+  #note-title[Scavenging]
+]
 
-#item-title[=== Devourer <foe.devourer>]
+#pagebreak(weak: true)
+
+#large-title[#heading(level: 2, outlined: false, bookmarked: true)[Devourer <foe.devourer>]]
+
+#item-title[Legend]
+
+#item-title[Random Encounter: Title A]
+
+#item-title[Random Encounter: Title B]
+
+#heading(level: 4, bookmarked: false, outlined: false)[Devourer]
 
 #cairn-stat-block(load-stat("devourer"))
 
-#item-title[=== Drowner <foe.drowner>]
+#note[
+  #note-title[Scavenging]
+]
+
+#pagebreak(weak: true)
+
+#large-title[#heading(level: 2, outlined: false, bookmarked: true)[Drowner <foe.drowner>]]
+
+#item-title[Legend]
+
+#item-title[Random Encounter: Title A]
+
+#item-title[Random Encounter: Title B]
+
+#heading(level: 4, bookmarked: false, outlined: false)[Drowner]
 
 #cairn-stat-block(load-stat("drowner"))
 
-#item-title[=== Foglet <foe.foglet>]
+#note[
+  #note-title[Scavenging]
+]
+
+#pagebreak(weak: true)
+
+#large-title[#heading(level: 2, outlined: false, bookmarked: true)[Foglet <foe.foglet>]]
+
+#item-title[Legend]
+
+#item-title[Random Encounter: Title A]
+
+#item-title[Random Encounter: Title B]
+
+#heading(level: 4, bookmarked: false, outlined: false)[Foglet]
 
 #cairn-stat-block(load-stat("foglet"))
 
-#item-title[=== Ghoul <foe.ghoul>]
+#note[
+  #note-title[Scavenging]
+]
+
+#pagebreak(weak: true)
+
+#large-title[#heading(level: 2, outlined: false, bookmarked: true)[Ghoul <foe.ghoul>]]
+
+#item-title[Legend]
+
+#item-title[Random Encounter: Title A]
+
+#item-title[Random Encounter: Title B]
+
+#heading(level: 4, bookmarked: false, outlined: false)[Ghoul]
 
 #cairn-stat-block(load-stat("ghoul"))
 
-#item-title[==== Hags <foe.hags>]
+#note[
+  #note-title[Scavenging]
+]
 
-===== Grave Hag <foe.hag-grave>
+#pagebreak(weak: true)
+
+#large-title[#heading(level: 2, outlined: false, bookmarked: true)[Grave Hag <foe.hag-grave>]]
+
+#item-title[Legend]
+
+#item-title[Random Encounter: Title A]
+
+#item-title[Random Encounter: Title B]
+
+#heading(level: 4, bookmarked: false, outlined: false)[Grave Hag]
 
 #cairn-stat-block(load-stat("hag-grave"))
 
-===== Water Hag <foe.hag-water>
+#note[
+  #note-title[Scavenging]
+]
+
+#pagebreak(weak: true)
+
+#large-title[#heading(level: 2, outlined: false, bookmarked: true)[Water Hag <foe.hag-water>]]
+
+#item-title[Legend]
+
+#item-title[Random Encounter: Title A]
+
+#item-title[Random Encounter: Title B]
+
+#heading(level: 4, bookmarked: false, outlined: false)[Water Hag]
 
 #cairn-stat-block(load-stat("hag-water"))
 
-#item-title[=== Rotfiend <foe.rotfiend>]
+#note[
+  #note-title[Scavenging]
+]
+
+#pagebreak(weak: true)
+
+#large-title[#heading(level: 2, outlined: false, bookmarked: true)[Rotfiend <foe.rotfiend>]]
+
+#item-title[Legend]
+
+#item-title[Random Encounter: Title A]
+
+#item-title[Random Encounter: Title B]
+
+#heading(level: 4, bookmarked: false, outlined: false)[Rotfiend]
 
 #cairn-stat-block(load-stat("rotfiend"))
 
-#large-title[== Ogroids]
+#note[
+  #note-title[Scavenging]
+]
 
-#item-title[=== Anopheli <foe.anopheli>]
+#pagebreak(weak: true)
+
+#large-title[#heading(level: 2, outlined: false, bookmarked: true)[Anopheli <foe.anopheli>]]
+
+#item-title[Legend]
+
+#item-title[Random Encounter: Title A]
+
+#item-title[Random Encounter: Title B]
+
+#heading(level: 4, bookmarked: false, outlined: false)[Anopheli]
 
 #cairn-stat-block(load-stat("anopheli"))
 
-#item-title[=== Cyclops <foe.cyclops>]
+#note[
+  #note-title[Scavenging]
+]
+
+#pagebreak(weak: true)
+
+#large-title[#heading(level: 2, outlined: false, bookmarked: true)[Cyclops <foe.cyclops>]]
+
+#item-title[Legend]
+
+#item-title[Random Encounter: Title A]
+
+#item-title[Random Encounter: Title B]
+
+#heading(level: 4, bookmarked: false, outlined: false)[Cyclops]
 
 #cairn-stat-block(load-stat("cyclops"))
 
-#item-title[=== Nekker <foe.nekker>]
+#note[
+  #note-title[Scavenging]
+]
+
+#pagebreak(weak: true)
+
+#large-title[#heading(level: 2, outlined: false, bookmarked: true)[Nekker <foe.nekker>]]
+
+#item-title[Legend]
+
+#item-title[Random Encounter: Title A]
+
+#item-title[Random Encounter: Title B]
+
+#heading(level: 4, bookmarked: false, outlined: false)[Nekker]
 
 #cairn-stat-block(load-stat("nekker"))
 
-#item-title[=== Ogre <foe.ogre>]
+#note[
+  #note-title[Scavenging]
+]
+
+#pagebreak(weak: true)
+
+#large-title[#heading(level: 2, outlined: false, bookmarked: true)[Ogre <foe.ogre>]]
+
+#item-title[Legend]
+
+#item-title[Random Encounter: Title A]
+
+#item-title[Random Encounter: Title B]
+
+#heading(level: 4, bookmarked: false, outlined: false)[Ogre]
 
 #cairn-stat-block(load-stat("ogre"))
 
-#item-title[=== Troll, Rock <foe.troll-rock>]
+#note[
+  #note-title[Scavenging]
+]
+
+#pagebreak(weak: true)
+
+#large-title[#heading(
+    level: 2,
+    outlined: false,
+    bookmarked: true,
+  )[Rock Troll <foe.troll-rock>]]
+
+#item-title[Legend]
+
+#item-title[Random Encounter: Title A]
+
+#item-title[Random Encounter: Title B]
+
+#heading(level: 4, bookmarked: false, outlined: false)[Rock Troll]
 
 #cairn-stat-block(load-stat("troll-rock"))
 
-#item-title[=== Vodnik <foe.vodnik>]
+#note[
+  #note-title[Scavenging]
+]
+
+#pagebreak(weak: true)
+
+#large-title[#heading(level: 2, outlined: false, bookmarked: true)[Vodnik <foe.vodnik>]]
+
+#item-title[Legend]
+
+#item-title[Random Encounter: Title A]
+
+#item-title[Random Encounter: Title B]
+
+#heading(level: 4, bookmarked: false, outlined: false)[Vodnik]
 
 #cairn-stat-block(load-stat("vodnik"))
 
-#large-title[== Relicts]
+#note[
+  #note-title[Scavenging]
+]
 
-#item-title[=== Chort <foe.chort>]
+#pagebreak(weak: true)
+
+#large-title[#heading(level: 2, outlined: false, bookmarked: true)[Chort <foe.chort>]]
+
+#item-title[Legend]
+
+#item-title[Random Encounter: Title A]
+
+#item-title[Random Encounter: Title B]
+
+#heading(level: 4, bookmarked: false, outlined: false)[Chort]
 
 #cairn-stat-block(load-stat("chort"))
 
-#item-title[=== Doppler <foe.doppler>]
+#note[
+  #note-title[Scavenging]
+]
+
+#pagebreak(weak: true)
+
+#large-title[#heading(level: 2, outlined: false, bookmarked: true)[Doppler <foe.doppler>]]
+
+#item-title[Legend]
+
+#item-title[Random Encounter: Title A]
+
+#item-title[Random Encounter: Title B]
+
+#heading(level: 4, bookmarked: false, outlined: false)[Doppler]
 
 #cairn-stat-block(load-stat("doppler"))
 
-#item-title[=== Dryad <foe.dryad>]
+#note[
+  #note-title[Scavenging]
+]
+
+#pagebreak(weak: true)
+
+#large-title[#heading(level: 2, outlined: false, bookmarked: true)[Dryad <foe.dryad>]]
+
+#item-title[Legend]
+
+#item-title[Random Encounter: Title A]
+
+#item-title[Random Encounter: Title B]
+
+#heading(level: 4, bookmarked: false, outlined: false)[Dryad]
 
 #cairn-stat-block(load-stat("dryad"))
 
-#item-title[=== Fiend <foe.fiend>]
+#note[
+  #note-title[Scavenging]
+]
+
+#pagebreak(weak: true)
+
+#large-title[#heading(level: 2, outlined: false, bookmarked: true)[Fiend <foe.fiend>]]
+
+#item-title[Legend]
+
+#item-title[Random Encounter: Title A]
+
+#item-title[Random Encounter: Title B]
+
+#heading(level: 4, bookmarked: false, outlined: false)[Fiend]
 
 #cairn-stat-block(load-stat("fiend"))
 
-#item-title[=== Leshen <foe.leshen>]
+#note[
+  #note-title[Scavenging]
+]
+
+#pagebreak(weak: true)
+
+#large-title[#heading(level: 2, outlined: false, bookmarked: true)[Leshen <foe.leshen>]]
+
+#item-title[Legend]
+
+#item-title[Random Encounter: Title A]
+
+#item-title[Random Encounter: Title B]
+
+#heading(level: 4, bookmarked: false, outlined: false)[Leshen]
 
 #cairn-stat-block(load-stat("leshen"))
 
-#item-title[=== Nereid <foe.nereid>]
+#note[
+  #note-title[Scavenging]
+]
+
+#pagebreak(weak: true)
+
+#large-title[#heading(level: 2, outlined: false, bookmarked: true)[Nereid <foe.nereid>]]
+
+#item-title[Legend]
+
+#item-title[Random Encounter: Title A]
+
+#item-title[Random Encounter: Title B]
+
+#heading(level: 4, bookmarked: false, outlined: false)[Nereid]
 
 #cairn-stat-block(load-stat("nereid"))
 
-#item-title[=== Rusalki <foe.rusalki>]
+#note[
+  #note-title[Scavenging]
+]
+
+#pagebreak(weak: true)
+
+#large-title[#heading(level: 2, outlined: false, bookmarked: true)[Rusalki <foe.rusalki>]]
+
+#item-title[Legend]
+
+#item-title[Random Encounter: Title A]
+
+#item-title[Random Encounter: Title B]
+
+#heading(level: 4, bookmarked: false, outlined: false)[Rusalki]
 
 #cairn-stat-block(load-stat("rusalki"))
 
-#item-title[=== Shaelmaar <foe.shaelmaar>]
+#note[
+  #note-title[Scavenging]
+]
+
+#pagebreak(weak: true)
+
+#large-title[#heading(level: 2, outlined: false, bookmarked: true)[Shaelmaar <foe.shaelmaar>]]
+
+#item-title[Legend]
+
+#item-title[Random Encounter: Title A]
+
+#item-title[Random Encounter: Title B]
+
+#heading(level: 4, bookmarked: false, outlined: false)[Shaelmaar]
 
 #cairn-stat-block(load-stat("shaelmaar"))
 
-#item-title[=== Sylvan <foe.sylvan>]
+#note[
+  #note-title[Scavenging]
+]
+
+#pagebreak(weak: true)
+
+#large-title[#heading(level: 2, outlined: false, bookmarked: true)[Sylvan <foe.sylvan>]]
+
+#item-title[Legend]
+
+#item-title[Random Encounter: Title A]
+
+#item-title[Random Encounter: Title B]
+
+#heading(level: 4, bookmarked: false, outlined: false)[Sylvan]
 
 #cairn-stat-block(load-stat("sylvan"))
 
-#large-title[== Specters]
+#note[
+  #note-title[Scavenging]
+]
 
-#item-title[=== Barghest <foe.barghest>]
+#pagebreak(weak: true)
+
+#large-title[#heading(level: 2, outlined: false, bookmarked: true)[Barghest <foe.barghest>]]
+
+#item-title[Legend]
+
+#item-title[Random Encounter: Title A]
+
+#item-title[Random Encounter: Title B]
+
+#heading(level: 4, bookmarked: false, outlined: false)[Barghest]
 
 #cairn-stat-block(load-stat("barghest"))
 
-#item-title[=== Draug <foe.draug>]
+#note[
+  #note-title[Scavenging]
+]
+
+#pagebreak(weak: true)
+
+#large-title[#heading(level: 2, outlined: false, bookmarked: true)[Draug <foe.draug>]]
+
+#item-title[Legend]
+
+#item-title[Random Encounter: Title A]
+
+#item-title[Random Encounter: Title B]
+
+#heading(level: 4, bookmarked: false, outlined: false)[Draug]
 
 #cairn-stat-block(load-stat("draug"))
 
-#item-title[=== Draugir <foe.draugir>]
+#note[
+  #note-title[Scavenging]
+]
+
+#pagebreak(weak: true)
+
+#large-title[#heading(level: 2, outlined: false, bookmarked: true)[Draugir <foe.draugir>]]
+
+#item-title[Legend]
+
+#item-title[Random Encounter: Title A]
+
+#item-title[Random Encounter: Title B]
+
+#heading(level: 4, bookmarked: false, outlined: false)[Draugir]
 
 #cairn-stat-block(load-stat("draugir"))
 
-#item-title[=== Noonwraith <foe.noonwraith>]
+#note[
+  #note-title[Scavenging]
+]
+
+#pagebreak(weak: true)
+
+#large-title[#heading(
+    level: 2,
+    outlined: false,
+    bookmarked: true,
+  )[Noonwraith <foe.noonwraith>]]
+
+#item-title[Legend]
+
+#item-title[Random Encounter: Title A]
+
+#item-title[Random Encounter: Title B]
+
+#heading(level: 4, bookmarked: false, outlined: false)[Noonwraith]
 
 #cairn-stat-block(load-stat("noonwraith"))
 
-#item-title[=== Pesta <foe.pesta>]
+#note[
+  #note-title[Scavenging]
+]
+
+#pagebreak(weak: true)
+
+#large-title[#heading(level: 2, outlined: false, bookmarked: true)[Pesta <foe.pesta>]]
+
+#item-title[Legend]
+
+#item-title[Random Encounter: Title A]
+
+#item-title[Random Encounter: Title B]
+
+#heading(level: 4, bookmarked: false, outlined: false)[Pesta]
 
 #cairn-stat-block(load-stat("pesta"))
 
-#item-title[=== Wraith <foe.wraith>]
+#note[
+  #note-title[Scavenging]
+]
+
+#pagebreak(weak: true)
+
+#large-title[#heading(level: 2, outlined: false, bookmarked: true)[Wraith <foe.wraith>]]
+
+#item-title[Legend]
+
+#item-title[Random Encounter: Title A]
+
+#item-title[Random Encounter: Title B]
+
+#heading(level: 4, bookmarked: false, outlined: false)[Wraith]
 
 #cairn-stat-block(load-stat("wraith"))
 
-#large-title[== Vampires]
+#note[
+  #note-title[Scavenging]
+]
 
-#item-title[=== Alp <foe.alp>]
+#pagebreak(weak: true)
+
+#large-title[#heading(level: 2, outlined: false, bookmarked: true)[Alp <foe.alp>]]
+
+#item-title[Legend]
+
+#item-title[Random Encounter: Title A]
+
+#item-title[Random Encounter: Title B]
+
+#heading(level: 4, bookmarked: false, outlined: false)[Alp]
 
 #cairn-stat-block(load-stat("alp"))
 
-#item-title[=== Fleder <foe.fleder>]
+#note[
+  #note-title[Scavenging]
+]
+
+#pagebreak(weak: true)
+
+#large-title[#heading(level: 2, outlined: false, bookmarked: true)[Fleder <foe.fleder>]]
+
+#item-title[Legend]
+
+#item-title[Random Encounter: Title A]
+
+#item-title[Random Encounter: Title B]
+
+#heading(level: 4, bookmarked: false, outlined: false)[Fleder]
 
 #cairn-stat-block(load-stat("fleder"))
 
-#item-title[=== Higher Vampire <foe.higher-vampire>]
+#note[
+  #note-title[Scavenging]
+]
+
+#pagebreak(weak: true)
+
+#large-title[#heading(
+    level: 2,
+    outlined: false,
+    bookmarked: true,
+  )[Higher Vampire <foe.higher-vampire>]]
+
+#item-title[Legend]
+
+#item-title[Random Encounter: Title A]
+
+#item-title[Random Encounter: Title B]
+
+#heading(level: 4, bookmarked: false, outlined: false)[Higher Vampire]
 
 #cairn-stat-block(load-stat("higher-vampire"))
 
-#item-title[=== Katakan <foe.katakan>]
+#note[
+  #note-title[Scavenging]
+]
+
+#pagebreak(weak: true)
+
+#large-title[#heading(level: 2, outlined: false, bookmarked: true)[Katakan <foe.katakan>]]
+
+#item-title[Legend]
+
+#item-title[Random Encounter: Title A]
+
+#item-title[Random Encounter: Title B]
+
+#heading(level: 4, bookmarked: false, outlined: false)[Katakan]
 
 #cairn-stat-block(load-stat("katakan"))
 
-#large-title[== The Hunt]
+#note[
+  #note-title[Scavenging]
+]
 
-#item-title[=== Hound of the Hunt <foe.hunt-hound>]
+#pagebreak(weak: true)
+
+#large-title[#heading(
+    level: 2,
+    outlined: false,
+    bookmarked: true,
+  )[Hound of the Hunt <foe.hunt-hound>]]
+
+#item-title[Legend]
+
+#item-title[Random Encounter: Title A]
+
+#item-title[Random Encounter: Title B]
+
+#heading(level: 4, bookmarked: false, outlined: false)[Hound of the Hunt]
 
 #cairn-stat-block(load-stat("hunt-hound"))
 
-#item-title[=== Rider of the Hunt <foe.hunt-rider>]
+#note[
+  #note-title[Scavenging]
+]
+
+#pagebreak(weak: true)
+
+#large-title[#heading(
+    level: 2,
+    outlined: false,
+    bookmarked: true,
+  )[Rider of the Hunt <foe.hunt-rider>]]
+
+#item-title[Legend]
+
+#item-title[Random Encounter: Title A]
+
+#item-title[Random Encounter: Title B]
+
+#heading(level: 4, bookmarked: false, outlined: false)[Rider of the Hunt]
 
 #cairn-stat-block(load-stat("hunt-rider"))
 
-#item-title[=== Steed of the Hunt <foe.hunt-steed>]
+#note[
+  #note-title[Scavenging]
+]
+
+#pagebreak(weak: true)
+
+#large-title[#heading(
+    level: 2,
+    outlined: false,
+    bookmarked: true,
+  )[Steed of the Hunt <foe.hunt-steed>]]
+
+#item-title[Legend]
+
+#item-title[Random Encounter: Title A]
+
+#item-title[Random Encounter: Title B]
+
+#heading(level: 4, bookmarked: false, outlined: false)[Steed of the Hunt]
 
 #cairn-stat-block(load-stat("hunt-steed"))
+
+#note[
+  #note-title[Scavenging]
+]
+
+#pagebreak(weak: true)
