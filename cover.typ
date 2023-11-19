@@ -1,8 +1,10 @@
 #import "/lib.typ": *
 
 #let bg-color = highlight-color-base.desaturate(50%).darken(90%);
-#let stroke-color = bg-color.lighten(15%)
-#let griffin = read("images/griffin.svg").replace("#000000", bg-color.lighten(5%).to-hex())
+#let stroke-color = highlight-color-base
+#let stroke-dark = bg-color.lighten(5%)
+#let ouroboros-raw = read("images/ouroboros.svg")
+#let ouroboros = ouroboros-raw.replace("#000000", highlight-color-base.to-hex())
 
 #set page(
   paper: paper,
@@ -10,7 +12,7 @@
   numbering: none,
   fill: bg-color,
   background: [
-    #image.decode(griffin)
+    #image.decode(width: 50%, ouroboros)
   ],
 )
 
@@ -36,7 +38,11 @@
     )
   ])
 
-  #heading(level: 1, outlined: false, bookmarked: true)[#title]
+  #place(
+    bottom + center,
+    dy: -10%,
+    heading(level: 1, outlined: false, bookmarked: true)[#title],
+  )
 
   #set text(font: primary-font, size: 10pt)
   #if config.wip [#wip-banner]

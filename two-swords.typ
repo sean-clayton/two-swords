@@ -30,6 +30,12 @@
   #set align(center + horizon)
   #set text(font: display-font, size: 8pt)
 
+  #let ouroboros = cover.ouroboros-raw.replace("#000000", heading-color.to-hex())
+
+  #box[#image.decode(width: 50%, ouroboros)]
+
+  #v(8em)
+
   #stack(
     spacing: 16pt,
     text(fill: heading-color, size: 32pt, font: title-font)[#title],

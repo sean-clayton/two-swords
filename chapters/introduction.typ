@@ -18,7 +18,7 @@ feeling of a gray and unfair world.
 #large-title[== What's Inside?]
 
 - New character options.
-- An assumed setting of Gresha.
+- The setting of Gresha.
 - New magic rules.
 - More spells, rituals, and hexes.
 - Crafting and alchemy procedures.

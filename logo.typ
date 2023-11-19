@@ -1,8 +1,10 @@
 #import "/lib.typ": *
-#import "/cover.typ": bg-color, stroke-color, griffin
+#import "/cover.typ": bg-color, stroke-color, ouroboros-raw, stroke-dark
+
+#let ouroboros = ouroboros-raw.replace("#000000", stroke-dark.to-hex())
 
 #set page(width: 126mm, height: 100mm, margin: 0pt, fill: bg-color, background: [
-  #place(top + center, dy: -21%, image.decode(griffin, height: 144%))
+  #place(horizon + center, image.decode(ouroboros, height: 80%))
 ])
 #set text(fill: highlight-color-base)
 
