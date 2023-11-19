@@ -13,45 +13,45 @@ Here are 20 more backgrounds for new characters.
   [*1*],
   [#ts-link(<background.alchemist>)[Alchemist]],
   [*2*],
-  [#ts-link(<background.druid>)[Druid]],
+  [#ts-link(<background.curator>)[Curator]],
   [*3*],
-  [#ts-link(<background.gravetender>)[Gravetender]],
+  [#ts-link(<background.deserter>)[Deserter]],
   [*4*],
-  [#ts-link(<background.herbalist>)[Herbalist]],
+  [#ts-link(<background.druid>)[Druid]],
   [*5*],
-  [#ts-link(<background.hexer>)[Hexer]],
+  [#ts-link(<background.gravetender>)[Gravetender]],
   [*6*],
-  [#ts-link(<background.magicker>)[Magicker]],
+  [#ts-link(<background.herbalist>)[Herbalist]],
   [*7*],
-  [#ts-link(<background.man-at-arms>)[Man at Arms]],
+  [#ts-link(<background.hexer>)[Hexer]],
   [*8*],
-  [#ts-link(<background.merchant>)[Merchant]],
+  [#ts-link(<background.hunter>)[Hunter]],
   [*9*],
-  [#ts-link(<background.minstrel>)[Minstrel]],
+  [#ts-link(<background.magicker>)[Magicker]],
   [*10*],
-  [#ts-link(<background.occultist>)[Occultist]],
+  [#ts-link(<background.merchant>)[Merchant]],
 ), table(
   columns: (auto, 1fr),
   [*d20*],
   [*Background*],
   [*11*],
-  [#ts-link(<background.pellar>)[Pellar]],
+  [#ts-link(<background.minstrel>)[Minstrel]],
   [*12*],
-  [#ts-link(<background.ranger>)[Ranger]],
+  [#ts-link(<background.occultist>)[Occultist]],
   [*13*],
-  [#ts-link(<background.seeker>)[Seeker]],
+  [#ts-link(<background.pellar>)[Pellar]],
   [*14*],
-  [#ts-link(<background.smith>)[Smith]],
+  [#ts-link(<background.ranger>)[Ranger]],
   [*15*],
-  [#ts-link(<background.street-ruffian>)[Street Ruffian]],
+  [#ts-link(<background.ruffian>)[Ruffian]],
   [*16*],
-  [#ts-link(<background.thief>)[Thief]],
+  [#ts-link(<background.seeker>)[Seeker]],
   [*17*],
-  [#ts-link(<background.torchbearer>)[Torchbearer]],
+  [#ts-link(<background.smith>)[Smith]],
   [*18*],
-  [#ts-link(<background.vault-keeper>)[Vault Keeper]],
+  [#ts-link(<background.thief>)[Thief]],
   [*19*],
-  [#ts-link(<background.village-hunter>)[Village Hunter]],
+  [#ts-link(<background.torchbearer>)[Torchbearer]],
   [*20*],
   [#ts-link(<background.zealot>)[Zealot]],
 ))
@@ -59,6 +59,18 @@ Here are 20 more backgrounds for new characters.
 #pagebreak(weak: true)
 
 #large-title[== Alchemist <background.alchemist>]
+
+#item-title[=== Starting Gear]
+
+#pagebreak(weak: true)
+
+#large-title[== Curator <background.curator>]
+
+#item-title[=== Starting Gear]
+
+#pagebreak(weak: true)
+
+#large-title[== Deserter <background.deserter>]
 
 #item-title[=== Starting Gear]
 
@@ -122,13 +134,13 @@ lay in their final resting places.
 
 #pagebreak(weak: true)
 
-#large-title[== Magicker <background.magicker>]
+#large-title[== Hunter <background.hunter>]
 
 #item-title[=== Starting Gear]
 
 #pagebreak(weak: true)
 
-#large-title[== Man at Arms <background.man-at-arms>]
+#large-title[== Magicker <background.magicker>]
 
 #item-title[=== Starting Gear]
 
@@ -164,6 +176,12 @@ lay in their final resting places.
 
 #pagebreak(weak: true)
 
+#large-title[== Ruffian <background.ruffian>]
+
+#item-title[=== Starting Gear]
+
+#pagebreak(weak: true)
+
 #large-title[== Seeker <background.seeker>]
 
 #item-title[=== Starting Gear]
@@ -176,12 +194,6 @@ lay in their final resting places.
 
 #pagebreak(weak: true)
 
-#large-title[== Street Ruffian <background.street-ruffian>]
-
-#item-title[=== Starting Gear]
-
-#pagebreak(weak: true)
-
 #large-title[== Thief <background.thief>]
 
 #item-title[=== Starting Gear]
@@ -189,18 +201,6 @@ lay in their final resting places.
 #pagebreak(weak: true)
 
 #large-title[== Torchbearer <background.torchbearer>]
-
-#item-title[=== Starting Gear]
-
-#pagebreak(weak: true)
-
-#large-title[== Vault Keeper <background.vault-keeper>]
-
-#item-title[=== Starting Gear]
-
-#pagebreak(weak: true)
-
-#large-title[== Village Hunter <background.village-hunter>]
 
 #item-title[=== Starting Gear]
 

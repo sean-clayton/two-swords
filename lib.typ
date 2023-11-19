@@ -203,7 +203,10 @@
 
     block(breakable: false)[
       #link(it.element.location())[
-        #grid(columns: (1em + 10pt, 1fr), it.page, upper(it.body))
+        #grid(columns: (1em + 10pt, 1fr), it.page, [
+          #set align(bottom)
+          #text-scale(85%, upper(it.body))
+        ])
       ]
       #v(4pt, weak: true)
       #line(length: 100%, stroke: stroke-width + heading-color)

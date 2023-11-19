@@ -102,11 +102,11 @@
 
 #pagebreak(weak: true)
 
-#chapter-foes
+#chapter-gresha
 
 #pagebreak(weak: true)
 
-#chapter-gresha
+#chapter-foes
 
 #set page(footer: [])
 
