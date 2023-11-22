@@ -70,7 +70,7 @@
       ]
 
       #if is-nightly [
-        This is a nightly version of #title that will likely contain pre-released
+        This is a *nightly* version of #title that will likely contain pre-released
         changes. \
         These changes may not be properly tested or are otherwise in an unfinished
         state.
