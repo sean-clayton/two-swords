@@ -22,9 +22,6 @@ jobs:
         with:
           length: 8
 
-      - name: Set BUILD_TIME
-        run: echo "BUILD_TIME=$(date +"%Y%m%d-%H%M%S")" >> "$GITHUB_ENV"
-
       - name: Modify metadata
         id: sub_manifest_link_version
         uses: cschleiden/replace-tokens@v1
@@ -40,7 +37,7 @@ jobs:
       - name: Build PDF
         run: typst compile --font-path fonts two-swords.typ dist/TwoSwords-${{ env.FILE_VERSION }}.pdf
         env:
-          FILE_VERSION: ${{ steps.get_version.outputs.version == 'main' && env.BUILD_TIME || steps.get_version.outputs.version-without-v }}
+          FILE_VERSION: ${{ steps.get_version.outputs.version == 'main' && "NIGHTLY" || steps.get_version.outputs.version-without-v }}
 
       - uses: actions/upload-artifact@v3
         with:
