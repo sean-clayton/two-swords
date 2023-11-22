@@ -28,7 +28,7 @@ jobs:
         with:
           files: "metadata.toml"
         env:
-          VERSION: ${{ steps.get_version.outputs.version }}
+          VERSION: ${{ steps.get_version.outputs.version == 'main' && '' || steps.get_version.outputs.version-without-v }}
           VERSION_URL: https://github.com/sean-clayton/two-swords/tree/${{ github.sha }}
           GITHUB_SHA: ${{ steps.short-sha.outputs.sha }}
 
