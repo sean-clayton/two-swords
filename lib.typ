@@ -5,6 +5,10 @@
 
 #let config = metadata.config
 
+#let is-nightly = config.version == "NIGHTLY"
+
+#let is-wip = config.wip
+
 #let version = {
   if config.version == "#{VERSION}#" or config.commit_sha == "#{COMMIT_SHA}#" {
     "DEV"

@@ -64,7 +64,12 @@
         )
       ]
 
-      #text[
+      #if is-nightly [
+        This is a *nightly* version of #title. This will likely contain pre-released
+        changes that do not reflect a "working" version of #title.
+      ]
+
+      #if is-wip [
         #title is currently under heavy development. Any aspect of this book may change
         during this process.
       ]
