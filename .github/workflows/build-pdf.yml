@@ -40,7 +40,7 @@ jobs:
       - name: Build PDF
         run: typst compile --font-path fonts two-swords.typ dist/TwoSwords-${{ env.FILE_VERSION }}.pdf
         env:
-          FILE_VERSION: ${{ contains(github.ref, "release") && steps.get_version.outputs.version-without-v || env.BUILD_TIME }}
+          FILE_VERSION: ${{ steps.get_version.outputs.version == 'main' && env.BUILD_TIME || steps.get_version.outputs.version-without-v }}
 
       - uses: actions/upload-artifact@v3
         with:
