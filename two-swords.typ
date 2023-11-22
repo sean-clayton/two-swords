@@ -58,7 +58,7 @@
           spacing: 4pt,
           title,
           sym.lozenge.stroked,
-          version,
+          ts-link(version_url)[#version],
           sym.lozenge.stroked,
           datetime.today().display(),
         )

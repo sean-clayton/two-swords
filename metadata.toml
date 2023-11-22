@@ -9,4 +9,5 @@ author = "Sean-Patrick Ortencio Clayton"
 theme = "#{THEME}#" # This is modified by CI/CD
 media = "#{MEDIA}#" # This is modified by CI/CD
 version = "#{VERSION}#" # This is modified by CI/CD
+version_url = "#{VERSION_URL}#" # This is modified by CI/CD
 wip = true
