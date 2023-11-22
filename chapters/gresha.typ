@@ -248,7 +248,7 @@ others.
 
 #item-title[=== The Gloomfen]
 
-#item-title[=== Ursheym Wood] <ursheym-wood>
+#item-title[=== Ursheym Wood <ursheym-wood>]
 
 Patrolling the wood are *Ursheym Golems*---built by one of the
 #ts-link(<giants-of-ursheym-wood>)[giants that live here] that wishes to protect
@@ -267,7 +267,7 @@ Each one also adorns a unique flower in its 'hair.'
 
 #large-title[== Characters to Place in Gresha]
 
-#item-title[=== The Giants of Ursheym Wood] <giants-of-ursheym-wood>
+#item-title[=== The Giants of Ursheym Wood <giants-of-ursheym-wood>]
 
 #note[
   #note-title[These Giants are Real]
