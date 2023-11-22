@@ -9,7 +9,7 @@
   if config.version == "#{VERSION}#" or config.git_sha == "#{GITHUB_SHA}#" {
     "DEV"
   } else {
-    if config.version == "" {
+    if config.version == "NIGHTLY" {
       config.git_sha
     } else {
       config.version
