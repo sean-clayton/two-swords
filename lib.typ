@@ -13,6 +13,7 @@
 #let heading-color = highlight-color-base.saturate(-5%).mix((black, 33%), space: oklab)
 #let table-heading-color = black
 #let note-color = highlight-color-base.desaturate(10%).mix((white, 200%), space: oklab)
+#let dark-note-color = yellow.mix((black, 66%), space: oklab)
 #let paper-color = white
 #let text-color = black
 
