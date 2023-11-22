@@ -86,17 +86,23 @@
 }
 
 #let large-title(content) = {
-  show par: set text(font: display-font, size: 14pt, weight: 700, fill: heading-color)
-  show heading: set text(font: display-font, size: 14pt, weight: 700, fill: heading-color)
   set align(center)
-  upper(content)
+  block(
+    width: 100%,
+    inset: (y: 1em),
+  )[
+    #set text(font: display-font, size: 14pt, weight: 700, fill: heading-color)
+    #upper(content)
+  ]
 }
 
 #let item-title(content) = {
-  show par: set text(font: display-font, size: 11pt, weight: 700, tracking: -0.25pt)
-  show heading: set text(font: display-font, size: 11pt, weight: 700, tracking: -0.25pt)
-
-  box(inset: 4pt, fill: highlight-color, width: 100%)[
+  box(
+    inset: 4pt,
+    fill: highlight-color,
+    width: 100%,
+  )[
+    #set text(font: display-font, size: 11pt, weight: 700, tracking: -0.25pt)
     #set align(center)
     #content
   ]
