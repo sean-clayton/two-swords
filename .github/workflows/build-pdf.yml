@@ -17,12 +17,6 @@ jobs:
         with:
           version: latest
 
-      - name: Gets latest created release info
-        id: latest_release_info
-        uses: jossef/action-latest-release-info@v1.2.1
-        env:
-          GITHUB_TOKEN: ${{ github.token }}
-
       - name: Modify metadata
         id: sub_manifest_link_version
         uses: cschleiden/replace-tokens@v1
@@ -30,7 +24,7 @@ jobs:
           files: "metadata.toml"
         env:
           VERSION: ${{ steps.get_version.outputs.version }}
-          VERSION_URL: ${{ steps.latest_release_info.outputs.html_url }}
+          VERSION_URL: https://github.com/sean-clayton/two-swords/tree/${{ github.sha }}
 
       - run: mkdir dist
 
