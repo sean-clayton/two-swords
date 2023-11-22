@@ -64,14 +64,16 @@
         )
       ]
 
-      #if is-nightly [
-        This is a *nightly* version of #title. This will likely contain pre-released
-        changes that do not reflect a "working" version of #title.
-      ]
-
       #if is-wip [
         #title is currently under heavy development. Any aspect of this book may change
         during this process.
+      ]
+
+      #if not is-nightly [
+        This is a nightly version of #title that will likely contain pre-released
+        changes. \
+        These changes may not be properly tested or are otherwise in an unfinished
+        state.
       ]
     ]
   ]
