@@ -1,0 +1,18 @@
+name: Nightly Build
+
+on: workflow_dispatch
+
+jobs:
+  nightly-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Modify metadata
+        id: sub_manifest_link_version
+        uses: cschleiden/replace-tokens@v1
+        with:
+          files: "metadata.toml"
+        env:
+          VERSION: ${{ steps.get_version.outputs.version }}
+          VERSION_URL: https://github.com/sean-clayton/two-swords/tree/${{ github.sha }}
+          GITHUB_SHA: ${{ github.sha }}
