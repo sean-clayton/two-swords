@@ -6,11 +6,11 @@
 #let config = metadata.config
 
 #let version = {
-  if config.version == "#{VERSION}#" or config.git_sha == "#{GITHUB_SHA}#" {
+  if config.version == "#{VERSION}#" or config.commit_sha == "#{COMMIT_SHA}#" {
     "DEV"
   } else {
     if config.version == "NIGHTLY" {
-      config.git_sha
+      config.commit_sha
     } else {
       config.version
     }
