@@ -69,7 +69,7 @@
         during this process.
       ]
 
-      #if not is-nightly [
+      #if is-nightly [
         This is a nightly version of #title that will likely contain pre-released
         changes. \
         These changes may not be properly tested or are otherwise in an unfinished
