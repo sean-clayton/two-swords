@@ -16,3 +16,4 @@ jobs:
           VERSION: ${{ steps.get_version.outputs.version }}
           VERSION_URL: https://github.com/sean-clayton/two-swords/tree/${{ github.sha }}
           GITHUB_SHA: ${{ github.sha }}
+      - run: cat metadata.yoml
