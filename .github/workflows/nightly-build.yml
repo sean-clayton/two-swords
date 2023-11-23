@@ -14,17 +14,22 @@ jobs:
     runs-on: ubuntu-latest
     needs: get-pdf-artifacts
     steps:
-      - uses: actions/checkout@v3
-
       - uses: actions/download-artifact@v3
         with:
           name: pdf-artifact
           path: dist
 
-      - uses: pyTooling/Actions/releaser@r0
+      - name: Update nightly release
+        uses: andelf/nightly-release@main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          tag_name: nightly
+          prerelease: true
+          name: "Two Swords Nightly Build $$"
+          body: |
+            This is a **nightly** version of Two Swords that will likely contain pre-released changes.
+
+            These changes may not be properly tested or are otherwise in an unfinished state
           files: |
             dist/*.pdf
-          tag: nightly
-          rm: true
