@@ -60,25 +60,25 @@ Here are 20 more backgrounds for new characters.
 
 #large-title[== Alchemist <background.alchemist>]
 
-#item-title[=== Starting Gear]
+#item-title[Starting Gear]
 
 #pagebreak(weak: true)
 
 #large-title[== Curator <background.curator>]
 
-#item-title[=== Starting Gear]
+#item-title[Starting Gear]
 
 #pagebreak(weak: true)
 
 #large-title[== Deserter <background.deserter>]
 
-#item-title[=== Starting Gear]
+#item-title[Starting Gear]
 
 #pagebreak(weak: true)
 
 #large-title[== Druid <background.druid>]
 
-#item-title[=== Starting Gear]
+#item-title[Starting Gear]
 
 #pagebreak(weak: true)
 
@@ -88,7 +88,7 @@ Here are 20 more backgrounds for new characters.
 that seek fresh corpses, like ghouls and grave hags, stay away from those that
 lay in their final resting places.
 
-#item-title[=== Starting Gear]
+#item-title[Starting Gear]
 - Lantern
 - Lantern oil (6 uses)
 - Arming Sword (d8)
@@ -124,89 +124,89 @@ lay in their final resting places.
 
 #large-title[== Herbalist <background.herbalist>]
 
-#item-title[=== Starting Gear]
+#item-title[Starting Gear]
 
 #pagebreak(weak: true)
 
 #large-title[== Hexer <background.hexer>]
 
-#item-title[=== Starting Gear]
+#item-title[Starting Gear]
 
 #pagebreak(weak: true)
 
 #large-title[== Hunter <background.hunter>]
 
-#item-title[=== Starting Gear]
+#item-title[Starting Gear]
 
 #pagebreak(weak: true)
 
 #large-title[== Magicker <background.magicker>]
 
-#item-title[=== Starting Gear]
+#item-title[Starting Gear]
 
 #pagebreak(weak: true)
 
 #large-title[== Merchant <background.merchant>]
 
-#item-title[=== Starting Gear]
+#item-title[Starting Gear]
 
 #pagebreak(weak: true)
 
 #large-title[== Minstrel <background.minstrel>]
 
-#item-title[=== Starting Gear]
+#item-title[Starting Gear]
 
 #pagebreak(weak: true)
 
 #large-title[== Occultist <background.occultist>]
 
-#item-title[=== Starting Gear]
+#item-title[Starting Gear]
 
 #pagebreak(weak: true)
 
 #large-title[== Pellar <background.pellar>]
 
-#item-title[=== Starting Gear]
+#item-title[Starting Gear]
 
 #pagebreak(weak: true)
 
 #large-title[== Ranger <background.ranger>]
 
-#item-title[=== Starting Gear]
+#item-title[Starting Gear]
 
 #pagebreak(weak: true)
 
 #large-title[== Ruffian <background.ruffian>]
 
-#item-title[=== Starting Gear]
+#item-title[Starting Gear]
 
 #pagebreak(weak: true)
 
 #large-title[== Seeker <background.seeker>]
 
-#item-title[=== Starting Gear]
+#item-title[Starting Gear]
 
 #pagebreak(weak: true)
 
 #large-title[== Smith <background.smith>]
 
-#item-title[=== Starting Gear]
+#item-title[Starting Gear]
 
 #pagebreak(weak: true)
 
 #large-title[== Thief <background.thief>]
 
-#item-title[=== Starting Gear]
+#item-title[Starting Gear]
 
 #pagebreak(weak: true)
 
 #large-title[== Torchbearer <background.torchbearer>]
 
-#item-title[=== Starting Gear]
+#item-title[Starting Gear]
 
 #pagebreak(weak: true)
 
 #large-title[== Zealot <background.zealot>]
 
-#item-title[=== Starting Gear]
+#item-title[Starting Gear]
 
