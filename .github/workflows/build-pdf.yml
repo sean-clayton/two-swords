@@ -7,6 +7,7 @@ jobs:
   add-artifacts:
     runs-on: ubuntu-latest
     steps:
+      - run: sudo apt install gs -y
       - uses: actions/checkout@v3
 
       - name: Get Version
@@ -34,10 +35,23 @@ jobs:
 
       - run: mkdir dist
 
+      - run: echo "FILE_VERSION=${{ steps.get_version.outputs.version == 'main' && 'NIGHTLY' || steps.get_version.outputs.version-without-v }}" >> "$GITHUB_ENV"
+
       - name: Build PDF
-        run: typst compile --font-path fonts two-swords.typ dist/TwoSwords-${{ env.FILE_VERSION }}.pdf
-        env:
-          FILE_VERSION: ${{ steps.get_version.outputs.version == 'main' && 'NIGHTLY' || steps.get_version.outputs.version-without-v }}
+        run: typst compile --font-path fonts two-swords.typ TwoSwords-OUT.pdf
+
+      - name: Optimize PDF
+        run: |-
+          gs \
+          -sDEVICE=pdfwrite \
+          -dPDFSETTINGS=/screen \
+          -sColorConversionStrategy=LeaveColorUnchanged \
+          -dCompatibilityLevel=1.7 \
+          -dNOPAUSE \
+          -dQUIET \
+          -dBATCH \
+          -sOutputFile=dist/TwoSwords-${{ env.FILE_VERSION }}.pdf \
+          TwoSwords-OUT.pdf
 
       - uses: actions/upload-artifact@v3
         with:
