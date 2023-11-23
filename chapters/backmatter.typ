@@ -36,11 +36,12 @@ in any form or by any means---electronic, mechanical, photocopying, recording,
 or otherwise---this publication without the prior express permission of the
 publisher will be a mighty good friend of mine.
 
-For those that believe that they need my permission, my content is available to
-you under the Creative Commons Attribution-ShareAlike 4.0 International
-(CC-BY-SA) license. This document was built with software that is open source
-that is available under the GNU Affero Public License (AGPL).
+For those that believe that they need my permission, this publication is
+available to you under the Creative Commons Attribution-ShareAlike 4.0
+International (CC-BY-SA) license. This publication was built with software that
+is open source that is available under the GNU Affero Public License (AGPL).
 
-If you are just wanting to copy from the content of this document, you only need
-to follow the CC-BY-SA license (COPYING-CC-BY-SA). If you are copying the
-software that created this document, you need to follow the AGPL (COPYING-AGPL).
+If you are just wanting to copy from the content of this publication, you only
+need to follow the CC-BY-SA license (COPYING-CC-BY-SA). If you are copying the
+software that created this publication, you need to follow the AGPL
+(COPYING-AGPL).
