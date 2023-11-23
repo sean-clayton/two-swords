@@ -182,7 +182,6 @@
 }
 
 #let ts-link(..args, it) = {
-  set text(weight: "bold")
   underline(link(..args, it))
 }
 

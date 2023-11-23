@@ -15,43 +15,43 @@ Here are 20 more backgrounds for new characters.
   [*2*],
   [#ts-link(<background.curator>)[Curator]],
   [*3*],
-  [#ts-link(<background.deserter>)[Deserter]],
+  [#ts-link(<background.cut-throat>)[Cut-Throat]],
   [*4*],
-  [#ts-link(<background.druid>)[Druid]],
+  [#ts-link(<background.deserter>)[Deserter]],
   [*5*],
-  [#ts-link(<background.gravetender>)[Gravetender]],
+  [#ts-link(<background.druid>)[Druid]],
   [*6*],
-  [#ts-link(<background.herbalist>)[Herbalist]],
+  [#ts-link(<background.gravetender>)[Gravetender]],
   [*7*],
-  [#ts-link(<background.hexer>)[Hexer]],
+  [#ts-link(<background.herbalist>)[Herbalist]],
   [*8*],
-  [#ts-link(<background.hunter>)[Hunter]],
+  [#ts-link(<background.hexer>)[Hexer]],
   [*9*],
-  [#ts-link(<background.magicker>)[Magicker]],
+  [#ts-link(<background.hunter>)[Hunter]],
   [*10*],
-  [#ts-link(<background.merchant>)[Merchant]],
+  [#ts-link(<background.magicker>)[Magicker]],
 ), table(
   columns: (auto, 1fr),
   [*d20*],
   [*Background*],
   [*11*],
-  [#ts-link(<background.minstrel>)[Minstrel]],
+  [#ts-link(<background.merchant>)[Merchant]],
   [*12*],
-  [#ts-link(<background.occultist>)[Occultist]],
+  [#ts-link(<background.minstrel>)[Minstrel]],
   [*13*],
-  [#ts-link(<background.pellar>)[Pellar]],
+  [#ts-link(<background.occultist>)[Occultist]],
   [*14*],
-  [#ts-link(<background.ranger>)[Ranger]],
+  [#ts-link(<background.pellar>)[Pellar]],
   [*15*],
-  [#ts-link(<background.ruffian>)[Ruffian]],
+  [#ts-link(<background.ranger>)[Ranger]],
   [*16*],
-  [#ts-link(<background.seeker>)[Seeker]],
+  [#ts-link(<background.ruffian>)[Ruffian]],
   [*17*],
-  [#ts-link(<background.smith>)[Smith]],
+  [#ts-link(<background.seeker>)[Seeker]],
   [*18*],
-  [#ts-link(<background.thief>)[Thief]],
+  [#ts-link(<background.smith>)[Smith]],
   [*19*],
-  [#ts-link(<background.torchbearer>)[Torchbearer]],
+  [#ts-link(<background.tomb-robber>)[Tomb Robber]],
   [*20*],
   [#ts-link(<background.zealot>)[Zealot]],
 ))
@@ -65,6 +65,12 @@ Here are 20 more backgrounds for new characters.
 #pagebreak(weak: true)
 
 #large-title[== Curator <background.curator>]
+
+#item-title[Starting Gear]
+
+#pagebreak(weak: true)
+
+#large-title[== Cut-Throat <background.cut-throat>]
 
 #item-title[Starting Gear]
 
@@ -119,6 +125,8 @@ lay in their final resting places.
   [A Crow-Shaped Amulet. You can ask a question of the dead, but must add a Fatigue
     each time.],
 )
+
+#item-title[Starting Gear]
 
 #pagebreak(weak: true)
 
@@ -194,13 +202,7 @@ lay in their final resting places.
 
 #pagebreak(weak: true)
 
-#large-title[== Thief <background.thief>]
-
-#item-title[Starting Gear]
-
-#pagebreak(weak: true)
-
-#large-title[== Torchbearer <background.torchbearer>]
+#large-title[== Tomb Robber <background.tomb-robber>]
 
 #item-title[Starting Gear]
 
