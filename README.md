@@ -1,6 +1,6 @@
 <img src="banner.png" width="100%">
 
-[![Deploy to Itch](https://github.com/sean-clayton/two-swords/actions/workflows/itch-deploy.yml/badge.svg?event=release)](https://github.com/sean-clayton/two-swords/actions/workflows/itch-deploy.yml)
+[![Deploy to Itch](https://github.com/sean-clayton/two-swords/actions/workflows/itch-deploy.yml/badge.svg?event=release)](https://github.com/sean-clayton/two-swords/actions/workflows/itch-deploy.yml) [![Nightly Build](https://github.com/sean-clayton/two-swords/actions/workflows/nightly-build.yml/badge.svg?event=schedule)](https://github.com/sean-clayton/two-swords/releases/tag/nightly)
 
 ---
 
