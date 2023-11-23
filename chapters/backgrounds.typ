@@ -1,5 +1,17 @@
 #import "/lib.typ": *
 
+#let names-section(content) = {
+  figure(
+    placement: bottom,
+    {
+      box(stroke: (y: 0.5pt), width: 100%, fill: highlight-color, inset: 0.5em, [
+        #set align(start)
+        #content
+      ])
+    },
+  )
+}
+
 #huge-title[= Backgrounds <backgrounds>]
 
 Here are 20 more backgrounds for new characters.
@@ -60,11 +72,15 @@ Here are 20 more backgrounds for new characters.
 
 #large-title[== Alchemist <background.alchemist>]
 
+#names-section[*Names:* Name1, Name2, Name3, Name4, Name5, Name6, Name7, Name8, Name9, Name10]
+
 #item-title[Starting Gear]
 
 #pagebreak(weak: true)
 
 #large-title[== Curator <background.curator>]
+
+#names-section[*Names:* Name1, Name2, Name3, Name4, Name5, Name6, Name7, Name8, Name9, Name10]
 
 #item-title[Starting Gear]
 
@@ -72,11 +88,15 @@ Here are 20 more backgrounds for new characters.
 
 #large-title[== Cut-Throat <background.cut-throat>]
 
+#names-section[*Names:* Name1, Name2, Name3, Name4, Name5, Name6, Name7, Name8, Name9, Name10]
+
 #item-title[Starting Gear]
 
 #pagebreak(weak: true)
 
 #large-title[== Deserter <background.deserter>]
+
+#names-section[*Names:* Name1, Name2, Name3, Name4, Name5, Name6, Name7, Name8, Name9, Name10]
 
 #item-title[Starting Gear]
 
@@ -84,11 +104,15 @@ Here are 20 more backgrounds for new characters.
 
 #large-title[== Druid <background.druid>]
 
+#names-section[*Names:* Name1, Name2, Name3, Name4, Name5, Name6, Name7, Name8, Name9, Name10]
+
 #item-title[Starting Gear]
 
 #pagebreak(weak: true)
 
 #large-title[== Gravetender <background.gravetender>]
+
+#names-section[*Names:* Name1, Name2, Name3, Name4, Name5, Name6, Name7, Name8, Name9, Name10]
 
 #lead[Death is only the beginning for some.] It's your job to make sure those
 that seek fresh corpses, like ghouls and grave hags, stay away from those that
@@ -132,11 +156,15 @@ lay in their final resting places.
 
 #large-title[== Herbalist <background.herbalist>]
 
+#names-section[*Names:* Name1, Name2, Name3, Name4, Name5, Name6, Name7, Name8, Name9, Name10]
+
 #item-title[Starting Gear]
 
 #pagebreak(weak: true)
 
 #large-title[== Hexer <background.hexer>]
+
+#names-section[*Names:* Name1, Name2, Name3, Name4, Name5, Name6, Name7, Name8, Name9, Name10]
 
 #item-title[Starting Gear]
 
@@ -144,11 +172,15 @@ lay in their final resting places.
 
 #large-title[== Hunter <background.hunter>]
 
+#names-section[*Names:* Name1, Name2, Name3, Name4, Name5, Name6, Name7, Name8, Name9, Name10]
+
 #item-title[Starting Gear]
 
 #pagebreak(weak: true)
 
 #large-title[== Magicker <background.magicker>]
+
+#names-section[*Names:* Name1, Name2, Name3, Name4, Name5, Name6, Name7, Name8, Name9, Name10]
 
 #item-title[Starting Gear]
 
@@ -156,11 +188,15 @@ lay in their final resting places.
 
 #large-title[== Merchant <background.merchant>]
 
+#names-section[*Names:* Name1, Name2, Name3, Name4, Name5, Name6, Name7, Name8, Name9, Name10]
+
 #item-title[Starting Gear]
 
 #pagebreak(weak: true)
 
 #large-title[== Minstrel <background.minstrel>]
+
+#names-section[*Names:* Name1, Name2, Name3, Name4, Name5, Name6, Name7, Name8, Name9, Name10]
 
 #item-title[Starting Gear]
 
@@ -168,11 +204,15 @@ lay in their final resting places.
 
 #large-title[== Occultist <background.occultist>]
 
+#names-section[*Names:* Name1, Name2, Name3, Name4, Name5, Name6, Name7, Name8, Name9, Name10]
+
 #item-title[Starting Gear]
 
 #pagebreak(weak: true)
 
 #large-title[== Pellar <background.pellar>]
+
+#names-section[*Names:* Name1, Name2, Name3, Name4, Name5, Name6, Name7, Name8, Name9, Name10]
 
 #item-title[Starting Gear]
 
@@ -180,11 +220,15 @@ lay in their final resting places.
 
 #large-title[== Ranger <background.ranger>]
 
+#names-section[*Names:* Name1, Name2, Name3, Name4, Name5, Name6, Name7, Name8, Name9, Name10]
+
 #item-title[Starting Gear]
 
 #pagebreak(weak: true)
 
 #large-title[== Ruffian <background.ruffian>]
+
+#names-section[*Names:* Name1, Name2, Name3, Name4, Name5, Name6, Name7, Name8, Name9, Name10]
 
 #item-title[Starting Gear]
 
@@ -192,11 +236,15 @@ lay in their final resting places.
 
 #large-title[== Seeker <background.seeker>]
 
+#names-section[*Names:* Name1, Name2, Name3, Name4, Name5, Name6, Name7, Name8, Name9, Name10]
+
 #item-title[Starting Gear]
 
 #pagebreak(weak: true)
 
 #large-title[== Smith <background.smith>]
+
+#names-section[*Names:* Name1, Name2, Name3, Name4, Name5, Name6, Name7, Name8, Name9, Name10]
 
 #item-title[Starting Gear]
 
@@ -204,11 +252,15 @@ lay in their final resting places.
 
 #large-title[== Tomb Robber <background.tomb-robber>]
 
+#names-section[*Names:* Name1, Name2, Name3, Name4, Name5, Name6, Name7, Name8, Name9, Name10]
+
 #item-title[Starting Gear]
 
 #pagebreak(weak: true)
 
 #large-title[== Zealot <background.zealot>]
+
+#names-section[*Names:* Name1, Name2, Name3, Name4, Name5, Name6, Name7, Name8, Name9, Name10]
 
 #item-title[Starting Gear]
 
