@@ -5,13 +5,8 @@
 #large-title[== Character Creation <character-creation>]
 
 #emph(title) doesn't alter too much about creating characters in Cairn 2e. The
-most significant change is that players all begin with a Waterskin in addition
-to the normal starting equipment.
-
-#item-title[=== Waterskin <waterskin>]
-
-- It has a maximum of 6 uses.
-- It is _Petty_.
+most significant change is that players all begin with a _waterskin_ in addition
+to the normal starting equipment. _Waterskins_ have a maximum of 6 uses.
 
 #large-title[== Recovery <recovery>]
 
@@ -19,8 +14,8 @@ to the normal starting equipment.
 
 To recover full HP outside of combat, take a drink of water. If you don't have
 access to a supply of water such as a well or creek, you must use personal water
-containers such as a #ts-link(<waterskin>)[waterskin]. Personal water containers
-have a limited amount of uses to drink from.
+containers such as a _waterskin_. Personal water containers have a limited
+amount of uses to drink from.
 
 Once per day, you can drink three charges of water to remove a _fatigue_ from
 your inventory.
@@ -129,6 +124,70 @@ see fit.
   ],
 )
 
-#large-title[== Hex Travel]
+#large-title[== Wilderness Exploration]
+
+Days are divided into *four* watches: Morning, day, evening, and night. When
+using a hex map, a hex should equal 10 kilometers or 6 miles across. Each hex is
+assigned a terrain type. Rivers can exist as a border between hexes and require
+some way to pass over them like a bridge, ford, boat, or other means.
+
+#item-title[=== Travel with Hexes]
+
+The lack of paths is not taken into account when traveling between hexes. There
+are few roads in the land of Gresha. When using the _Travel_ wilderness action,
+all hexes with _easy_ terrain takes *1 watch* to move into.
+
+#item-title[=== Supply]
+
+When using the _Supply_ wilderness action, certain terrain types can impose
+penalties to the total bounty when you roll to collect rations.
+
+#table-title[Supply Difficulty]
+#v(0pt, weak: true)
+#table(
+  columns: (auto, 1fr, 1fr),
+  [*Difficulty*],
+  [*Terrain*],
+  [*Modifier*],
+  [Plentiful],
+  [Forests, jungles, hills],
+  [+2 Rations],
+  [Moderate],
+  [Plains, dark forests, lakes/rivers/seas],
+  [+0 Rations],
+  [Lifeless],
+  [Swamps, deserts, mountains],
+  [-2 Rations],
+)
+
+If you end up with negative rations, you must remove that many rations from the
+party. If there are not enough rations, all of the characters become _deprived_.
+
+#large-title[== Site Exploration]
+
+Places like dungeons, ancient tombs, ruined temples, and settlements like
+villages, towns, keeps, or castles are all called _sites_ in #title. Sites have
+locations, creatures, and events associated with them. *Locations* are keyed
+places in a site that the player characters may go to when exploring it.
+*Creatures* are monsters or characters that the player characters may encounter.
+They can belong to specific locations within the site, roam around within them,
+or are encountered through an event. *Events* occur in sites and create a new
+situation that the player characters deal with.
+
+#item-title[=== Site Scale]
+
+A site can be smaller in scale such as a keep or dungeon where each site
+location is typically a single room, or it can be larger like a village, town,
+or city where each location is a building or large area.
+
+#item-title[=== Hostile Sites]
+
+#item-title[=== Events]
+
+Sites should have associated events that _may_ occur within them. As the
+*Warden*, preparing potential events ahead of time is a great way to spend your
+prep time. These events can occur when they make sense or when the part:
+
+- Spends a lot of time in one location.
 
 #large-title[== Curses]
