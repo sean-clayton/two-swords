@@ -17,11 +17,7 @@
 
 #show: wrapper
 
-#set page(numbering: none)
-
-#set page(fill: paper-color)
-
-#pagebreak()
+#set page(numbering: none, fill: paper-color)
 
 #box(
   width: 100%,
@@ -39,7 +35,7 @@
   #stack(
     spacing: 16pt,
     text(fill: heading-color, size: 32pt, font: title-font)[#title],
-    text[#ts-link(metadata.repo_cc_license_url)[CC-BY-SA 4.0] | by #metadata.author],
+    text[#ts-link(metadata.repo_cc_license_url)[CC-BY-SA 4.0] | by #ts-link(metadata.author_url)[#metadata.author]],
   )
 
   #ts-link(metadata.repo_url)[Source Code] | #ts-link(metadata.repo_license_url)[Source Code License]
@@ -78,6 +74,8 @@
     ]
   ]
 ]
+
+#pagebreak()
 
 #columns(2)[
   #outline(indent: 4pt, depth: 2, title: none)
