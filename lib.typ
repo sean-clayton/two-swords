@@ -253,7 +253,7 @@
     it
   }
 
-  #set list(marker: [▸])
+  #set list(marker: [‣])
 
   #doc
 ]
