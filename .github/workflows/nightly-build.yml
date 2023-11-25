@@ -30,6 +30,6 @@ jobs:
           body: |
             This is a **nightly** version of Two Swords that will likely contain pre-released changes.
 
-            These changes may not be properly tested or are otherwise in an unfinished state
+            These changes may not be properly tested or are otherwise in an unfinished state.
           files: |
             dist/*.pdf
