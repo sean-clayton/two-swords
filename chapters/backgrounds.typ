@@ -72,9 +72,39 @@ Here are 20 more backgrounds for new characters.
 
 #large-title[== Alchemist <background.alchemist>]
 
-#names-section[*Names:* Name1, Name2, Name3, Name4, Name5, Name6, Name7, Name8, Name9, Name10]
+#lead[Grinding bones and extracting sinews] can be a pleasure. You take from the
+world its natural resources and create new concoctions from them.
 
 #item-title[Starting Gear]
+
+- Boiling flask
+- Dressing knife (d6)
+- Materials pouch (_petty_)
+- Protective gloves (_petty_)
+
+#table-title[What elixir is your latest creation?]
+#v(0pt, weak: true)
+#table(
+  columns: (auto, 1fr),
+  [*d6*],
+  [*Result*],
+  [*1*],
+  [],
+  [*2*],
+  [],
+  [*3*],
+  [],
+  [*4*],
+  [],
+  [*5*],
+  [],
+  [*6*],
+  [],
+)
+
+#table-title[What elixir is your latest creation?]
+
+#names-section[*Names:* Name1, Name2, Name3, Name4, Name5, Name6, Name7, Name8, Name9, Name10]
 
 #pagebreak(weak: true)
 
@@ -84,6 +114,51 @@ Here are 20 more backgrounds for new characters.
 
 #item-title[Starting Gear]
 
+-
+-
+-
+-
+
+#table-title[]
+#v(0pt, weak: true)
+#table(
+  columns: (auto, 1fr),
+  [*d6*],
+  [*Result*],
+  [*1*],
+  [],
+  [*2*],
+  [],
+  [*3*],
+  [],
+  [*4*],
+  [],
+  [*5*],
+  [],
+  [*6*],
+  [],
+)
+
+#table-title[]
+#v(0pt, weak: true)
+#table(
+  columns: (auto, 1fr),
+  [*d6*],
+  [*Result*],
+  [*1*],
+  [],
+  [*2*],
+  [],
+  [*3*],
+  [],
+  [*4*],
+  [],
+  [*5*],
+  [],
+  [*6*],
+  [],
+)
+
 #pagebreak(weak: true)
 
 #large-title[== Cut-Throat <background.cut-throat>]
@@ -91,6 +166,51 @@ Here are 20 more backgrounds for new characters.
 #names-section[*Names:* Name1, Name2, Name3, Name4, Name5, Name6, Name7, Name8, Name9, Name10]
 
 #item-title[Starting Gear]
+
+-
+-
+-
+-
+
+#table-title[]
+#v(0pt, weak: true)
+#table(
+  columns: (auto, 1fr),
+  [*d6*],
+  [*Result*],
+  [*1*],
+  [],
+  [*2*],
+  [],
+  [*3*],
+  [],
+  [*4*],
+  [],
+  [*5*],
+  [],
+  [*6*],
+  [],
+)
+
+#table-title[]
+#v(0pt, weak: true)
+#table(
+  columns: (auto, 1fr),
+  [*d6*],
+  [*Result*],
+  [*1*],
+  [],
+  [*2*],
+  [],
+  [*3*],
+  [],
+  [*4*],
+  [],
+  [*5*],
+  [],
+  [*6*],
+  [],
+)
 
 #pagebreak(weak: true)
 
@@ -100,6 +220,51 @@ Here are 20 more backgrounds for new characters.
 
 #item-title[Starting Gear]
 
+-
+-
+-
+-
+
+#table-title[]
+#v(0pt, weak: true)
+#table(
+  columns: (auto, 1fr),
+  [*d6*],
+  [*Result*],
+  [*1*],
+  [],
+  [*2*],
+  [],
+  [*3*],
+  [],
+  [*4*],
+  [],
+  [*5*],
+  [],
+  [*6*],
+  [],
+)
+
+#table-title[]
+#v(0pt, weak: true)
+#table(
+  columns: (auto, 1fr),
+  [*d6*],
+  [*Result*],
+  [*1*],
+  [],
+  [*2*],
+  [],
+  [*3*],
+  [],
+  [*4*],
+  [],
+  [*5*],
+  [],
+  [*6*],
+  [],
+)
+
 #pagebreak(weak: true)
 
 #large-title[== Druid <background.druid>]
@@ -107,6 +272,51 @@ Here are 20 more backgrounds for new characters.
 #names-section[*Names:* Name1, Name2, Name3, Name4, Name5, Name6, Name7, Name8, Name9, Name10]
 
 #item-title[Starting Gear]
+
+-
+-
+-
+-
+
+#table-title[]
+#v(0pt, weak: true)
+#table(
+  columns: (auto, 1fr),
+  [*d6*],
+  [*Result*],
+  [*1*],
+  [],
+  [*2*],
+  [],
+  [*3*],
+  [],
+  [*4*],
+  [],
+  [*5*],
+  [],
+  [*6*],
+  [],
+)
+
+#table-title[]
+#v(0pt, weak: true)
+#table(
+  columns: (auto, 1fr),
+  [*d6*],
+  [*Result*],
+  [*1*],
+  [],
+  [*2*],
+  [],
+  [*3*],
+  [],
+  [*4*],
+  [],
+  [*5*],
+  [],
+  [*6*],
+  [],
+)
 
 #pagebreak(weak: true)
 
@@ -119,6 +329,7 @@ that seek fresh corpses, like ghouls and grave hags, stay away from those that
 lay in their final resting places.
 
 #item-title[Starting Gear]
+
 - Lantern
 - Lantern oil (6 uses)
 - Arming Sword (d8)
@@ -150,15 +361,78 @@ lay in their final resting places.
     each time.],
 )
 
-#item-title[Starting Gear]
+#table-title[]
+#v(0pt, weak: true)
+#table(
+  columns: (auto, 1fr),
+  [*d6*],
+  [*Result*],
+  [*1*],
+  [],
+  [*2*],
+  [],
+  [*3*],
+  [],
+  [*4*],
+  [],
+  [*5*],
+  [],
+  [*6*],
+  [],
+)
 
 #pagebreak(weak: true)
 
 #large-title[== Herbalist <background.herbalist>]
 
-#names-section[*Names:* Name1, Name2, Name3, Name4, Name5, Name6, Name7, Name8, Name9, Name10]
-
 #item-title[Starting Gear]
+
+-
+-
+-
+-
+
+#table-title[]
+#v(0pt, weak: true)
+#table(
+  columns: (auto, 1fr),
+  [*d6*],
+  [*Result*],
+  [*1*],
+  [],
+  [*2*],
+  [],
+  [*3*],
+  [],
+  [*4*],
+  [],
+  [*5*],
+  [],
+  [*6*],
+  [],
+)
+
+#table-title[]
+#v(0pt, weak: true)
+#table(
+  columns: (auto, 1fr),
+  [*d6*],
+  [*Result*],
+  [*1*],
+  [],
+  [*2*],
+  [],
+  [*3*],
+  [],
+  [*4*],
+  [],
+  [*5*],
+  [],
+  [*6*],
+  [],
+)
+
+#names-section[*Names:* Name1, Name2, Name3, Name4, Name5, Name6, Name7, Name8, Name9, Name10]
 
 #pagebreak(weak: true)
 
@@ -168,6 +442,51 @@ lay in their final resting places.
 
 #item-title[Starting Gear]
 
+-
+-
+-
+-
+
+#table-title[]
+#v(0pt, weak: true)
+#table(
+  columns: (auto, 1fr),
+  [*d6*],
+  [*Result*],
+  [*1*],
+  [],
+  [*2*],
+  [],
+  [*3*],
+  [],
+  [*4*],
+  [],
+  [*5*],
+  [],
+  [*6*],
+  [],
+)
+
+#table-title[]
+#v(0pt, weak: true)
+#table(
+  columns: (auto, 1fr),
+  [*d6*],
+  [*Result*],
+  [*1*],
+  [],
+  [*2*],
+  [],
+  [*3*],
+  [],
+  [*4*],
+  [],
+  [*5*],
+  [],
+  [*6*],
+  [],
+)
+
 #pagebreak(weak: true)
 
 #large-title[== Hunter <background.hunter>]
@@ -175,6 +494,51 @@ lay in their final resting places.
 #names-section[*Names:* Name1, Name2, Name3, Name4, Name5, Name6, Name7, Name8, Name9, Name10]
 
 #item-title[Starting Gear]
+
+-
+-
+-
+-
+
+#table-title[]
+#v(0pt, weak: true)
+#table(
+  columns: (auto, 1fr),
+  [*d6*],
+  [*Result*],
+  [*1*],
+  [],
+  [*2*],
+  [],
+  [*3*],
+  [],
+  [*4*],
+  [],
+  [*5*],
+  [],
+  [*6*],
+  [],
+)
+
+#table-title[]
+#v(0pt, weak: true)
+#table(
+  columns: (auto, 1fr),
+  [*d6*],
+  [*Result*],
+  [*1*],
+  [],
+  [*2*],
+  [],
+  [*3*],
+  [],
+  [*4*],
+  [],
+  [*5*],
+  [],
+  [*6*],
+  [],
+)
 
 #pagebreak(weak: true)
 
@@ -184,6 +548,51 @@ lay in their final resting places.
 
 #item-title[Starting Gear]
 
+-
+-
+-
+-
+
+#table-title[]
+#v(0pt, weak: true)
+#table(
+  columns: (auto, 1fr),
+  [*d6*],
+  [*Result*],
+  [*1*],
+  [],
+  [*2*],
+  [],
+  [*3*],
+  [],
+  [*4*],
+  [],
+  [*5*],
+  [],
+  [*6*],
+  [],
+)
+
+#table-title[]
+#v(0pt, weak: true)
+#table(
+  columns: (auto, 1fr),
+  [*d6*],
+  [*Result*],
+  [*1*],
+  [],
+  [*2*],
+  [],
+  [*3*],
+  [],
+  [*4*],
+  [],
+  [*5*],
+  [],
+  [*6*],
+  [],
+)
+
 #pagebreak(weak: true)
 
 #large-title[== Merchant <background.merchant>]
@@ -191,6 +600,51 @@ lay in their final resting places.
 #names-section[*Names:* Name1, Name2, Name3, Name4, Name5, Name6, Name7, Name8, Name9, Name10]
 
 #item-title[Starting Gear]
+
+-
+-
+-
+-
+
+#table-title[]
+#v(0pt, weak: true)
+#table(
+  columns: (auto, 1fr),
+  [*d6*],
+  [*Result*],
+  [*1*],
+  [],
+  [*2*],
+  [],
+  [*3*],
+  [],
+  [*4*],
+  [],
+  [*5*],
+  [],
+  [*6*],
+  [],
+)
+
+#table-title[]
+#v(0pt, weak: true)
+#table(
+  columns: (auto, 1fr),
+  [*d6*],
+  [*Result*],
+  [*1*],
+  [],
+  [*2*],
+  [],
+  [*3*],
+  [],
+  [*4*],
+  [],
+  [*5*],
+  [],
+  [*6*],
+  [],
+)
 
 #pagebreak(weak: true)
 
@@ -200,6 +654,51 @@ lay in their final resting places.
 
 #item-title[Starting Gear]
 
+-
+-
+-
+-
+
+#table-title[]
+#v(0pt, weak: true)
+#table(
+  columns: (auto, 1fr),
+  [*d6*],
+  [*Result*],
+  [*1*],
+  [],
+  [*2*],
+  [],
+  [*3*],
+  [],
+  [*4*],
+  [],
+  [*5*],
+  [],
+  [*6*],
+  [],
+)
+
+#table-title[]
+#v(0pt, weak: true)
+#table(
+  columns: (auto, 1fr),
+  [*d6*],
+  [*Result*],
+  [*1*],
+  [],
+  [*2*],
+  [],
+  [*3*],
+  [],
+  [*4*],
+  [],
+  [*5*],
+  [],
+  [*6*],
+  [],
+)
+
 #pagebreak(weak: true)
 
 #large-title[== Occultist <background.occultist>]
@@ -207,6 +706,51 @@ lay in their final resting places.
 #names-section[*Names:* Name1, Name2, Name3, Name4, Name5, Name6, Name7, Name8, Name9, Name10]
 
 #item-title[Starting Gear]
+
+-
+-
+-
+-
+
+#table-title[]
+#v(0pt, weak: true)
+#table(
+  columns: (auto, 1fr),
+  [*d6*],
+  [*Result*],
+  [*1*],
+  [],
+  [*2*],
+  [],
+  [*3*],
+  [],
+  [*4*],
+  [],
+  [*5*],
+  [],
+  [*6*],
+  [],
+)
+
+#table-title[]
+#v(0pt, weak: true)
+#table(
+  columns: (auto, 1fr),
+  [*d6*],
+  [*Result*],
+  [*1*],
+  [],
+  [*2*],
+  [],
+  [*3*],
+  [],
+  [*4*],
+  [],
+  [*5*],
+  [],
+  [*6*],
+  [],
+)
 
 #pagebreak(weak: true)
 
@@ -216,6 +760,51 @@ lay in their final resting places.
 
 #item-title[Starting Gear]
 
+-
+-
+-
+-
+
+#table-title[]
+#v(0pt, weak: true)
+#table(
+  columns: (auto, 1fr),
+  [*d6*],
+  [*Result*],
+  [*1*],
+  [],
+  [*2*],
+  [],
+  [*3*],
+  [],
+  [*4*],
+  [],
+  [*5*],
+  [],
+  [*6*],
+  [],
+)
+
+#table-title[]
+#v(0pt, weak: true)
+#table(
+  columns: (auto, 1fr),
+  [*d6*],
+  [*Result*],
+  [*1*],
+  [],
+  [*2*],
+  [],
+  [*3*],
+  [],
+  [*4*],
+  [],
+  [*5*],
+  [],
+  [*6*],
+  [],
+)
+
 #pagebreak(weak: true)
 
 #large-title[== Ranger <background.ranger>]
@@ -223,6 +812,51 @@ lay in their final resting places.
 #names-section[*Names:* Name1, Name2, Name3, Name4, Name5, Name6, Name7, Name8, Name9, Name10]
 
 #item-title[Starting Gear]
+
+-
+-
+-
+-
+
+#table-title[]
+#v(0pt, weak: true)
+#table(
+  columns: (auto, 1fr),
+  [*d6*],
+  [*Result*],
+  [*1*],
+  [],
+  [*2*],
+  [],
+  [*3*],
+  [],
+  [*4*],
+  [],
+  [*5*],
+  [],
+  [*6*],
+  [],
+)
+
+#table-title[]
+#v(0pt, weak: true)
+#table(
+  columns: (auto, 1fr),
+  [*d6*],
+  [*Result*],
+  [*1*],
+  [],
+  [*2*],
+  [],
+  [*3*],
+  [],
+  [*4*],
+  [],
+  [*5*],
+  [],
+  [*6*],
+  [],
+)
 
 #pagebreak(weak: true)
 
@@ -232,6 +866,51 @@ lay in their final resting places.
 
 #item-title[Starting Gear]
 
+-
+-
+-
+-
+
+#table-title[]
+#v(0pt, weak: true)
+#table(
+  columns: (auto, 1fr),
+  [*d6*],
+  [*Result*],
+  [*1*],
+  [],
+  [*2*],
+  [],
+  [*3*],
+  [],
+  [*4*],
+  [],
+  [*5*],
+  [],
+  [*6*],
+  [],
+)
+
+#table-title[]
+#v(0pt, weak: true)
+#table(
+  columns: (auto, 1fr),
+  [*d6*],
+  [*Result*],
+  [*1*],
+  [],
+  [*2*],
+  [],
+  [*3*],
+  [],
+  [*4*],
+  [],
+  [*5*],
+  [],
+  [*6*],
+  [],
+)
+
 #pagebreak(weak: true)
 
 #large-title[== Seeker <background.seeker>]
@@ -239,6 +918,51 @@ lay in their final resting places.
 #names-section[*Names:* Name1, Name2, Name3, Name4, Name5, Name6, Name7, Name8, Name9, Name10]
 
 #item-title[Starting Gear]
+
+-
+-
+-
+-
+
+#table-title[]
+#v(0pt, weak: true)
+#table(
+  columns: (auto, 1fr),
+  [*d6*],
+  [*Result*],
+  [*1*],
+  [],
+  [*2*],
+  [],
+  [*3*],
+  [],
+  [*4*],
+  [],
+  [*5*],
+  [],
+  [*6*],
+  [],
+)
+
+#table-title[]
+#v(0pt, weak: true)
+#table(
+  columns: (auto, 1fr),
+  [*d6*],
+  [*Result*],
+  [*1*],
+  [],
+  [*2*],
+  [],
+  [*3*],
+  [],
+  [*4*],
+  [],
+  [*5*],
+  [],
+  [*6*],
+  [],
+)
 
 #pagebreak(weak: true)
 
@@ -248,6 +972,51 @@ lay in their final resting places.
 
 #item-title[Starting Gear]
 
+-
+-
+-
+-
+
+#table-title[]
+#v(0pt, weak: true)
+#table(
+  columns: (auto, 1fr),
+  [*d6*],
+  [*Result*],
+  [*1*],
+  [],
+  [*2*],
+  [],
+  [*3*],
+  [],
+  [*4*],
+  [],
+  [*5*],
+  [],
+  [*6*],
+  [],
+)
+
+#table-title[]
+#v(0pt, weak: true)
+#table(
+  columns: (auto, 1fr),
+  [*d6*],
+  [*Result*],
+  [*1*],
+  [],
+  [*2*],
+  [],
+  [*3*],
+  [],
+  [*4*],
+  [],
+  [*5*],
+  [],
+  [*6*],
+  [],
+)
+
 #pagebreak(weak: true)
 
 #large-title[== Tomb Robber <background.tomb-robber>]
@@ -256,6 +1025,51 @@ lay in their final resting places.
 
 #item-title[Starting Gear]
 
+-
+-
+-
+-
+
+#table-title[]
+#v(0pt, weak: true)
+#table(
+  columns: (auto, 1fr),
+  [*d6*],
+  [*Result*],
+  [*1*],
+  [],
+  [*2*],
+  [],
+  [*3*],
+  [],
+  [*4*],
+  [],
+  [*5*],
+  [],
+  [*6*],
+  [],
+)
+
+#table-title[]
+#v(0pt, weak: true)
+#table(
+  columns: (auto, 1fr),
+  [*d6*],
+  [*Result*],
+  [*1*],
+  [],
+  [*2*],
+  [],
+  [*3*],
+  [],
+  [*4*],
+  [],
+  [*5*],
+  [],
+  [*6*],
+  [],
+)
+
 #pagebreak(weak: true)
 
 #large-title[== Zealot <background.zealot>]
@@ -263,4 +1077,49 @@ lay in their final resting places.
 #names-section[*Names:* Name1, Name2, Name3, Name4, Name5, Name6, Name7, Name8, Name9, Name10]
 
 #item-title[Starting Gear]
+
+-
+-
+-
+-
+
+#table-title[]
+#v(0pt, weak: true)
+#table(
+  columns: (auto, 1fr),
+  [*d6*],
+  [*Result*],
+  [*1*],
+  [],
+  [*2*],
+  [],
+  [*3*],
+  [],
+  [*4*],
+  [],
+  [*5*],
+  [],
+  [*6*],
+  [],
+)
+
+#table-title[]
+#v(0pt, weak: true)
+#table(
+  columns: (auto, 1fr),
+  [*d6*],
+  [*Result*],
+  [*1*],
+  [],
+  [*2*],
+  [],
+  [*3*],
+  [],
+  [*4*],
+  [],
+  [*5*],
+  [],
+  [*6*],
+  [],
+)
 
