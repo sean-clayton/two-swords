@@ -8,6 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: sudo timedatectl set-timezone America/Louisville
+
       - run: sudo apt install ghostscript -y
 
       - uses: actions/checkout@v3
