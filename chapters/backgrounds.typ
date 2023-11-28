@@ -68,6 +68,53 @@ Here are 20 more backgrounds for new characters.
   [#ts-link(<background.zealot>)[Zealot]],
 ))
 
+#[
+  #show: it => columns(2, it)
+
+  An *alchemist* (#ts-link(
+    <background.alchemist>,
+  )[pg #label-page-num(locate, <background.alchemist>)]) is someone who does
+  alchemy things.
+
+  A *curator* seeks artefacts, relics, secret documents, and other things.
+
+  A *cut-throat* is a killer.
+
+  A *deserter* is a former soldier who has abandoned his station.
+
+  A *druid* is someone who connects with nature.
+
+  A *gravetender* is someone.
+
+  An *herbalist* is someone.
+
+  A *hexer* is someone.
+
+  A *hunter* is someone.
+
+  A *magicker* is someone.
+
+  A *merchant* is someone.
+
+  A *minstrel* is someone.
+
+  An *occultist* is someone.
+
+  A *pellar* is someone.
+
+  A *ranger* is someone.
+
+  A *ruffian* is someone.
+
+  A *seeker* is someone.
+
+  A *smith* is someone.
+
+  A *tomb-robber* is someone.
+
+  A *zealot* is someone.
+]
+
 #pagebreak(weak: true)
 
 #large-title[== Alchemist <background.alchemist>]
