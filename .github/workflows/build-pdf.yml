@@ -10,8 +10,8 @@ jobs:
       - run: sudo timedatectl set-timezone America/Louisville
 
       - run: |
-        sudo apt update
-        sudo apt install ghostscript -y
+          sudo apt update
+          sudo apt install ghostscript -y
 
       - uses: actions/checkout@v3
 
