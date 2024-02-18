@@ -118,7 +118,7 @@
     fill: highlight-color,
     width: 100%,
   )[
-    #set text(font: display-font, size: 11pt, weight: 700, tracking: -0.25pt)
+    #set text(font: display-font, size: 11pt, weight: 700)
     #set align(center)
     #content
   ]
