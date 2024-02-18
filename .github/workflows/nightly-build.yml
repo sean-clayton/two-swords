@@ -2,9 +2,6 @@ name: Nightly Build
 
 on:
   workflow_dispatch:
-  # schedule:
-  #   # Daily cron job (at 00:00)
-  #   - cron: "0 0 * * *"
 
 jobs:
   get-pdf-artifacts:
